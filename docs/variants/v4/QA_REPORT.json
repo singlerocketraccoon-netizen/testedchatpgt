@@ -1,0 +1,193 @@
+{
+  "static": {
+    "local_links_and_resources": 116,
+    "forbidden_words": 0,
+    "outside_v4_changed": []
+  },
+  "viewports": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "quickDate": "Выбрать дату"
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "quickDate": "Выбрать дату"
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "quickDate": "Выбрать дату"
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "quickDate": "Выбрать дату"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "quickDate": "Выбрать дату"
+    }
+  ],
+  "content": {
+    "header": {
+      "same": true
+    },
+    "01": {
+      "same": true
+    },
+    "02": {
+      "same": true
+    },
+    "03": {
+      "same": true
+    },
+    "04": {
+      "same": true
+    },
+    "05": {
+      "same": true
+    },
+    "06": {
+      "same": true
+    },
+    "07": {
+      "same": true
+    },
+    "08": {
+      "same": true
+    },
+    "footer": {
+      "same": true
+    }
+  },
+  "scenarios": [
+    "source_content_preserved_except_two_banned_phrases",
+    "slider_arrows_keyboard_pause_and_inert",
+    "native_accordion_pointer_and_keyboard",
+    "offer_prefill",
+    "quick_selection_preserves_comment_replaces_previous_summary_clears_stale_offer_and_updates_date",
+    "contact_validation_and_unchecked_consent",
+    "four_contact_methods_local_success_clears_both_forms",
+    "messenger_phone_fallback",
+    "legal_document_and_relative_navigation",
+    "goals_contain_no_personal_data",
+    "touch_swipe_menu_escape_mobile_action_and_scroll_snap_rails",
+    "autoplay_explicit_pause_and_reduced_motion",
+    "no_javascript_cover_native_faq_and_disabled_forms"
+  ],
+  "console_errors": [],
+  "resource_errors": [],
+  "external_requests": [],
+  "data_requests": [],
+  "screenshots": [
+    {
+      "path": "screens/390.jpg",
+      "viewport": 390,
+      "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    },
+    {
+      "path": "screens/1440.jpg",
+      "viewport": 1440,
+      "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    }
+  ],
+  "contrast_pairs": [
+    {
+      "role": "secondary text",
+      "ratio": 5.07,
+      "minimum": 4.5
+    },
+    {
+      "role": "mango button",
+      "ratio": 6.59,
+      "minimum": 4.5
+    },
+    {
+      "role": "sea link",
+      "ratio": 6.92,
+      "minimum": 4.5
+    },
+    {
+      "role": "control borders",
+      "ratio": 3.49,
+      "minimum": 3
+    },
+    {
+      "role": "footer",
+      "ratio": 7.58,
+      "minimum": 4.5
+    }
+  ]
+}
