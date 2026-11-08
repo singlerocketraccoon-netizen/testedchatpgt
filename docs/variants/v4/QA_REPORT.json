@@ -189,5 +189,10 @@
       "ratio": 7.58,
       "minimum": 4.5
     }
-  ]
+  ],
+  "file_url_check": {
+    "status": "blocked_by_environment",
+    "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "http_subdirectory_check": "passed"
+  }
 }
