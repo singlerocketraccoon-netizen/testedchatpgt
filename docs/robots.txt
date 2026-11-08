@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /styleguide.html
+Disallow: /hero-variants.html
+Disallow: /prototypes.html
+Disallow: /variants/
+Sitemap: https://devfriends.ru/sitemap.xml

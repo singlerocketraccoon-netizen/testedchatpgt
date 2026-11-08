@@ -1,0 +1,440 @@
+{
+  "static": {
+    "html_pages": 23,
+    "local_links_and_resources_checked": 520,
+    "primary_metadata": {
+      "index.html": {
+        "title": "Турагентство в Астрахани — Манго Путешествия",
+        "description_length": 142,
+        "h1": "Турагентство в Астрахани Путешествия, которые подходят Вам"
+      },
+      "styleguide.html": {
+        "title": "Дизайн-система — Манго Путешествия",
+        "description_length": 105,
+        "h1": "Спокойно. Ясно. По-человечески."
+      },
+      "hero-variants.html": {
+        "title": "Первые экраны — Манго Путешествия",
+        "description_length": 104,
+        "h1": "Три первых экрана"
+      },
+      "prototypes.html": {
+        "title": "Прототипы — Манго Путешествия",
+        "description_length": 94,
+        "h1": "Страницы дизайна"
+      },
+      "variants/v3/index.html": {
+        "title": "Турагентство в Астрахани — Манго Путешествия",
+        "description_length": 142,
+        "h1": "Турагентство в Астрахани Путешествия, которые подходят Вам"
+      }
+    },
+    "images_decoded": [
+      {
+        "file": "mood-dining.webp",
+        "width": 900,
+        "height": 600
+      },
+      {
+        "file": "hero-sand.webp",
+        "width": 1600,
+        "height": 1064
+      },
+      {
+        "file": "mood-walk.webp",
+        "width": 900,
+        "height": 1355
+      },
+      {
+        "file": "hero-lake.webp",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "file": "hero-resort.webp",
+        "width": 1600,
+        "height": 1600
+      },
+      {
+        "file": "antalya.webp",
+        "width": 570,
+        "height": 400
+      },
+      {
+        "file": "mood-family.webp",
+        "width": 900,
+        "height": 600
+      },
+      {
+        "file": "uae.webp",
+        "width": 1000,
+        "height": 667
+      },
+      {
+        "file": "vietnam.webp",
+        "width": 570,
+        "height": 400
+      },
+      {
+        "file": "tunisia.webp",
+        "width": 570,
+        "height": 400
+      },
+      {
+        "file": "crete.webp",
+        "width": 570,
+        "height": 400
+      },
+      {
+        "file": "original-logo.png",
+        "width": 250,
+        "height": 118
+      }
+    ],
+    "home_blocks": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08"
+    ],
+    "offers_per_home": 4,
+    "reviews_per_home": 3,
+    "errors": [],
+    "screenshots_created": false
+  },
+  "viewports": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "index.html"
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "index.html"
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "index.html"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "index.html"
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "08"
+      ],
+      "page": "styleguide.html"
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "08"
+      ],
+      "page": "styleguide.html"
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "08"
+      ],
+      "page": "styleguide.html"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "08"
+      ],
+      "page": "styleguide.html"
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "hero-variants.html"
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "hero-variants.html"
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "hero-variants.html"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "hero-variants.html"
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "prototypes.html"
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "prototypes.html"
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "prototypes.html"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [],
+      "page": "prototypes.html"
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "variants/v3/index.html"
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "variants/v3/index.html"
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "variants/v3/index.html"
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "h1": 1,
+      "imagesDecoded": true,
+      "fonts": true,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "page": "variants/v3/index.html"
+    }
+  ],
+  "scenarios": [
+    "all_three_hero_layouts_sliders_keyboard_pause_and_inert",
+    "main_and_journal_contact_phone_nickname_four_methods_validation_consent_local_success_clear_reset",
+    "native_faq_pointer_and_keyboard",
+    "journal_mood_hover_and_focus",
+    "legal_document_opens_in_new_tab",
+    "relative_navigation_through_future_address_scaffolding",
+    "messenger_phone_fallback",
+    "goals_contain_no_personal_data",
+    "mobile_touch_swipe_menu_escape_contextual_fixed_action_and_two_scroll_snap_rails",
+    "autoplay_and_explicit_pause_reduced_motion_disables_zoom",
+    "no_javascript_cover_faq_and_disabled_form"
+  ],
+  "console_errors": [],
+  "resource_errors": [],
+  "external_requests": [],
+  "data_requests": [],
+  "screenshots_created": false,
+  "file_scheme": {
+    "status": "environment_restricted",
+    "reason": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/docs/index.html"
+  },
+  "contrast_pairs": [
+    {
+      "role": "secondary text",
+      "ratio": 4.83,
+      "minimum": 4.5
+    },
+    {
+      "role": "primary action",
+      "ratio": 5.79,
+      "minimum": 4.5
+    },
+    {
+      "role": "contact hints",
+      "ratio": 5.16,
+      "minimum": 4.5
+    },
+    {
+      "role": "control borders",
+      "ratio": 3.38,
+      "minimum": 3
+    },
+    {
+      "role": "footer",
+      "ratio": 7.91,
+      "minimum": 4.5
+    }
+  ]
+}
