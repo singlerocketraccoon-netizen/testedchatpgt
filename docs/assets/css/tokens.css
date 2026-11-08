@@ -1,0 +1,32 @@
+:root {
+  --paper: #f3eee4;
+  --ivory: #faf7f1;
+  --sand: #e8dfd2;
+  --ink: #332d28;
+  --muted: #71665c;
+  --clay: #984b33;
+  --clay-hover: #743b2a;
+  --sage: #56614f;
+  --line: #c9beb0;
+  --control-line: #88745e;
+  --error: #902d20;
+  --footer: #2d2c27;
+  --footer-text: #c9c2b5;
+  --display: 'Cormorant Garamond', Georgia, serif;
+  --body: Manrope, 'Segoe UI', Arial, sans-serif;
+  --gutter: 22px;
+  --content: 1280px;
+  --header: 80px;
+  --section: 72px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 96px;
+  --radius-small: 10px;
+  --radius-card: 18px;
+  --radius-hero: 22px;
+  --radius-pill: 999px;
+  --shadow: 0 8px 30px rgb(51 45 40 / 12%);
+}
