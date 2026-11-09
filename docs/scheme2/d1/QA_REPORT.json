@@ -1,23 +1,13 @@
 {
   "invariance": {
-    "unchanged_html_blocks": [
-      "02",
-      "03",
-      "04",
-      "05",
-      "08",
-      "09",
-      "10",
-      "11"
-    ],
-    "all_other_html_unchanged": true,
-    "json_ld_unchanged_and_without_story_entities": true,
-    "root_markdown_append_only": true,
-    "outside_authorized_scope_changed": []
+    "html_outside_team_and_accents_byte_identical": true,
+    "main_js_byte_identical": true,
+    "outside_folder_modified": [],
+    "caveat_files_remaining": []
   },
   "static": {
-    "html_pages": 8,
-    "relative_links_and_resources": 212,
+    "html_pages": 9,
+    "relative_links_and_resources": 323,
     "forbidden_terms": 0,
     "outside_folder_changed": [],
     "faq_questions_from_authoritative_image": 3
@@ -52,14 +42,20 @@
       },
       "brandCenter": 179.9921875,
       "portraits": [
-        0.7500105356315058,
-        0.7500105356315058,
-        0.7500105356315058
+        1,
+        1,
+        1
       ],
       "trust": [
         "#team",
         "#process",
         "#voices"
+      ],
+      "team_height": 726.859375,
+      "card_heights": [
+        184.1875,
+        179.390625,
+        179.390625
       ]
     },
     {
@@ -91,14 +87,20 @@
       },
       "brandCenter": 194.9921875,
       "portraits": [
-        0.7500096224163812,
-        0.7500096224163812,
-        0.7500096224163812
+        1,
+        1,
+        1
       ],
       "trust": [
         "#team",
         "#process",
         "#voices"
+      ],
+      "team_height": 708.171875,
+      "card_heights": [
+        184.1875,
+        179.390625,
+        179.390625
       ]
     },
     {
@@ -130,14 +132,20 @@
       },
       "brandCenter": 384,
       "portraits": [
-        0.7500136485232298,
-        0.7500272955562834,
-        0.7500272955562834
+        1,
+        1,
+        1
       ],
       "trust": [
         "#team",
         "#process",
         "#voices"
+      ],
+      "team_height": 534.1875,
+      "card_heights": [
+        318.6875,
+        318.6875,
+        318.6875
       ]
     },
     {
@@ -169,14 +177,20 @@
       },
       "brandCenter": 640,
       "portraits": [
-        0.7500159225527037,
-        0.7500159225527037,
-        0.7500159225527037
+        1,
+        1,
+        1
       ],
       "trust": [
         "#team",
         "#process",
         "#voices"
+      ],
+      "team_height": 520,
+      "card_heights": [
+        376,
+        376,
+        376
       ]
     },
     {
@@ -208,14 +222,20 @@
       },
       "brandCenter": 720,
       "portraits": [
-        0.75,
-        0.75,
-        0.75
+        1,
+        1,
+        1
       ],
       "trust": [
         "#team",
         "#process",
         "#voices"
+      ],
+      "team_height": 520,
+      "card_heights": [
+        376,
+        376,
+        376
       ]
     }
   ],
@@ -233,8 +253,7 @@
     "touch_swipe_mobile_menu_contact_sheet_channels_and_swipe_rails",
     "four_slide_autoplay_manual_pause_and_slow_partner_scroll_hover_pause_arrows_reduced_motion",
     "no_javascript_native_faq_and_guarded_forms_phone_available",
-    "three_editable_team_cards_with_3_4_portraits_and_existing_MAX_Telegram_flow",
-    "protected_sections_html_and_computed_styles_unchanged"
+    "four_accent_options_actual_cyrillic_fonts_and_preview_controls_five_widths"
   ],
   "console_errors": [],
   "resource_errors": [],
@@ -246,9 +265,20 @@
       "viewport": 390,
       "size": [
         390,
-        8072
+        7888
       ],
       "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    },
+    {
+      "path": "screens/team-390.jpg",
+      "viewport": 390,
+      "size": [
+        390,
+        709
+      ],
+      "component": "team",
       "format": "JPEG",
       "quality": 80
     },
@@ -257,11 +287,110 @@
       "viewport": 1440,
       "size": [
         1440,
-        7416
+        6833
       ],
       "full_page": true,
       "format": "JPEG",
       "quality": 80
+    },
+    {
+      "path": "screens/team-1440.jpg",
+      "viewport": 1440,
+      "size": [
+        1440,
+        521
+      ],
+      "component": "team",
+      "format": "JPEG",
+      "quality": 80
+    },
+    {
+      "path": "screens/accent-options-1440.jpg",
+      "viewport": 1440,
+      "size": [
+        1440,
+        4304
+      ],
+      "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    }
+  ],
+  "style_invariance": [
+    {
+      "width": 360,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 137
+    },
+    {
+      "width": 390,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 137
+    },
+    {
+      "width": 768,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 137
+    },
+    {
+      "width": 1280,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 137
+    },
+    {
+      "width": 1440,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 137
     }
   ],
   "file_url_check": {
@@ -306,139 +435,11 @@
       "minimum": 4.5
     }
   ],
-  "unchanged_style_audit": [
-    {
-      "width": 360,
-      "blocks_unchanged": [
-        "10",
-        "11",
-        "02",
-        "03",
-        "04",
-        "05",
-        "08",
-        "09"
-      ],
-      "sampled_elements": 118
-    },
-    {
-      "width": 390,
-      "blocks_unchanged": [
-        "10",
-        "11",
-        "02",
-        "03",
-        "04",
-        "05",
-        "08",
-        "09"
-      ],
-      "sampled_elements": 118
-    },
-    {
-      "width": 768,
-      "blocks_unchanged": [
-        "10",
-        "11",
-        "02",
-        "03",
-        "04",
-        "05",
-        "08",
-        "09"
-      ],
-      "sampled_elements": 118
-    },
-    {
-      "width": 1280,
-      "blocks_unchanged": [
-        "10",
-        "11",
-        "02",
-        "03",
-        "04",
-        "05",
-        "08",
-        "09"
-      ],
-      "sampled_elements": 118
-    },
-    {
-      "width": 1440,
-      "blocks_unchanged": [
-        "10",
-        "11",
-        "02",
-        "03",
-        "04",
-        "05",
-        "08",
-        "09"
-      ],
-      "sampled_elements": 118
-    }
-  ],
-  "short_screen_checks": [
-    {
-      "viewport": [
-        360,
-        640
-      ],
-      "hero_height": 640,
-      "all_four_slides_fit": true
-    },
-    {
-      "viewport": [
-        390,
-        640
-      ],
-      "hero_height": 640,
-      "all_four_slides_fit": true
-    },
-    {
-      "viewport": [
-        768,
-        640
-      ],
-      "hero_height": 640,
-      "all_four_slides_fit": true
-    },
-    {
-      "viewport": [
-        1280,
-        640
-      ],
-      "hero_height": 640,
-      "all_four_slides_fit": true
-    },
-    {
-      "viewport": [
-        1440,
-        640
-      ],
-      "hero_height": 640,
-      "all_four_slides_fit": true
-    },
-    {
-      "viewport": [
-        360,
-        560
-      ],
-      "hero_height": 640,
-      "all_four_slides_fit": true
-    }
-  ],
-  "structure_counts": {
-    "slides": 4,
-    "moods": 6,
-    "offers": 3,
-    "countries": 6,
-    "steps": 3,
-    "team": 3,
-    "reviews": 3,
-    "faq": 3,
-    "contact_strips": 2,
-    "article_entities": 0
-  },
-  "main_javascript_unchanged": true
+  "revision": {
+    "scope": "Team and slider accent only; all files within docs/scheme2/d1",
+    "selected_accent": "A — Bad Script 22px, cream 88%, bottom margin 10px",
+    "fonts": "Bad Script, Marck Script, Cormorant Garamond Italic 300: complete Russian Cyrillic cmap verified; SIL OFL; local WOFF2",
+    "team_contact_buttons": "Both MAX and Telegram verified with existing phone fallback",
+    "crop_note": "Component captures temporarily hide floating site UI; page files unchanged"
+  }
 }
