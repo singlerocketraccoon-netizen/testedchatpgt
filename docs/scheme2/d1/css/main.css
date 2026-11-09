@@ -94,10 +94,6 @@ p + p { margin-top: 12px; }
 
 
 /* 02 / compact mood buttons, no photographs */
-.mood-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.mood-choice { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-width: 0; min-height: 78px; padding: 16px 13px; border: 1px solid var(--control); border-radius: var(--radius-small); color: var(--ink); background: var(--cream); text-align: left; font: 500 12px/1.6 var(--body); transition: background 180ms ease, border-color 180ms ease; }
-.mood-choice .icon { width: 15px; height: 15px; color: var(--clay); }
-.mood-choice:hover { background: var(--sand); border-color: var(--clay); }
 .small-note { margin-top: 20px; color: var(--muted); font-size: 12px; }
 .small-note a { text-decoration: underline; }
 /* 03 / three offers */
@@ -283,14 +279,6 @@ body:has(dialog[open]) { overflow: hidden; }
 
   .brand-name { font-size: 39px; }
   .brand-name small { font-size: 7px; }
-
-
-
-
-
-
-  .mood-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
-  .mood-choice { min-height: 68px; padding-inline: 20px; font-size: 13px; }
   .offer-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
   .offer-link > img { height: 210px; }
   .offer-body { padding: 22px 18px; }
@@ -608,6 +596,31 @@ body:has(dialog[open]) { overflow: hidden; }
 }
 @media (min-width: 1100px) {
   .manager-role-line { min-height: 27px; margin-top: 3px; }
+}
+
+/* 02 / six editable line icons and an exclusive, persistent selection. */
+.mood-section { padding-block: 40px; }
+.mood-section > .container { width: min(calc(100% - var(--gutter) * 2), 1040px); }
+.mood-section .section-head { margin-bottom: 22px; text-align: center; }
+.mood-section .section-head h2 { max-width: none; font-size: clamp(38px, 4.5vw, 54px); line-height: 1.1; }
+.mood-subtitle { margin-top: 10px; color: var(--muted); font: 400 14px/1.6 var(--body); }
+.mood-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.mood-choice { display: flex; align-items: center; gap: 9px; min-width: 0; min-height: 52px; padding: 6px 10px; border: 1px solid var(--line); border-radius: var(--radius-small); color: var(--ink); background: var(--cream); text-align: left; font: 400 14px/1.3 var(--body); transition: background 180ms ease, border-color 180ms ease; }
+.mood-choice .icon { width: 22px; height: 22px; flex-shrink: 0; color: var(--clay); stroke-width: 1.4; }
+.mood-choice > span { min-width: 0; }
+.mood-choice:hover { background: #F1E8DB; border-color: var(--control); }
+.mood-choice[aria-pressed="true"] { border-color: var(--clay); background: #F5E6DD; }
+.mood-choice:focus-visible { outline: 3px solid var(--clay); outline-offset: 4px; }
+.mood-ideas { display: flex; width: fit-content; margin: 18px auto 0; gap: 9px; font-size: 12px; }
+.mood-section .small-note { text-align: center; }
+@media (min-width: 768px) {
+  .mood-section { padding-block: 48px; }
+  .mood-section .section-head { margin-bottom: 24px; }
+  .mood-subtitle { font-size: 15px; }
+  .mood-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+  .mood-choice { min-height: 60px; padding: 8px 18px; gap: 14px; font-size: 15px; }
+  .mood-choice .icon { width: 28px; height: 28px; }
+  .mood-ideas { margin-top: 20px; font-size: 13px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

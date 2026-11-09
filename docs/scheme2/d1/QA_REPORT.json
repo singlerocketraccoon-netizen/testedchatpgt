@@ -265,7 +265,7 @@
       "viewport": 390,
       "size": [
         390,
-        7888
+        7812
       ],
       "full_page": true,
       "format": "JPEG",
@@ -287,7 +287,7 @@
       "viewport": 1440,
       "size": [
         1440,
-        6833
+        6793
       ],
       "full_page": true,
       "format": "JPEG",
@@ -314,6 +314,26 @@
       "full_page": true,
       "format": "JPEG",
       "quality": 80
+    },
+    {
+      "path": "screens/moods-390.jpg",
+      "size": [
+        390,
+        444
+      ],
+      "component": "moods",
+      "quality": 80,
+      "format": "JPEG"
+    },
+    {
+      "path": "screens/moods-1440.jpg",
+      "size": [
+        1440,
+        401
+      ],
+      "component": "moods",
+      "quality": 80,
+      "format": "JPEG"
     }
   ],
   "style_invariance": [
@@ -530,5 +550,455 @@
     "html_outside_leader_byte_identical": true,
     "main_js_unchanged": true,
     "outside_folder_modified": []
+  },
+  "mood_revision": {
+    "reduced_motion": "reduce",
+    "quality": 80,
+    "format": "JPEG",
+    "errors": [],
+    "captures": [
+      {
+        "file": "390.jpg",
+        "size": [
+          390,
+          7812
+        ],
+        "full_page": true,
+        "bottom_and_back": true,
+        "fonts_ready": true
+      },
+      {
+        "file": "moods-390.jpg",
+        "size": [
+          390,
+          444
+        ],
+        "component": "moods",
+        "bottom_and_back": true,
+        "fonts_ready": true
+      },
+      {
+        "file": "1440.jpg",
+        "size": [
+          1440,
+          6793
+        ],
+        "full_page": true,
+        "bottom_and_back": true,
+        "fonts_ready": true
+      },
+      {
+        "file": "moods-1440.jpg",
+        "size": [
+          1440,
+          401
+        ],
+        "component": "moods",
+        "bottom_and_back": true,
+        "fonts_ready": true
+      }
+    ],
+    "viewports": [
+      {
+        "height": 443.375,
+        "container": 316,
+        "columns": 2,
+        "cards": [
+          {
+            "width": 153,
+            "height": 52
+          },
+          {
+            "width": 153,
+            "height": 52
+          },
+          {
+            "width": 153,
+            "height": 52
+          },
+          {
+            "width": 153,
+            "height": 52
+          },
+          {
+            "width": 153,
+            "height": 52
+          },
+          {
+            "width": 153,
+            "height": 52
+          }
+        ],
+        "icons": [
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          }
+        ],
+        "overflow": [],
+        "documentWidth": 360,
+        "width": 360,
+        "exclusive_selection_persists_after_escape_and_close": true
+      },
+      {
+        "height": 443.375,
+        "container": 346,
+        "columns": 2,
+        "cards": [
+          {
+            "width": 168,
+            "height": 52
+          },
+          {
+            "width": 168,
+            "height": 52
+          },
+          {
+            "width": 168,
+            "height": 52
+          },
+          {
+            "width": 168,
+            "height": 52
+          },
+          {
+            "width": 168,
+            "height": 52
+          },
+          {
+            "width": 168,
+            "height": 52
+          }
+        ],
+        "icons": [
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          },
+          {
+            "width": 22,
+            "height": 22
+          }
+        ],
+        "overflow": [],
+        "documentWidth": 390,
+        "width": 390,
+        "exclusive_selection_persists_after_escape_and_close": true
+      },
+      {
+        "height": 382.890625,
+        "container": 684,
+        "columns": 3,
+        "cards": [
+          {
+            "width": 218.65625,
+            "height": 60
+          },
+          {
+            "width": 218.671875,
+            "height": 60
+          },
+          {
+            "width": 218.671875,
+            "height": 60
+          },
+          {
+            "width": 218.65625,
+            "height": 60
+          },
+          {
+            "width": 218.671875,
+            "height": 60
+          },
+          {
+            "width": 218.671875,
+            "height": 60
+          }
+        ],
+        "icons": [
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          }
+        ],
+        "overflow": [],
+        "documentWidth": 768,
+        "width": 768,
+        "exclusive_selection_persists_after_escape_and_close": true
+      },
+      {
+        "height": 400.484375,
+        "container": 1040,
+        "columns": 3,
+        "cards": [
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.34375,
+            "height": 60
+          },
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.34375,
+            "height": 60
+          }
+        ],
+        "icons": [
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          }
+        ],
+        "overflow": [],
+        "documentWidth": 1280,
+        "width": 1280,
+        "exclusive_selection_persists_after_escape_and_close": true
+      },
+      {
+        "height": 400.484375,
+        "container": 1040,
+        "columns": 3,
+        "cards": [
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.34375,
+            "height": 60
+          },
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.328125,
+            "height": 60
+          },
+          {
+            "width": 337.34375,
+            "height": 60
+          }
+        ],
+        "icons": [
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          },
+          {
+            "width": 28,
+            "height": 28
+          }
+        ],
+        "overflow": [],
+        "documentWidth": 1440,
+        "width": 1440,
+        "exclusive_selection_persists_after_escape_and_close": true
+      }
+    ],
+    "scenarios": [
+      "six_polls_with_selected_or_unspecified_mood",
+      "single_persistent_aria_pressed_selection",
+      "keyboard_space_enter_escape_and_focus_ring",
+      "ideas_anchor_with_smooth_scroll_and_reduced_motion",
+      "existing_poll_progression_validation_result_and_reset",
+      "existing_contact_offer_prefill_validation_result",
+      "no_js_disabled_choices_and_phone_fallback"
+    ],
+    "html_outside_block_and_new_symbols_byte_identical": true,
+    "js_outside_quiz_open_handler_byte_identical": true,
+    "outside_folder_modified": [],
+    "style_invariance": [
+      {
+        "width": 360,
+        "blocks_unchanged": [
+          "10",
+          "11",
+          "01",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09"
+        ],
+        "sampled_elements": 187
+      },
+      {
+        "width": 390,
+        "blocks_unchanged": [
+          "10",
+          "11",
+          "01",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09"
+        ],
+        "sampled_elements": 187
+      },
+      {
+        "width": 768,
+        "blocks_unchanged": [
+          "10",
+          "11",
+          "01",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09"
+        ],
+        "sampled_elements": 187
+      },
+      {
+        "width": 1280,
+        "blocks_unchanged": [
+          "10",
+          "11",
+          "01",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09"
+        ],
+        "sampled_elements": 187
+      },
+      {
+        "width": 1440,
+        "blocks_unchanged": [
+          "10",
+          "11",
+          "01",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09"
+        ],
+        "sampled_elements": 187
+      }
+    ],
+    "static_links_and_resources_checked": 325
   }
 }

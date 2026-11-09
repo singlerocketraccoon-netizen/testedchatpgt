@@ -236,7 +236,13 @@
     }
     e.target.closest('a[href^="tel:"]')?.closest('dialog')?.close();
     const quizAction = e.target.closest('[data-quiz-open]');
-    if (quizAction) { openPoll(quizAction.dataset.mood || ''); return; }
+    if (quizAction) {
+      if (quizAction.matches('.mood-choice')) {
+        $$('.mood-choice').forEach(choice => choice.setAttribute('aria-pressed', String(choice === quizAction)));
+      }
+      openPoll(quizAction.hasAttribute('data-mood-undecided') ? '' : (quizAction.dataset.mood || ''));
+      return;
+    }
     if (e.target.closest('[data-contact-open]')) { openDialog(sheet); return; }
     if (e.target.closest('[data-services-open]')) { openDialog(services); return; }
     const offer = e.target.closest('[data-offer]');
