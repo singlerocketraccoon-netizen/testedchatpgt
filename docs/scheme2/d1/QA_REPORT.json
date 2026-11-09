@@ -1,7 +1,23 @@
 {
+  "invariance": {
+    "unchanged_html_blocks": [
+      "02",
+      "03",
+      "04",
+      "05",
+      "08",
+      "09",
+      "10",
+      "11"
+    ],
+    "all_other_html_unchanged": true,
+    "json_ld_unchanged_and_without_story_entities": true,
+    "root_markdown_append_only": true,
+    "outside_authorized_scope_changed": []
+  },
   "static": {
     "html_pages": 8,
-    "relative_links_and_resources": 201,
+    "relative_links_and_resources": 212,
     "forbidden_terms": 0,
     "outside_folder_changed": [],
     "faq_questions_from_authoritative_image": 3
@@ -26,7 +42,25 @@
         "10",
         "11"
       ],
-      "moodColumns": 2
+      "moodColumns": 2,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "radius": "0px"
+      },
+      "brandCenter": 179.9921875,
+      "portraits": [
+        0.7500105356315058,
+        0.7500105356315058,
+        0.7500105356315058
+      ],
+      "trust": [
+        "#team",
+        "#process",
+        "#voices"
+      ]
     },
     {
       "width": 390,
@@ -47,7 +81,25 @@
         "10",
         "11"
       ],
-      "moodColumns": 2
+      "moodColumns": 2,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "radius": "0px"
+      },
+      "brandCenter": 194.9921875,
+      "portraits": [
+        0.7500096224163812,
+        0.7500096224163812,
+        0.7500096224163812
+      ],
+      "trust": [
+        "#team",
+        "#process",
+        "#voices"
+      ]
     },
     {
       "width": 768,
@@ -68,7 +120,25 @@
         "10",
         "11"
       ],
-      "moodColumns": 3
+      "moodColumns": 3,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 1000,
+        "radius": "0px"
+      },
+      "brandCenter": 384,
+      "portraits": [
+        0.7500136485232298,
+        0.7500272955562834,
+        0.7500272955562834
+      ],
+      "trust": [
+        "#team",
+        "#process",
+        "#voices"
+      ]
     },
     {
       "width": 1280,
@@ -89,7 +159,25 @@
         "10",
         "11"
       ],
-      "moodColumns": 3
+      "moodColumns": 3,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 1000,
+        "radius": "0px"
+      },
+      "brandCenter": 640,
+      "portraits": [
+        0.7500159225527037,
+        0.7500159225527037,
+        0.7500159225527037
+      ],
+      "trust": [
+        "#team",
+        "#process",
+        "#voices"
+      ]
     },
     {
       "width": 1440,
@@ -110,12 +198,30 @@
         "10",
         "11"
       ],
-      "moodColumns": 3
+      "moodColumns": 3,
+      "hero": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1000,
+        "radius": "0px"
+      },
+      "brandCenter": 720,
+      "portraits": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "trust": [
+        "#team",
+        "#process",
+        "#voices"
+      ]
     }
   ],
   "scenarios": [
     "source_first_three_offers_and_three_real_reviews",
-    "single_confirmed_story_without_invented_details",
+    "reviews_only_with_original_quotes_and_honest_date_captions",
     "three_image_faq_questions_and_matching_schema",
     "native_faq_keyboard",
     "offer_prefill_and_three_contact_methods",
@@ -127,7 +233,8 @@
     "touch_swipe_mobile_menu_contact_sheet_channels_and_swipe_rails",
     "four_slide_autoplay_manual_pause_and_slow_partner_scroll_hover_pause_arrows_reduced_motion",
     "no_javascript_native_faq_and_guarded_forms_phone_available",
-    "full_mobile_poll_at_360px_with_MAX_consent_success_and_closing"
+    "three_editable_team_cards_with_3_4_portraits_and_existing_MAX_Telegram_flow",
+    "protected_sections_html_and_computed_styles_unchanged"
   ],
   "console_errors": [],
   "resource_errors": [],
@@ -139,7 +246,7 @@
       "viewport": 390,
       "size": [
         390,
-        8515
+        8072
       ],
       "full_page": true,
       "format": "JPEG",
@@ -150,7 +257,7 @@
       "viewport": 1440,
       "size": [
         1440,
-        6754
+        7416
       ],
       "full_page": true,
       "format": "JPEG",
@@ -199,16 +306,139 @@
       "minimum": 4.5
     }
   ],
+  "unchanged_style_audit": [
+    {
+      "width": 360,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 118
+    },
+    {
+      "width": 390,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 118
+    },
+    {
+      "width": 768,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 118
+    },
+    {
+      "width": 1280,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 118
+    },
+    {
+      "width": 1440,
+      "blocks_unchanged": [
+        "10",
+        "11",
+        "02",
+        "03",
+        "04",
+        "05",
+        "08",
+        "09"
+      ],
+      "sampled_elements": 118
+    }
+  ],
+  "short_screen_checks": [
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "hero_height": 640,
+      "all_four_slides_fit": true
+    },
+    {
+      "viewport": [
+        390,
+        640
+      ],
+      "hero_height": 640,
+      "all_four_slides_fit": true
+    },
+    {
+      "viewport": [
+        768,
+        640
+      ],
+      "hero_height": 640,
+      "all_four_slides_fit": true
+    },
+    {
+      "viewport": [
+        1280,
+        640
+      ],
+      "hero_height": 640,
+      "all_four_slides_fit": true
+    },
+    {
+      "viewport": [
+        1440,
+        640
+      ],
+      "hero_height": 640,
+      "all_four_slides_fit": true
+    },
+    {
+      "viewport": [
+        360,
+        560
+      ],
+      "hero_height": 640,
+      "all_four_slides_fit": true
+    }
+  ],
   "structure_counts": {
     "slides": 4,
     "moods": 6,
     "offers": 3,
     "countries": 6,
     "steps": 3,
-    "team": 2,
+    "team": 3,
     "reviews": 3,
-    "stories": 1,
     "faq": 3,
-    "contact_strips": 2
-  }
+    "contact_strips": 2,
+    "article_entities": 0
+  },
+  "main_javascript_unchanged": true
 }
