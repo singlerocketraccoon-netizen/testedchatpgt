@@ -1,0 +1,214 @@
+{
+  "static": {
+    "html_pages": 8,
+    "relative_links_and_resources": 201,
+    "forbidden_terms": 0,
+    "outside_folder_changed": [],
+    "faq_questions_from_authoritative_image": 3
+  },
+  "viewports": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflow": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ],
+      "moodColumns": 2
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflow": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ],
+      "moodColumns": 2
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflow": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ],
+      "moodColumns": 3
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflow": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ],
+      "moodColumns": 3
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflow": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ],
+      "moodColumns": 3
+    }
+  ],
+  "scenarios": [
+    "source_first_three_offers_and_three_real_reviews",
+    "single_confirmed_story_without_invented_details",
+    "three_image_faq_questions_and_matching_schema",
+    "native_faq_keyboard",
+    "offer_prefill_and_three_contact_methods",
+    "empty_consent_validation_and_local_form_reset",
+    "six_moods_and_four_poll_steps_back_navigation_validation_reset",
+    "native_dialog_focus_containment_escape",
+    "six_country_links_and_country_prefill",
+    "services_panel_and_contact_transition",
+    "touch_swipe_mobile_menu_contact_sheet_channels_and_swipe_rails",
+    "four_slide_autoplay_manual_pause_and_slow_partner_scroll_hover_pause_arrows_reduced_motion",
+    "no_javascript_native_faq_and_guarded_forms_phone_available",
+    "full_mobile_poll_at_360px_with_MAX_consent_success_and_closing"
+  ],
+  "console_errors": [],
+  "resource_errors": [],
+  "external_requests": [],
+  "data_requests": [],
+  "screenshots": [
+    {
+      "path": "screens/390.jpg",
+      "viewport": 390,
+      "size": [
+        390,
+        8515
+      ],
+      "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    },
+    {
+      "path": "screens/1440.jpg",
+      "viewport": 1440,
+      "size": [
+        1440,
+        6754
+      ],
+      "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    }
+  ],
+  "file_url_check": {
+    "status": "blocked_by_environment",
+    "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "http_subdirectory_check": "passed"
+  },
+  "contrast_pairs": [
+    {
+      "role": "main text",
+      "ratio": 11.74,
+      "minimum": 4.5
+    },
+    {
+      "role": "secondary",
+      "ratio": 4.83,
+      "minimum": 4.5
+    },
+    {
+      "role": "button",
+      "ratio": 5.79,
+      "minimum": 4.5
+    },
+    {
+      "role": "selected poll choice",
+      "ratio": 6.1,
+      "minimum": 4.5
+    },
+    {
+      "role": "hours on sand",
+      "ratio": 5.32,
+      "minimum": 4.5
+    },
+    {
+      "role": "control border",
+      "ratio": 4.17,
+      "minimum": 3
+    },
+    {
+      "role": "footer",
+      "ratio": 8.55,
+      "minimum": 4.5
+    }
+  ],
+  "structure_counts": {
+    "slides": 4,
+    "moods": 6,
+    "offers": 3,
+    "countries": 6,
+    "steps": 3,
+    "team": 2,
+    "reviews": 3,
+    "stories": 1,
+    "faq": 3,
+    "contact_strips": 2
+  }
+}
