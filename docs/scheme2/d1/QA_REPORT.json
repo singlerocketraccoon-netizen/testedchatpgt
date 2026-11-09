@@ -51,11 +51,11 @@
         "#process",
         "#voices"
       ],
-      "team_height": 726.859375,
+      "team_height": 723.890625,
       "card_heights": [
-        184.1875,
-        179.390625,
-        179.390625
+        180,
+        180,
+        180
       ]
     },
     {
@@ -96,11 +96,11 @@
         "#process",
         "#voices"
       ],
-      "team_height": 708.171875,
+      "team_height": 705.203125,
       "card_heights": [
-        184.1875,
-        179.390625,
-        179.390625
+        180,
+        180,
+        180
       ]
     },
     {
@@ -276,7 +276,7 @@
       "viewport": 390,
       "size": [
         390,
-        709
+        706
       ],
       "component": "team",
       "format": "JPEG",
@@ -441,5 +441,94 @@
     "fonts": "Bad Script, Marck Script, Cormorant Garamond Italic 300: complete Russian Cyrillic cmap verified; SIL OFL; local WOFF2",
     "team_contact_buttons": "Both MAX and Telegram verified with existing phone fallback",
     "crop_note": "Component captures temporarily hide floating site UI; page files unchanged"
+  },
+  "leader_quote_revision": {
+    "widths": [
+      {
+        "width": 360,
+        "before_team_height": 726.859375,
+        "team_height": 723.890625,
+        "card_height": 180,
+        "quote_lines": 1,
+        "quote_width": 286,
+        "italic_font": "italic",
+        "overflow": []
+      },
+      {
+        "width": 390,
+        "before_team_height": 708.171875,
+        "team_height": 705.203125,
+        "card_height": 180,
+        "quote_lines": 1,
+        "quote_width": 316,
+        "italic_font": "italic",
+        "overflow": []
+      },
+      {
+        "width": 768,
+        "before_team_height": 534.1875,
+        "team_height": 534.1875,
+        "card_height": 318.6875,
+        "quote_lines": 2,
+        "quote_width": 184.65625,
+        "italic_font": "italic",
+        "overflow": []
+      },
+      {
+        "width": 1024,
+        "before_team_height": 534.1875,
+        "team_height": 534.1875,
+        "card_height": 318.6875,
+        "quote_lines": 1,
+        "quote_width": 270,
+        "italic_font": "italic",
+        "overflow": []
+      },
+      {
+        "width": 1280,
+        "before_team_height": 520,
+        "team_height": 520,
+        "card_height": 376,
+        "quote_lines": 2,
+        "quote_width": 258,
+        "italic_font": "italic",
+        "overflow": []
+      },
+      {
+        "width": 1440,
+        "before_team_height": 520,
+        "team_height": 520,
+        "card_height": 376,
+        "quote_lines": 2,
+        "quote_width": 298,
+        "italic_font": "italic",
+        "overflow": []
+      }
+    ],
+    "console_errors": [],
+    "resource_errors": [],
+    "screenshots": [
+      {
+        "path": "screens/team-390.jpg",
+        "size": [
+          390,
+          706
+        ],
+        "quality": 80,
+        "type": "JPEG"
+      },
+      {
+        "path": "screens/team-1440.jpg",
+        "size": [
+          1440,
+          521
+        ],
+        "quality": 80,
+        "type": "JPEG"
+      }
+    ],
+    "html_outside_leader_byte_identical": true,
+    "main_js_unchanged": true,
+    "outside_folder_modified": []
   }
 }
