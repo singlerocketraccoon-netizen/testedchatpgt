@@ -1,0 +1,97 @@
+{
+  "license": "SIL Open Font License 1.1",
+  "cyrillic_verification": "А–Я, а–я, Ё, ё verified in the combined cmap for every family/style",
+  "files": [
+    {
+      "file": "bad-script-1.woff2",
+      "family": "Bad Script",
+      "source": "https://fonts.gstatic.com/s/badscript/v18/6NUT8F6PJgbFWQn47_x7pOYkzO1A.woff2",
+      "bytes": 22420,
+      "css_source": "https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+    },
+    {
+      "file": "bad-script-2.woff2",
+      "family": "Bad Script",
+      "source": "https://fonts.gstatic.com/s/badscript/v18/6NUT8F6PJgbFWQn47_x7pO8kzO1A.woff2",
+      "bytes": 25804,
+      "css_source": "https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+    },
+    {
+      "file": "bad-script-3.woff2",
+      "family": "Bad Script",
+      "source": "https://fonts.gstatic.com/s/badscript/v18/6NUT8F6PJgbFWQn47_x7pOQkzO1A.woff2",
+      "bytes": 10344,
+      "css_source": "https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+    },
+    {
+      "file": "bad-script-4.woff2",
+      "family": "Bad Script",
+      "source": "https://fonts.gstatic.com/s/badscript/v18/6NUT8F6PJgbFWQn47_x7pOUkzO1A.woff2",
+      "bytes": 25544,
+      "css_source": "https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+    },
+    {
+      "file": "bad-script-5.woff2",
+      "family": "Bad Script",
+      "source": "https://fonts.gstatic.com/s/badscript/v18/6NUT8F6PJgbFWQn47_x7pOskzA.woff2",
+      "bytes": 34708,
+      "css_source": "https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+    },
+    {
+      "file": "marck-script-1.woff2",
+      "family": "Marck Script",
+      "source": "https://fonts.gstatic.com/s/marckscript/v22/nwpTtK2oNgBA3Or78gapdwuyzCg_WMM.woff2",
+      "bytes": 10528,
+      "css_source": "https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+    },
+    {
+      "file": "marck-script-2.woff2",
+      "family": "Marck Script",
+      "source": "https://fonts.gstatic.com/s/marckscript/v22/nwpTtK2oNgBA3Or78gapdwuyxig_WMM.woff2",
+      "bytes": 8740,
+      "css_source": "https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+    },
+    {
+      "file": "marck-script-3.woff2",
+      "family": "Marck Script",
+      "source": "https://fonts.gstatic.com/s/marckscript/v22/nwpTtK2oNgBA3Or78gapdwuyyCg_.woff2",
+      "bytes": 13352,
+      "css_source": "https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+    },
+    {
+      "file": "cormorant-italic-1.woff2",
+      "family": "Cormorant Garamond",
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDD-hdM8Efs.woff2",
+      "bytes": 14216,
+      "css_source": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+    },
+    {
+      "file": "cormorant-italic-2.woff2",
+      "family": "Cormorant Garamond",
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDD-jNM8Efs.woff2",
+      "bytes": 12392,
+      "css_source": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+    },
+    {
+      "file": "cormorant-italic-3.woff2",
+      "family": "Cormorant Garamond",
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDD-h9M8Efs.woff2",
+      "bytes": 6184,
+      "css_source": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+    },
+    {
+      "file": "cormorant-italic-4.woff2",
+      "family": "Cormorant Garamond",
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDD-htM8Efs.woff2",
+      "bytes": 19252,
+      "css_source": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+    },
+    {
+      "file": "cormorant-italic-5.woff2",
+      "family": "Cormorant Garamond",
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd5rDD-iNM8.woff2",
+      "bytes": 22484,
+      "css_source": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap"
+    }
+  ]
+}
