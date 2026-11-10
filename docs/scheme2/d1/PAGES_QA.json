@@ -1,0 +1,1027 @@
+{
+  "static": {
+    "pages": 33,
+    "links_checked": 5435,
+    "unique_titles": 33,
+    "unique_descriptions": 33,
+    "homepage_content_unchanged": true,
+    "deterministic_build": true
+  },
+  "viewports": [
+    {
+      "width": 360,
+      "path": "index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/turciya/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/egipet/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/oae/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/tailand/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/vetnam/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/maldivy/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/tunis/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/greciya/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/kipr/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/bolgariya/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/paketnye-tury/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/ekskursionnye-tury/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/individualnye-tury/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/kruizy/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/oteli/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/aviabilety/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/zhd-bilety/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/avtobusnye-bilety/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/transfery/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "uslugi/strahovanie/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "o-nas/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "o-nas/komanda/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "o-nas/kontakty/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "o-nas/dokumenty/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "o-nas/dokumenty/politika/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "o-nas/dokumenty/soglasie/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "o-nas/otzyvy/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "kak-my-rabotaem/index.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "404.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 360,
+      "path": "pages.html",
+      "document_width": 360,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/turciya/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/egipet/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/oae/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/tailand/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/vetnam/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/maldivy/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/tunis/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/greciya/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/kipr/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/bolgariya/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/paketnye-tury/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/ekskursionnye-tury/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/individualnye-tury/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/kruizy/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/oteli/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/aviabilety/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/zhd-bilety/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/avtobusnye-bilety/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/transfery/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "uslugi/strahovanie/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "o-nas/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "o-nas/komanda/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "o-nas/kontakty/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "o-nas/dokumenty/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "o-nas/dokumenty/politika/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "o-nas/dokumenty/soglasie/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "o-nas/otzyvy/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "kak-my-rabotaem/index.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "404.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 768,
+      "path": "pages.html",
+      "document_width": 768,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/turciya/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/egipet/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/oae/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/tailand/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/vetnam/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/maldivy/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/tunis/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/greciya/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/kipr/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "napravleniya/bolgariya/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/paketnye-tury/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/ekskursionnye-tury/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/individualnye-tury/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/kruizy/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/oteli/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/aviabilety/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/zhd-bilety/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/avtobusnye-bilety/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/transfery/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "uslugi/strahovanie/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "o-nas/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "o-nas/komanda/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "o-nas/kontakty/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "o-nas/dokumenty/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "o-nas/dokumenty/politika/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "o-nas/dokumenty/soglasie/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "o-nas/otzyvy/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "kak-my-rabotaem/index.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "404.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1024,
+      "path": "pages.html",
+      "document_width": 1024,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/turciya/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/egipet/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/oae/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/tailand/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/vetnam/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/maldivy/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/tunis/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/greciya/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/kipr/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/bolgariya/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/paketnye-tury/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/ekskursionnye-tury/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/individualnye-tury/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/kruizy/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/oteli/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/aviabilety/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/zhd-bilety/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/avtobusnye-bilety/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/transfery/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "uslugi/strahovanie/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "o-nas/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "o-nas/komanda/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "o-nas/kontakty/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "o-nas/dokumenty/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "o-nas/dokumenty/politika/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "o-nas/dokumenty/soglasie/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "o-nas/otzyvy/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "kak-my-rabotaem/index.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "404.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1280,
+      "path": "pages.html",
+      "document_width": 1280,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/turciya/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/egipet/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/oae/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/tailand/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/vetnam/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/maldivy/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/tunis/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/greciya/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/kipr/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/bolgariya/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/paketnye-tury/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/ekskursionnye-tury/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/individualnye-tury/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/kruizy/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/oteli/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/aviabilety/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/zhd-bilety/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/avtobusnye-bilety/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/transfery/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "uslugi/strahovanie/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "o-nas/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "o-nas/komanda/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "o-nas/kontakty/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "o-nas/dokumenty/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "o-nas/dokumenty/politika/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "o-nas/dokumenty/soglasie/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "o-nas/otzyvy/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "kak-my-rabotaem/index.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "404.html",
+      "document_width": 1440,
+      "logo_height": 46
+    },
+    {
+      "width": 1440,
+      "path": "pages.html",
+      "document_width": 1440,
+      "logo_height": 46
+    }
+  ],
+  "errors": [],
+  "resources": [],
+  "data_requests": [],
+  "scenarios": [
+    "header_centered_and_phone_breakpoints",
+    "desktop_dropdown_click_hover_arrowdown_escape",
+    "opaque_open_header_and_compact_scroll",
+    "mobile_fullscreen_accordion_escape",
+    "contact_sheet_and_messenger_fallback",
+    "three_contact_methods_validation_empty_consent_local_result_clear",
+    "country_offer_prefill",
+    "country_and_review_filters",
+    "team_hover_and_keyboard_details",
+    "homepage_slider_moods_preserved",
+    "no_js_phone_navigation_and_guarded_form"
+  ],
+  "photo_license_audit": {
+    "checked": "2026-11-10",
+    "active_photos": 10,
+    "photo_records_with_source_and_license": true,
+    "unverified_legacy_photos_replaced": 4,
+    "browser_cases": 12,
+    "errors": [],
+    "main_changes": "Only approved photo source/dimension replacements in addition to the previously authorized header and link destinations"
+  }
+}
