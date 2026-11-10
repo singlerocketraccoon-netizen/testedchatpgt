@@ -5,6 +5,453 @@
     "width": 900,
     "height": 1125,
     "alt": "Виллы над бирюзовой лагуной",
-    "checked": "2026-11-09"
+    "checked": "2026-11-09",
+    "asset_kind": "photo",
+    "provider": "Unsplash",
+    "active": true,
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    },
+    "sha256": "964505244c6be358fc486503d8c348dc07196c90537ce2f645f4788a53072cfc"
+  },
+  {
+    "file": "logo-mango.png",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/4690c12fbeffb02998c7fd3c2cb293c216ea02fb/logo-mango.png",
+    "status": "owner-provided-copied-byte-identical",
+    "sha256": "744fe7dbedb61b64045910f8f2e3c34280e15820f8325b7c8c9e8cad6a508e63",
+    "asset_kind": "brand",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner explicitly authorized public publication in testedchatpgt on 2026-11-10"
+    }
+  },
+  {
+    "file": "logo-mango-light.png",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/4690c12fbeffb02998c7fd3c2cb293c216ea02fb/logo-mango-light.png",
+    "status": "owner-provided-copied-byte-identical",
+    "sha256": "0b130cbbd42293ba5dae509a4eaf8a1b6daedfba9731284990160155bc7a6bf6",
+    "asset_kind": "brand",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner explicitly authorized public publication in testedchatpgt on 2026-11-10"
+    }
+  },
+  {
+    "file": "logo-mango-mark.png",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/4690c12fbeffb02998c7fd3c2cb293c216ea02fb/logo-mango-mark.png",
+    "status": "owner-provided-copied-byte-identical",
+    "sha256": "710315261c6ea37abce82f5a12dcfb714258241edbcc39689e9ea167edf0a50d",
+    "asset_kind": "brand",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner explicitly authorized public publication in testedchatpgt on 2026-11-10"
+    }
+  },
+  {
+    "file": "favicon-32.png",
+    "derived_from": "logo-mango-mark.png",
+    "size": [
+      32,
+      32
+    ],
+    "background": "#FAF7F1",
+    "asset_kind": "derived-brand",
+    "license": {
+      "name": "Derived from owner-provided logo",
+      "permission": "Owner explicitly authorized this export and public publication in testedchatpgt on 2026-11-10"
+    }
+  },
+  {
+    "file": "apple-touch-icon.png",
+    "derived_from": "logo-mango-mark.png",
+    "size": [
+      180,
+      180
+    ],
+    "background": "#FAF7F1",
+    "asset_kind": "derived-brand",
+    "license": {
+      "name": "Derived from owner-provided logo",
+      "permission": "Owner explicitly authorized this export and public publication in testedchatpgt on 2026-11-10"
+    }
+  },
+  {
+    "file": "antalya-free.webp",
+    "asset_kind": "photo",
+    "active": true,
+    "url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1600&q=80",
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    },
+    "width": 1140,
+    "height": 800,
+    "alt": "Пляж и море — образ отдыха",
+    "sha256": "697bc63c7982c624a94721af234266424fe827e42df5be3ada71cb43b33625a4",
+    "replaces": "../../../assets/img/antalya.webp",
+    "usage": "Illustration of a travel format; not a claim about the exact resort or hotel"
+  },
+  {
+    "file": "vietnam-free.webp",
+    "asset_kind": "photo",
+    "active": true,
+    "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1600&q=80",
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    },
+    "width": 1140,
+    "height": 800,
+    "alt": "Тропический отель — образ отдыха",
+    "sha256": "99ede052d431222cfc43901ad6fd5d549256789b11c7cb70433b1bf5d24947f2",
+    "replaces": "../../../assets/img/vietnam.webp",
+    "usage": "Illustration of a travel format; not a claim about the exact resort or hotel"
+  },
+  {
+    "file": "greece-free.webp",
+    "asset_kind": "photo",
+    "active": true,
+    "url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1600&q=80",
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    },
+    "width": 1140,
+    "height": 800,
+    "alt": "Островное побережье — образ морского отдыха",
+    "sha256": "110319aab22cc2c483b433aeb286b913c0a44c81e5067ac00920dfa08d9119a5",
+    "replaces": "../../../assets/img/crete.webp",
+    "usage": "Illustration of a travel format; not a claim about the exact resort or hotel"
+  },
+  {
+    "file": "tunisia-free.webp",
+    "asset_kind": "photo",
+    "active": true,
+    "url": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1600&q=80",
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    },
+    "width": 1140,
+    "height": 800,
+    "alt": "Море и свет — образ пляжного отдыха",
+    "sha256": "41d43bdf05f8bc15820cac5b1c4a1802e306c4290d2d018ebfa43cbd20ead406",
+    "replaces": "../../../assets/img/tunisia.webp",
+    "usage": "Illustration of a travel format; not a claim about the exact resort or hotel"
+  },
+  {
+    "file": "../../../assets/img/hero-sand.webp",
+    "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=78",
+    "alt": "Песчаный берег и море",
+    "width": 1600,
+    "height": 1064,
+    "bytes": 85046,
+    "sha256": "d76f8832404a3a9d7bb50130cf59a3729761a327d0b4110012c380bfeef6814a",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": true,
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    }
+  },
+  {
+    "file": "../../../assets/img/hero-resort.webp",
+    "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1600&q=78",
+    "alt": "Курорт и бассейн",
+    "width": 1600,
+    "height": 1600,
+    "bytes": 104890,
+    "sha256": "57b81d8a2b052e71e9ad11eafb6d2da3936c9ac80eafee0fc36176ea5c5ff96e",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": true,
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    }
+  },
+  {
+    "file": "../../../assets/img/hero-lake.webp",
+    "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1600&q=78",
+    "alt": "Озеро и горы",
+    "width": 1600,
+    "height": 1067,
+    "bytes": 120948,
+    "sha256": "760013cadfbff8ade41ddb7609f4781ac3df0503d826a62b9724e5980e4be52f",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": true,
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    }
+  },
+  {
+    "file": "../../../assets/img/mood-walk.webp",
+    "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=78",
+    "alt": "Город на побережье",
+    "width": 900,
+    "height": 1355,
+    "bytes": 111890,
+    "sha256": "64e6aa7453402e0545f4eeb8ecb8b88c26c9fe9357e2b092b34536ecf69dbe72",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": true,
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    }
+  },
+  {
+    "file": "../../../assets/img/mood-dining.webp",
+    "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=78",
+    "alt": "Блюдо в ресторане",
+    "width": 900,
+    "height": 600,
+    "bytes": 48612,
+    "sha256": "a1049ab8763c6bda70af888e52f3dd1c773a683b8b04996caec93519398dc9e5",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": true,
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    }
+  },
+  {
+    "file": "../../../assets/img/mood-family.webp",
+    "url": "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=900&q=78",
+    "alt": "Семья на закате",
+    "width": 900,
+    "height": 600,
+    "bytes": 53096,
+    "sha256": "8705203ec8fcb4ff03bb4e10c18f21bec8723922abc183c98ba208133ed78268",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": true,
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    }
+  },
+  {
+    "file": "../../../assets/img/uae.webp",
+    "url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=78",
+    "alt": "Городской пейзаж Дубая",
+    "width": 1000,
+    "height": 667,
+    "bytes": 77442,
+    "sha256": "230b99cc528ce4a23698234814550283d2cbe81f6a71d42406a9ccd2ec32863f",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": true,
+    "provider": "Unsplash",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "conditions": [
+        "No sale of unmodified photos",
+        "Do not compile a competing image service"
+      ],
+      "copyright": "Photographer retains copyright",
+      "checked": "2026-11-10",
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    }
+  },
+  {
+    "file": "../../../assets/img/antalya.webp",
+    "url": "https://devfriends.ru/wp-content/uploads/2019/04/Turkey-Antalya-1-570x400.jpg",
+    "alt": "Побережье Антальи",
+    "width": 570,
+    "height": 400,
+    "bytes": 61650,
+    "sha256": "017911c8e29defb54914aa7e0b4270aa42e2e9483a9aed50c79a12fa8e51f55b",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": false,
+    "license": {
+      "name": "Free-use rights not established",
+      "commercial_use": false,
+      "action": "Not used in d1; replaced by an Unsplash photo"
+    },
+    "replacement": "antalya-free.webp"
+  },
+  {
+    "file": "../../../assets/img/vietnam.webp",
+    "url": "https://devfriends.ru/wp-content/uploads/2019/05/Vietnam-Scenery-570x400.jpg",
+    "alt": "Пейзаж Вьетнама",
+    "width": 570,
+    "height": 400,
+    "bytes": 42828,
+    "sha256": "0fed737ac489449b92c5cc6cc7403587d0c9548c75b6e341ed247b609a948952",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": false,
+    "license": {
+      "name": "Free-use rights not established",
+      "commercial_use": false,
+      "action": "Not used in d1; replaced by an Unsplash photo"
+    },
+    "replacement": "vietnam-free.webp"
+  },
+  {
+    "file": "../../../assets/img/tunisia.webp",
+    "url": "https://devfriends.ru/wp-content/uploads/2019/04/Tunis-570x400.jpg",
+    "alt": "Побережье Туниса",
+    "width": 570,
+    "height": 400,
+    "bytes": 29448,
+    "sha256": "aed444e7564e4add727b636d8ae66788001161d9c2af7b14f2537034f6c0ef9f",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": false,
+    "license": {
+      "name": "Free-use rights not established",
+      "commercial_use": false,
+      "action": "Not used in d1; replaced by an Unsplash photo"
+    },
+    "replacement": "tunisia-free.webp"
+  },
+  {
+    "file": "../../../assets/img/crete.webp",
+    "url": "https://devfriends.ru/wp-content/uploads/2019/05/kreta-570x400.jpg",
+    "alt": "Крит",
+    "width": 570,
+    "height": 400,
+    "bytes": 52020,
+    "sha256": "4c20830989660030c3554ff0ddc1fa594ee94011a90bbc0e41a33a038919f534",
+    "checked": "2026-11-08",
+    "status": "downloaded-and-decoded",
+    "asset_kind": "photo",
+    "active": false,
+    "license": {
+      "name": "Free-use rights not established",
+      "commercial_use": false,
+      "action": "Not used in d1; replaced by an Unsplash photo"
+    },
+    "replacement": "greece-free.webp"
   }
 ]

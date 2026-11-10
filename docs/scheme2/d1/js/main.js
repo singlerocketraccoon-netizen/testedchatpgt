@@ -8,20 +8,9 @@
   const header = $('[data-site-header]'), menu = $('#mobile-nav'), menuButton = $('[data-menu]');
   const contact = $('#contact'), sticky = $('[data-mobile-contact]'), hero = $('[data-hero]');
   const quiz = $('#quiz-dialog'), sheet = $('#contact-dialog'), services = $('#services-dialog');
-  let compact = false, scrollFrame, toastTimer;
-  const closeMenu = (restore = false) => {
-    menu.hidden = true; menuButton.setAttribute('aria-expanded', 'false');
-    menuButton.setAttribute('aria-label', 'Открыть меню'); $('use', menuButton).setAttribute('href', '#i-menu');
-    if (restore) menuButton.focus(); updateSticky();
-  };
-  menuButton.addEventListener('click', () => {
-    if (!menu.hidden) { closeMenu(); return; }
-    menu.hidden = false; menuButton.setAttribute('aria-expanded', 'true');
-    menuButton.setAttribute('aria-label', 'Закрыть меню'); $('use', menuButton).setAttribute('href', '#i-close'); updateSticky();
-  });
-  $$('a', menu).forEach(a => a.addEventListener('click', () => closeMenu()));
-  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !menu.hidden) closeMenu(true); });
-  matchMedia('(min-width: 1100px)').addEventListener('change', e => { if (e.matches) closeMenu(); });
+  let scrollFrame, toastTimer;
+  const closeMenu = (restore = false) => { window.D1Nav?.close(restore); updateSticky(); };
+  document.addEventListener('d1:navstate', updateSticky);
   function updateSticky() {
     if (!sticky || !hero || !contact) return;
     const c = contact.getBoundingClientRect();
@@ -29,11 +18,7 @@
     sticky.hidden = innerWidth >= 768 || hero.getBoundingClientRect().bottom > coverCutoff ||
       (c.top < innerHeight && c.bottom > 0) || !menu.hidden || !!$('dialog[open]');
   }
-  function updateScroll() {
-    if (!compact && scrollY > 120) compact = true;
-    if (compact && scrollY < 40) compact = false;
-    header.classList.toggle('is-compact', compact); updateSticky();
-  }
+  function updateScroll() { updateSticky(); }
   function requestScroll() {
     if (!scrollFrame) scrollFrame = requestAnimationFrame(() => { scrollFrame = null; updateScroll(); });
   }

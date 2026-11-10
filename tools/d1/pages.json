@@ -1,0 +1,167 @@
+[
+  {
+    "path": "index.html",
+    "title": "Главная",
+    "type": "home"
+  },
+  {
+    "path": "napravleniya/index.html",
+    "title": "Куда хочется поехать?",
+    "type": "page"
+  },
+  {
+    "path": "napravleniya/turciya/index.html",
+    "title": "Туры в Турцию",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/egipet/index.html",
+    "title": "Туры в Египет",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/oae/index.html",
+    "title": "Туры в ОАЭ",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/tailand/index.html",
+    "title": "Туры в Таиланд",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/vetnam/index.html",
+    "title": "Туры в Вьетнам",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/maldivy/index.html",
+    "title": "Туры на Мальдивы",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/tunis/index.html",
+    "title": "Туры в Тунис",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/greciya/index.html",
+    "title": "Туры в Грецию",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/kipr/index.html",
+    "title": "Туры на Кипр",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/bolgariya/index.html",
+    "title": "Туры в Болгарию",
+    "type": "country"
+  },
+  {
+    "path": "uslugi/index.html",
+    "title": "Что нужно для Вашей поездки",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/paketnye-tury/index.html",
+    "title": "Пакетные туры",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/ekskursionnye-tury/index.html",
+    "title": "Экскурсионные туры",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/individualnye-tury/index.html",
+    "title": "Индивидуальные туры",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/kruizy/index.html",
+    "title": "Круизы",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/oteli/index.html",
+    "title": "Отели",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/aviabilety/index.html",
+    "title": "Авиабилеты",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/zhd-bilety/index.html",
+    "title": "ЖД билеты",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/avtobusnye-bilety/index.html",
+    "title": "Автобусные билеты",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/transfery/index.html",
+    "title": "Трансферы",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/strahovanie/index.html",
+    "title": "Страхование",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/index.html",
+    "title": "Манго — это люди",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/komanda/index.html",
+    "title": "Команда «Манго Путешествия»",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/kontakty/index.html",
+    "title": "Контакты «Манго Путешествия»",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/dokumenty/index.html",
+    "title": "Понятные документы",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/dokumenty/politika/index.html",
+    "title": "Политика конфиденциальности",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/dokumenty/soglasie/index.html",
+    "title": "Согласие на обработку персональных данных",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/otzyvy/index.html",
+    "title": "Отзывы о путешествиях",
+    "type": "page"
+  },
+  {
+    "path": "kak-my-rabotaem/index.html",
+    "title": "Спокойно, шаг за шагом",
+    "type": "page"
+  },
+  {
+    "path": "404.html",
+    "title": "Здесь маршрут меняется",
+    "type": "page"
+  },
+  {
+    "path": "pages.html",
+    "title": "Страницы сайта",
+    "type": "page"
+  }
+]
