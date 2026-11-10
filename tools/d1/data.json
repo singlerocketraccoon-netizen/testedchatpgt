@@ -690,5 +690,50 @@
       "width": 1140,
       "height": 800
     }
-  ]
+  ],
+  "team_members": [
+    {
+      "name": "Имя руководителя",
+      "initials": "Р",
+      "role": "Руководитель агентства",
+      "photo": "@greece-free.webp",
+      "photo_alt": "Островное побережье — Греция",
+      "expertise": "Эксперт по Греции, Турции и Кипру",
+      "expertise_needs_approval": true,
+      "max": "#",
+      "telegram": "#"
+    },
+    {
+      "name": "Имя менеджера",
+      "initials": "М",
+      "role": "Менеджер",
+      "photo": "uae.webp",
+      "photo_alt": "Городской пейзаж ОАЭ",
+      "expertise": "Эксперт по ОАЭ, Турции и Египту",
+      "expertise_needs_approval": true,
+      "max": "#",
+      "telegram": "#"
+    },
+    {
+      "name": "Имя менеджера",
+      "initials": "М",
+      "role": "Менеджер",
+      "photo": "@maldives.webp",
+      "photo_alt": "Лагуна и виллы на Мальдивах",
+      "expertise": "Эксперт по Мальдивам, Таиланду и Вьетнаму",
+      "expertise_needs_approval": true,
+      "max": "#",
+      "telegram": "#"
+    }
+  ],
+  "page_overrides": {
+    "napravleniya/vetnam/index.html": {
+      "title": "Туры во Вьетнам из Астрахани — Манго",
+      "description": "Отдых во Вьетнаме: сезоны, курорты и подбор поездки в Астрахани. Обсудите даты, маршрут и отель с персональным менеджером."
+    },
+    "uslugi/oteli/index.html": {
+      "title": "Бронирование отелей — Манго Путешествия",
+      "h1": "Бронирование отелей"
+    }
+  }
 }

@@ -1,0 +1,207 @@
+{
+  "widths": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "photoSizes": [
+        [
+          268,
+          268
+        ],
+        [
+          268,
+          268
+        ],
+        [
+          268,
+          268
+        ]
+      ],
+      "cardWidth": 270,
+      "railWidth": 360,
+      "railScrollWidth": 886,
+      "columns": "none",
+      "buttonsVisible": true,
+      "headings": [
+        "Поможем с выбором",
+        "Связь"
+      ],
+      "oldFields": false,
+      "h1count": 1
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "photoSizes": [
+        [
+          290.5,
+          290.5
+        ],
+        [
+          290.5,
+          290.5
+        ],
+        [
+          290.5,
+          290.5
+        ]
+      ],
+      "cardWidth": 292.5,
+      "railWidth": 390,
+      "railScrollWidth": 954,
+      "columns": "none",
+      "buttonsVisible": true,
+      "headings": [
+        "Поможем с выбором",
+        "Связь"
+      ],
+      "oldFields": false,
+      "h1count": 1
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "photoSizes": [
+        [
+          210,
+          210
+        ],
+        [
+          210,
+          210
+        ],
+        [
+          210,
+          210
+        ]
+      ],
+      "cardWidth": 212,
+      "railWidth": 684,
+      "railScrollWidth": 684,
+      "columns": "212px 212px 212px",
+      "buttonsVisible": true,
+      "headings": [
+        "Поможем с выбором",
+        "Связь"
+      ],
+      "oldFields": false,
+      "h1count": 1
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "photoSizes": [
+        [
+          318,
+          318
+        ],
+        [
+          318,
+          318
+        ],
+        [
+          318,
+          318
+        ]
+      ],
+      "cardWidth": 320,
+      "railWidth": 1008,
+      "railScrollWidth": 1008,
+      "columns": "320px 320px 320px",
+      "buttonsVisible": true,
+      "headings": [
+        "Поможем с выбором",
+        "Связь"
+      ],
+      "oldFields": false,
+      "h1count": 1
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "photoSizes": [
+        [
+          318,
+          318
+        ],
+        [
+          318,
+          318
+        ],
+        [
+          318,
+          318
+        ]
+      ],
+      "cardWidth": 320,
+      "railWidth": 1008,
+      "railScrollWidth": 1008,
+      "columns": "320px 320px 320px",
+      "buttonsVisible": true,
+      "headings": [
+        "Поможем с выбором",
+        "Связь"
+      ],
+      "oldFields": false,
+      "h1count": 1
+    }
+  ],
+  "errors": [],
+  "carousel_counts": [
+    {
+      "count": 4,
+      "carousel": false,
+      "overflow": false,
+      "arrows": false,
+      "documentWidth": 1440
+    },
+    {
+      "count": 5,
+      "carousel": true,
+      "overflow": true,
+      "arrows": true,
+      "documentWidth": 1440
+    },
+    {
+      "count": 7,
+      "carousel": true,
+      "overflow": true,
+      "arrows": true,
+      "documentWidth": 1440
+    },
+    {
+      "count": 3,
+      "carousel": false,
+      "overflow": false,
+      "arrows": false,
+      "documentWidth": 1440
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "o-nas-komanda-390.jpg",
+      "width": 390,
+      "height": 3733,
+      "quality": 75
+    },
+    {
+      "file": "o-nas-komanda-1440.jpg",
+      "width": 1440,
+      "height": 2578,
+      "quality": 75
+    }
+  ],
+  "static": {
+    "links_checked": 5438,
+    "unique_titles": 33,
+    "unique_descriptions": 33,
+    "country_prepositions_checked": 10,
+    "deterministic_build": true,
+    "homepage_byte_identical": true,
+    "only_three_html_pages_changed": [
+      "docs/scheme2/d1/napravleniya/vetnam/index.html",
+      "docs/scheme2/d1/uslugi/oteli/index.html",
+      "docs/scheme2/d1/o-nas/komanda/index.html"
+    ]
+  }
+}

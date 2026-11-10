@@ -36,6 +36,32 @@
   const section=button.closest('section');$$('[data-filter]',section).forEach(b=>b.setAttribute('aria-pressed',String(b===button)));let count=0;
   $$('[data-filter-item]',section).forEach(item=>{item.hidden=button.dataset.filter!=='Все'&&!item.dataset.categories.split('|').includes(button.dataset.filter);if(!item.hidden)count++;});const status=$('[data-filter-status]',section);if(status)status.textContent='Показано: '+count;
  }));
- $$('.team-detail-card').forEach(card=>{const details=$('.team-help',card);card.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')details.open=true;});card.addEventListener('pointerleave',()=>{if(!card.contains(document.activeElement))details.open=false;});});
+ $$('[data-team-collection]').forEach(section=>{
+  const rail=$('[data-team-list]',section),arrows=$('[data-team-arrows]',section),prev=$('[data-team-prev]',section),next=$('[data-team-next]',section);
+  const cards=()=>$$('.team-travel-card',rail);
+  let frame;
+  const sync=()=>{
+   const items=cards(),overflow=rail.scrollWidth>rail.clientWidth+2;
+   section.classList.toggle('is-carousel',items.length>4);
+   section.style.setProperty('--team-columns',Math.max(1,Math.min(items.length,4)));
+   arrows.hidden=items.length<=4;
+   rail.tabIndex=overflow?0:-1;
+   prev.disabled=rail.scrollLeft<=2;next.disabled=rail.scrollLeft>=rail.scrollWidth-rail.clientWidth-2;
+   if(items[0])section.style.setProperty('--team-photo-center',items[0].getBoundingClientRect().width/2+'px');
+  };
+  const schedule=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(sync);};
+  const move=direction=>{const card=cards()[0];if(card)rail.scrollBy({left:direction*(card.getBoundingClientRect().width+parseFloat(getComputedStyle(rail).gap)),behavior:motion.matches?'instant':'smooth'});};
+  prev.addEventListener('click',()=>move(-1));next.addEventListener('click',()=>move(1));
+  rail.addEventListener('scroll',schedule,{passive:true});addEventListener('resize',schedule);
+  rail.addEventListener('keydown',e=>{
+   if(e.target!==rail||!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;
+   e.preventDefault();
+   if(e.key==='Home'||e.key==='End')rail.scrollTo({left:e.key==='Home'?0:rail.scrollWidth,behavior:motion.matches?'instant':'smooth'});
+   else move(e.key==='ArrowLeft'?-1:1);
+  });
+  new MutationObserver(()=>{sync();schedule();}).observe(rail,{childList:true});
+  if('ResizeObserver' in window)new ResizeObserver(schedule).observe(rail);
+  sync();schedule();
+ });
  update();
 })();
