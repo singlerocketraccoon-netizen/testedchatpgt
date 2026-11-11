@@ -2364,24 +2364,29 @@
   ],
   "trust": [
     {
-      "value": "16",
+      "value": "",
       "label": "лет в туризме",
-      "icon": "i-calendar"
+      "icon": "i-calendar",
+      "key": "years",
+      "valueFrom": "foundedYear"
     },
     {
       "value": "",
       "label": "Оценка на Яндекс Картах",
-      "icon": "i-mood-compass"
+      "icon": "i-mood-compass",
+      "key": "yandexRating"
     },
     {
       "value": "",
       "label": "Туристов с нами",
-      "icon": "i-mood-family"
+      "icon": "i-mood-family",
+      "key": "travelers"
     },
     {
       "value": "",
       "label": "Работаем с крупными туроператорами",
-      "icon": "i-shield"
+      "icon": "i-shield",
+      "key": "operators"
     }
   ],
   "safe_payment": [
@@ -2397,5 +2402,172 @@
       "title": "Какие документы получаете",
       "text": "Состав договора и подтверждающих документов согласуем до оплаты."
     }
-  ]
+  ],
+  "foundedYear": 2010,
+  "pages": {
+    "index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Главная"
+    },
+    "napravleniya/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Страны"
+    },
+    "napravleniya/turciya/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры в Турцию.",
+      "topic": "Страница: Туры в Турцию"
+    },
+    "napravleniya/egipet/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры в Египет.",
+      "topic": "Страница: Туры в Египет"
+    },
+    "napravleniya/oae/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры в ОАЭ.",
+      "topic": "Страница: Туры в ОАЭ"
+    },
+    "napravleniya/tailand/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры в Таиланд.",
+      "topic": "Страница: Туры в Таиланд"
+    },
+    "napravleniya/vetnam/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры во Вьетнам.",
+      "topic": "Страница: Туры во Вьетнам"
+    },
+    "napravleniya/maldivy/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры на Мальдивы.",
+      "topic": "Страница: Туры на Мальдивы"
+    },
+    "napravleniya/tunis/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры в Тунис.",
+      "topic": "Страница: Туры в Тунис"
+    },
+    "napravleniya/greciya/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры в Грецию.",
+      "topic": "Страница: Туры в Грецию"
+    },
+    "napravleniya/kipr/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры на Кипр.",
+      "topic": "Страница: Туры на Кипр"
+    },
+    "napravleniya/bolgariya/index.html": {
+      "messengerText": "Здравствуйте! Интересуют туры в Болгарию.",
+      "topic": "Страница: Туры в Болгарию"
+    },
+    "uslugi/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Что нужно для Вашей поездки"
+    },
+    "uslugi/paketnye-tury/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Пакетные туры».",
+      "topic": "Страница: Пакетные туры"
+    },
+    "uslugi/ekskursionnye-tury/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Экскурсионные туры».",
+      "topic": "Страница: Экскурсионные туры"
+    },
+    "uslugi/individualnye-tury/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Индивидуальные туры».",
+      "topic": "Страница: Индивидуальные туры"
+    },
+    "uslugi/kruizy/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Круизы».",
+      "topic": "Страница: Круизы"
+    },
+    "uslugi/oteli/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Бронирование отелей».",
+      "topic": "Страница: Бронирование отелей"
+    },
+    "uslugi/aviabilety/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Авиабилеты».",
+      "topic": "Страница: Авиабилеты"
+    },
+    "uslugi/zhd-bilety/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «ЖД билеты».",
+      "topic": "Страница: ЖД билеты"
+    },
+    "uslugi/avtobusnye-bilety/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Автобусные билеты».",
+      "topic": "Страница: Автобусные билеты"
+    },
+    "uslugi/transfery/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Трансферы».",
+      "topic": "Страница: Трансферы"
+    },
+    "uslugi/strahovanie/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Страхование».",
+      "topic": "Страница: Страхование"
+    },
+    "uslugi/vip-zaly/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «VIP-залы».",
+      "topic": "Страница: VIP-залы"
+    },
+    "uslugi/fast-track/index.html": {
+      "messengerText": "Здравствуйте! Интересует услуга «Fast Track».",
+      "topic": "Страница: Fast Track"
+    },
+    "predlozheniya/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Актуальные предложения"
+    },
+    "otdyh/otdyh-s-detmi/index.html": {
+      "messengerText": "Здравствуйте! Хочу подобрать отдых с детьми",
+      "topic": "Страница: Отпуск, в котором отдыхают и дети, и взрослые"
+    },
+    "otdyh/tishina-i-more/index.html": {
+      "messengerText": "Здравствуйте! Хочу подобрать спокойный отдых у моря",
+      "topic": "Страница: Отпуск, в котором слышно море"
+    },
+    "otdyh/plyazh-i-progulki/index.html": {
+      "messengerText": "Здравствуйте! Хочу отдых у моря, чтобы рядом было где погулять",
+      "topic": "Страница: Когда одного пляжа мало"
+    },
+    "otdyh/servis-i-kuhnya/index.html": {
+      "messengerText": "Здравствуйте! Хочу подобрать отель с хорошей кухней и сервисом",
+      "topic": "Страница: К хорошему быстро привыкаешь"
+    },
+    "styleguide.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Дизайн-система Манго"
+    },
+    "o-nas/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Манго — это люди"
+    },
+    "o-nas/komanda/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Команда → О нас"
+    },
+    "o-nas/kontakty/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Контакты «Манго Путешествия»"
+    },
+    "o-nas/dokumenty/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Понятные документы"
+    },
+    "o-nas/dokumenty/politika/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Политика конфиденциальности"
+    },
+    "o-nas/dokumenty/soglasie/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Согласие на обработку персональных данных"
+    },
+    "o-nas/otzyvy/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Отзывы о путешествиях"
+    },
+    "kak-my-rabotaem/index.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Спокойно, шаг за шагом"
+    },
+    "404.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Здесь маршрут меняется"
+    },
+    "pages.html": {
+      "messengerText": "Здравствуйте! Хочу обсудить поездку.",
+      "topic": "Страница: Страницы сайта"
+    }
+  }
 }

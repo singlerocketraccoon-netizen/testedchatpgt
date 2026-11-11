@@ -123,3 +123,33 @@
 .boarding-info::before,.boarding-info::after { background:var(--ticket-cutout); }
 .service-faq .faq-item summary { font-family:var(--body); font-weight:400; letter-spacing:0; }
 .messenger-feedback { margin:10px 0; color:var(--clay); font:400 12px/1.7 var(--body); }
+/* Stage 3.1: page messages, readable forms and fewer repeated contact blocks. */
+.discussion-form .field-label-wide { grid-column:1 / -1; }
+.selection-question:has([name="preference"]) { margin-bottom:22px; }
+.contact-strip>div { align-items:center; gap:12px; }
+.contact-strip>div>a[href^="tel:"] { color:var(--clay); }
+.contacts-page .inner-cover { padding-bottom:28px; }
+.contacts-page .section-tabs { padding-bottom:10px; }
+.contacts-page .contacts-details-section { padding-top:18px; }
+.contacts-callback { margin-top:32px; padding-top:22px; border-top:1px solid var(--line); }
+.contacts-callback>summary { color:var(--clay); font-size:13px; cursor:pointer; }
+.contacts-callback .discussion-form { max-width:720px; padding-top:24px; }
+.contacts-callback .form-success { max-width:720px; }
+.about-intro { max-width:720px; }
+.trust-grid.trust-count-1 { grid-template-columns:minmax(0,1fr); max-width:360px; }
+.team-picker-head { text-align:left; }
+.team-picker-head h2 { margin-inline:0; }
+.team-picker-head>p { margin-inline:0; }
+.team-travel-list { align-items:stretch; }
+.team-travel-card { display:flex; flex-direction:column; align-self:stretch; }
+.team-travel-media { flex-shrink:0; }
+.team-travel-body { display:flex; flex-direction:column; flex:1; }
+.team-travel-channels { margin-top:auto; padding-top:20px; }
+.rest-contact-line .text-link { display:inline-flex; align-items:center; gap:8px; }
+@media(min-width:768px) { .team-travel-list { margin-inline:0; } }
+@media(max-width:767px) {
+ body:has([data-mobile-contact]) { padding-bottom:calc(80px + env(safe-area-inset-bottom)); }
+ .contact-strip>div { display:flex; flex-direction:column; width:100%; align-items:stretch; gap:10px; }
+ .contact-strip>div>.btn { width:100%; justify-content:center; }
+ .contact-strip>div>a[href^="tel:"] { align-self:center; padding-top:4px; }
+}

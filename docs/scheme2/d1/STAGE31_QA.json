@@ -1,0 +1,184 @@
+{
+  "message_guard_negative_cases": 4,
+  "dynamic_year_test": true,
+  "pages": 41,
+  "links_and_resources": 7122,
+  "unique_metadata": true,
+  "online_only": true,
+  "empty_consents": true,
+  "source_rest_fields_and_faq_preserved": true,
+  "deterministic_build": true,
+  "viewport_checks": 164,
+  "service_heights": [
+    {
+      "page": "uslugi/paketnye-tury/index.html",
+      "width": 1440,
+      "height": 771.78125
+    },
+    {
+      "page": "uslugi/ekskursionnye-tury/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/individualnye-tury/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/kruizy/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/oteli/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/aviabilety/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/zhd-bilety/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/avtobusnye-bilety/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/transfery/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/strahovanie/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/vip-zaly/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "uslugi/fast-track/index.html",
+      "width": 1440,
+      "height": 757.390625
+    },
+    {
+      "page": "paketnye-tury",
+      "width": 1366,
+      "height": 771.78125
+    },
+    {
+      "page": "ekskursionnye-tury",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "individualnye-tury",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "kruizy",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "oteli",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "aviabilety",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "zhd-bilety",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "avtobusnye-bilety",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "transfery",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "strahovanie",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "vip-zaly",
+      "width": 1366,
+      "height": 757.390625
+    },
+    {
+      "page": "fast-track",
+      "width": 1366,
+      "height": 757.390625
+    }
+  ],
+  "scenarios": [
+    {
+      "width": 360,
+      "selection_context": true,
+      "max_copy": true,
+      "rest_selection_context": true,
+      "clipboard_fallback": true,
+      "callback_form": true,
+      "offers_filter_sort": true
+    },
+    {
+      "width": 768,
+      "selection_context": true,
+      "max_copy": true,
+      "rest_selection_context": true,
+      "clipboard_fallback": true,
+      "callback_form": true,
+      "offers_filter_sort": true
+    },
+    {
+      "width": 1280,
+      "selection_context": true,
+      "max_copy": true,
+      "rest_selection_context": true,
+      "clipboard_fallback": true,
+      "callback_form": true,
+      "offers_filter_sort": true
+    },
+    {
+      "width": 1440,
+      "selection_context": true,
+      "max_copy": true,
+      "rest_selection_context": true,
+      "clipboard_fallback": true,
+      "callback_form": true,
+      "offers_filter_sort": true
+    }
+  ],
+  "errors": [],
+  "bad_resources": [],
+  "configured_telegram_url_verified": true,
+  "preserved_components": {
+    "footers": 40,
+    "offers": 12,
+    "service_sections": 24
+  },
+  "palette_logo_unchanged": true,
+  "rest_first_visible_field_focus": true,
+  "mobile_channel_choice_checked": true,
+  "single_contacts_callback_checked": true
+}

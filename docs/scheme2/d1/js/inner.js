@@ -5,7 +5,7 @@
  const update=()=>{if(sticky)sticky.hidden=innerWidth>=768||cover.getBoundingClientRect().bottom>90||(contact.getBoundingClientRect().top<innerHeight&&contact.getBoundingClientRect().bottom>0)||!menu.hidden||!!$('dialog[open]');};
  addEventListener('scroll',update,{passive:true});addEventListener('resize',update);document.addEventListener('d1:navstate',update);
  const motion=matchMedia('(prefers-reduced-motion: reduce)');
- const focusContact=topic=>{window.D1Nav?.close();sheet.close();const field=$('[name="destination"]',form);if(topic)field.value=topic;contact.scrollIntoView({behavior:motion.matches?'instant':'smooth'});$('[name="contact"]',form).focus({preventScroll:true});};
+ const focusContact=topic=>{window.D1Nav?.close();sheet.close();contact.scrollIntoView({behavior:motion.matches?'instant':'smooth'});$('[name="contact"]',form).focus({preventScroll:true});};
  let toastTimer;
  function syncMethod(){const input=$('[name="contact"]',form),nick=$('[name="method"]',form).value!=='Телефон';input.type=nick?'text':'tel';input.inputMode=nick?'text':'tel';input.autocomplete=nick?'off':'tel';input.placeholder=nick?'@username или телефон':'+7 (___) ___-__-__';$('.field-hint',form).textContent=nick?'Ваш username или телефон':'Телефон для связи с Вами';}
  function clear(){ $$('.form-error',form).forEach(e=>e.textContent='');$$('[aria-invalid]',form).forEach(e=>e.removeAttribute('aria-invalid')); }
@@ -16,7 +16,7 @@
   if(!(validPhone(value)||(nick&&/^@[\p{L}\p{N}_]{3,64}$/u.test(value)))){bad=input;$('.form-error',form).textContent='Укажите телефон или username для выбранного способа связи.';}
   else if(!consent.checked){bad=consent;$('.form-error',form).textContent='Пожалуйста, отметьте согласие на обработку данных.';}
   if(bad){bad.setAttribute('aria-invalid','true');bad.focus();return;}
-  form.reset();$$('input:not([type="checkbox"]),textarea',form).forEach(f=>f.value='');consent.checked=false;form.hidden=true;$('[data-form-success]').hidden=false;$('[data-form-success]').focus();update();
+  form.reset();$$('input:not([type="checkbox"]):not([type="hidden"]),textarea',form).forEach(f=>f.value='');consent.checked=false;form.hidden=true;$('[data-form-success]').hidden=false;$('[data-form-success]').focus();update();
  });
  $('[data-form-reset]').addEventListener('click',()=>{form.hidden=false;$('[data-form-success]').hidden=true;form.reset();clear();syncMethod();$('[name="contact"]',form).focus();});syncMethod();
  $$('[data-contact-open]').forEach(b=>b.disabled=false);
