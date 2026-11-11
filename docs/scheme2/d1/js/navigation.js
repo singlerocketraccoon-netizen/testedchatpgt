@@ -52,4 +52,11 @@
   desktop.addEventListener('change', () => close());
   const update = () => header.classList.toggle('is-compact', scrollY > 80);
   addEventListener('scroll', update, {passive:true}); update();
+ let ratingTimer;
+ document.addEventListener('click', e => {
+  const link=e.target.closest('[data-review-platform]');
+  if(!link || link.getAttribute('href')!=='#')return;
+  e.preventDefault();const toast=document.querySelector('.toast');
+  if(toast){toast.hidden=false;clearTimeout(ratingTimer);ratingTimer=setTimeout(()=>toast.hidden=true,6500);}
+ });
 })();

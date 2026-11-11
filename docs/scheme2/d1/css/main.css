@@ -627,3 +627,85 @@ body:has(dialog[open]) { overflow: hidden; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Stage 1: photo stories for choosing a kind of holiday. */
+.rest-section { padding-block: 52px; }
+.rest-section > .container { width: min(calc(100% - var(--gutter) * 2),1040px); }
+.rest-grid { display: flex; gap: 16px; margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) 8px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); overscroll-behavior-x: contain; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.rest-card { display: block; flex: 0 0 78vw; min-width: 0; min-height: 0; overflow: hidden; padding: 0; border-radius: var(--radius-card); scroll-snap-align: start; background: var(--cream); }
+.rest-photo { aspect-ratio: 16/10; overflow: hidden; }
+.rest-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 500ms ease; }
+.rest-caption { display: flex; align-items: center; gap: 10px; min-height: 76px; padding: 15px 17px; }
+.rest-label { flex: 1; min-width: 0; font: 400 22px/1.1 var(--display); }
+.rest-symbol { display: flex; flex-shrink: 0; }
+.rest-card .icon { width: 21px; height: 21px; }
+.rest-caption > .icon { width: 17px; height: 17px; }
+.rest-card:hover { border-color: var(--control); background: var(--cream); }
+.rest-card:focus-visible { outline: 3px solid var(--clay); outline-offset: 3px; }
+.rest-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.rest-pill { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 15px; border: 1px solid var(--clay); border-radius: 30px; font-size: 11px; line-height: 1.5; }
+.rest-pill-outline { color: var(--clay); background: transparent; }
+.rest-pill-outline:hover { background: #EDE2D7; }
+.rest-pill-primary { background: var(--clay); color: var(--cream); }
+.rest-pill-primary:hover { background: var(--clay-hover); }
+.mood-more { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows 240ms ease,opacity 240ms ease; }
+.mood-more > .rest-grid { min-height: 0; padding-block: 0; }
+.mood-more.is-expanded { grid-template-rows: 1fr; opacity: 1; margin-top: 16px; }
+.mood-more.is-expanded > .rest-grid { padding-bottom: 8px; }
+.process-section .step { scroll-margin-top: 100px; }
+.review-platforms { display: flex; flex-wrap: wrap; gap: 12px 18px; margin-bottom: 24px; }
+.review-platform { display: flex; align-items: center; gap: 8px; }
+.review-platform-link { display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 8px 13px; border: 1px solid var(--line); border-radius: 28px; color: var(--clay); background: var(--cream); font-size: 10px; line-height: 1.4; }
+.review-platform-link:hover { border-color: var(--clay); }
+.review-platform-link .icon { width: 15px; height: 15px; }
+.review-platform-rating { display: inline-block; min-width: 22px; min-height: 1px; border-bottom: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+.review-platforms-large { margin-bottom: 30px; }
+.review-platforms-large .review-platform-link { min-height: 44px; padding: 11px 17px; font-size: 12px; }
+.selection-dialog { width: min(620px,calc(100% - 28px)); padding: 23px; }
+.selection-dialog .dialog-top { margin-bottom: 12px; }
+.selection-dialog > h2 { font-size: 42px; line-height: 1.1; }
+.selection-dialog form { margin-top: 24px; }
+.selection-question + .selection-question,.selection-dates + .selection-question { margin-top: 20px; }
+.selection-question > legend { margin-bottom: 10px; font: 400 24px/1.1 var(--display); }
+.selection-chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.selection-chip { position: relative; cursor: pointer; }
+.selection-chip input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.selection-chip span { display: flex; align-items: center; min-height: 36px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 24px; font-size: 11px; line-height: 1.5; }
+.selection-chip:hover span { border-color: var(--control); }
+.selection-chip input:checked + span { color: var(--clay); border-color: var(--clay); background: #F5E6DD; }
+.selection-chip input:focus-visible + span { outline: 3px solid var(--clay); outline-offset: 3px; }
+.selection-dates { margin-block: 14px 20px; }
+.selection-fields { display: grid; gap: 14px; margin-top: 22px; }
+.selection-dialog .field-label { font-size: 11px; }
+.selection-dialog .field-label input { min-height: 42px; padding: 10px 12px; font-size: 12px; }
+.selection-dialog .field-hint { font-size: 9px; }
+.selection-consent { margin-top: 18px; font-size: 9px; line-height: 1.7; }
+.selection-dialog .form-error { margin-top: 9px; min-height: 0; }
+.selection-submit { width: 100%; margin-top: 14px; }
+.selection-channels { margin-top: 17px; color: var(--muted); text-align: center; font-size: 11px; }
+.selection-channels a { color: var(--clay); text-decoration: underline; text-underline-offset: 3px; }
+.selection-dialog .form-success { min-height: 260px; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+ .rest-card:hover .rest-photo img { transform: scale(1.035); }
+}
+@media (min-width: 768px) {
+ .rest-section { padding-block: 64px; }
+ .rest-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; margin: 0; padding: 0; overflow: visible; }
+ .rest-caption { min-height: 78px; padding: 14px 15px; }
+ .rest-card .icon { width: 21px; height: 21px; }
+ .rest-caption > .icon { width: 17px; height: 17px; }
+ .rest-label { font-size: 21px; }
+ .rest-pill { padding: 11px 21px; font-size: 12px; }
+ .mood-more.is-expanded { margin-top: 20px; }
+ .mood-more > .rest-grid { overflow: hidden; }
+ .mood-more.is-expanded > .rest-grid { padding-bottom: 0; }
+ .process-section .steps { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 24px; }
+ .process-section .step { padding-left: 0; }
+ .process-section .step-number { position: static; display: block; margin-bottom: 20px; }
+ .process-section .step h3 { min-height: 85px; font-size: clamp(23px,2.2vw,28px); overflow-wrap: anywhere; }
+ .selection-dialog { padding: 26px 30px; }
+ .selection-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (prefers-reduced-motion: reduce) {
+ .rest-photo img,.mood-more { transition: none; }
+}
