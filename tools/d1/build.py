@@ -21,6 +21,7 @@ def section(title,body,key='',cls=''):
 def card(title,text,key,ico='i-mood-compass',approval=False):
  return f'<article class="info-card" {editable(key,approval)}>{icon(ico)}<h3>{title}</h3><p>{text}</p></article>'
 EXTRA_ICONS={
+'i-lounge':'<path d="M5 11V6a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v5M5 11a2 2 0 0 0-2 2v5h18v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-2-2ZM6 18v3m12-3v3"/>',
 'i-ship':'<path d="M4 10h16l-2 8H6l-2-8Zm3 0V6h10v4M10 6V3h4v3M2 21c3-2 4 2 7 0s4 2 7 0 4 2 6 0"/>',
 'i-plane':'<path d="m3 10 7 1 4-8 3 1-2 8 6 3-1 2-7-1-4 5-2-1 2-5-7-3 1-2Z"/>',
 'i-train':'<rect x="5" y="3" width="14" height="16" rx="3"/><path d="M5 10h14M12 3v7M7 19l-2 3m12-3 2 3M8 15h1m6 0h1"/>',
@@ -170,6 +171,8 @@ def ratings_strip(path,large=False):
  return '<div class="review-platforms'+(' review-platforms-large'if large else'')+'" aria-label="Отзывы на картах">'+''.join(f'<div class="review-platform"><a class="review-platform-link" href="{E(p["url"])}" data-review-platform="{p["slug"]}" data-goal="reviews_{p["slug"]}" {editable("reviews.platforms."+p["slug"]+".link")}>{icon("i-arrow-up")}<span {editable("reviews.platforms."+p["slug"]+".label")}>{E(p["label"])}</span></a><span class="review-platform-rating" {editable("reviews.platforms."+p["slug"]+".rating")}>{E(p["rating"])}</span></div>'for p in DATA['review_platforms'])+'</div>'
 
 def build():
+ from online import configure,finalize,services_index
+ configure(globals())
  # Assemble the approved home slots, process steps and common navigation.
  home=HOME.replace('<!-- slot: home-rest -->',home_rest()).replace('<!-- slot: home-offers -->',home_offers()).replace('<!-- slot: process-steps -->',home_steps()).replace('<!-- slot: selection-dialog -->',selection_dialog());home=re.sub(r'<!-- component: header -->.*?<!-- /component: header -->',header('index.html',True),home,flags=re.S);home=re.sub(r'<svg class="sprite".*?</svg>',SPRITE,home,count=1,flags=re.S);home=re.sub(r'<!-- component: footer -->.*?<!-- /component: footer -->',footer('index.html',True),home,flags=re.S);home=remap(home,'index.html',True)
  # Only the approved home sections change; preserve their surrounding components.
@@ -190,8 +193,7 @@ def build():
  path='napravleniya/index.html';body=section('Найдите свой формат',filters(['Пляж','Экскурсии','Экзотика'],'countries')+'<p class="filter-status sr-only" data-filter-status aria-live="polite"></p><div class="country-grid">'+''.join(countrycard(path,c)for c in COUNTRIES)+'</div>')
  emit(path,'Страны отдыха из Астрахани — Манго','Турция, Египет, ОАЭ, Таиланд и другие направления. Сравните сезоны и формат отдыха с персональным менеджером в Астрахани.','Страны','Начните с моря, новых мест или спокойного ритма. Даты и маршрут подберём вместе.',body,[('Страны',None)],'Выбираю направление')
  for c in COUNTRIES:country(c)
- path='uslugi/index.html';body=section('Всё для Вашей поездки','<div class="service-grid">'+''.join(link(path,'uslugi/'+s['slug']+'/index.html',icon(s['icon'])+'<h3>'+s['name']+'</h3><p>'+s['intro']+'</p>','service_'+s['slug'],'service-card',editable('services.'+s['slug'],True))for s in SERVICES)+'</div>')
- emit(path,'Услуги турагентства в Астрахани — Манго','Туры, круизы, отели, билеты, трансферы и страхование. Обсудите поездку с персональным менеджером Манго Путешествия в Астрахани.','Что нужно для Вашей поездки','Поможем сравнить варианты и разобраться в условиях — от целого путешествия до отдельного запроса.',body,[('Услуги',None)],'Выбираю услугу')
+ services_index()
  for s in SERVICES:service(s)
  offers_page()
  from rest import build_rest_pages
@@ -199,6 +201,7 @@ def build():
  from brand import build_brand_guide
  build_brand_guide(globals())
  extras()
+ for page in PAGES:finalize(page['path'])
  registry={(SITE/'img'/r['file']).resolve():r for r in json.loads((SITE/'img/sources.json').read_text())}
  for record in PAGES:
   page=SITE/record['path']
@@ -210,20 +213,10 @@ def build():
  print('Built',len(PAGES),'HTML pages')
 
 def extras():
- path='o-nas/index.html'
- body=section('Знакомство начинается с разговора','<div class="editorial-grid"><div class="editorial-text"><p '+editable('about.history')+'>Мы работаем в туризме с 2010 года, а с 2017 года — под брендом «Манго Путешествия». Наш офис находится в Астрахани, в ТЦ «Арбат» на Кирова, 14.</p><p '+editable('about.approach')+'>У каждого клиента есть персональный менеджер. Мы сравниваем предложения разных туроператоров и обсуждаем условия до выбора поездки.</p></div><div class="year-card" '+editable('about.since')+'><strong>2010</strong><span>год начала работы в туризме</span></div></div>')
- body+=section('Путешествия в цифрах','<div class="stats-grid">'+''.join(f'<div {editable("about.stats."+str(i),True)}><strong>{n}</strong><span>{label}</span></div>'for i,(n,label)in enumerate([('2391','турист'),('1200','поездок'),('462','визы'),('56','партнёров')]))+'</div>','','cream-section')
- body+=section('Три принципа','<div class="info-grid">'+card('Менеджер рядом','Персональный менеджер каждому клиенту.','about.principles.0','i-mood-family')+card('Сравнивать спокойно','Не зависим от одного туроператора.','about.principles.1','i-mood-compass')+card('Понятная цена','Цены как у туроператоров, без скрытых доплат.','about.principles.2','i-file')+'</div>')
- body+=section('Встречаемся в «Арбате»','<div class="editorial-grid">'+office('about.office')+'<div class="editorial-text"><h3>Кирова, 14 · 1 этаж</h3><p '+editable('contacts.hours')+'>Пн–Пт 10:00–19:00<br>Сб 10:00–15:00 · Вс — выходной</p>'+link(path,'o-nas/kontakty/index.html','Как добраться →','about_contacts','text-link')+'</div></div>')
- body+=section('Люди, с которыми Вы на связи','<div class="info-grid">'+''.join('<article class="info-card" '+editable('about.team.'+str(i))+'><span class="preview-monogram">'+initial+'</span><h3>'+name+'</h3><p>'+role+'</p></article>'for i,(initial,name,role)in enumerate([('Р','Имя руководителя','Руководитель агентства'),('М','Имя менеджера','Менеджер · пляжный отдых'),('М','Имя менеджера','Менеджер · индивидуальные туры')]))+'</div>'+link(path,'o-nas/komanda/index.html','Познакомиться с командой →','about_team','text-link'))
- body+=section('Что рассказывают туристы','<blockquote class="large-quote" '+editable('about.review.quote')+'>«Мы получили огромное удовольствие от поездки и отдохнули на славу»</blockquote><p class="quote-source">Лилия · Иордания</p>'+link(path,'o-nas/otzyvy/index.html','Читать отзывы →','about_reviews','text-link'))
- emit(path,'О нас — Манго Путешествия, Астрахань','Манго Путешествия: в туризме с 2010 года. Персональный менеджер, офис в Астрахани на Кирова, 14. Команда, принципы работы и отзывы.','Манго — это люди','Спокойный выбор отдыха начинается с понятного разговора.',body,[('О нас',None)],'Знакомство с агентством',about=True)
- path='o-nas/komanda/index.html';body=team_content(path)
- emit(path,'Команда турагентства в Астрахани — Манго','Руководитель и менеджеры Манго Путешествия в Астрахани. Персональный менеджер ведёт Ваш запрос от выбора отдыха до возвращения домой.','Команда «Манго Путешествия»','Обсудим, что важно именно Вам, и будем на связи по Вашей поездке.',body,[('О нас','o-nas/index.html'),('Команда',None)],'Хочу познакомиться с менеджером',about=True)
- path='o-nas/kontakty/index.html';body=section('Будем рады знакомству','<div class="editorial-grid"><div class="editorial-text"><h3 '+editable('contacts.address')+'>Астрахань, ул. Кирова, 14</h3><p '+editable('contacts.office')+'>ТЦ «Арбат», 1 этаж. В торговом центре ищите офис «Манго Путешествия».</p><p '+editable('contacts.hours')+'>Пн–Пт 10:00–19:00<br>Сб 10:00–15:00<br>Вс — выходной</p><p><a href="tel:+78512299547" data-goal="contacts_phone_1">+7 (8512) 29-95-47</a><br><a href="tel:+78512299527" data-goal="contacts_phone_2">+7 (8512) 29-95-27</a><br><a href="mailto:man.go.travel@mail.ru" data-goal="contacts_email">man.go.travel@mail.ru</a></p><div class="inline-contact"><a href="#" data-messenger="MAX" data-goal="contacts_max">MAX</a><a href="#" data-messenger="Telegram" data-goal="contacts_telegram">Telegram</a></div></div><div class="map-placeholder" role="img" aria-label="Схема расположения офиса: Кирова, 14" '+editable('contacts.map')+'>'+icon('i-pin')+'<strong>Кирова, 14</strong><span>ТЦ «Арбат» · 1 этаж</span><small>Астрахань</small></div></div>')
- emit(path,'Контакты в Астрахани — Манго Путешествия','Офис Манго Путешествия: Астрахань, Кирова, 14, ТЦ «Арбат», 1 этаж. Часы работы, телефоны, MAX, Telegram и форма обращения.','Контакты «Манго Путешествия»','В офисе на Кирова, по телефону или в удобном мессенджере.',body,[('О нас','o-nas/index.html'),('Контакты',None)],'Хочу связаться с агентством',about=True)
+ from online import about_pages
+ about_pages()
  path='o-nas/dokumenty/index.html';body=section('Документы для знакомства','<div class="document-grid">'+''.join(link(path,target,icon('i-file')+f'<h3>{label}</h3><span>Читать документ →</span>','document_'+str(i),'document-card',editable('documents.'+str(i),True))for i,(label,target)in enumerate([('Политика конфиденциальности','o-nas/dokumenty/politika/index.html'),('Согласие на обработку персональных данных','o-nas/dokumenty/soglasie/index.html')]))+'<a href="#contact" class="document-card" data-contact-topic="Запрос образца договора" data-goal="contract_request" '+editable('documents.contract',True)+'>'+icon('i-file')+'<h3>Образец договора</h3><span>Запросить у менеджера →</span></a></div>')
- body+=section('Реквизиты','<dl class="details-list" '+editable('company.details',True)+'><div><dt>Наименование</dt><dd>Данные организации уточнит менеджер</dd></div><div><dt>ИНН</dt><dd>Уточните у менеджера</dd></div><div><dt>ОГРНИП / ОГРН</dt><dd>Уточните у менеджера</dd></div><div><dt>Адрес офиса</dt><dd>Астрахань, Кирова, 14, ТЦ «Арбат», 1 этаж</dd></div></dl>')
+ body+=section('Реквизиты','<dl class="details-list" '+editable('company.details',True)+'><div><dt>Наименование</dt><dd>Данные организации уточнит менеджер</dd></div><div><dt>ИНН</dt><dd>Уточните у менеджера</dd></div><div><dt>ОГРНИП / ОГРН</dt><dd>Уточните у менеджера</dd></div><div class="legal-address"><dt>Юридический адрес</dt><dd data-editable="contacts.legalAddress" data-needs-approval="legal-address">Юридический адрес уточняется</dd></div></dl>')
  emit(path,'Документы турагентства в Астрахани — Манго','Политика, согласие на обработку персональных данных и запрос образца договора. Документы Манго Путешествия в Астрахани.','Понятные документы','Условия поездки и порядок оформления обсуждаем до оплаты.',body,[('О нас','o-nas/index.html'),('Документы',None)],'Вопрос по документам и договору',about=True,approval_intro=True)
  for slug,title in [('politika','Политика конфиденциальности'),('soglasie','Согласие на обработку персональных данных')]:
   path=f'o-nas/dokumenty/{slug}/index.html'
@@ -255,10 +248,6 @@ def team_content(path):
   cards+=f'<!-- component: team-card --><article class="team-travel-card" role="listitem" {editable(key)}><div class="team-travel-media">{image(path,p["photo"],p["photo_alt"],key=key+".photo")}<span class="team-initials" {editable(key+".initials")}>{E(p["initials"])}</span></div><div class="team-travel-body"><h3 {editable(key+".name")}>{E(p["name"])}</h3><p class="team-travel-role" {editable(key+".role")}>{E(p["role"])}</p><p class="team-expertise" {editable(key+".countries",p.get("expertise_needs_approval",False))}>{E(p["expertise"])}</p><div class="team-travel-channels"><a href="{E(p["max"])}" data-messenger="MAX" data-goal="team_detail_max_{i}" {editable(key+".links.max")}>{icon("i-max")}<span>MAX</span></a><a href="{E(p["telegram"])}" data-messenger="Telegram" data-goal="team_detail_telegram_{i}" {editable(key+".links.telegram")}>{icon("i-telegram")}<span>Telegram</span></a></div></div></article><!-- /component: team-card -->'
  columns=max(1,min(count,4))
  body=f'<section class="section inner-section team-picker{" is-carousel"if count>4 else""}" data-team-collection style="--team-columns:{columns}"><div class="container"><div class="section-head team-picker-head"><h2 id="team-picker-title" {editable("team.section.title")}>Поможем с выбором</h2><p {editable("team.section.subtitle")}>Поддержим на всех этапах путешествия — от выбора тура до возвращения домой</p></div></div><div class="team-travel-frame"><div class="team-travel-list" id="team-travel-list" data-team-list role="list" aria-labelledby="team-picker-title">{cards}</div><div class="team-travel-arrows" data-team-arrows hidden><button class="icon-btn" type="button" data-team-prev data-goal="team_previous" aria-label="Предыдущая карточка" aria-controls="team-travel-list" disabled>{icon("i-arrow-left")}</button><button class="icon-btn" type="button" data-team-next data-goal="team_next" aria-label="Следующая карточка" aria-controls="team-travel-list" disabled>{icon("i-arrow")}</button></div></div><div class="container"><p class="team-picker-note" {editable("team.personal")}>Каждого клиента ведёт один менеджер — от выбора тура до возвращения домой</p></div></section>'
- body+=f'<section class="team-office-section"><div class="container"><div class="team-office-strip">{icon("i-pin")}<address {editable("team.office.address")}>Астрахань, ул. Кирова 14,<br>ТЦ «Арбат», 1 этаж</address><p {editable("team.office.hours")}>Пн–Пт 10:00–19:00 · Сб 10:00–15:00<br>Вс — выходной</p>{link(path,"o-nas/kontakty/index.html","Как добраться →","team_office_route","text-link",editable("team.office.link"))}</div></div></section>'
  return body
-
-def office(key):
- return '<div class="office-placeholder" role="img" aria-label="Место для фотографии офиса" '+editable(key,True)+'>'+icon('i-building')+'<strong>Манго Путешествия</strong><span>Кирова, 14 · ТЦ «Арбат»</span></div>'
 
 if __name__=='__main__':build()

@@ -101,14 +101,14 @@
     const nick = $('[name="method"]', form).value !== 'Телефон', input = $('[name="contact"]', form);
     input.type = nick ? 'text' : 'tel'; input.inputMode = nick ? 'text' : 'tel'; input.autocomplete = nick ? 'off' : 'tel';
     input.placeholder = nick ? '@ваш_ник или +7 (___) ___-__-__' : '+7 (___) ___-__-__';
-    $('.field-hint', form).textContent = nick ? 'Телефон или @ник в выбранном мессенджере' : 'Телефон для связи с вами'; clearError(form);
+    $('.field-hint', form).textContent = nick ? 'Телефон или @ник в выбранном мессенджере' : 'Телефон для связи с Вами'; clearError(form);
   }
   function validate(form) {
     clearError(form);
     const input = $('[name="contact"]', form), consent = $('[name="consent"]', form), method = $('[name="method"]', form).value;
     let field, message;
     if (!phoneValid(input.value.trim()) && !(method !== 'Телефон' && nicknameValid(input.value.trim()))) {
-      field = input; message = method === 'Телефон' ? 'Укажите телефон: от 10 до 15 цифр.' : 'Укажите телефон или @ник для связи с вами.';
+      field = input; message = method === 'Телефон' ? 'Укажите телефон: от 10 до 15 цифр.' : 'Укажите телефон или @ник для связи с Вами.';
     } else if (!consent.checked) { field = consent; message = 'Чтобы продолжить, нужно согласие на обработку данных.'; }
     if (!field) return true;
     const error = $('.form-error', form); error.textContent = message;

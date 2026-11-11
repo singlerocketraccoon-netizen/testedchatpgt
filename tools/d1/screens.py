@@ -45,7 +45,9 @@ async def main():
   for rec in PAGES:
    for width in [390,1440]:
     ctx=await browser.new_context(viewport={'width':width,'height':844 if width==390 else 1000},device_scale_factor=2 if width==390 else 1,reduced_motion='reduce',is_mobile=width==390,has_touch=width==390,locale='ru-RU');page=await ctx.new_page();page.on('pageerror',lambda e:report['errors'].append(str(e)));page.on('console',lambda m:report['errors'].append(m.text)if m.type=='error'else None)
-    await page.goto(ORIGIN+rec['path'],wait_until='networkidle');await prepare(page);assert await page.evaluate('document.documentElement.scrollWidth')==width,rec['path'];file=slug(rec['path'])+'-'+str(width)+'.jpg';await page.screenshot(path=str(OUT/file),full_page=True,type='jpeg',quality=75);record(rec['path'],file,width,'page')
+    await page.goto(ORIGIN+rec['path'],wait_until='networkidle');
+    if rec.get('type')=='redirect':await page.wait_for_url('**/o-nas/index.html#komanda')
+    await prepare(page);assert await page.evaluate('document.documentElement.scrollWidth')==width,rec['path'];file=slug(rec['path'])+'-'+str(width)+'.jpg';await page.screenshot(path=str(OUT/file),full_page=True,type='jpeg',quality=75);record(rec['path'],file,width,'page')
     if rec['path']=='index.html':
      await prepare(page);await page.locator('[data-rest-toggle]').click();await page.wait_for_timeout(500);await page.evaluate('document.activeElement.blur()');file='glavnaya-blok-otdyh-'+str(width)+'.jpg'
      await page.locator('.mood-section').screenshot(path=str(OUT/file),type='jpeg',quality=75,style='.d1-header,.mobile-contact,.skip-link { visibility: hidden !important; }');record('index.html#moods',file,width,'component')
@@ -59,5 +61,6 @@ async def main():
    if f.name not in wanted:f.unlink()
   gallery();await browser.close()
  report['screenshot_count']=len(report['captures']);(SITE/'SCREENS_QA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print('Captured',len(PAGES),'pages and',len(report['captures']),'screenshots')
-try:asyncio.run(main())
-finally:server.shutdown()
+if __name__=='__main__':
+ try:asyncio.run(main())
+ finally:server.shutdown()
