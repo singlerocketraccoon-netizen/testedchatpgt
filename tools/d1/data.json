@@ -663,6 +663,22 @@
     "@tunisia-free.webp": [
       1140,
       800
+    ],
+    "mood-family.webp": [
+      900,
+      600
+    ],
+    "mood-walk.webp": [
+      900,
+      1355
+    ],
+    "mood-dining.webp": [
+      900,
+      600
+    ],
+    "hero-lake.webp": [
+      1600,
+      1067
     ]
   },
   "photo_replacements": [
@@ -735,5 +751,166 @@
       "title": "Бронирование отелей — Манго Путешествия",
       "h1": "Бронирование отелей"
     }
-  }
+  },
+  "home_rest": {
+    "title": "Отдых, который Вам по душе",
+    "subtitle": "Начните с того, что для Вас важнее",
+    "cards": [
+      {
+        "slug": "family",
+        "label": "Отдых с детьми",
+        "image": "mood-family.webp",
+        "alt": "Семьи на пляже на закате",
+        "icon": "i-mood-family",
+        "target": "otdyh/otdyh-s-detmi/index.html",
+        "future": true
+      },
+      {
+        "slug": "quiet",
+        "label": "Тишина и море",
+        "image": "hero-sand.webp",
+        "alt": "Тихий морской берег в мягком свете",
+        "icon": "i-mood-horizon",
+        "target": "otdyh/tishina-i-more/index.html",
+        "future": true
+      },
+      {
+        "slug": "walk",
+        "label": "Пляж и прогулки",
+        "image": "mood-walk.webp",
+        "alt": "Приморский город для прогулок",
+        "icon": "i-mood-umbrella",
+        "target": "otdyh/plyazh-i-progulki/index.html",
+        "future": true
+      },
+      {
+        "slug": "dining",
+        "label": "Сервис и кухня",
+        "image": "mood-dining.webp",
+        "alt": "Блюдо и сервировка в ресторане",
+        "icon": "i-mood-cloche",
+        "target": "otdyh/servis-i-kuhnya/index.html",
+        "future": true
+      },
+      {
+        "slug": "excursions",
+        "label": "Экскурсионные туры",
+        "image": "@greece-free.webp",
+        "alt": "Белые улочки над морем в Греции",
+        "icon": "i-mood-compass",
+        "target": "uslugi/ekskursionnye-tury/index.html"
+      },
+      {
+        "slug": "hotel",
+        "label": "Отель, ради которого едут",
+        "image": "hero-resort.webp",
+        "alt": "Курортный отель у бассейна вечером",
+        "icon": "i-building",
+        "choice": true
+      },
+      {
+        "slug": "mountains",
+        "label": "Горный воздух",
+        "image": "hero-lake.webp",
+        "alt": "Озеро среди гор и леса",
+        "icon": "i-mood-mountains",
+        "choice": true,
+        "preselect": "Горы"
+      },
+      {
+        "slug": "cruises",
+        "label": "Круизы по морям и рекам",
+        "image": "hero-sand.webp",
+        "alt": "Морской горизонт и волны",
+        "icon": "i-ship",
+        "target": "uslugi/kruizy/index.html"
+      },
+      {
+        "slug": "route",
+        "label": "Свой маршрут",
+        "image": "mood-walk.webp",
+        "alt": "Прибрежный город и прогулочная тропа",
+        "icon": "i-mood-compass",
+        "target": "uslugi/individualnye-tury/index.html"
+      }
+    ],
+    "more_label": "Другие варианты отдыха",
+    "less_label": "Свернуть",
+    "help_label": "Помогите выбрать"
+  },
+  "selection": {
+    "title": "Помогите выбрать",
+    "eyebrow": "Подбор путешествия",
+    "questions": [
+      {
+        "name": "travellers",
+        "title": "Кто едет",
+        "options": [
+          "Вдвоём",
+          "С детьми",
+          "Компанией",
+          "Один"
+        ]
+      },
+      {
+        "name": "when",
+        "title": "Когда",
+        "options": [
+          "Весна",
+          "Лето",
+          "Осень",
+          "Зима",
+          "Знаю даты"
+        ]
+      },
+      {
+        "name": "preference",
+        "title": "Что ближе",
+        "options": [
+          "Море",
+          "Горы",
+          "Города",
+          "Пока не знаю"
+        ]
+      }
+    ],
+    "dates_label": "Даты",
+    "budget_label": "Бюджет (по желанию)",
+    "phone_label": "Телефон",
+    "submit_label": "Получить варианты",
+    "channels_label": "или напишите нам:",
+    "success": "Спасибо, менеджер свяжется с Вами"
+  },
+  "home_process": [
+    {
+      "title": "Обсуждаем пожелания",
+      "text": "Уточним даты, бюджет и то, без чего Вы не представляете хороший отдых."
+    },
+    {
+      "title": "Выбираем и согласуем вариант",
+      "text": "Сравним предложения разных операторов и спокойно разберём детали."
+    },
+    {
+      "title": "Оформляем и готовим поездку",
+      "text": "Согласуем условия, поможем с документами и подготовкой к отъезду."
+    },
+    {
+      "title": "Сопровождаем во время поездки",
+      "text": "Ваш менеджер остаётся на связи: обсудит вопросы и поможет разобраться в ситуации."
+    }
+  ],
+  "review_platforms": [
+    {
+      "slug": "yandex",
+      "label": "Отзывы на Яндекс Картах",
+      "url": "#",
+      "rating": ""
+    },
+    {
+      "slug": "2gis",
+      "label": "Отзывы в 2ГИС",
+      "url": "#",
+      "rating": ""
+    }
+  ]
 }

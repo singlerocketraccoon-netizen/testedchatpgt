@@ -132,45 +132,82 @@
   const destination = new URLSearchParams(location.search).get('destination');
   if (destinations[destination]) $('[name="destination"]', form).value = destinations[destination];
   syncMethod(form); $('[data-form-guard]', form).disabled = false;
-  // Four short poll steps. The selected mood is shown without storing it.
-  const poll = $('[data-quiz-form]'), pollSuccess = $('[data-quiz-success]'), steps = $$('[data-quiz-step]', poll);
-  const next = $('[data-quiz-next]', poll), back = $('[data-quiz-back]', poll), submit = $('[data-quiz-submit]', poll);
-  let step = 0;
+  // One accessible selection form; answers stay in memory and are cleared locally.
+  const poll = $('[data-quiz-form]'), pollSuccess = $('[data-quiz-success]');
+  const submit = $('[data-quiz-submit]', poll), phone = $('[name="phone"]', poll), consent = $('[name="consent"]', poll);
+  const dates = $('[data-selection-dates]', poll), datesInput = $('[name="dates"]', poll);
+  const readyPhone = () => /^7\d{10}$/.test(phone.value.replace(/\D/g, ''));
   function syncPoll() {
-    steps.forEach((s, n) => { s.hidden = n !== step; });
-    $('[data-quiz-progress]').textContent = `Шаг ${step + 1} из 4`;
-    next.hidden = step === 3; submit.hidden = step !== 3; back.hidden = step === 0;
-    next.disabled = step < 3 && !$('input:checked', steps[step]); clearError(poll);
-  }
-  function pollHeadingFocus() {
-    const node = $('legend, h3', steps[step]); node.tabIndex = -1; node.focus({preventScroll: true});
+    const known = $('[name="when"]:checked', poll)?.value === 'Знаю даты';
+    dates.hidden = !known; datesInput.disabled = !known;
+    if (!known) datesInput.value = '';
+    submit.disabled = !readyPhone() || !consent.checked;
+    clearError(poll);
   }
   function resetPoll() {
-    poll.reset(); step = 0; syncMethod(poll); syncPoll(); poll.hidden = false; pollSuccess.hidden = true;
+    poll.reset(); poll.hidden = false; pollSuccess.hidden = true;
+    syncPoll();
   }
-  function openPoll(mood) {
-    resetPoll(); const chosen = $('[data-quiz-mood]');
-    chosen.textContent = mood ? `Ваше пожелание: ${mood}` : '';
-    chosen.hidden = !chosen.textContent;
-    $('#quiz-title').textContent = 'Поможем выбрать';
+  function openPoll(preselect) {
+    resetPoll();
+    $$('[name="preference"]', poll).forEach(input => input.checked = input.value === preselect);
     openDialog(quiz);
   }
-  poll.addEventListener('change', e => {
-    if (e.target.name === 'method') syncMethod(poll);
-    if (['when', 'travellers', 'budget'].includes(e.target.name)) next.disabled = false;
+  function maskPhone(value) {
+    let digits = value.replace(/\D/g, '');
+    if (!digits) return '';
+    if (digits[0] === '8') digits = '7' + digits.slice(1);
+    if (digits[0] !== '7') digits = '7' + digits;
+    digits = digits.slice(0, 11);
+    let result = '+7';
+    if (digits.length > 1) result += ' (' + digits.slice(1, 4);
+    if (digits.length > 4) result += ') ' + digits.slice(4, 7);
+    if (digits.length > 7) result += '-' + digits.slice(7, 9);
+    if (digits.length > 9) result += '-' + digits.slice(9, 11);
+    return result;
+  }
+  phone.addEventListener('beforeinput', e => {
+    if (e.inputType !== 'deleteContentBackward' || phone.selectionStart !== phone.selectionEnd) return;
+    const end = phone.selectionStart; let start = end - 1;
+    while (start >= 0 && /\D/.test(phone.value[start])) start--;
+    if (start >= 0 && start < end - 1) phone.setSelectionRange(start, end);
   });
-  next.addEventListener('click', () => {
-    if (step >= 3 || !$('input:checked', steps[step])) return;
-    step++; syncPoll(); pollHeadingFocus(); goal(`quiz_step_${step + 1}`);
+  phone.addEventListener('input', () => {
+    const old = phone.value, caret = phone.selectionStart, end = caret === old.length;
+    const digitsBefore = old.slice(0, caret).replace(/\D/g, '').length;
+    phone.value = maskPhone(old);
+    if (!end) {
+      let count = 0, pos = 0;
+      while (pos < phone.value.length && count < digitsBefore) { if (/\d/.test(phone.value[pos])) count++; pos++; }
+      phone.setSelectionRange(pos, pos);
+    }
+    syncPoll();
   });
-  back.addEventListener('click', () => { if (step > 0) { step--; syncPoll(); pollHeadingFocus(); } });
+  poll.addEventListener('change', syncPoll);
   poll.addEventListener('submit', e => {
-    e.preventDefault();
-    if (step !== 3 || !steps.slice(0, 3).every(s => $('input:checked', s)) || !validate(poll)) return;
-    poll.reset(); syncMethod(poll); poll.hidden = true; pollSuccess.hidden = false; pollSuccess.focus({preventScroll: true}); goal('quiz_complete');
+    e.preventDefault(); clearError(poll);
+    if (!readyPhone() || !consent.checked) {
+      const error = $('[data-selection-error]', poll), field = readyPhone() ? consent : phone;
+      error.textContent = readyPhone() ? error.dataset.errorConsent : error.dataset.errorPhone;
+      field.setAttribute('aria-invalid', 'true'); field.setAttribute('aria-errormessage', error.id); field.focus(); return;
+    }
+    poll.reset(); syncPoll(); poll.hidden = true; pollSuccess.hidden = false;
+    pollSuccess.focus({preventScroll: true}); goal('quiz_complete');
   });
   quiz.addEventListener('close', resetPoll);
   $('[data-quiz-guard]', poll).disabled = false; resetPoll();
+  const moreToggle = $('[data-rest-toggle]'), more = $('#more-rest');
+  let moreTimer, moreFrame;
+  moreToggle.disabled = false;
+  moreToggle.addEventListener('click', () => {
+    const expanded = moreToggle.getAttribute('aria-expanded') !== 'true';
+    clearTimeout(moreTimer); cancelAnimationFrame(moreFrame);
+    moreToggle.setAttribute('aria-expanded', String(expanded));
+    $('[data-rest-toggle-label]').hidden = expanded; $('[data-rest-less-label]').hidden = !expanded;
+    $('[data-rest-chevron]').textContent = expanded ? '⌃' : '⌄';
+    if (expanded) { more.hidden = false; moreFrame = requestAnimationFrame(() => more.classList.add('is-expanded')); }
+    else { more.classList.remove('is-expanded'); moreTimer = setTimeout(() => { more.hidden = true; }, motion.matches ? 0 : 260); }
+  });
   // Neutral partner slots: slow desktop scroll, touch rail on phones.
   const rail = $('[data-partner-rail]'), partnerPause = $('[data-partner-pause]');
   let partnerPaused = motion.matches, partnerHover = false, partnerFocus = false, partnerVisible = false, raf, lastTime = 0, partnerPosition = 0;
@@ -222,11 +259,7 @@
     e.target.closest('a[href^="tel:"]')?.closest('dialog')?.close();
     const quizAction = e.target.closest('[data-quiz-open]');
     if (quizAction) {
-      if (quizAction.matches('.mood-choice')) {
-        $$('.mood-choice').forEach(choice => choice.setAttribute('aria-pressed', String(choice === quizAction)));
-      }
-      openPoll(quizAction.hasAttribute('data-mood-undecided') ? '' : (quizAction.dataset.mood || ''));
-      return;
+      e.preventDefault(); openPoll(quizAction.dataset.preselect || ''); return;
     }
     if (e.target.closest('[data-contact-open]')) { openDialog(sheet); return; }
     if (e.target.closest('[data-services-open]')) { openDialog(services); return; }
