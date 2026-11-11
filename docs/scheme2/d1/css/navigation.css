@@ -1,12 +1,12 @@
 /* Shared navigation. Layout is scoped so the homepage sections retain their design. */
-.d1-header { --nav-height: 82px; --logo-height: 46px; position: absolute; inset: 0 0 auto; z-index: 80; color: var(--cream); background: transparent; }
-.d1-header .header-inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 12px; width: min(calc(100% - var(--gutter) * 2), 1280px); height: var(--nav-height); margin-inline: auto; border-bottom: 1px solid rgb(250 247 241 / 24%); }
-.d1-header .brand { position: relative; display: block; flex-shrink: 0; width: calc(var(--logo-height) * 853 / 270); height: var(--logo-height); }
+.d1-header { --nav-height: 82px; --logo-height: 40px; position: absolute; inset: 0 0 auto; z-index: 80; color: var(--cream); background: transparent; }
+.d1-header .header-inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 12px; width: min(calc(100% - var(--gutter) * 2), 1280px); height: var(--nav-height); margin-inline: auto; border-bottom: 1px solid rgb(var(--cream-rgb) / 24%); }
+.d1-header .brand { position: relative; display: block; flex-shrink: 0; width: calc(var(--logo-height) * 1193 / 440); height: var(--logo-height); }
 .d1-header .brand img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
 .d1-header .logo-dark { opacity: 0; }
 .d1-header .logo-light { opacity: 1; }
 .d1-header.is-compact, .d1-header.is-solid, .d1-header.is-menu-open { color: var(--ink); background: var(--cream); }
-.d1-header.is-compact { --nav-height: 66px; --logo-height: 36px; position: fixed; box-shadow: 0 1px 0 var(--line); }
+.d1-header.is-compact { --nav-height: 66px; --logo-height: 42px; position: fixed; box-shadow: 0 1px 0 var(--line); }
 .d1-header.is-solid { position: relative; }
 .d1-header.is-solid.is-compact { position: fixed; }
 body.inner-plain { padding-top: 82px; }
@@ -34,18 +34,18 @@ body.inner-plain .d1-header { position: fixed; }
 html.is-nav-open { overflow: hidden; }
 .d1-header :focus-visible { outline: 3px solid var(--clay); outline-offset: 4px; }
 .d1-header:not(.is-compact):not(.is-solid):not(.is-menu-open) :focus-visible { outline-color: var(--cream); }
-.site-footer .brand img { width: 174px; height: auto; max-height: 58px; object-fit: contain; }
+.site-footer .brand img { width: auto; height: 56px; max-height: none; object-fit: contain; }
 .nav-nojs { padding: 6px 20px; background: var(--cream); color: var(--ink); text-align: center; font-size: 11px; }
 @media (min-width: 1024px) {
-  .d1-header { --nav-height: 96px; }
+  .d1-header { --nav-height: 96px; --logo-height: 54px; }
   body.inner-plain { padding-top: 96px; }
   .d1-header .header-inner { display: grid; grid-template-columns: 1fr auto 1fr; }
   .d1-header .brand { grid-column: 2; grid-row: 1; justify-self: center; }
   .d1-header .header-contacts { grid-column: 3; grid-row: 1; justify-self: end; gap: 8px; }
   .d1-header .menu-toggle { display: none; }
   .d1-header .nav-left, .d1-header .nav-about { position: absolute; display: flex; align-items: center; gap: 22px; font: 400 11px/1.5 var(--body); }
-  .d1-header .nav-left { right: calc(50% + var(--logo-height) * 853 / 540 + 24px); }
-  .d1-header .nav-about { left: calc(50% + var(--logo-height) * 853 / 540 + 24px); margin: 0; }
+  .d1-header .nav-left { right: calc(50% + var(--logo-height) * 1193 / 880 + 24px); }
+  .d1-header .nav-about { left: calc(50% + var(--logo-height) * 1193 / 880 + 24px); margin: 0; }
   .nav-dropdown > button { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; padding: 0; color: inherit; background: none; border: 0; font: inherit; }
   .nav-dropdown > button .icon { width: 12px; height: 12px; }
   .nav-dropdown > button[aria-expanded="true"] .icon { transform: rotate(180deg); }
@@ -66,3 +66,5 @@ html.is-nav-open { overflow: hidden; }
 @media (min-width: 1440px) { .d1-header .header-phone > span { font-size: 11px; } }
 
 .d1-header:is(.is-compact,.is-menu-open) .mobile-nav { color: var(--ink); background: var(--cream); }
+
+@media (max-width:1023px) { .d1-header.is-compact { --logo-height:40px; } }
