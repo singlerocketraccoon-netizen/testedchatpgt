@@ -86,7 +86,7 @@
   },
   {
     "path": "uslugi/oteli/index.html",
-    "title": "Отели",
+    "title": "Бронирование отелей",
     "type": "page"
   },
   {
@@ -112,6 +112,16 @@
   {
     "path": "uslugi/strahovanie/index.html",
     "title": "Страхование",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/vip-zaly/index.html",
+    "title": "VIP-залы",
+    "type": "page"
+  },
+  {
+    "path": "uslugi/fast-track/index.html",
+    "title": "Fast Track",
     "type": "page"
   },
   {
@@ -151,8 +161,8 @@
   },
   {
     "path": "o-nas/komanda/index.html",
-    "title": "Команда «Манго Путешествия»",
-    "type": "page"
+    "title": "Команда → О нас",
+    "type": "redirect"
   },
   {
     "path": "o-nas/kontakty/index.html",
