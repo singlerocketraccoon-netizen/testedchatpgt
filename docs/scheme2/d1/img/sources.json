@@ -25,67 +25,6 @@
     "sha256": "964505244c6be358fc486503d8c348dc07196c90537ce2f645f4788a53072cfc"
   },
   {
-    "file": "logo-mango.png",
-    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/4690c12fbeffb02998c7fd3c2cb293c216ea02fb/logo-mango.png",
-    "status": "owner-provided-copied-byte-identical",
-    "sha256": "744fe7dbedb61b64045910f8f2e3c34280e15820f8325b7c8c9e8cad6a508e63",
-    "asset_kind": "brand",
-    "license": {
-      "name": "Owner-provided project asset",
-      "permission": "Owner explicitly authorized public publication in testedchatpgt on 2026-11-10"
-    }
-  },
-  {
-    "file": "logo-mango-light.png",
-    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/4690c12fbeffb02998c7fd3c2cb293c216ea02fb/logo-mango-light.png",
-    "status": "owner-provided-copied-byte-identical",
-    "sha256": "0b130cbbd42293ba5dae509a4eaf8a1b6daedfba9731284990160155bc7a6bf6",
-    "asset_kind": "brand",
-    "license": {
-      "name": "Owner-provided project asset",
-      "permission": "Owner explicitly authorized public publication in testedchatpgt on 2026-11-10"
-    }
-  },
-  {
-    "file": "logo-mango-mark.png",
-    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/4690c12fbeffb02998c7fd3c2cb293c216ea02fb/logo-mango-mark.png",
-    "status": "owner-provided-copied-byte-identical",
-    "sha256": "710315261c6ea37abce82f5a12dcfb714258241edbcc39689e9ea167edf0a50d",
-    "asset_kind": "brand",
-    "license": {
-      "name": "Owner-provided project asset",
-      "permission": "Owner explicitly authorized public publication in testedchatpgt on 2026-11-10"
-    }
-  },
-  {
-    "file": "favicon-32.png",
-    "derived_from": "logo-mango-mark.png",
-    "size": [
-      32,
-      32
-    ],
-    "background": "#FAF7F1",
-    "asset_kind": "derived-brand",
-    "license": {
-      "name": "Derived from owner-provided logo",
-      "permission": "Owner explicitly authorized this export and public publication in testedchatpgt on 2026-11-10"
-    }
-  },
-  {
-    "file": "apple-touch-icon.png",
-    "derived_from": "logo-mango-mark.png",
-    "size": [
-      180,
-      180
-    ],
-    "background": "#FAF7F1",
-    "asset_kind": "derived-brand",
-    "license": {
-      "name": "Derived from owner-provided logo",
-      "permission": "Owner explicitly authorized this export and public publication in testedchatpgt on 2026-11-10"
-    }
-  },
-  {
     "file": "antalya-free.webp",
     "asset_kind": "photo",
     "active": true,
@@ -516,5 +455,91 @@
       "checked": "2026-11-11"
     },
     "usage": "Travel mood image; no endorsement implied"
+  },
+  {
+    "file": "logo-mango.svg",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/e92b310edb00ca8db6a0e7e7a8a371bbdc02d510/logo-mango.svg",
+    "asset_kind": "brand",
+    "status": "owner-provided-copied-byte-identical",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner requested copying and public use of the replacement brand files on 2026-11-11"
+    },
+    "sha256": "e429af763b0afc51bdedb875b36918966c48ea7a707cc247a71e3a1ca9dabf2f"
+  },
+  {
+    "file": "logo-mango-light.svg",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/e92b310edb00ca8db6a0e7e7a8a371bbdc02d510/logo-mango-light.svg",
+    "asset_kind": "brand",
+    "status": "owner-provided-copied-byte-identical",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner requested copying and public use of the replacement brand files on 2026-11-11"
+    },
+    "sha256": "36aed594dfcb0b83f382b3ccac535ef36015217f52aa86cee076371528de6233"
+  },
+  {
+    "file": "logo-mango-mark.svg",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/e92b310edb00ca8db6a0e7e7a8a371bbdc02d510/logo-mango-mark.svg",
+    "asset_kind": "brand",
+    "status": "owner-provided-copied-byte-identical",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner requested copying and public use of the replacement brand files on 2026-11-11"
+    },
+    "sha256": "40d124a442a0fcb39cef7a3035d2bdfb755eca8067b7ac4477de190df230f95c"
+  },
+  {
+    "file": "favicon-32.png",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/e92b310edb00ca8db6a0e7e7a8a371bbdc02d510/favicon-32.png",
+    "asset_kind": "brand",
+    "status": "owner-provided-copied-byte-identical",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner requested copying and public use of the replacement brand files on 2026-11-11"
+    },
+    "sha256": "8b04d4ab430787b7518708606e56cff6da48faf085464ed8ebb6f5c9c994bbdc"
+  },
+  {
+    "file": "apple-touch-icon.png",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/e92b310edb00ca8db6a0e7e7a8a371bbdc02d510/apple-touch-icon.png",
+    "asset_kind": "brand",
+    "status": "owner-provided-copied-byte-identical",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner requested copying and public use of the replacement brand files on 2026-11-11"
+    },
+    "sha256": "dd2185fbdb2b8843fd2830843e8e7b09847095e9a186a3ac5b4b93b4eabcce3f"
+  },
+  {
+    "file": "icon-512.png",
+    "source": "https://github.com/singlerocketraccoon-netizen/testedchatpgt/blob/e92b310edb00ca8db6a0e7e7a8a371bbdc02d510/icon-512.png",
+    "asset_kind": "brand",
+    "status": "owner-provided-copied-byte-identical",
+    "license": {
+      "name": "Owner-provided project asset",
+      "permission": "Owner requested copying and public use of the replacement brand files on 2026-11-11"
+    },
+    "sha256": "652c917fb0b78c8ce4ad4e883fa4153359c803f33be48bd5cd21f4a2571fe981"
+  },
+  {
+    "file": "rest-excursion-city.webp",
+    "source": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1400&q=80&fit=crop",
+    "provider": "Unsplash",
+    "asset_kind": "photo",
+    "active": true,
+    "width": 1400,
+    "height": 931,
+    "checked": "2026-11-11",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects",
+      "checked": "2026-11-11"
+    },
+    "sha256": "f2d1b0b404c3d7eccdf5c5b39449531453989f3989fd9242ff5c8866a2d35472"
   }
 ]

@@ -43,10 +43,12 @@
       slide.classList.toggle('is-active', n === index); slide.inert = n !== index;
       slide.setAttribute('aria-hidden', String(n !== index));
     });
-    count.textContent = String(index + 1); if (manual) userPaused = true; syncSlider();
+    count.textContent = String(index + 1); hero.style.setProperty('--slide-progress', (index + 1) / slides.length);
+    $$('[data-hero-dot]', hero).forEach(dot => dot.setAttribute('aria-current', String(Number(dot.dataset.heroDot) === index))); if (manual) userPaused = true; syncSlider();
   }
   $('[data-hero-prev]', hero).addEventListener('click', () => showSlide(index - 1, true));
   $('[data-hero-next]', hero).addEventListener('click', () => showSlide(index + 1, true));
+  $$('[data-hero-dot]', hero).forEach(dot => { dot.disabled = false; dot.addEventListener('click', () => showSlide(Number(dot.dataset.heroDot), true)); });
   pause.addEventListener('click', () => { userPaused = !userPaused; syncSlider(); });
   hero.addEventListener('mouseenter', () => { hovering = true; syncSlider(); });
   hero.addEventListener('mouseleave', () => { hovering = false; syncSlider(); });

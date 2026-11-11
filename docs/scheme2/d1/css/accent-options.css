@@ -4,7 +4,7 @@
 .option-caption p { flex: 1; margin: 0; font-size: 11px; line-height: 1.6; }
 .option-caption a { font-size: 10px; white-space: nowrap; border-bottom: 1px solid var(--line); }
 .accent-option .hero-shell { height: 100svh; min-height: 640px; }
-.accent-option .hero-copy .hero-accent { margin-bottom: 10px; color: rgb(250 247 241 / 88%); font-weight: 400; letter-spacing: 0; }
+.accent-option .hero-copy .hero-accent { margin-bottom: 10px; color: var(--cream); font-weight: 400; letter-spacing: 0; }
 .accent-a .hero-copy .hero-accent { font: 400 22px/1.35 'Bad Script', cursive; }
 .accent-b .hero-copy .hero-accent { font: 400 28px/1.1 'Marck Script', cursive; }
 .accent-c .hero-copy .hero-accent { font: italic 300 26px/1.2 'Cormorant Garamond', serif; }
@@ -17,3 +17,6 @@
   .accent-d .hero-copy .hero-accent { max-width: 300px; font-size: 11px; gap: 10px; letter-spacing: .16em; }
   .accent-d .hero-accent::before { width: 20px; }
 }
+
+.accent-option .brand img { display:block; height:40px; width:auto; }
+@media(min-width:1024px) { .accent-option .brand img { height:54px; } }

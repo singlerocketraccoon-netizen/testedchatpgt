@@ -140,6 +140,11 @@
     "type": "country"
   },
   {
+    "path": "styleguide.html",
+    "title": "Дизайн-система Манго",
+    "type": "page"
+  },
+  {
     "path": "o-nas/index.html",
     "title": "Манго — это люди",
     "type": "page"
