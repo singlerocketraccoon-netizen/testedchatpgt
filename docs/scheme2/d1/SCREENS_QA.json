@@ -5,28 +5,38 @@
   "scroll_down_and_back": true,
   "fonts_ready": true,
   "extra_wait_ms": 500,
-  "page_count": 32,
-  "detail_count": 4,
+  "page_count": 37,
+  "detail_count": 6,
   "captures": [
     {
       "page": "index.html",
       "file": "index-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8256.0,
+      "height": 8396.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16512
+      "pixel_height": 16792
     },
     {
       "page": "index.html#moods",
       "file": "glavnaya-blok-otdyh-390.jpg",
       "kind": "component",
       "width": 390,
-      "height": 881.0,
+      "height": 957.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 1762
+      "pixel_height": 1914
+    },
+    {
+      "page": "index.html#offers",
+      "file": "glavnaya-karusel-predlozheniy-390.jpg",
+      "kind": "component",
+      "width": 390,
+      "height": 872.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 1744
     },
     {
       "page": "index.html",
@@ -43,20 +53,30 @@
       "file": "index-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 7450.0,
+      "height": 7683.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7450
+      "pixel_height": 7683
     },
     {
       "page": "index.html#moods",
       "file": "glavnaya-blok-otdyh-1440.jpg",
       "kind": "component",
       "width": 1440,
-      "height": 1215.0,
+      "height": 1317.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 1215
+      "pixel_height": 1317
+    },
+    {
+      "page": "index.html#offers",
+      "file": "glavnaya-karusel-predlozheniy-1440.jpg",
+      "kind": "component",
+      "width": 1440,
+      "height": 1015.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1015
     },
     {
       "page": "index.html",
@@ -73,622 +93,722 @@
       "file": "napravleniya-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 7378.0,
+      "height": 7406.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 14756
+      "pixel_height": 14812
     },
     {
       "page": "napravleniya/index.html",
       "file": "napravleniya-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 3763.0,
+      "height": 3775.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 3763
+      "pixel_height": 3775
     },
     {
       "page": "napravleniya/turciya/index.html",
       "file": "napravleniya-turciya-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8424.0,
+      "height": 6615.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16848
+      "pixel_height": 13230
     },
     {
       "page": "napravleniya/turciya/index.html",
       "file": "napravleniya-turciya-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/egipet/index.html",
       "file": "napravleniya-egipet-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8424.0,
+      "height": 6615.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16848
+      "pixel_height": 13230
     },
     {
       "page": "napravleniya/egipet/index.html",
       "file": "napravleniya-egipet-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/oae/index.html",
       "file": "napravleniya-oae-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8424.0,
+      "height": 6615.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16848
+      "pixel_height": 13230
     },
     {
       "page": "napravleniya/oae/index.html",
       "file": "napravleniya-oae-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/tailand/index.html",
       "file": "napravleniya-tailand-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8424.0,
+      "height": 6615.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16848
+      "pixel_height": 13230
     },
     {
       "page": "napravleniya/tailand/index.html",
       "file": "napravleniya-tailand-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/vetnam/index.html",
       "file": "napravleniya-vetnam-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8448.0,
+      "height": 6639.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16896
+      "pixel_height": 13278
     },
     {
       "page": "napravleniya/vetnam/index.html",
       "file": "napravleniya-vetnam-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/maldivy/index.html",
       "file": "napravleniya-maldivy-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8481.0,
+      "height": 6639.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16962
+      "pixel_height": 13278
     },
     {
       "page": "napravleniya/maldivy/index.html",
       "file": "napravleniya-maldivy-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/tunis/index.html",
       "file": "napravleniya-tunis-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8424.0,
+      "height": 6615.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16848
+      "pixel_height": 13230
     },
     {
       "page": "napravleniya/tunis/index.html",
       "file": "napravleniya-tunis-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/greciya/index.html",
       "file": "napravleniya-greciya-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8448.0,
+      "height": 6639.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16896
+      "pixel_height": 13278
     },
     {
       "page": "napravleniya/greciya/index.html",
       "file": "napravleniya-greciya-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/kipr/index.html",
       "file": "napravleniya-kipr-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8424.0,
+      "height": 6615.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16848
+      "pixel_height": 13230
     },
     {
       "page": "napravleniya/kipr/index.html",
       "file": "napravleniya-kipr-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "napravleniya/bolgariya/index.html",
       "file": "napravleniya-bolgariya-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 8481.0,
+      "height": 6639.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 16962
+      "pixel_height": 13278
     },
     {
       "page": "napravleniya/bolgariya/index.html",
       "file": "napravleniya-bolgariya-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 5226.0,
+      "height": 4445.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 5226
+      "pixel_height": 4445
     },
     {
       "page": "uslugi/index.html",
       "file": "uslugi-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 4853.0,
+      "height": 4881.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 9706
+      "pixel_height": 9762
     },
     {
       "page": "uslugi/index.html",
       "file": "uslugi-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 2780.0,
+      "height": 2792.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 2780
+      "pixel_height": 2792
     },
     {
       "page": "uslugi/paketnye-tury/index.html",
       "file": "uslugi-paketnye-tury-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6354.0,
+      "height": 6382.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12708
+      "pixel_height": 12764
     },
     {
       "page": "uslugi/paketnye-tury/index.html",
       "file": "uslugi-paketnye-tury-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/ekskursionnye-tury/index.html",
       "file": "uslugi-ekskursionnye-tury-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6431.0,
+      "height": 6459.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12862
+      "pixel_height": 12918
     },
     {
       "page": "uslugi/ekskursionnye-tury/index.html",
       "file": "uslugi-ekskursionnye-tury-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/individualnye-tury/index.html",
       "file": "uslugi-individualnye-tury-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6457.0,
+      "height": 6485.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12914
+      "pixel_height": 12970
     },
     {
       "page": "uslugi/individualnye-tury/index.html",
       "file": "uslugi-individualnye-tury-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/kruizy/index.html",
       "file": "uslugi-kruizy-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6441.0,
+      "height": 6469.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12882
+      "pixel_height": 12938
     },
     {
       "page": "uslugi/kruizy/index.html",
       "file": "uslugi-kruizy-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/oteli/index.html",
       "file": "uslugi-oteli-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6431.0,
+      "height": 6459.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12862
+      "pixel_height": 12918
     },
     {
       "page": "uslugi/oteli/index.html",
       "file": "uslugi-oteli-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/aviabilety/index.html",
       "file": "uslugi-aviabilety-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6328.0,
+      "height": 6356.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12656
+      "pixel_height": 12712
     },
     {
       "page": "uslugi/aviabilety/index.html",
       "file": "uslugi-aviabilety-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/zhd-bilety/index.html",
       "file": "uslugi-zhd-bilety-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6360.0,
+      "height": 6387.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12720
+      "pixel_height": 12774
     },
     {
       "page": "uslugi/zhd-bilety/index.html",
       "file": "uslugi-zhd-bilety-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/avtobusnye-bilety/index.html",
       "file": "uslugi-avtobusnye-bilety-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6377.0,
+      "height": 6405.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12754
+      "pixel_height": 12810
     },
     {
       "page": "uslugi/avtobusnye-bilety/index.html",
       "file": "uslugi-avtobusnye-bilety-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/transfery/index.html",
       "file": "uslugi-transfery-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6382.0,
+      "height": 6410.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12764
+      "pixel_height": 12820
     },
     {
       "page": "uslugi/transfery/index.html",
       "file": "uslugi-transfery-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
     },
     {
       "page": "uslugi/strahovanie/index.html",
       "file": "uslugi-strahovanie-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6382.0,
+      "height": 6410.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12764
+      "pixel_height": 12820
     },
     {
       "page": "uslugi/strahovanie/index.html",
       "file": "uslugi-strahovanie-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4342.0,
+      "height": 4353.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4342
+      "pixel_height": 4353
+    },
+    {
+      "page": "predlozheniya/index.html",
+      "file": "predlozheniya-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 6222.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 12444
+    },
+    {
+      "page": "predlozheniya/index.html",
+      "file": "predlozheniya-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 2976.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2976
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "file": "otdyh-otdyh-s-detmi-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 11440.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 22880
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "file": "otdyh-otdyh-s-detmi-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6551.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6551
+    },
+    {
+      "page": "otdyh/tishina-i-more/index.html",
+      "file": "otdyh-tishina-i-more-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 11162.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 22324
+    },
+    {
+      "page": "otdyh/tishina-i-more/index.html",
+      "file": "otdyh-tishina-i-more-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6683.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6683
+    },
+    {
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "file": "otdyh-plyazh-i-progulki-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 10567.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 21134
+    },
+    {
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "file": "otdyh-plyazh-i-progulki-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6114.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6114
+    },
+    {
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "file": "otdyh-servis-i-kuhnya-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 11437.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 22874
+    },
+    {
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "file": "otdyh-servis-i-kuhnya-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6790.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6790
     },
     {
       "page": "o-nas/index.html",
       "file": "o-nas-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 6171.0,
+      "height": 6199.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 12342
+      "pixel_height": 12398
     },
     {
       "page": "o-nas/index.html",
       "file": "o-nas-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 4096.0,
+      "height": 4108.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4096
+      "pixel_height": 4108
     },
     {
       "page": "o-nas/komanda/index.html",
       "file": "o-nas-komanda-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 3733.0,
+      "height": 3761.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 7466
+      "pixel_height": 7522
     },
     {
       "page": "o-nas/komanda/index.html",
       "file": "o-nas-komanda-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 2578.0,
+      "height": 2590.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 2578
+      "pixel_height": 2590
     },
     {
       "page": "o-nas/kontakty/index.html",
       "file": "o-nas-kontakty-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 3492.0,
+      "height": 3519.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 6984
+      "pixel_height": 7038
     },
     {
       "page": "o-nas/kontakty/index.html",
       "file": "o-nas-kontakty-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 2203.0,
+      "height": 2215.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 2203
+      "pixel_height": 2215
     },
     {
       "page": "o-nas/dokumenty/index.html",
       "file": "o-nas-dokumenty-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 4019.0,
+      "height": 4046.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 8038
+      "pixel_height": 8092
     },
     {
       "page": "o-nas/dokumenty/index.html",
       "file": "o-nas-dokumenty-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 2470.0,
+      "height": 2481.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 2470
+      "pixel_height": 2481
     },
     {
       "page": "o-nas/dokumenty/politika/index.html",
       "file": "o-nas-dokumenty-politika-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 3682.0,
+      "height": 3710.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 7364
+      "pixel_height": 7420
     },
     {
       "page": "o-nas/dokumenty/politika/index.html",
       "file": "o-nas-dokumenty-politika-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 2386.0,
+      "height": 2398.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 2386
+      "pixel_height": 2398
     },
     {
       "page": "o-nas/dokumenty/soglasie/index.html",
       "file": "o-nas-dokumenty-soglasie-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 3682.0,
+      "height": 3710.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 7364
+      "pixel_height": 7420
     },
     {
       "page": "o-nas/dokumenty/soglasie/index.html",
       "file": "o-nas-dokumenty-soglasie-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 2465.0,
+      "height": 2477.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 2465
+      "pixel_height": 2477
     },
     {
       "page": "o-nas/otzyvy/index.html",
       "file": "o-nas-otzyvy-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 5994.0,
+      "height": 6022.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 11988
+      "pixel_height": 12044
     },
     {
       "page": "o-nas/otzyvy/index.html",
       "file": "o-nas-otzyvy-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 3740.0,
+      "height": 3751.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 3740
+      "pixel_height": 3751
     },
     {
       "page": "kak-my-rabotaem/index.html",
       "file": "kak-my-rabotaem-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 5020.0,
+      "height": 5048.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 10040
+      "pixel_height": 10096
     },
     {
       "page": "kak-my-rabotaem/index.html",
       "file": "kak-my-rabotaem-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 3674.0,
+      "height": 3686.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 3674
+      "pixel_height": 3686
     },
     {
       "page": "404.html",
       "file": "404-390.jpg",
       "kind": "page",
       "width": 390,
-      "height": 2909.0,
+      "height": 2937.0,
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 5818
+      "pixel_height": 5874
     },
     {
       "page": "404.html",
       "file": "404-1440.jpg",
       "kind": "page",
       "width": 1440,
-      "height": 1819.0,
+      "height": 1831.0,
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 1819
+      "pixel_height": 1831
     }
   ],
   "errors": [],
-  "screenshot_count": 68
+  "screenshot_count": 80
 }
