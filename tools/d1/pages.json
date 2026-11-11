@@ -115,6 +115,31 @@
     "type": "page"
   },
   {
+    "path": "predlozheniya/index.html",
+    "title": "Актуальные предложения",
+    "type": "page"
+  },
+  {
+    "path": "otdyh/otdyh-s-detmi/index.html",
+    "title": "Отпуск, в котором отдыхают и дети, и взрослые",
+    "type": "country"
+  },
+  {
+    "path": "otdyh/tishina-i-more/index.html",
+    "title": "Отпуск, в котором слышно море",
+    "type": "country"
+  },
+  {
+    "path": "otdyh/plyazh-i-progulki/index.html",
+    "title": "Когда одного пляжа мало",
+    "type": "country"
+  },
+  {
+    "path": "otdyh/servis-i-kuhnya/index.html",
+    "title": "К хорошему быстро привыкаешь",
+    "type": "country"
+  },
+  {
     "path": "o-nas/index.html",
     "title": "Манго — это люди",
     "type": "page"

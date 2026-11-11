@@ -453,5 +453,68 @@
       "action": "Not used in d1; replaced by an Unsplash photo"
     },
     "replacement": "greece-free.webp"
+  },
+  {
+    "file": "rest-family.webp",
+    "source": "https://www.pexels.com/photo/family-sitting-on-the-beach-8623416/",
+    "url": "https://images.pexels.com/photos/8623416/pexels-photo-8623416.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "provider": "Pexels",
+    "asset_kind": "photo",
+    "active": true,
+    "width": 1400,
+    "height": 935,
+    "sha256": "beab073dcc95807412066b5e078fac23d439f4c31af4513494ed925ac5a94ab9",
+    "checked": "2026-11-11",
+    "license": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/",
+      "commercial_use": true,
+      "attribution_required": false,
+      "evidence_url": "https://www.pexels.com/license/",
+      "checked": "2026-11-11"
+    },
+    "usage": "Travel mood image; no endorsement implied"
+  },
+  {
+    "file": "rest-cruise.webp",
+    "source": "https://images.unsplash.com/photo-1548574505-5e239809ee19",
+    "url": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=1200&q=80&fit=crop",
+    "provider": "Unsplash",
+    "asset_kind": "photo",
+    "active": true,
+    "width": 1200,
+    "height": 722,
+    "sha256": "1de8adcc420e93aacf1cbf3ac0bed496821cecc19bf38cdf7ed664ad91de871b",
+    "checked": "2026-11-11",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects",
+      "checked": "2026-11-11"
+    },
+    "usage": "Travel mood image; no endorsement implied"
+  },
+  {
+    "file": "rest-road.webp",
+    "source": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800",
+    "url": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1400&q=80&fit=crop",
+    "provider": "Unsplash",
+    "asset_kind": "photo",
+    "active": true,
+    "width": 1400,
+    "height": 990,
+    "sha256": "1f13ac0d05c474293d522c04e8d1824bb49b47a93243cdb6e44c45b0d070f8f5",
+    "checked": "2026-11-11",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects",
+      "checked": "2026-11-11"
+    },
+    "usage": "Travel mood image; no endorsement implied"
   }
 ]
