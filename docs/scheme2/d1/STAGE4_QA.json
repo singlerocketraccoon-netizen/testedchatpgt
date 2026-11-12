@@ -1,0 +1,55 @@
+{
+  "pages": 48,
+  "links": 8223,
+  "approved_paragraphs": 19,
+  "approved_slide_fields": 16,
+  "viewports": 192,
+  "scenarios": [
+    {
+      "width": 360,
+      "manual_hero": true,
+      "stable_button_position": true,
+      "dialogs_keyboard_focus": true,
+      "local_validation": true,
+      "messenger_fields_and_topic": true,
+      "offer_details": true,
+      "rest_form_order": true
+    },
+    {
+      "width": 768,
+      "manual_hero": true,
+      "stable_button_position": true,
+      "dialogs_keyboard_focus": true,
+      "local_validation": true,
+      "messenger_fields_and_topic": true,
+      "offer_details": true,
+      "rest_form_order": true
+    },
+    {
+      "width": 1280,
+      "manual_hero": true,
+      "stable_button_position": true,
+      "dialogs_keyboard_focus": true,
+      "local_validation": true,
+      "messenger_fields_and_topic": true,
+      "offer_details": true,
+      "rest_form_order": true
+    },
+    {
+      "width": 1440,
+      "manual_hero": true,
+      "stable_button_position": true,
+      "dialogs_keyboard_focus": true,
+      "local_validation": true,
+      "messenger_fields_and_topic": true,
+      "offer_details": true,
+      "rest_form_order": true
+    }
+  ],
+  "errors": [],
+  "resource_errors": [],
+  "approved_copy_exact": true,
+  "expiry_checks": true,
+  "faq_unique": true,
+  "deterministic_build": true
+}

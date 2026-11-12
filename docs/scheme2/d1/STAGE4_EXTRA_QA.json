@@ -1,0 +1,134 @@
+{
+  "page_urls": [
+    {
+      "width": 360,
+      "page": "index.html"
+    },
+    {
+      "width": 360,
+      "page": "napravleniya/vetnam/index.html"
+    },
+    {
+      "width": 360,
+      "page": "uslugi/kruizy/index.html"
+    },
+    {
+      "width": 360,
+      "page": "otdyh/otdyh-s-detmi/index.html"
+    },
+    {
+      "width": 360,
+      "page": "predlozheniya/turkey-antalya/index.html"
+    },
+    {
+      "width": 360,
+      "page": "voprosy/index.html"
+    },
+    {
+      "width": 768,
+      "page": "index.html"
+    },
+    {
+      "width": 768,
+      "page": "napravleniya/vetnam/index.html"
+    },
+    {
+      "width": 768,
+      "page": "uslugi/kruizy/index.html"
+    },
+    {
+      "width": 768,
+      "page": "otdyh/otdyh-s-detmi/index.html"
+    },
+    {
+      "width": 768,
+      "page": "predlozheniya/turkey-antalya/index.html"
+    },
+    {
+      "width": 768,
+      "page": "voprosy/index.html"
+    },
+    {
+      "width": 1024,
+      "page": "index.html"
+    },
+    {
+      "width": 1024,
+      "page": "napravleniya/vetnam/index.html"
+    },
+    {
+      "width": 1024,
+      "page": "uslugi/kruizy/index.html"
+    },
+    {
+      "width": 1024,
+      "page": "otdyh/otdyh-s-detmi/index.html"
+    },
+    {
+      "width": 1024,
+      "page": "predlozheniya/turkey-antalya/index.html"
+    },
+    {
+      "width": 1024,
+      "page": "voprosy/index.html"
+    },
+    {
+      "width": 1280,
+      "page": "index.html"
+    },
+    {
+      "width": 1280,
+      "page": "napravleniya/vetnam/index.html"
+    },
+    {
+      "width": 1280,
+      "page": "uslugi/kruizy/index.html"
+    },
+    {
+      "width": 1280,
+      "page": "otdyh/otdyh-s-detmi/index.html"
+    },
+    {
+      "width": 1280,
+      "page": "predlozheniya/turkey-antalya/index.html"
+    },
+    {
+      "width": 1280,
+      "page": "voprosy/index.html"
+    },
+    {
+      "width": 1440,
+      "page": "index.html"
+    },
+    {
+      "width": 1440,
+      "page": "napravleniya/vetnam/index.html"
+    },
+    {
+      "width": 1440,
+      "page": "uslugi/kruizy/index.html"
+    },
+    {
+      "width": 1440,
+      "page": "otdyh/otdyh-s-detmi/index.html"
+    },
+    {
+      "width": 1440,
+      "page": "predlozheniya/turkey-antalya/index.html"
+    },
+    {
+      "width": 1440,
+      "page": "voprosy/index.html"
+    }
+  ],
+  "header_keyboard": [
+    360,
+    768,
+    1024,
+    1280,
+    1440
+  ],
+  "dialog_tab_trap": true,
+  "no_js_fieldset_disabled": true,
+  "errors": []
+}

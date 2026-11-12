@@ -1,0 +1,136 @@
+{
+  "viewports": [
+    {
+      "width": 360,
+      "path": "index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    }
+  ],
+  "flat_checks": 772,
+  "flat_failures": [],
+  "photo_checks": 184,
+  "photo_failures": [],
+  "photo_minima": [
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 6.06
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 2",
+      "minimum": 6.25
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 3",
+      "minimum": 4.61
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 4",
+      "minimum": 8.95
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 3.68
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 2",
+      "minimum": 4.91
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 3",
+      "minimum": 6.6
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 4",
+      "minimum": 8.94
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.31
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 2",
+      "minimum": 6.96
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 3",
+      "minimum": 5.11
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 4",
+      "minimum": 5.64
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.3
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 2",
+      "minimum": 6.81
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 3",
+      "minimum": 5.15
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 4",
+      "minimum": 5.71
+    }
+  ],
+  "errors": [],
+  "resources": []
+}

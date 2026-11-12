@@ -1,7 +1,7 @@
 [
   {
     "path": "index.html",
-    "title": "Главная",
+    "title": "Ваш отпуск заслуживает внимания",
     "type": "home"
   },
   {
@@ -125,11 +125,6 @@
     "type": "page"
   },
   {
-    "path": "predlozheniya/index.html",
-    "title": "Актуальные предложения",
-    "type": "page"
-  },
-  {
     "path": "otdyh/otdyh-s-detmi/index.html",
     "title": "Отпуск, в котором отдыхают и дети, и взрослые",
     "type": "country"
@@ -155,8 +150,13 @@
     "type": "page"
   },
   {
+    "path": "kak-my-rabotaem/index.html",
+    "title": "Как мы работаем",
+    "type": "page"
+  },
+  {
     "path": "o-nas/index.html",
-    "title": "Манго — это люди",
+    "title": "О нас",
     "type": "page"
   },
   {
@@ -166,17 +166,22 @@
   },
   {
     "path": "o-nas/kontakty/index.html",
-    "title": "Контакты «Манго Путешествия»",
+    "title": "Связь",
+    "type": "page"
+  },
+  {
+    "path": "o-nas/otzyvy/index.html",
+    "title": "Отзывы туристов",
     "type": "page"
   },
   {
     "path": "o-nas/dokumenty/index.html",
-    "title": "Понятные документы",
+    "title": "Документы",
     "type": "page"
   },
   {
     "path": "o-nas/dokumenty/politika/index.html",
-    "title": "Политика конфиденциальности",
+    "title": "Политика обработки персональных данных",
     "type": "page"
   },
   {
@@ -185,18 +190,48 @@
     "type": "page"
   },
   {
-    "path": "o-nas/otzyvy/index.html",
-    "title": "Отзывы о путешествиях",
-    "type": "page"
-  },
-  {
-    "path": "kak-my-rabotaem/index.html",
-    "title": "Спокойно, шаг за шагом",
+    "path": "voprosy/index.html",
+    "title": "Частые вопросы",
     "type": "page"
   },
   {
     "path": "404.html",
-    "title": "Здесь маршрут меняется",
+    "title": "Страница не найдена",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/index.html",
+    "title": "Актуальные предложения",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/turkey-antalya/index.html",
+    "title": "Отель у моря",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/egypt-sharm/index.html",
+    "title": "Курортный отель",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/uae-dubai/index.html",
+    "title": "Городской отель",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/thailand-phuket/index.html",
+    "title": "Отель у пляжа",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/vietnam-phuquoc/index.html",
+    "title": "Курорт у моря",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/maldives-islands/index.html",
+    "title": "Островной отель",
     "type": "page"
   },
   {

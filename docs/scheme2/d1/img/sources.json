@@ -541,5 +541,43 @@
       "checked": "2026-11-11"
     },
     "sha256": "f2d1b0b404c3d7eccdf5c5b39449531453989f3989fd9242ff5c8866a2d35472"
+  },
+  {
+    "file": "china-wall.webp",
+    "url": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1920&q=80&fit=crop",
+    "provider": "Unsplash",
+    "asset_kind": "photo",
+    "active": true,
+    "width": 1920,
+    "height": 1280,
+    "alt": "Великая Китайская стена среди гор",
+    "checked": "2026-11-12",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    },
+    "sha256": "9e33479c8f66c6f30763c012a8902956b8597e13cb39a8f2bcd8f1648c550d89"
+  },
+  {
+    "file": "summer-hotel.webp",
+    "url": "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=1920&h=1280&q=80&fit=crop",
+    "asset_kind": "photo",
+    "provider": "Unsplash",
+    "active": true,
+    "width": 1920,
+    "height": 1280,
+    "alt": "Летний отель с бассейном у моря",
+    "checked": "2026-11-12",
+    "license": {
+      "name": "Unsplash License",
+      "url": "https://unsplash.com/license",
+      "commercial_use": true,
+      "attribution_required": false,
+      "evidence_url": "https://help.unsplash.com/en/articles/2612315-can-i-use-unsplash-images-for-personal-or-commercial-projects"
+    },
+    "sha256": "e44e86569ba92044828e2c7c32f5ebdfb48e2e931644f4f603f6c02c7bee1f68"
   }
 ]
