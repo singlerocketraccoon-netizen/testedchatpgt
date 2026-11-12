@@ -21,6 +21,7 @@ def section(title,body,key='',cls=''):
 def card(title,text,key,ico='i-mood-compass',approval=False):
  return f'<article class="info-card" {editable(key,approval)}>{icon(ico)}<h3>{title}</h3><p>{text}</p></article>'
 EXTRA_ICONS={
+'i-message':'<path d="M21 12a8 8 0 0 1-8 8H5l-3 2V6a4 4 0 0 1 4-4h11a4 4 0 0 1 4 4v6ZM7 8h10M7 12h7"/>',
 'i-lounge':'<path d="M5 11V6a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v5M5 11a2 2 0 0 0-2 2v5h18v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-2-2ZM6 18v3m12-3v3"/>',
 'i-ship':'<path d="M4 10h16l-2 8H6l-2-8Zm3 0V6h10v4M10 6V3h4v3M2 21c3-2 4 2 7 0s4 2 7 0 4 2 6 0"/>',
 'i-plane':'<path d="m3 10 7 1 4-8 3 1-2 8 6 3-1 2-7-1-4 5-2-1 2-5-7-3 1-2Z"/>',
@@ -171,10 +172,10 @@ def ratings_strip(path,large=False):
  return '<div class="review-platforms'+(' review-platforms-large'if large else'')+'" aria-label="Отзывы на картах">'+''.join(f'<div class="review-platform"><a class="review-platform-link" href="{E(p["url"])}" data-review-platform="{p["slug"]}" data-goal="reviews_{p["slug"]}" {editable("reviews.platforms."+p["slug"]+".link")}>{icon("i-arrow-up")}<span {editable("reviews.platforms."+p["slug"]+".label")}>{E(p["label"])}</span></a><span class="review-platform-rating" {editable("reviews.platforms."+p["slug"]+".rating")}>{E(p["rating"])}</span></div>'for p in DATA['review_platforms'])+'</div>'
 
 def build():
- from online import configure,finalize,services_index
+ from online import configure,finalize,services_index,years_in_tourism,years_label
  configure(globals())
  # Assemble the approved home slots, process steps and common navigation.
- home=HOME.replace('<!-- slot: home-rest -->',home_rest()).replace('<!-- slot: home-offers -->',home_offers()).replace('<!-- slot: process-steps -->',home_steps()).replace('<!-- slot: selection-dialog -->',selection_dialog());home=re.sub(r'<!-- component: header -->.*?<!-- /component: header -->',header('index.html',True),home,flags=re.S);home=re.sub(r'<svg class="sprite".*?</svg>',SPRITE,home,count=1,flags=re.S);home=re.sub(r'<!-- component: footer -->.*?<!-- /component: footer -->',footer('index.html',True),home,flags=re.S);home=remap(home,'index.html',True)
+ home=HOME.replace('<!-- slot: years-in-tourism -->',str(years_in_tourism())+' '+years_label(years_in_tourism())+' в туризме').replace('<!-- slot: home-rest -->',home_rest()).replace('<!-- slot: home-offers -->',home_offers()).replace('<!-- slot: process-steps -->',home_steps()).replace('<!-- slot: selection-dialog -->',selection_dialog());home=re.sub(r'<!-- component: header -->.*?<!-- /component: header -->',header('index.html',True),home,flags=re.S);home=re.sub(r'<svg class="sprite".*?</svg>',SPRITE,home,count=1,flags=re.S);home=re.sub(r'<!-- component: footer -->.*?<!-- /component: footer -->',footer('index.html',True),home,flags=re.S);home=remap(home,'index.html',True)
  # Only the approved home sections change; preserve their surrounding components.
  home=home.replace('<div class="review-grid scroll-rail">',ratings_strip('index.html')+'<div class="review-grid scroll-rail">',1)
  home=home.replace('</head>','<link rel="stylesheet" href="css/offers.css"><script defer src="js/offers.js"></script></head>')

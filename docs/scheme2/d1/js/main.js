@@ -7,7 +7,7 @@
   const goal = name => document.dispatchEvent(new CustomEvent('mango:goal', {detail: {name, page: 'scheme2-d1'}}));
   const header = $('[data-site-header]'), menu = $('#mobile-nav'), menuButton = $('[data-menu]');
   const contact = $('#contact'), sticky = $('[data-mobile-contact]'), hero = $('[data-hero]');
-  const quiz = $('#quiz-dialog'), sheet = $('#contact-dialog'), services = $('#services-dialog');
+  const quiz = $('#quiz-dialog'), sheet = $('#contact-dialog');
   let scrollFrame, toastTimer;
   const closeMenu = (restore = false) => { window.D1Nav?.close(restore); updateSticky(); };
   document.addEventListener('d1:navstate', updateSticky);
@@ -126,13 +126,9 @@
   });
   function openContact(prefill) {
     $$('dialog[open]').forEach(d => d.close()); closeMenu(); form.hidden = false; success.hidden = true;
-    if (prefill) $('[name="destination"]', form).value = prefill;
     contact.scrollIntoView({behavior: motion.matches ? 'instant' : 'smooth', block: 'start'});
     const heading = $('h2', contact); heading.tabIndex = -1; heading.focus({preventScroll: true}); updateSticky();
   }
-  const destinations = {turciya: 'Турция', egipet: 'Египет', oae: 'ОАЭ', tailand: 'Таиланд', vetnam: 'Вьетнам', maldivy: 'Мальдивы'};
-  const destination = new URLSearchParams(location.search).get('destination');
-  if (destinations[destination]) $('[name="destination"]', form).value = destinations[destination];
   syncMethod(form); $('[data-form-guard]', form).disabled = false;
   // One accessible selection form; answers stay in memory and are cleared locally.
   const poll = $('[data-quiz-form]'), pollSuccess = $('[data-quiz-success]');
@@ -264,11 +260,10 @@
       e.preventDefault(); openPoll(quizAction.dataset.preselect || ''); return;
     }
     if (e.target.closest('[data-contact-open]')) { openDialog(sheet); return; }
-    if (e.target.closest('[data-services-open]')) { openDialog(services); return; }
     const offer = e.target.closest('[data-offer]');
     if (offer) { e.preventDefault(); openContact(offer.dataset.offer); return; }
     if (e.target.closest('[data-contact-form]')) { e.preventDefault(); openContact(); }
   });
-  $$('[data-quiz-open], [data-services-open], [data-contact-open], [data-menu], [data-hero-prev], [data-hero-next], [data-hero-pause], [data-partner-prev], [data-partner-next], [data-partner-pause]').forEach(b => { b.disabled = false; });
+  $$('[data-quiz-open], [data-contact-open], [data-menu], [data-hero-prev], [data-hero-next], [data-hero-pause], [data-partner-prev], [data-partner-next], [data-partner-pause]').forEach(b => { b.disabled = false; });
   showSlide(0); syncPartners(); updateScroll();
 })();

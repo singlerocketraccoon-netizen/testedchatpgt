@@ -12,7 +12,7 @@
   if(form){
    const lines=[];
    for(const [name,value] of new FormData(form)){
-    if(!String(value).trim()||['phone','contact','consent','method'].includes(name))continue;
+    if(!String(value).trim()||['phone','contact','consent','method','topic'].includes(name))continue;
     const input=form.elements.namedItem(name),element=input?.length?input[0]:input;
     const label={travellers:'Кто едет',when:'Когда',preference:'Что ближе',dates:'Даты',budget:'Бюджет',destination:'Направление и даты',wishes:'Пожелания'}[name]||element?.closest('label')?.querySelector('span')?.textContent||name;
     lines.push(label+': '+value);
