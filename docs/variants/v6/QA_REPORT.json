@@ -1,0 +1,202 @@
+{
+  "static": {
+    "local_links_and_resources": 115,
+    "forbidden_words": 0,
+    "outside_v6_changed": []
+  },
+  "viewports": [
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    },
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    },
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "fonts": true,
+      "brokenImages": 0,
+      "overflowingLabels": [],
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    }
+  ],
+  "content": {
+    "header": {
+      "same": true
+    },
+    "01": {
+      "same": true
+    },
+    "02": {
+      "same": true
+    },
+    "03": {
+      "same": true
+    },
+    "04": {
+      "same": true
+    },
+    "05": {
+      "same": true
+    },
+    "06": {
+      "same": true
+    },
+    "07": {
+      "same": true
+    },
+    "08": {
+      "same": true
+    },
+    "footer": {
+      "same": true
+    }
+  },
+  "scenarios": [
+    "source_content_preserved_except_two_banned_phrases",
+    "slider_arrows_keyboard_pause_and_inert",
+    "native_accordion_pointer_and_keyboard",
+    "offer_prefill",
+    "contact_validation_and_unchecked_consent",
+    "contact_methods_and_local_success_clears_form",
+    "messenger_phone_fallback",
+    "legal_document_and_relative_navigation",
+    "goals_contain_no_personal_data",
+    "touch_swipe_menu_escape_mobile_action_and_scroll_snap_rails",
+    "autoplay_explicit_pause_and_reduced_motion",
+    "no_javascript_cover_native_faq_and_disabled_forms"
+  ],
+  "console_errors": [],
+  "resource_errors": [],
+  "external_requests": [],
+  "data_requests": [],
+  "screenshots": [
+    {
+      "path": "screens/390.jpg",
+      "viewport": 390,
+      "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    },
+    {
+      "path": "screens/1440.jpg",
+      "viewport": 1440,
+      "full_page": true,
+      "format": "JPEG",
+      "quality": 80
+    }
+  ],
+  "file_url_check": {
+    "status": "blocked_by_environment",
+    "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "http_subdirectory_check": "passed"
+  },
+  "contrast_pairs": [
+    {
+      "role": "main text on paper",
+      "ratio": 12.15,
+      "minimum": 4.5
+    },
+    {
+      "role": "secondary on paper",
+      "ratio": 5.11,
+      "minimum": 4.5
+    },
+    {
+      "role": "secondary on sand",
+      "ratio": 4.59,
+      "minimum": 4.5
+    },
+    {
+      "role": "mango button",
+      "ratio": 7.23,
+      "minimum": 4.5
+    },
+    {
+      "role": "hover button",
+      "ratio": 6.22,
+      "minimum": 4.5
+    },
+    {
+      "role": "field borders",
+      "ratio": 3.87,
+      "minimum": 3
+    },
+    {
+      "role": "contact method borders",
+      "ratio": 3.19,
+      "minimum": 3
+    }
+  ]
+}
