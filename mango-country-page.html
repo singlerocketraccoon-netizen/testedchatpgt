@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mango Travel · Страница страны · Схема 8</title>
+<style>
+  :root {
+    color-scheme: light;
+    --ink: #28372e;
+    --muted: #5c675d;
+    --paper: #fbf8f0;
+    --card: #fffdf8;
+    --line: #deddd0;
+    --soft: #eeeee3;
+    --mango: #915413;
+    --mango-soft: #faebd6;
+    --brand: #354f3f;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html { scroll-padding-top: 62px; }
+  body { margin: 0; background: #eeebe3; color: var(--ink); font: 15px/1.5 Inter, "Segoe UI", Arial, sans-serif; }
+  h1, h2, h3, p { margin: 0; }
+  h1, h2 { font-family: "PT Serif", Georgia, serif; font-weight: 400; line-height: 1.12; }
+  h1 { font-size: clamp(34px, 4.7vw, 60px); }
+  h2 { font-size: clamp(25px, 3.2vw, 35px); margin-bottom: 12px; }
+  h3 { font-size: 16px; line-height: 1.3; }
+  p { color: var(--muted); }
+  a { color: var(--brand); text-underline-offset: 3px; }
+  button, input, select { color: inherit; font: inherit; }
+  button, summary { cursor: pointer; }
+  button { border: 1px solid var(--line); border-radius: 7px; padding: 8px 12px; background: var(--card); text-align: left; }
+  button:hover { background: var(--soft); }
+  :focus-visible { outline: 2px solid var(--mango); outline-offset: 3px; }
+  button[aria-pressed="true"], .primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+  button[aria-pressed="true"]:hover, .primary:hover { background: #294235; }
+  .quiet { padding: 4px 0; border: 0; background: transparent; color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+  .quiet:hover { background: transparent; text-decoration-thickness: 2px; }
+  .small { font-size: 13px; color: var(--muted); }
+  .row, .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .actions { margin-top: 12px; }
+  .eyebrow { color: var(--mango); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+  .preview { max-width: 1160px; margin: 0 auto; padding: 14px 18px; }
+  .preview-bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .preview-controls button { font-size: 13px; }
+  .preview details { margin-top: 9px; }
+  .preview details summary { color: var(--brand); font-size: 13px; }
+  .preview details .note-box { max-width: 900px; margin-top: 8px; }
+  .note-box { padding: 12px 14px; border: 1px solid #e5cdaa; border-radius: 8px; background: var(--mango-soft); font-size: 13px; }
+  .note-box p + p { margin-top: 7px; }
+  .site { max-width: 1160px; margin: 0 auto 30px; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; }
+  .phone .site { max-width: 390px; margin-bottom: 90px; }
+  .site-head { padding: 16px 24px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .brand { font: 19px Georgia, serif; letter-spacing: .12em; }
+  .site-head nav { font-size: 13px; }
+  .home-btn { background: var(--soft); }
+  .content { padding: 20px 24px; }
+  .hero, .end-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 15px; }
+  .hero-visual { min-height: 280px; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding: 22px; border: 1px solid var(--line); border-radius: 10px; background: linear-gradient(135deg, #f6eedf, #e4e7d9); }
+  .hero-visual > p { max-width: 510px; }
+  .facts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px; }
+  .facts a { text-decoration: none; background: var(--card); border-radius: 6px; border: 1px solid var(--line); padding: 5px 9px; font-size: 12px; }
+  .facts a:hover { text-decoration: underline; }
+  .mobile-cta { display: none; }
+  .page-nav { position: sticky; top: 0; z-index: 2; margin: 14px -8px 0; padding: 9px 8px; background: var(--paper); border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 8px 14px; flex-wrap: wrap; }
+  .page-nav a { font-size: 13px; white-space: nowrap; }
+  .block { padding: 24px 0; border-bottom: 1px solid var(--line); }
+  .block:last-child { border-bottom: 0; }
+  .block-intro { margin: -4px 0 12px; }
+  .weather { background: var(--card); padding: 15px; border: 1px solid var(--line); border-radius: 9px; }
+  label { display: grid; gap: 4px; font-size: 13px; min-width: 0; }
+  input, select { min-width: 0; width: 100%; padding: 8px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); }
+  .region-select { max-width: 280px; }
+  .months { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; margin: 11px 0; }
+  .months button { padding: 7px 2px; text-align: center; font-size: 13px; }
+  .temperature { display: flex; gap: 16px; flex-wrap: wrap; margin: 8px 0; }
+  .temperature strong { font: 29px/1 "PT Serif", Georgia, serif; display: block; color: var(--ink); }
+  .weather-note { border-left: 2px solid var(--mango); padding-left: 10px; margin: 8px 0; }
+  .weather details { margin-top: 10px; }
+  .table-box { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; font-size: 13px; }
+  td, th { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .grid.offers-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .card { min-width: 0; border: 1px solid var(--line); background: var(--card); border-radius: 9px; overflow: hidden; }
+  .card-body { padding: 11px 12px; }
+  .card-body > p + p { margin-top: 5px; }
+  .card-body h3 { margin-bottom: 5px; }
+  .photo { min-height: 64px; display: grid; place-items: center; padding: 8px; color: var(--muted); font-size: 12px; background: repeating-linear-gradient(145deg,#e6e8dd,#e6e8dd 9px,#edece2 9px,#edece2 18px); }
+  .card-open { width: 100%; padding: 0; border: 0; border-radius: 0; font-weight: 600; }
+  .card-open .name { display: block; padding: 8px 12px 0; }
+  .card-open .name::after { content: " →"; color: var(--mango); font-weight: 400; }
+  .resort summary { list-style: none; padding: 0; }
+  .resort summary::-webkit-details-marker { display: none; }
+  .resort summary strong { display: block; padding: 8px 12px 0; }
+  .resort summary strong::after { content: " +"; color: var(--mango); }
+  .resort[open] summary strong::after { content: " −"; }
+  .resort ul { margin: 4px 0; padding-left: 18px; color: var(--muted); font-size: 13px; }
+  .context-strip { margin-top: 14px; padding: 13px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 9px; }
+  .context-note { margin-top: 7px; }
+  .price { color: var(--ink); font-weight: 700; margin-top: 6px; }
+  .group-nav { margin-bottom: 12px; }
+  .more-btn { margin-top: 10px; }
+  .faq details { padding: 9px 0; border-top: 1px solid var(--line); }
+  .faq details p { margin-top: 6px; }
+  .form { border: 1px solid var(--line); border-radius: 9px; padding: 14px; background: var(--card); display: grid; gap: 8px; }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .form .wide { grid-column: 1 / -1; }
+  .form .consent { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 8px; font-size: 12px; }
+  .form .consent label { display: flex; align-items: flex-start; gap: 6px; font-size: inherit; }
+  .form .consent input { width: auto; margin-top: 3px; }
+  .form .submit-btn { text-align: center; }
+  .form details label { margin-top: 5px; }
+  .form-context { background: var(--soft); border-radius: 6px; padding: 7px 9px; }
+  .status { font-size: 12px; color: var(--mango); }
+  .trust-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+  .trust-list span { padding: 5px 8px; background: var(--soft); border-radius: 6px; font-size: 13px; }
+  .review { border-left: 2px solid var(--mango); padding: 3px 10px; margin-top: 12px; }
+  .footer { border-top: 1px solid var(--line); padding: 18px 24px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .sticky { display: none; position: fixed; z-index: 4; bottom: 0; left: 50%; transform: translateX(-50%); width: min(390px, 100%); padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); border: 1px solid var(--line); background: var(--card); box-shadow: 0 -3px 10px #332c1b12; }
+  .phone .sticky { display: flex; }
+  .sticky .primary { flex: 1; text-align: center; }
+  dialog { width: min(560px, calc(100% - 24px)); max-height: calc(100dvh - 30px); overflow: auto; padding: 17px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); background: var(--paper); }
+  dialog::backdrop { background: #17282070; }
+  .dialog-head { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; margin-bottom: 10px; }
+  .dialog-head h2 { margin: 3px 0; font-size: 26px; }
+  .dialog-head button { flex: none; padding: 3px 9px; font-size: 19px; }
+  .message-box { white-space: pre-wrap; padding: 10px; background: var(--soft); border-radius: 6px; margin: 9px 0; }
+  .phone .content { padding: 14px; }
+  .phone .site-head, .phone .footer { padding: 12px 14px; }
+  .phone .hero, .phone .end-grid { grid-template-columns: minmax(0, 1fr); }
+  .phone .hero-visual { min-height: 190px; padding: 15px; }
+  .phone #hero-form { display: none; }
+  .phone .mobile-cta { display: flex; }
+  .phone .page-nav { position: static; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 10px; }
+  .phone .months { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .phone .grid { grid-template-columns: minmax(0, 1fr); }
+  .phone .grid.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .phone .offer { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+  .phone .offer .photo { display: none; }
+  .phone .offer .card-open .name { padding-bottom: 8px; }
+  .phone .offer .card-body { padding: 7px 9px; }
+  .phone .offer .price { margin-top: 2px; }
+  .phone .offer .small { font-size: 11.5px; }
+  .phone .offer .offer-action { grid-column: 1 / -1; padding: 0 12px 7px; }
+  .phone .resort .photo { min-height: 48px; }
+  .phone dialog { margin: auto auto 0; border-radius: 12px 12px 0 0; max-width: 390px; }
+  @media (max-width: 700px) {
+    html { scroll-padding-top: 10px; }
+    .site { border-radius: 0; }
+    .preview { padding: 10px 14px; }
+    input, select { font-size: 16px; }
+  }
+  @media (pointer: coarse) {
+    .primary, .home-btn, .months button, .group-nav button { min-height: 44px; }
+  }
+</style>
+</head>
+<body>
+<div class="preview">
+  <div class="preview-bar">
+    <span class="small">Страница страны · редакция 8 · демонстрационные данные</span>
+    <div class="preview-controls row" aria-label="Вид схемы">
+      <button type="button" data-mode="desktop" aria-pressed="true">Компьютер</button>
+      <button type="button" data-mode="phone" aria-pressed="false">Телефон</button>
+    </div>
+  </div>
+  <details>
+    <summary>Пометки для разработчика</summary>
+    <div class="note-box">
+      <p>Страница использует общий шаблон. Для конкретной страны можно включать курорты, города и маршруты. Критерии выбора островов и отелей настраиваются по направлению.</p>
+      <p>Предложения берутся из единого каталога по стране, статусу и сроку показа. Переключатель на странице страны управляет видимостью блока. Если опубликованных предложений нет, скрываются блок и пункт якорного меню.</p>
+      <div class="row">
+        <label class="row"><input type="checkbox" id="offers-enabled" checked style="width:auto"> Показывать предложения в стране</label>
+        <label>Состояние каталога
+          <select id="catalog-state"><option value="active">Есть предложения</option><option value="empty">Нет предложений</option></select>
+        </label>
+      </div>
+      <p>Перелёт и въезд берутся из одной справки для первого экрана и ответов. Дата проверки видна в раскрытых ответах. Климат проверяется планово, меняющиеся условия обновляются при изменениях.</p>
+      <p>Заявка получает выбранные страну, курорт, отель или предложение. Перед подключением MAX и Telegram проверьте передачу текста отдельно для каждого. Для других стран используйте подтверждённые рекомендации по месяцу и виду отдыха.</p>
+    </div>
+  </details>
+</div>
+
+<div class="site">
+  <header class="site-head">
+    <span class="brand">MANGO TRAVEL</span>
+    <nav class="row" aria-label="Навигация по сайту">
+      <button type="button" class="home-btn" data-view="home">← Главная</button>
+      <button type="button" class="quiet" data-view="countries">Страны</button>
+      <span id="crumb" aria-current="page">Египет</span>
+    </nav>
+  </header>
+
+  <main class="content">
+    <div id="country-view" class="view">
+      <section class="hero" id="hero" aria-labelledby="country-title">
+        <div class="hero-visual">
+          <span class="eyebrow">Место для фото страны</span>
+          <h1 id="country-title">Туры в Египет</h1>
+          <p>Курорты Красного моря и маршруты к памятникам Древнего Египта.</p>
+          <div class="facts">
+            <a href="#season">Сезон по курортам</a>
+            <a href="#flight">Перелёт из Вашего города</a>
+            <a href="#entry">Правила въезда</a>
+          </div>
+          <div class="actions mobile-cta">
+            <button type="button" class="primary" data-request="country">Подобрать тур</button>
+            <button type="button" data-message="MAX">MAX</button>
+            <button type="button" data-message="Telegram">Telegram</button>
+          </div>
+        </div>
+        <div id="hero-form" data-form-slot></div>
+      </section>
+
+      <nav class="page-nav" aria-label="Разделы страницы">
+        <a href="#season">Когда ехать</a>
+        <a href="#resorts">Курорты</a>
+        <a id="offers-link" href="#offers">Предложения</a>
+        <a href="#hotels">Отели</a>
+        <a href="#experiences">Чем заняться</a>
+        <a href="#essentials">Важно знать</a>
+      </nav>
+
+      <section class="block" id="season" aria-labelledby="season-title">
+        <h2 id="season-title">Когда ехать</h2>
+        <div class="weather">
+          <label class="region-select">Курорт
+            <select id="weather-region"></select>
+          </label>
+          <div id="months" class="months" aria-label="Выбор месяца"></div>
+          <div id="weather-result" aria-live="polite">
+            <p class="small" id="climate-label"></p>
+            <div class="temperature">
+              <span class="small"><strong id="air"></strong>Воздух днём</span>
+              <span class="small"><strong id="water"></strong>Вода</span>
+            </div>
+            <p id="month-note" class="weather-note small"></p>
+          </div>
+          <details>
+            <summary>Таблица по месяцам</summary>
+            <div class="table-box">
+              <table>
+                <thead><tr><th>Месяц</th><th>Воздух</th><th>Вода</th><th>Ветер и осадки</th></tr></thead>
+                <tbody id="weather-table"></tbody>
+              </table>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="block" id="resorts" aria-labelledby="resorts-title">
+        <h2 id="resorts-title">Где отдыхать</h2>
+        <div class="row group-nav" aria-label="Формат отдыха">
+          <button type="button" data-format="beach" aria-pressed="true">Курорты</button>
+          <button type="button" data-format="routes" aria-pressed="false">Города и маршруты</button>
+        </div>
+        <div id="beach-panel">
+          <div class="grid" id="resort-list"></div>
+          <button type="button" id="more-resorts" class="more-btn" aria-controls="resort-list" aria-expanded="false">Все курорты</button>
+        </div>
+        <div id="routes-panel" class="grid two" hidden>
+          <article class="card"><div class="photo">Фото маршрута</div><div class="card-body"><h3>Каир и пирамиды</h3><p class="small">Основные остановки · продолжительность</p><p class="small">Темп поездки · свободное время</p><button type="button" class="quiet" data-request="route:cairo">Обсудить маршрут</button></div></article>
+          <article class="card"><div class="photo">Фото маршрута</div><div class="card-body"><h3>Луксор</h3><p class="small">Основные остановки · продолжительность</p><p class="small">Темп поездки · свободное время</p><button type="button" class="quiet" data-request="route:luxor">Обсудить маршрут</button></div></article>
+        </div>
+      </section>
+
+      <section class="block" id="offers" aria-labelledby="offers-title">
+        <h2 id="offers-title">Актуальные предложения</h2>
+        <div class="grid offers-grid" id="offer-list"></div>
+        <button type="button" id="more-offers" class="more-btn" aria-expanded="false" aria-controls="offer-list" hidden>Ещё 2 предложения</button>
+      </section>
+
+      <div class="context-strip" id="price-strip">
+        <div><h3>Другие даты или город вылета</h3><p class="small">Менеджер уточнит стоимость под Ваши условия.</p></div>
+        <button type="button" class="primary" data-request="price">Узнать цену на мои даты</button>
+      </div>
+      <aside class="note-box context-note"><strong>Пометка разработчику.</strong> Строка «Другие даты или город вылета» самостоятельная. Она видна и при выключенном блоке предложений, и при пустом каталоге по стране.</aside>
+
+      <section class="block" id="hotels" aria-labelledby="hotels-title">
+        <h2 id="hotels-title">Отели в Египте</h2>
+        <p class="block-intro">Проверьте вход в море, дорогу до отеля и расположение номера.</p>
+        <label class="region-select">Курорт
+          <select id="hotel-region"></select>
+        </label>
+        <div class="grid" id="hotel-list" style="margin-top:10px"></div>
+      </section>
+
+      <section class="block" id="experiences" aria-labelledby="experiences-title">
+        <h2 id="experiences-title">Чем заняться</h2>
+        <div class="grid">
+          <article class="card"><div class="photo">Фото</div><div class="card-body"><h3>Увидеть Красное море</h3><p class="small">Идеи для знакомства с подводным миром.</p></div></article>
+          <article class="card"><div class="photo">Фото</div><div class="card-body"><h3>Увидеть памятники Египта</h3><p class="small">Каир и Луксор в экскурсионной части поездки.</p></div></article>
+          <article class="card"><div class="photo">Фото</div><div class="card-body"><h3>Собрать свой маршрут</h3><p class="small">Совместить пляжный отдых и поездки по стране.</p><button class="quiet" type="button" data-request="route:custom">Обсудить маршрут</button></div></article>
+        </div>
+      </section>
+
+      <section class="block faq" id="essentials" aria-labelledby="essentials-title">
+        <h2 id="essentials-title">Что важно знать до поездки</h2>
+        <details id="entry"><summary>Нужна ли виза</summary><p>Краткие правила для граждан России с учётом маршрута поездки.</p><p class="small">Проверено · [дата]</p></details>
+        <details id="flight"><summary>Сколько лететь и какая разница во времени</summary><p>Условия перелёта из выбранного города и местное время.</p><p class="small">Проверено · [дата]</p></details>
+        <details><summary>Какие деньги брать и как платить</summary><p>Практическая информация о деньгах и оплате.</p><p class="small">Проверено · [дата]</p></details>
+        <details><summary>Как быть со связью и интернетом</summary><p>Варианты связи на время поездки.</p><p class="small">Проверено · [дата]</p></details>
+        <details><summary>Местные правила и привычки</summary><p>Короткая памятка для путешественника.</p><p class="small">Проверено · [дата]</p></details>
+        <details><summary>Здоровье и страховка</summary><p>Что уточнить при подготовке к поездке.</p><p class="small">Проверено · [дата]</p></details>
+      </section>
+
+      <section class="block" id="inquiry" aria-labelledby="inquiry-title">
+        <div class="end-grid">
+          <div>
+            <h2 id="inquiry-title">Обсудим Вашу поездку в Египет</h2>
+            <p>Расскажите о планах. Уточним пожелания и предложим подходящие варианты.</p>
+            <div class="trust-list"><span>16 лет в туризме</span><span>Сопровождение в поездке</span><span>Отзывы клиентов</span></div>
+            <div class="review"><h3>Отзыв о поездке в Египет</h3><p class="small">Место для согласованного отзыва из общего раздела.</p><p class="small">Имя · дата · источник</p></div>
+          </div>
+          <div id="end-form" data-form-slot></div>
+        </div>
+      </section>
+
+      <section class="block" id="alternatives" aria-labelledby="alternatives-title">
+        <h2 id="alternatives-title">Другие страны</h2>
+        <p id="alternatives-context" class="block-intro"></p>
+        <div class="grid four" id="alternative-list"></div>
+      </section>
+    </div>
+
+    <section id="home-view" class="view" hidden>
+      <h1>Главная</h1>
+      <div class="actions"><button type="button" class="primary" data-view="countries">Открыть страны</button><button type="button" data-view="country">Туры в Египет</button></div>
+    </section>
+
+    <section id="countries-view" class="view" hidden>
+      <h1>Страны</h1>
+      <div class="actions"><button type="button" class="primary" data-view="country">Египет</button></div>
+    </section>
+
+    <section id="alternative-view" class="view" hidden>
+      <h1 id="alternative-title"></h1>
+      <p class="block-intro" style="margin-top:10px">Страница выбранной страны по общему шаблону.</p>
+      <button type="button" data-return="alternatives">← К другим странам</button>
+    </section>
+
+    <section id="offer-view" class="view" hidden>
+      <button type="button" data-return="offers">← К предложениям Египта</button>
+      <div id="offer-detail" style="margin-top:15px"></div>
+    </section>
+  </main>
+
+  <footer class="footer"><span class="brand">MANGO TRAVEL</span><span class="small">Подвал сайта</span></footer>
+</div>
+
+<div class="sticky row" id="mobile-sticky" hidden>
+  <button class="primary" type="button" data-request="country">Подобрать тур</button>
+  <button type="button" data-message="MAX">MAX</button>
+  <button type="button" data-message="Telegram">Telegram</button>
+</div>
+
+<dialog id="request-dialog" aria-labelledby="request-title">
+  <div class="dialog-head"><h2 id="request-title">Обращение</h2><button type="button" data-close aria-label="Закрыть">×</button></div>
+  <div id="dialog-form" data-form-slot></div>
+</dialog>
+<dialog id="detail-dialog" aria-labelledby="detail-title">
+  <div class="dialog-head"><h2 id="detail-title"></h2><button type="button" data-close aria-label="Закрыть">×</button></div>
+  <div id="detail-content"></div>
+</dialog>
+
+<template id="request-form-template">
+  <form class="form">
+    <h3>Поможем выбрать отдых в Египте</h3>
+    <p class="small form-context" data-context hidden></p>
+    <input type="hidden" name="topic">
+    <div class="form-grid">
+      <label>Когда планируете
+        <select name="month"><option value="">Пока не определились</option></select>
+      </label>
+      <label>Город вылета<input name="city" type="text" placeholder="Ваш город"></label>
+      <label>Кто едет
+        <select name="travelers"><option value="">Выберите состав</option><option>Один взрослый</option><option>Двое взрослых</option><option value="children">С детьми</option><option value="group">Другой состав</option></select>
+      </label>
+      <label>Телефон<input type="tel" name="phone" autocomplete="tel" placeholder="+7 …" required></label>
+      <label class="wide" data-extra-travelers hidden>Количество взрослых и возраст детей, если едут<input type="text" name="ages"></label>
+    </div>
+    <details class="small">
+      <summary>Даты и пожелания, по желанию</summary>
+      <label>Даты поездки<input name="dates" type="text" placeholder="Примерный диапазон"></label>
+      <label>Бюджет на всю поездку<input name="budget" type="text" placeholder="Сумма или диапазон"></label>
+    </details>
+    <div class="consent">
+      <label><input name="consent" type="checkbox" required>Согласие на обработку персональных данных</label>
+      <button type="button" class="quiet" data-policy>Политика</button>
+    </div>
+    <button type="submit" class="primary submit-btn">Получить варианты</button>
+    <div class="row"><span class="small">Написать в мессенджере</span><button type="button" data-message="MAX">MAX</button><button type="button" data-message="Telegram">Telegram</button></div>
+    <p class="status" role="status" hidden></p>
+  </form>
+</template>
+
+<script>
+(() => {
+  "use strict";
+
+  const get = id => document.getElementById(id);
+  const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+  const shortMonths = ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"];
+
+  // Условные значения перенесены из предыдущей схемы.
+  const resorts = [
+    {
+      id: "hurghada",
+      name: "Хургада",
+      short: "Пляжный отдых и прогулки по городу. Вход в море лучше уточнить по отелю.",
+      beach: "Песчаный или смешанный пляж, условия по выбранному отелю",
+      atmosphere: "Отдых у моря, возможность прогулок вне отеля",
+      transfer: "Из аэропорта Хургады, время зависит от отеля",
+      feature: "Проверить глубину у берега и расположение пляжа",
+      air: [22, 23, 25, 29, 32, 34, 35, 35, 33, 30, 27, 23],
+      water: [22, 21, 22, 23, 25, 26, 28, 28, 28, 27, 25, 23]
+    },
+    {
+      id: "sharm",
+      name: "Шарм-эш-Шейх",
+      short: "Отдых у рифа. В некоторых отелях заход с понтона, поэтому важна бухта.",
+      beach: "Риф, песчаный вход или понтон по конкретному отелю",
+      atmosphere: "Отдых у моря и прогулки в выбранном районе",
+      transfer: "Из аэропорта Шарм-эш-Шейха, время по расположению отеля",
+      feature: "Уточнить защищённость бухты от ветра",
+      air: [22, 23, 26, 30, 34, 37, 38, 38, 35, 31, 27, 23],
+      water: [22, 22, 22, 23, 25, 26, 28, 29, 28, 27, 26, 24]
+    },
+    {
+      id: "marsa",
+      name: "Марса-Алам",
+      short: "Отдых у моря и интерес к подводному миру. Расположение отеля определит, куда удобно выбираться.",
+      beach: "Расположение рифа и способ входа уточняются по отелю",
+      atmosphere: "Отдых на территории отеля и выезды по плану поездки",
+      transfer: "Расчёт по аэропорту прилёта и отелю",
+      feature: "Проверить, есть ли удобный вход в море рядом с отелем"
+    },
+    {
+      id: "gouna",
+      name: "Эль-Гуна",
+      short: "Отдых у воды и прогулки. При выборе отеля важно проверить, где расположен пляж.",
+      beach: "Пляж и доступ к морю зависят от расположения отеля",
+      atmosphere: "Место для короткого описания прогулок и инфраструктуры",
+      transfer: "Расчёт по аэропорту прилёта и расположению отеля",
+      feature: "Уточнить, как добираться до пляжа"
+    }
+  ];
+
+  const hotels = [
+    { id: "hotel-1", name: "Отель 1", resort: "hurghada", fit: "Для поездки с детьми", good: "Удобно добираться от номера до пляжа", note: "Уточнить спальные места в номере" },
+    { id: "hotel-2", name: "Отель 2", resort: "sharm", fit: "Для отдыха у рифа", good: "Риф рядом с отелем", note: "Проверить, есть ли вход с берега" },
+    { id: "hotel-3", name: "Отель 3", resort: "marsa", fit: "Для спокойного отдыха", good: "Пляж в пешей доступности", note: "Уточнить дорогу от аэропорта" }
+  ];
+  const offers = [
+    { id: "offer-1", name: "Отель 1", resort: "hurghada", nights: 7, meals: "Всё включено", city: "Город вылета 1" },
+    { id: "offer-2", name: "Отель 2", resort: "sharm", nights: 8, meals: "Всё включено", city: "Город вылета 1" },
+    { id: "offer-3", name: "Отель 3", resort: "marsa", nights: 7, meals: "Полупансион", city: "Город вылета 2" },
+    { id: "offer-4", name: "Отель 4", resort: "hurghada", nights: 10, meals: "Всё включено", city: "Город вылета 2" },
+    { id: "offer-5", name: "Отель 5", resort: "sharm", nights: 7, meals: "Завтраки", city: "Город вылета 3" }
+  ];
+  const routeNames = { cairo: "Каир и пирамиды", luxor: "Луксор", custom: "Свой маршрут" };
+  const alternatives = ["ОАЭ", "Турция", "Таиланд", "Вьетнам"];
+  const narrow = window.matchMedia("(max-width: 700px)");
+  const requestDialog = get("request-dialog");
+  const detailDialog = get("detail-dialog");
+  const views = {
+    home: get("home-view"),
+    countries: get("countries-view"),
+    country: get("country-view"),
+    offer: get("offer-view"),
+    alternative: get("alternative-view")
+  };
+  let view = "country";
+  let mode = narrow.matches ? "phone" : "desktop";
+  let format = "beach";
+  let month = new Date().getMonth();
+  let monthChosen = false;
+  let allOffers = false;
+  let allResorts = false;
+  let stickyFrame = 0;
+  let requestTopic = "country";
+  let lastOffer = null;
+  let lastAlternative = null;
+
+  function resortName(id) {
+    return resorts.find(resort => resort.id === id).name;
+  }
+
+  function topic(key) {
+    const [kind, id] = key.split(":");
+    if (kind === "resort") return { title: resortName(id), message: "Здравствуйте! Хочу обсудить отдых. Курорт — " + resortName(id) + "." };
+    if (kind === "hotel") {
+      const hotel = hotels.find(item => item.id === id);
+      return { title: hotel.name + " · " + resortName(hotel.resort), message: "Здравствуйте! Хочу уточнить цену на мои даты. " + hotel.name + ", " + resortName(hotel.resort) + "." };
+    }
+    if (kind === "offer") {
+      const offer = offers.find(item => item.id === id);
+      return { title: offer.name + " · " + resortName(offer.resort) + " · [даты] · " + offer.city, message: "Здравствуйте! Интересует предложение " + offer.name + ", " + resortName(offer.resort) + ", [даты], " + offer.city + "." };
+    }
+    if (kind === "route") return { title: routeNames[id], message: "Здравствуйте! Хочу обсудить маршрут по Египту. " + routeNames[id] + "." };
+    return {
+      title: kind === "price" ? "Египет · цена на Ваши даты" : "Египет",
+      message: kind === "price" ? "Здравствуйте! Хочу уточнить цену поездки в Египет на мои даты." : "Здравствуйте! Хочу поехать в Египет."
+    };
+  }
+
+  function syncSticky() {
+    const hero = get("hero").getBoundingClientRect();
+    const end = get("inquiry").getBoundingClientRect();
+    const footer = document.querySelector(".footer").getBoundingClientRect();
+    const endVisible = end.top < window.innerHeight && end.bottom > 0;
+    get("mobile-sticky").hidden = !document.body.classList.contains("phone")
+      || view !== "country" || hero.bottom > 0 || endVisible
+      || footer.top < window.innerHeight || requestDialog.open || detailDialog.open;
+  }
+
+  function queueSticky() {
+    if (stickyFrame) return;
+    stickyFrame = window.requestAnimationFrame(() => {
+      stickyFrame = 0;
+      syncSticky();
+    });
+  }
+
+  function renderOfferVisibility() {
+    const visible = get("offers-enabled").checked && get("catalog-state").value === "active" && offers.length > 0;
+    const phone = document.body.classList.contains("phone");
+    get("offers").hidden = !visible;
+    get("offers-link").hidden = !visible;
+    document.querySelectorAll(".offer").forEach((card, index) => {
+      card.hidden = phone && index >= 3 && !allOffers;
+    });
+    const toggle = get("more-offers");
+    toggle.hidden = !visible || !phone || offers.length <= 3;
+    toggle.setAttribute("aria-expanded", String(allOffers));
+    toggle.textContent = allOffers ? "Свернуть предложения" : "Ещё " + (offers.length - 3) + " предложения";
+    queueSticky();
+  }
+
+  function setMode() {
+    document.body.classList.toggle("phone", mode === "phone" || narrow.matches);
+    document.querySelectorAll("[data-mode]").forEach(button => {
+      button.setAttribute("aria-pressed", String(button.dataset.mode === mode));
+    });
+    renderOfferVisibility();
+  }
+
+  function renderWeather() {
+    const resort = resorts.find(item => item.id === get("weather-region").value) ?? resorts[0];
+    get("climate-label").textContent = resort.name + " · " + months[month] + " · средние значения, пример";
+    get("air").textContent = resort.air ? "+" + resort.air[month] + " °C" : "—";
+    get("water").textContent = resort.water ? "+" + resort.water[month] + " °C" : "—";
+    get("month-note").textContent = resort.air
+      ? "Здесь будет короткая подсказка о купании, прогулках, жаре и ветре в выбранном месяце."
+      : "Средние показатели для курорта добавляются при наполнении страницы.";
+    document.querySelectorAll("[data-month]").forEach(button => {
+      button.setAttribute("aria-pressed", String(Number(button.dataset.month) === month));
+    });
+    get("weather-table").innerHTML = months.map((name, index) => `
+      <tr><th scope="row">${name}</th><td>${resort.air ? "+" + resort.air[index] + " °C" : "—"}</td>
+      <td>${resort.water ? "+" + resort.water[index] + " °C" : "—"}</td><td>—</td></tr>
+    `).join("");
+    updateAlternatives();
+  }
+
+  function updateAlternatives() {
+    const interest = format === "beach" ? "отдых у моря" : "города и маршруты";
+    get("alternatives-context").textContent = (monthChosen ? months[month] + " · " : "Ваши даты · ") + interest;
+  }
+
+  function renderResorts() {
+    get("resort-list").innerHTML = resorts.map((resort, index) => `
+      <article class="card" ${index >= 3 && !allResorts ? "hidden" : ""}>
+        <details class="resort">
+          <summary><span class="photo">Фото курорта</span><strong>${resort.name}</strong></summary>
+          <div class="card-body">
+            <ul>
+              <li><strong>Пляж и вход в море.</strong> ${resort.beach}</li>
+              <li><strong>Атмосфера.</strong> ${resort.atmosphere}</li>
+              <li><strong>Дорога.</strong> ${resort.transfer}</li>
+              <li><strong>Что учесть.</strong> ${resort.feature}</li>
+            </ul>
+            <div class="actions">
+              <button type="button" class="quiet" data-resort-hotels="${resort.id}">Посмотреть отели</button>
+              <button type="button" class="quiet" data-resort-weather="${resort.id}">Когда ехать</button>
+            </div>
+          </div>
+        </details>
+        <div class="card-body">
+          <p class="small">${resort.short}</p>
+          <button type="button" class="quiet" data-request="resort:${resort.id}">Подобрать отдых здесь</button>
+        </div>
+      </article>
+    `).join("");
+    const toggle = get("more-resorts");
+    toggle.setAttribute("aria-expanded", String(allResorts));
+    toggle.textContent = allResorts ? "Свернуть курорты" : "Все курорты";
+  }
+
+  function hotelCopy(hotel) {
+    return `<p class="small"><strong>Кому рекомендуем.</strong> ${hotel.fit}.</p>
+      <p class="small"><strong>Чем хорош.</strong> ${hotel.good}.</p>
+      <p class="small"><strong>Что учесть.</strong> ${hotel.note}.</p>`;
+  }
+
+  function renderHotels() {
+    const region = get("hotel-region").value;
+    const filtered = hotels.filter(hotel => !region || hotel.resort === region);
+    const list = get("hotel-list");
+    list.innerHTML = filtered.length ? filtered.map(hotel => `
+      <article class="card">
+        <button type="button" class="card-open" data-hotel="${hotel.id}" aria-label="Подробнее об отеле ${hotel.name}">
+          <span class="photo">Фото отеля</span><span class="name">${hotel.name}</span>
+        </button>
+        <div class="card-body">
+          <p class="small">${resortName(hotel.resort)}</p>
+          ${hotelCopy(hotel)}
+          <button type="button" class="quiet" data-request="hotel:${hotel.id}">Узнать цену на мои даты</button>
+        </div>
+      </article>
+    `).join("") : `
+      <div class="card-body"><p>Подберём отель для Вашей поездки.</p>
+      <button type="button" class="quiet" data-request="resort:${region}">Обсудить отели курорта</button></div>
+    `;
+  }
+
+  function renderOffers() {
+    get("offer-list").innerHTML = offers.map(offer => `
+      <article class="card offer">
+        <button type="button" class="card-open" data-offer="${offer.id}" aria-label="Подробнее о предложении ${offer.name}">
+          <span class="photo">Фото</span><span class="name">${offer.name}</span>
+        </button>
+        <div class="card-body">
+          <p class="small">${resortName(offer.resort)} · ${offer.nights} ночей</p>
+          <p class="small">[Даты] · ${offer.city}</p>
+          <p class="small">${offer.meals}</p>
+          <p class="price">от … ₽</p>
+          <p class="small">За 2 взрослых · на [дату]</p>
+        </div>
+        <div class="card-body offer-action" style="padding-top:0">
+          <button type="button" class="quiet" data-request="offer:${offer.id}">Уточнить тур</button>
+        </div>
+      </article>
+    `).join("");
+  }
+
+  function openView(next, title) {
+    view = next;
+    Object.entries(views).forEach(([name, element]) => {
+      element.hidden = name !== next;
+    });
+    const titles = { home: "Главная", countries: "Страны", country: "Египет" };
+    get("crumb").textContent = title || titles[next];
+    queueSticky();
+  }
+
+  function goTo(element) {
+    element.scrollIntoView({ block: "start" });
+  }
+
+  function focusHeading(element) {
+    const heading = element.querySelector("h1, h2");
+    if (!heading) return;
+    heading.setAttribute("tabindex", "-1");
+    heading.focus({ preventScroll: true });
+  }
+
+  function openOffer(id, trigger) {
+    const offer = offers.find(item => item.id === id);
+    lastOffer = trigger;
+    get("offer-detail").innerHTML = `
+      <span class="eyebrow">Египет · ${resortName(offer.resort)}</span>
+      <h1>${offer.name}</h1>
+      <div class="photo" style="margin:12px 0;min-height:140px">Фото отеля и тура</div>
+      <p>[Даты] · ${offer.city} · ${offer.nights} ночей · ${offer.meals}</p>
+      <p>2 взрослых · цена на [дату]</p>
+      <p class="price">от … ₽</p>
+      <div class="actions"><button type="button" class="primary" data-request="offer:${offer.id}">Уточнить предложение</button></div>
+    `;
+    openView("offer", offer.name);
+    goTo(views.offer);
+    focusHeading(views.offer);
+  }
+
+  function fillForms() {
+    const template = get("request-form-template");
+    document.querySelectorAll("[data-form-slot]").forEach(slot => {
+      slot.append(template.content.cloneNode(true));
+      const form = slot.querySelector("form");
+      form.dataset.topic = "country";
+      form.elements.namedItem("topic").value = topic("country").title;
+      form.elements.namedItem("month").insertAdjacentHTML("beforeend",
+        months.map((name, index) => `<option value="${index}">${name}</option>`).join(""));
+    });
+  }
+
+  function formStatus(form, message) {
+    const status = form.querySelector(".status");
+    status.textContent = message;
+    status.hidden = !message;
+  }
+
+  function openRequest(key) {
+    if (detailDialog.open) detailDialog.close();
+    requestTopic = key;
+    const context = topic(key);
+    const form = get("dialog-form").querySelector("form");
+    form.reset();
+    form.dataset.topic = key;
+    form.elements.namedItem("topic").value = context.title;
+    form.querySelector("[data-extra-travelers]").hidden = true;
+    const contextLabel = form.querySelector("[data-context]");
+    contextLabel.textContent = context.title + (monthChosen && !key.startsWith("offer:")
+      ? " · Вы смотрели " + months[month].toLowerCase() + ". Период можно выбрать ниже." : "");
+    contextLabel.hidden = false;
+    get("request-title").textContent = key === "price" ? "Запрос стоимости" : "Обсудим Вашу поездку";
+    formStatus(form, "");
+    requestDialog.showModal();
+    syncSticky();
+  }
+
+  function showDetail(title, markup) {
+    get("detail-title").textContent = title;
+    get("detail-content").innerHTML = markup;
+    if (!detailDialog.open) detailDialog.showModal();
+    syncSticky();
+  }
+
+  function openHotel(id) {
+    const hotel = hotels.find(item => item.id === id);
+    showDetail(hotel.name, `
+      <div class="photo" style="min-height:120px">Фотографии отеля</div>
+      <div class="card-body">
+        <p class="small">${resortName(hotel.resort)}</p>
+        ${hotelCopy(hotel)}
+        <div class="actions"><button type="button" class="primary" data-request="hotel:${hotel.id}">Узнать цену на мои даты</button></div>
+      </div>
+    `);
+  }
+
+  function openMessenger(button) {
+    const form = button.closest("form");
+    const key = form?.dataset.topic || (requestDialog.open ? requestTopic : "country");
+    showDetail("Сообщение для " + button.dataset.message,
+      '<p class="small">Текст обращения для выбранного мессенджера.</p><p id="message-preview" class="message-box"></p>');
+    get("message-preview").textContent = topic(key).message;
+  }
+
+  function changeFormat(next, button) {
+    format = next;
+    document.querySelectorAll("[data-format]").forEach(option => {
+      option.setAttribute("aria-pressed", String(option === button));
+    });
+    get("beach-panel").hidden = format !== "beach";
+    get("routes-panel").hidden = format !== "routes";
+    updateAlternatives();
+    queueSticky();
+  }
+
+  document.addEventListener("click", event => {
+    const link = event.target.closest('a[href^="#"]');
+    if (link) {
+      const target = get(link.getAttribute("href").slice(1));
+      if (target) {
+        event.preventDefault();
+        if (target.tagName === "DETAILS") target.open = true;
+        goTo(target);
+      }
+      return;
+    }
+    const button = event.target.closest("button");
+    if (!button) return;
+    const data = button.dataset;
+
+    if (data.mode) { mode = data.mode; setMode(); return; }
+    if (data.view) { openView(data.view); goTo(views[data.view]); focusHeading(views[data.view]); return; }
+    if (data.return) {
+      openView("country");
+      const trigger = data.return === "offers" ? lastOffer : lastAlternative;
+      if (trigger && !trigger.closest("[hidden]")) {
+        goTo(trigger);
+        trigger.focus({ preventScroll: true });
+      } else goTo(get(data.return === "offers" && get("offers").hidden ? "price-strip" : data.return));
+      return;
+    }
+    if (data.alternative) {
+      lastAlternative = button;
+      get("alternative-title").textContent = data.alternative;
+      openView("alternative", data.alternative);
+      goTo(views.alternative);
+      focusHeading(views.alternative);
+      return;
+    }
+    if (data.month !== undefined) { month = Number(data.month); monthChosen = true; renderWeather(); return; }
+    if (data.format) { changeFormat(data.format, button); return; }
+    if (data.resortHotels) { get("hotel-region").value = data.resortHotels; renderHotels(); goTo(get("hotels")); return; }
+    if (data.resortWeather) { get("weather-region").value = data.resortWeather; renderWeather(); goTo(get("season")); return; }
+    if (data.offer) { openOffer(data.offer, button); return; }
+    if (data.hotel) { openHotel(data.hotel); return; }
+    if (data.request) { openRequest(data.request); return; }
+    if (data.message) { openMessenger(button); return; }
+    if (button.hasAttribute("data-close")) { button.closest("dialog").close(); return; }
+    if (button.hasAttribute("data-policy")) {
+      showDetail("Политика обработки персональных данных", "<p>Место для ссылки на утверждённый документ.</p>");
+      return;
+    }
+    if (button.id === "more-resorts") { allResorts = !allResorts; renderResorts(); return; }
+    if (button.id === "more-offers") { allOffers = !allOffers; renderOfferVisibility(); }
+  });
+
+  document.addEventListener("change", event => {
+    const field = event.target;
+    if (field.id === "offers-enabled" || field.id === "catalog-state") renderOfferVisibility();
+    if (field.id === "weather-region") renderWeather();
+    if (field.id === "hotel-region") renderHotels();
+    if (field.name === "month" && field.value !== "") {
+      month = Number(field.value);
+      monthChosen = true;
+      renderWeather();
+    }
+    if (field.name === "travelers") {
+      const extra = field.closest("form").querySelector("[data-extra-travelers]");
+      extra.hidden = !["children", "group"].includes(field.value);
+    }
+  });
+
+  document.addEventListener("submit", event => {
+    event.preventDefault();
+    formStatus(event.target, "Демонстрационный режим. Здесь появится подтверждение отправки заявки.");
+  });
+
+  [requestDialog, detailDialog].forEach(dialog => {
+    dialog.addEventListener("close", queueSticky);
+    dialog.addEventListener("click", event => {
+      if (event.target === dialog) {
+        const rect = dialog.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
+      }
+    });
+  });
+  window.addEventListener("scroll", queueSticky, { passive: true });
+  window.addEventListener("resize", queueSticky);
+  narrow.addEventListener("change", setMode);
+
+  const resortOptions = resorts.map(resort => `<option value="${resort.id}">${resort.name}</option>`).join("");
+  get("weather-region").innerHTML = resortOptions;
+  get("hotel-region").innerHTML = '<option value="">Все курорты</option>' + resortOptions;
+  get("months").innerHTML = shortMonths.map((name, index) => `
+    <button type="button" data-month="${index}" aria-pressed="false" aria-label="${months[index]}">${name}</button>
+  `).join("");
+  get("alternative-list").innerHTML = alternatives.map(name => `
+    <article class="card">
+      <button class="card-open" type="button" data-alternative="${name}"><span class="photo">Фото страны</span><span class="name">${name}</span></button>
+      <div class="card-body"><p class="small">Причина рассмотреть страну на выбранные даты</p></div>
+    </article>
+  `).join("");
+
+  fillForms();
+  renderResorts();
+  renderOffers();
+  renderHotels();
+  renderWeather();
+  setMode();
+})();
+</script>
+</body>
+</html>

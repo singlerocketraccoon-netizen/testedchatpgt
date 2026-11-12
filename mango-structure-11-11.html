@@ -1,0 +1,1324 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mango Travel · схема сайта</title>
+  <style>
+#mango-structure {
+  --paper:light-dark(#faf7f1,#24231f);
+  --surface:light-dark(#fffdf8,#302e28);
+  --ink:light-dark(#343c33,#ede9dc);
+  --muted:light-dark(#676b60,#bbbbae);
+  --line:light-dark(#dcd7c9,#56564b);
+  --soft:light-dark(#eeeadf,#3b3c32);
+  --brand:light-dark(#74603c,#ddc390);
+  --onbrand:light-dark(#fffdf8,#26251e);
+  font:14px/1.5 Arial,sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:12px;
+  overflow:clip;
+}
+
+#mango-structure * {
+  box-sizing:border-box;
+}
+#mango-structure [hidden] {
+  display:none!important;
+}
+#mango-structure button,#mango-structure input,#mango-structure select {
+  font:inherit;
+  color:inherit;
+}
+#mango-structure button {
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:5px;
+  padding:9px 13px;
+  text-align:left;
+}
+#mango-structure button:hover {
+  background:var(--soft);
+}
+#mango-structure button[aria-pressed=true],#mango-structure .primary {
+  background:var(--brand);
+  color:var(--onbrand);
+  border-color:var(--brand);
+}
+#mango-structure .textlink {
+  background:transparent;
+  border:0;
+  padding:5px 0;
+  text-decoration:underline;
+  text-underline-offset:4px;
+  color:var(--brand);
+}
+#mango-structure .top {
+  padding:15px 22px 12px;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+}
+#mango-structure .top .label {
+  font-size:12px;
+  color:var(--muted);
+  letter-spacing:.06em;
+}
+#mango-structure .top .label:before {
+  content:'●';
+  color:var(--brand);
+  margin-right:8px;
+}
+#mango-structure .nav {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+#mango-structure .nav.right {
+  justify-content:flex-end;
+}
+#mango-structure .nav button {
+  padding:4px 0;
+  border:0;
+  background:transparent;
+  font-size:12px;
+}
+#mango-structure .logo {
+  font:21px Georgia,serif;
+  letter-spacing:2px;
+  border:0;
+  background:transparent;
+  padding:6px;
+}
+#mango-structure .contacts {
+  display:flex;
+  gap:10px;
+  justify-content:flex-end;
+  font-size:11px;
+  color:var(--muted);
+  grid-column:3;
+}
+#mango-structure .contacts button {
+  padding:0;
+  border:0;
+  background:none;
+  font-size:11px;
+}
+#mango-structure main {
+  padding:22px;
+}
+#mango-structure h1,#mango-structure h2,#mango-structure h3,#mango-structure p {
+  margin:0;
+}
+#mango-structure h1 {
+  font:32px/1.15 Georgia,serif;
+  margin:9px 0 14px;
+}
+#mango-structure h2 {
+  font:24px/1.2 Georgia,serif;
+  margin-bottom:12px;
+}
+#mango-structure h3 {
+  font-size:15px;
+  font-weight:500;
+  margin-bottom:7px;
+}
+#mango-structure p {
+  color:var(--muted);
+}
+#mango-structure .small {
+  font-size:12px;
+  color:var(--muted);
+}
+#mango-structure .eyebrow {
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--brand);
+}
+#mango-structure .section {
+  padding:22px 0;
+  border-bottom:1px solid var(--line);
+}
+#mango-structure .section:last-child {
+  border-bottom:0;
+}
+#mango-structure .sectionhead {
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:16px;
+  flex-wrap:wrap;
+  margin-bottom:12px;
+}
+#mango-structure .sectionhead h2 {
+  margin:0;
+}
+#mango-structure .row {
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+#mango-structure .actions {
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+#mango-structure .grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+}
+#mango-structure .grid.two {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+#mango-structure .grid.four {
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+#mango-structure .tile {
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  background:var(--surface);
+}
+#mango-structure button.tile {
+  width:100%;
+}
+#mango-structure .tile span:last-child {
+  font-size:12px;
+  color:var(--muted);
+}
+#mango-structure .thumb {
+  height:38px;
+  border-radius:3px;
+  background:var(--soft);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--muted);
+  font-size:11px;
+  letter-spacing:.04em;
+  margin-bottom:5px;
+}
+#mango-structure .hero {
+  padding:24px;
+  background:var(--soft);
+  border-radius:7px;
+}
+#mango-structure .hero h1 {
+  max-width:620px;
+}
+#mango-structure .hero p {
+  margin:10px 0 16px;
+}
+#mango-structure .slider-controls {
+  display:flex;
+  gap:7px;
+  margin-top:20px;
+  align-items:center;
+}
+#mango-structure .slider-controls button {
+  padding:5px 12px;
+}
+#mango-structure .trust {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:0;
+  margin-top:14px;
+}
+#mango-structure .trust button {
+  border-radius:0;
+  padding:13px;
+  font-size:13px;
+}
+#mango-structure .trust small {
+  display:block;
+  color:var(--muted);
+  font-size:11px;
+  margin-top:4px;
+}
+#mango-structure .band {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+  padding:16px;
+  background:var(--soft);
+  border-radius:6px;
+  margin-top:14px;
+}
+#mango-structure details {
+  border-bottom:1px solid var(--line);
+  padding:12px 0;
+}
+#mango-structure summary {
+  font-size:14px;
+}
+#mango-structure details p {
+  margin:10px 0 2px;
+}
+#mango-structure .footer {
+  background:var(--soft);
+  padding:22px;
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  flex-wrap:wrap;
+}
+#mango-structure .service-grid {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;
+  margin-top:24px;
+}
+#mango-structure .service-group {
+  border-top:2px solid var(--brand);
+  padding-top:12px;
+}
+#mango-structure .service-group button {
+  display:block;
+  width:100%;
+  margin:5px 0;
+  padding:8px 9px;
+  font-size:13px;
+}
+#mango-structure .service-detail {
+  margin-top:20px;
+  background:var(--soft);
+  border-radius:6px;
+  padding:20px;
+  min-height:140px;
+}
+#mango-structure .service-detail p {
+  max-width:670px;
+  margin:8px 0 12px;
+}
+#mango-structure .months {
+  overflow-x:auto;
+  margin-top:12px;
+}
+#mango-structure table {
+  border-collapse:collapse;
+  width:100%;
+  font-size:11px;
+  min-width:680px;
+}
+#mango-structure th,#mango-structure td {
+  padding:9px 7px;
+  text-align:center;
+  border-bottom:1px solid var(--line);
+  font-weight:400;
+}
+#mango-structure th:first-child {
+  text-align:left;
+  min-width:130px;
+}
+#mango-structure .months caption {
+  text-align:left;
+  margin-bottom:8px;
+  color:var(--muted);
+}
+#mango-structure .skeleton {
+  background:var(--soft);
+  height:8px;
+  border-radius:2px;
+  width:85%;
+  margin:7px 0;
+}
+#mango-structure .skeleton.short {
+  width:55%;
+}
+#mango-structure .article {
+  max-width:760px;
+}
+#mango-structure .article .section p+p {
+  margin-top:10px;
+}
+#mango-structure label {
+  display:block;
+}
+#mango-structure input,#mango-structure select {
+  border:1px solid var(--line);
+  border-radius:5px;
+  background:var(--surface);
+  padding:9px;
+  max-width:100%;
+}
+#mango-structure input:not([type=radio]):not([type=checkbox]):not([type=hidden]) {
+  width:100%;
+}
+#mango-structure fieldset {
+  border:0;
+  padding:0;
+  margin:0 0 12px;
+}
+#mango-structure legend {
+  margin-bottom:7px;
+}
+#mango-structure .choices {
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+}
+#mango-structure .choices label {
+  padding:7px 10px;
+  background:var(--soft);
+  border-radius:4px;
+  font-size:13px;
+}
+#mango-structure .choices input {
+  margin-right:6px;
+}
+#mango-structure dialog {
+  color:var(--ink);
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:10px;
+  width:min(600px,calc(100% - 30px));
+  padding:22px;
+}
+#mango-structure dialog::backdrop {
+  background:light-dark(#222a2366,#00000099);
+}
+#mango-structure .dialoghead {
+  display:flex;
+  gap:12px;
+  justify-content:space-between;
+  align-items:start;
+  margin-bottom:16px;
+}
+#mango-structure .dialoghead button {
+  padding:4px 9px;
+}
+#mango-structure .consent {
+  font-size:12px;
+  margin-top:13px;
+  color:var(--muted);
+}
+#mango-structure .consent input {
+  vertical-align:middle;
+  margin-right:6px;
+}
+#mango-structure .subnav {
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin:12px 0 20px;
+}
+#mango-structure .subnav button {
+  font-size:12px;
+}
+#mango-structure .pageintro {
+  max-width:690px;
+  margin-bottom:15px;
+}
+#mango-structure .highlight {
+  outline:2px solid var(--brand);
+  outline-offset:6px;
+}
+#mango-structure .spacer {
+  margin-top:14px;
+}
+
+@media(max-width:700px){#mango-structure .logo {
+  grid-column:1/-1;
+  grid-row:1;
+  text-align:left;
+}
+#mango-structure .contacts {
+  grid-column:1/-1;
+  justify-content:flex-start;
+}
+#mango-structure .nav.right {
+  justify-content:flex-start;
+}
+#mango-structure .grid.four,#mango-structure .service-grid {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+#mango-structure .grid {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+#mango-structure .trust {
+  grid-template-columns:1fr;
+}
+#mango-structure main {
+  padding:16px;
+}
+#mango-structure h1 {
+  font-size:27px;
+}
+}
+@media(max-width:400px){#mango-structure .grid,#mango-structure .grid.two,#mango-structure .grid.four,#mango-structure .service-grid {
+  grid-template-columns:1fr;
+}
+#mango-structure .hero {
+  padding:17px;
+}
+#mango-structure input,#mango-structure select {
+  font-size:16px;
+}
+}
+@media(pointer:coarse){#mango-structure button {
+  min-height:44px;
+}
+#mango-structure .choices label {
+  min-height:44px;
+  display:flex;
+  align-items:center;
+}
+}
+
+:root {
+  color-scheme: light dark;
+  background: light-dark(#f2eee4, #191a16);
+}
+body {
+  margin: 0;
+  padding: clamp(0px, 2vw, 28px);
+}
+#mango-structure {
+  max-width: 1180px;
+  margin: 0 auto;
+  overflow: visible;
+}
+#mango-structure .header {
+  position: relative;
+  z-index: 3;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+#mango-structure .header.is-inner {
+  position: sticky;
+  top: 0;
+}
+#mango-structure .site-bar {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 6px 16px;
+  align-items: center;
+  padding: 14px 22px;
+}
+#mango-structure .menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+#mango-structure .chevron {
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+#mango-structure .menu-toggle[aria-expanded="true"] {
+  color: var(--brand);
+}
+#mango-structure .menu-toggle[aria-expanded="true"] .chevron {
+  transform: translateY(1px) rotate(225deg);
+}
+#mango-structure .menu-panel {
+  position: absolute;
+  z-index: 4;
+  top: 100%;
+  left: 22px;
+  width: min(500px, calc(100% - 44px));
+  max-height: min(65vh, 34rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 24px light-dark(#31251724, #0006);
+}
+#mango-structure .menu-panel.service-menu {
+  width: min(930px, calc(100% - 44px));
+}
+#mango-structure .menu-panel.right-menu {
+  left: auto;
+  right: 22px;
+  width: min(320px, calc(100% - 44px));
+}
+#mango-structure .menu-panel button {
+  width: 100%;
+  padding: 7px 8px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+#mango-structure .menu-panel button:hover,
+#mango-structure .menu-panel button:focus-visible {
+  background: var(--soft);
+}
+#mango-structure .menu-panel .menu-overview {
+  margin-bottom: 8px;
+  background: var(--soft);
+  color: var(--brand);
+}
+#mango-structure .menu-overview span {
+  margin-left: 5px;
+}
+#mango-structure .menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#mango-structure .country-menu-list,
+#mango-structure .menu-service-grid {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+#mango-structure .menu-service-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+#mango-structure .menu-service-grid h3 {
+  margin: 7px 8px 3px;
+  font-size: 12px;
+  color: var(--brand);
+}
+#mango-structure .page-location {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  padding: 8px 22px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+#mango-structure .page-location .back-home {
+  color: var(--ink);
+  background: var(--soft);
+  padding: 6px 12px;
+}
+#mango-structure .page-location .back-home:hover {
+  border-color: var(--brand);
+}
+#mango-structure .page-location .back-home span {
+  margin-right: 5px;
+}
+#mango-structure .top .developer-notes {
+  flex: 1 1 190px;
+  padding: 0;
+  border: 0;
+  text-align: right;
+  color: var(--muted);
+}
+#mango-structure .developer-notes summary {
+  font-size: 12px;
+  cursor: pointer;
+}
+#mango-structure .developer-notes ul {
+  padding-left: 20px;
+  text-align: left;
+  margin: 10px 0 3px;
+  font-size: 13px;
+}
+#mango-structure .developer-notes li + li {
+  margin-top: 5px;
+}
+#mango-structure button,
+#mango-structure summary {
+  cursor: pointer;
+}
+#mango-structure button:focus-visible,
+#mango-structure summary:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+#mango-structure .service-group button {
+  min-height: 38px;
+}
+#mango-structure .service-detail {
+  min-height: 0;
+}
+@media (max-width: 700px) {
+  body {
+    padding: 0;
+  }
+  #mango-structure {
+    border-radius: 0;
+  }
+  #mango-structure .site-bar {
+    grid-template-columns: 1fr 1fr;
+    padding: 11px 16px;
+    gap: 4px 12px;
+  }
+  #mango-structure .nav {
+    gap: 4px 10px;
+  }
+  #mango-structure .menu-panel,
+  #mango-structure .menu-panel.service-menu,
+  #mango-structure .menu-panel.right-menu {
+    left: 12px;
+    right: 12px;
+    width: auto;
+  }
+  #mango-structure .menu-service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #mango-structure .page-location {
+    padding: 7px 16px;
+  }
+}
+@media (max-width: 400px) {
+  #mango-structure .top .developer-notes {
+    text-align: left;
+  }
+  #mango-structure .country-menu-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (pointer: coarse) {
+  #mango-structure .menu-panel button,
+  #mango-structure .service-group button {
+    min-height: 44px;
+  }
+}
+
+  </style>
+</head>
+<body>
+<div id="mango-structure">
+<div class="top">
+  <span class="label">Mango Travel · схема сайта</span>
+  <details class="developer-notes">
+    <summary>Примечания для разработчика</summary>
+    <ul>
+      <li>У стран и услуг единый каталог. Пункты в шапке и карточки ведут в соответствующую страну или услугу. Климат на странице страны показывается по региону.</li>
+      <li>На главной выводятся до шести актуальных предложений. В админке нужны добавление, редактирование, выбор для главной, снятие с публикации и срок показа.</li>
+      <li>Для отзывов используйте согласованные тексты с именем, датой и источником. Подставьте ссылки на карточки Mango Travel в Яндексе и 2ГИС на главной и на странице отзывов.</li>
+      <li>Подключите телефон, MAX, Telegram и обработку заявок. В короткой форме передавайте тему выбранной услуги или предложения. «Помогите выбрать» открывает отдельный опрос.</li>
+      <li>Фотографии, климатические данные и предложения в схеме обозначены условно. Короткие описания услуг подготовлены для согласования. Для подвала используйте утверждённый вариант.</li>
+    </ul>
+  </details>
+</div>
+<header class="header" id="mango-header">
+  <div class="site-bar">
+    <nav class="nav" aria-label="Страны и услуги">
+      <div class="site-menu">
+        <button type="button" class="menu-toggle" id="mango-countries-toggle" aria-expanded="false" aria-controls="mango-countries-menu">
+          Страны <span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div class="menu-panel country-menu" id="mango-countries-menu" hidden>
+          <button type="button" class="menu-overview" data-page="countries">Все страны <span aria-hidden="true">→</span></button>
+          <ul class="menu-list country-menu-list" id="mango-country-menu-items"></ul>
+        </div>
+      </div>
+      <div class="site-menu">
+        <button type="button" class="menu-toggle" id="mango-services-toggle" aria-expanded="false" aria-controls="mango-services-menu">
+          Услуги <span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div class="menu-panel service-menu" id="mango-services-menu" hidden>
+          <button type="button" class="menu-overview" data-page="services">Все услуги <span aria-hidden="true">→</span></button>
+          <div class="menu-service-grid" id="mango-service-menu-items"></div>
+        </div>
+      </div>
+    </nav>
+    <button type="button" class="logo" data-page="home" aria-label="Mango Travel, главная">MANGO TRAVEL</button>
+    <nav class="nav right" aria-label="О работе и компании">
+      <div class="site-menu">
+        <button type="button" class="menu-toggle" id="mango-work-toggle" aria-expanded="false" aria-controls="mango-work-menu">
+          Как мы работаем <span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div class="menu-panel right-menu" id="mango-work-menu" hidden>
+          <button type="button" class="menu-overview" data-page="work">Весь процесс <span aria-hidden="true">→</span></button>
+          <ul class="menu-list">
+            <li><button type="button" data-page="work" data-anchor="plans">Ваши планы</button></li>
+            <li><button type="button" data-page="work" data-anchor="choice">Подбор и выбор</button></li>
+            <li><button type="button" data-page="work" data-anchor="prepare">Подготовка к поездке</button></li>
+            <li><button type="button" data-page="work" data-anchor="support">Сопровождение в поездке</button></li>
+            <li><button type="button" data-page="work" data-anchor="cost">Сколько стоят наши услуги</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-menu">
+        <button type="button" class="menu-toggle" id="mango-about-toggle" aria-expanded="false" aria-controls="mango-about-menu">
+          О нас <span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div class="menu-panel right-menu" id="mango-about-menu" hidden>
+          <ul class="menu-list">
+            <li><button type="button" data-page="about" data-anchor="company">О компании</button></li>
+            <li><button type="button" data-page="about" data-anchor="team">Команда</button></li>
+            <li><button type="button" data-page="reviews">Отзывы</button></li>
+            <li><button type="button" data-page="contact">Контакты</button></li>
+            <li><button type="button" data-page="documents">Документы</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="contacts">
+      <button type="button" data-page="contact">Телефон</button>
+      <button type="button" data-page="contact">MAX</button>
+      <button type="button" data-page="contact">Telegram</button>
+    </div>
+  </div>
+  <nav id="mango-location" class="page-location" aria-label="Навигация по странице" hidden></nav>
+</header>
+<main id="mango-page">
+  <noscript>Включите JavaScript в браузере, чтобы открыть интерактивную схему.</noscript>
+</main>
+<footer class="footer"><div><span class="eyebrow">MANGO TRAVEL</span><p class="small">Существующий подвал · оформление сохраняем</p></div><div class="row"><button class="textlink" data-page="faq">Вопросы</button><button class="textlink" data-page="documents">Документы</button><button class="textlink" data-page="contact">Контакты</button></div></footer>
+<dialog id="mango-help" aria-labelledby="mango-help-title"><div class="dialoghead"><h2 id="mango-help-title">Поможем выбрать отдых</h2><button id="mango-close" aria-label="Закрыть">×</button></div><form id="mango-form">
+<fieldset><legend>Кто едет?</legend><div class="choices"><label><input type="radio" name="who" value="Вдвоём">Вдвоём</label><label><input type="radio" name="who" value="С детьми">С детьми</label><label><input type="radio" name="who" value="Компанией">Компанией</label><label><input type="radio" name="who" value="Один">Один</label></div></fieldset>
+<fieldset><legend>Когда хотите поехать?</legend><div class="choices"><label><input type="radio" name="when" value="Весна">Весна</label><label><input type="radio" name="when" value="Лето">Лето</label><label><input type="radio" name="when" value="Осень">Осень</label><label><input type="radio" name="when" value="Зима">Зима</label><label><input type="radio" name="when" value="Знаю даты">Знаю даты</label></div><div id="mango-dates" class="grid two spacer" hidden><label>С <input type="date" name="from"></label><label>По <input type="date" name="to"></label></div></fieldset>
+<fieldset><legend>Что Вам ближе?</legend><div class="choices"><label><input type="radio" name="what" value="Море">Море</label><label><input type="radio" name="what" value="Горы">Горы</label><label><input type="radio" name="what" value="Города">Города</label><label><input type="radio" name="what" value="Пока не знаю">Пока не знаю</label></div></fieldset>
+<div class="grid two"><label>Бюджет, по желанию<input type="text" name="budget" placeholder="На всю поездку, ₽"></label><label>Ваш телефон<input type="tel" name="phone" required autocomplete="tel" placeholder="+7 …"></label></div><label class="consent"><input type="checkbox" name="consent" required>Согласие на обработку персональных данных</label><div class="actions"><button type="submit" class="primary">Получить варианты</button></div><div class="row spacer"><span class="small">Или напишите нам:</span><button type="button" data-demo="MAX">MAX</button><button type="button" data-demo="Telegram">Telegram</button></div><p id="mango-form-status" class="small spacer" aria-live="polite"></p>
+</form></dialog>
+<dialog id="mango-request" aria-labelledby="mango-request-title"><div class="dialoghead"><h2 id="mango-request-title">Обсудить поездку</h2><button id="mango-request-close" aria-label="Закрыть">×</button></div><form id="mango-request-form">
+  <input type="hidden" name="topic">
+  <label>Ваш телефон<input type="tel" name="phone" autocomplete="tel" placeholder="+7 …" required></label>
+  <label class="spacer">Пожелания, по желанию<input type="text" name="comment" placeholder="Даты, состав поездки, что важно"></label>
+  <label class="consent"><input type="checkbox" name="consent" required>Согласие на обработку персональных данных</label><div class="actions"><button type="submit" class="primary">Отправить запрос</button></div><div class="row spacer"><span class="small">Или напишите нам:</span><button type="button" data-demo="MAX">MAX</button><button type="button" data-demo="Telegram">Telegram</button></div><p id="mango-request-status" class="small spacer" aria-live="polite"></p></form></dialog>
+</div>
+<script>
+(()=>{
+const root = document.getElementById("mango-structure");
+const view = root.querySelector("#mango-page");
+const header = root.querySelector("#mango-header");
+const pageLocation = root.querySelector("#mango-location");
+const quizDialog = root.querySelector("#mango-help");
+const requestDialog = root.querySelector("#mango-request");
+const requestForm = root.querySelector("#mango-request-form");
+const holidays=['Отдых с детьми','Тишина и море','Пляж и прогулки','Сервис и кухня','Экскурсионные туры','Отель, ради которого едут','Горный воздух','Круизы по морям и рекам','Свой маршрут'];
+const countries = ["Турция", "Египет", "ОАЭ", "Таиланд", "Мальдивы", "Вьетнам"];
+const allCountries = [...countries, "Шри-Ланка", "Китай", "Индонезия"];
+let country = countries[0];
+let holiday = holidays[0];
+let slide = 0;
+const btn=(s,p,c='')=>`<button class="${c}" data-page="${p}">${s}</button>`;
+const section=(title,body,action='')=>`<section class="section"><div class="sectionhead"><h2>${title}</h2>${action}</div>${body}</section>`;
+const holidayCards=(list)=>list.map(s=>`<button class="tile" data-holiday="${s}"><span class="thumb">Фото отдыха</span><span>${s}</span><span>Подробнее →</span></button>`).join('');
+const offerCards=()=>Array.from({length:6},(_,i)=>`<button class="tile" data-offer="${i+1}"><span class="thumb">Фото предложения</span><span>Предложение ${i+1}</span><span>Страна · даты · длительность</span><span>Что входит · цена и условия</span></button>`).join('');
+const reviewCards=()=>Array.from({length:3},()=>`<div class="tile"><span>Имя · дата · источник</span><div class="skeleton"></div><div class="skeleton short"></div><span>Место для реального отзыва</span></div>`).join('');
+const sources=()=>`<div class="actions"><button data-demo="Отзывы на Яндексе">Отзывы на Яндексе ↗</button><button data-demo="Отзывы в 2ГИС">Отзывы в 2ГИС ↗</button></div>`;
+const help=()=>`<button class="primary" data-request="Обсудить поездку">Обсудить поездку</button>`;
+const faqTitles=['С чего начать подбор путешествия?','Как проходит бронирование онлайн?','Сколько стоят Ваши услуги?','Когда нужно оплачивать поездку?','Какие документы понадобятся?','К кому обращаться во время поездки?'];
+const faqContent=['Расскажите менеджеру о своих планах, датах и пожеланиях. Он поможет выбрать направление и предложит варианты.','Договор можно оформить онлайн, оплатить поездку дистанционно. Детали процесса описаны в разделе «Как мы работаем».','Мы работаем по ценам туроператоров без наценок и скидок. Подбор путешествия, помощь в подготовке к поездке и сопровождение до возвращения домой уже входят в стоимость тура.','Условия и сроки оплаты согласуем до бронирования. О важных датах напоминаем сами.','Проверяем правила въезда, сроки действия загранпаспортов и данные в документах. Список зависит от поездки.','Напишите своему менеджеру в привычном мессенджере. Подробнее о помощи в поездке рассказано в разделе «Как мы работаем».'];
+const faqItems=(n=6)=>faqTitles.slice(0,n).map((t,i)=>`<details><summary>${t}</summary><p>${faqContent[i]}</p></details>`).join('');
+const slideData=[['Путешествия с Манго','Ваш отпуск заслуживает внимания','Подобрать путешествие'],['Предоплата от 10%','Лето 2027. Выбирайте первыми.','Спланировать лето 2027'],['Индивидуальные путешествия','У Вашей идеи будет маршрут','Обсудить маршрут'],['Экскурсионные туры в Китай','У Китая есть чем Вас удивить','Подобрать тур в Китай']];
+const hero=()=>`<div class="hero"><div class="eyebrow">${slideData[slide][0]}</div><h1>${slideData[slide][1]}</h1><p>Место для описания слайда</p><button class="primary" data-request="${slideData[slide][0]}">${slideData[slide][2]}</button><div class="slider-controls">${slideData.map((_,i)=>`<button data-slide="${i}" aria-label="Слайд ${i+1}" aria-pressed="${slide===i}">${i+1}</button>`).join('')}<span class="small">Ручное переключение</span></div></div>`;
+const workSteps=()=>`<div class="grid four">${[['Ваши планы','Пожелания, даты, состав поездки'],['Подбор и выбор','Варианты и наша рекомендация'],['Подготовка','Бронирование, отель, документы'],['Сопровождение','На связи до возвращения домой']].map((x,i)=>`<button class="tile" data-page="work" data-anchor="${['plans','choice','prepare','support'][i]}"><span>${x[0]}</span><span>${x[1]}</span></button>`).join('')}</div>`;
+const team=()=>`<div class="grid two">${['Персональный подход','Опыт и специализация'].map(t=>`<button class="tile" data-page="about" data-anchor="team"><span class="thumb">Фото · имя менеджера</span><span>${t}</span><span>Короткое знакомство →</span></button>`).join('')}</div>`;
+function home(){return `<div id="mango-hero">${hero()}</div><div class="trust"><button data-page="about" data-anchor="company">16 лет в туризме<small>О компании →</small></button><button data-page="work" data-anchor="support">Сопровождение в поездке<small>Как мы помогаем →</small></button><button data-page="reviews">Отзывы туристов<small>Опыт наших клиентов →</small></button></div>`+
+section('Отдых, который Вам по душе',`<div class="grid">${holidayCards(holidays.slice(0,6))}</div><div id="mango-more" class="grid spacer" hidden>${holidayCards(holidays.slice(6))}</div><div class="actions"><button id="mango-expand" aria-expanded="false" aria-controls="mango-more">Другие варианты отдыха</button><button class="primary" data-help>Помогите выбрать</button></div>`)+
+section('Актуальные предложения',`<div class="grid">${offerCards()}</div>`,btn('Все предложения →','offers','textlink'))+
+section('Страны',`<div class="grid">${countries.map(c=>`<button class="tile" data-country="${c}"><span>${c}</span><span>О стране, курортах и поездке →</span></button>`).join('')}</div>`,btn('Все страны →','countries','textlink'))+
+section('Как мы работаем',workSteps(),btn('Подробнее о нашей работе →','work','textlink'))+
+section('Команда', team(), '<button type="button" class="textlink" data-page="about" data-anchor="team">Познакомиться с нами →</button>')+
+section('Отзывы туристов',`<div class="grid">${reviewCards()}</div>${sources()}`,btn('Все отзывы →','reviews','textlink'))+
+section('Частые вопросы',faqItems(),btn('Все вопросы →','faq','textlink'))+
+section('Связь',`<div class="band"><div><h3>Обсудим Вашу поездку?</h3><p>Телефон · MAX · Telegram</p></div>${help()}</div>`)+
+section('Партнёры',`<div class="thumb">Логотипы партнёров</div>`);}
+// The header and the service page use the same descriptions and service IDs.
+const serviceGroups = [
+  {
+    title: "Путешествия",
+    services: [
+      {
+        id: "package-tours",
+        title: "Пакетные туры",
+        description: "Подберём тур под Ваши даты, бюджет и состав поездки. Поможем сравнить отели, перелёты и условия бронирования.",
+        action: "Подобрать путешествие"
+      },
+      {
+        id: "individual-trips",
+        title: "Индивидуальные путешествия",
+        description: "Составим маршрут под Ваши планы. Подберём перелёты, отели и переезды между городами.",
+        action: "Обсудить маршрут",
+        related: "Свой маршрут"
+      },
+      {
+        id: "guided-tours",
+        title: "Экскурсионные туры",
+        description: "Подберём поездку с экскурсионной программой. Поможем сравнить маршруты и понять, сколько времени останется на самостоятельные прогулки.",
+        action: "Подобрать экскурсионный тур",
+        related: "Экскурсионные туры"
+      },
+      {
+        id: "cruises",
+        title: "Круизы",
+        description: "Подберём морской или речной круиз. Поможем сравнить маршруты, даты, каюты и условия на борту.",
+        action: "Подобрать круиз",
+        related: "Круизы по морям и рекам"
+      },
+      {
+        id: "hotel-booking",
+        title: "Бронирование отелей",
+        description: "Подберём и забронируем отель для Вашей поездки. Сравним расположение, варианты номеров и условия отмены.",
+        action: "Подобрать отель"
+      }
+    ]
+  },
+  {
+    title: "Билеты и трансферы",
+    services: [
+      {
+        id: "flights",
+        title: "Авиабилеты",
+        description: "Поможем выбрать перелёт с учётом багажа, пересадок и удобного времени вылета.",
+        action: "Подобрать перелёт"
+      },
+      {
+        id: "rail",
+        title: "Железнодорожные билеты",
+        description: "Подберём поезд и места с учётом расписания, маршрута и Ваших пожеланий к вагону.",
+        action: "Подобрать билеты"
+      },
+      {
+        id: "bus",
+        title: "Автобусные билеты",
+        description: "Подберём рейс и билеты на автобус. Сравним время отправления, остановки и условия провоза багажа.",
+        action: "Подобрать билеты"
+      },
+      {
+        id: "transfers",
+        title: "Индивидуальный трансфер",
+        description: "Организуем встречу в аэропорту, переезд между отелями или трансфер по Вашему маршруту.",
+        action: "Обсудить трансфер"
+      }
+    ]
+  },
+  {
+    title: "Документы",
+    services: [
+      {
+        id: "visas",
+        title: "Визы",
+        description: "Уточним маршрут и подскажем, с какими документами и этапами оформления можем помочь.",
+        action: "Обсудить оформление"
+      },
+      {
+        id: "insurance",
+        title: "Страхование",
+        description: "Поможем подобрать страховку под Вашу поездку и разобраться, какие условия покрытия стоит учесть.",
+        action: "Подобрать страховку"
+      }
+    ]
+  },
+  {
+    title: "Дополнительно",
+    services: [
+      {
+        id: "lounges",
+        title: "VIP-залы",
+        description: "Поможем забронировать посещение зала в аэропорту. Уточним доступность в Вашем терминале.",
+        action: "Уточнить условия"
+      },
+      {
+        id: "fast-track",
+        title: "Fast Track",
+        description: "Уточним, доступно ли приоритетное прохождение формальностей в Вашем аэропорту, и поможем заказать услугу.",
+        action: "Уточнить условия"
+      },
+      {
+        id: "experiences",
+        title: "Экскурсии и впечатления",
+        description: "Подберём отдельные экскурсии и занятия на Ваши даты с учётом интересов и возраста участников.",
+        action: "Обсудить планы"
+      },
+      {
+        id: "events",
+        title: "Билеты на мероприятия",
+        description: "Поможем найти билеты на интересующее Вас событие и включить его в маршрут поездки.",
+        action: "Уточнить билеты"
+      },
+      {
+        id: "weddings",
+        title: "Свадебные церемонии",
+        description: "Поможем выбрать место и формат церемонии в поездке. Обсудим с Вами детали и согласуем их с организаторами.",
+        action: "Обсудить церемонию"
+      }
+    ]
+  }
+];
+
+const servicesById = new Map(
+  serviceGroups.flatMap(group => group.services.map(service => [service.id, service]))
+);
+const defaultService = serviceGroups[0].services[0];
+
+function requestButton(label, topic) {
+  return `<button type="button" class="primary" data-request="${topic}">${label}</button>`;
+}
+
+function serviceBody(service) {
+  const relatedLink = service.related
+    ? `<button type="button" class="textlink" data-holiday="${service.related}">${service.related} →</button>`
+    : "";
+  return `
+    <h2>${service.title}</h2>
+    <p>${service.description}</p>
+    <div class="actions">
+      ${requestButton(service.action, service.title)}
+      ${relatedLink}
+    </div>`;
+}
+
+function servicePage({ serviceId } = {}) {
+  const selected = servicesById.get(serviceId) ?? defaultService;
+  const groups = serviceGroups.map(group => `
+    <section class="service-group">
+      <h3>${group.title}</h3>
+      ${group.services.map(service => `
+        <button type="button" data-service="${service.id}"
+          aria-controls="mango-service-detail" aria-pressed="${service.id === selected.id}">${service.title}</button>
+      `).join("")}
+    </section>`).join("");
+  return `
+    <h1>Услуги</h1>
+    <p class="pageintro">Выберите, с чем Вам нужна помощь.</p>
+    <div class="service-grid">${groups}</div>
+    <section id="mango-service-detail" class="service-detail" aria-live="polite"
+      aria-atomic="true" tabindex="-1">${serviceBody(selected)}</section>`;
+}
+
+function selectService(serviceId, reveal) {
+  const service = servicesById.get(serviceId);
+  if (!service) return;
+  for (const button of view.querySelectorAll("[data-service]")) {
+    button.setAttribute("aria-pressed", String(button.dataset.service === serviceId));
+  }
+  const detail = view.querySelector("#mango-service-detail");
+  detail.innerHTML = serviceBody(service);
+  if (reveal) {
+    detail.style.scrollMarginTop = (header.offsetHeight + 12) + "px";
+    detail.focus({ preventScroll: true });
+    detail.scrollIntoView({ block: "nearest" });
+  }
+}
+
+function countryPage(){const months=['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'];return `<h1>${country}</h1>
+<p class="pageintro">${country === "Турция"
+  ? "Пляжный отдых на Анталийском или Эгейском побережье можно дополнить поездкой в Стамбул или Каппадокию. Выберите регион, чтобы посмотреть сезон и курорты."
+  : "Коротко о характере отдыха и о том, кому подойдёт поездка."}</p>
+<div class="section"><div class="sectionhead"><h2>Когда поехать</h2><label class="small">Регион <select id="mango-climate"><option>${country==='Турция'?'Анталийское побережье':'Выбранный курорт'}</option>${country==='Турция'?'<option>Эгейское побережье</option><option>Стамбул</option>':''}</select></label></div><div class="months"><table><caption id="mango-climate-caption">Климат по месяцам · места для данных</caption><thead><tr><th scope="col">Показатель</th>${months.map(m=>`<th scope="col">${m}</th>`).join('')}</tr></thead><tbody>${['Воздух, °C','Осадки, мм','Море, °C'].map(r=>`<tr><th scope="row">${r}</th>${months.map(()=>'<td>—</td>').join('')}</tr>`).join('')}</tbody></table></div></div>`+
+section('Коротко о стране','<p>Атмосфера, особенности отдыха, кому подойдёт. Короткий текст без повторения справочника.</p>')+
+section('Курорты и маршруты',country==='Турция'?`<div class="row">${['Анталийское побережье','Эгейское побережье','Экскурсионная Турция'].map((x,i)=>`<button data-region="${i}" aria-pressed="${i===0}">${x}</button>`).join('')}</div><div id="mango-resorts" class="grid spacer">${resorts(0)}</div>`:'<div class="grid"><div class="tile">Пляжные курорты</div><div class="tile">Города и экскурсии</div><div class="tile">Другие варианты отдыха</div></div>')+
+section('Что важно знать','<details><summary>Въезд и документы</summary><p>Проверенная информация с датой обновления.</p></details><details><summary>Деньги, связь и транспорт</summary><p>Краткие практические рекомендации.</p></details><details><summary>Особенности отдыха</summary><p>То, что поможет выбрать курорт и подготовиться к поездке.</p></details>')+
+section('Вопросы о поездке',`<details><summary>Как выбрать курорт для своей поездки?</summary><p>Короткий ответ с переходом к подбору.</p></details><details><summary>Что учесть при выборе сезона?</summary><p>Ответ с учётом конкретного региона.</p></details>`)+
+`<div class="band"><div><h3>Подберём Ваше путешествие</h3><p>Пожелания, даты и удобный способ связи</p></div>${help()}</div>`;}
+function resorts(i){return [['Анталья','Белек','Кемер','Сиде','Аланья'],['Бодрум','Мармарис','Фетхие','Кушадасы'],['Стамбул','Каппадокия','Комбинированные маршруты']][i].map(r=>`<details class="tile"><summary>${r}</summary><p>Характер отдыха · кому подойдёт · что учесть</p></details>`).join('');}
+function workPage() {
+  return [
+    "<article class=\"article\">",
+    "  <h1>Как мы работаем</h1>",
+    "  <p class=\"pageintro\">Мы заботимся о тех, кто доверяет нам свой отдых. Вашей поездкой занимается персональный менеджер. Он помогает выбрать путешествие, отвечает на все вопросы и остаётся на связи до возвращения домой.</p>",
+    "  <p class=\"pageintro\">Работаем в туризме с 2010 года. К нам можно обратиться из любого города России. Общаемся в MAX или Telegram, договор оформляем онлайн, оплатить поездку можно дистанционно.</p>",
+    "  <section id=\"mango-plans\" class=\"section\">",
+    "    <h2>Начинаем с Ваших планов</h2>",
+    "    <p>Обсуждаем, как Вы хотите провести отпуск, с кем едете, что понравилось в прошлых путешествиях и чего хочется сейчас. Уточняем бюджет и важные для Вас условия. Если едете с детьми, учитываем их возраст и интересы.</p>",
+    "    <p>За словами «хороший пляж» могут стоять песчаный заход, красивый риф или возможность спокойно плавать. Такие подробности помогают выбрать подходящий курорт и отель.</p>",
+    "  </section>",
+    "  <section id=\"mango-choice\" class=\"section\">",
+    "    <h2>Помогаем сравнить и выбрать</h2>",
+    "    <p>В подборке Вы получаете несколько вариантов и нашу рекомендацию. Объясняем, почему предлагаем каждый отель, что в нём особенно хорошо, какие есть недостатки и чем обусловлена разница в цене.</p>",
+    "    <p>Многие курорты и отели знаем по собственным поездкам. Личный опыт дополняем свежими отзывами и фотографиями гостей, важные детали уточняем у отелей.</p>",
+    "    <p>Вы можете посмотреть подборку в удобное время, обсудить её с близкими и написать, что понравилось или что хочется изменить. До бронирования согласуем условия и сроки оплаты. О важных датах напоминаем сами.</p>",
+    "  </section>",
+    "  <section id=\"mango-hotel\" class=\"section\">",
+    "    <h2>Связываемся с отелем до Вашего приезда</h2>",
+    "    <p>После подтверждения тура туроператором проверяем, видит ли отель Ваше бронирование. Сверяем даты, категорию номера, питание и данные гостей. Если обнаруживаем расхождения, сразу обращаемся к туроператору для их исправления.</p>",
+    "    <p>Передаём отелю пожелания о тихом номере, раздельных кроватях, детской кроватке или особенностях питания. При необходимости уточняем возможность раннего заселения и позднего выезда. Сообщаем Вам, что удалось согласовать.</p>",
+    "  </section>",
+    "  <section id=\"mango-prepare\" class=\"section\">",
+    "    <h2>Готовим всё к поездке</h2>",
+    "    <p>Проверяем правила въезда, сроки действия загранпаспортов и данные в документах. Помогаем с анкетами и декларациями. Там, где это разрешено, заполняем их с Вашего согласия и передаём Вам на проверку.</p>",
+    "    <p>Собираем билеты, ваучеры и страховки в одном месте. Перед вылетом повторно проверяем рейс, аэропорт, терминал, нормы багажа и условия трансфера. Регистрируем Вас на рейс, если онлайн-регистрация доступна.</p>",
+    "    <p>Присылаем фирменную памятку Mango Travel по стране с ценными советами по оплате покупок, связи, транспорту, местным правилам и безопасности.</p>",
+    "  </section>",
+    "  <section id=\"mango-plans-on-trip\" class=\"section\">",
+    "    <h2>Помогаем спланировать отдых</h2>",
+    "    <p>По Вашему запросу подбираем экскурсии, бронируем столики в ресторанах и билеты на мероприятия. Организуем индивидуальный трансфер, аренду автомобиля или посещение бизнес-зала.</p>",
+    "    <p>Переписку с отелями и организаторами берём на себя. Если в поездке Вы отмечаете день рождения или годовщину, обсудим идеи и договоримся с отелем о поздравлении.</p>",
+    "  </section>",
+    "  <section id=\"mango-support\" class=\"section\">",
+    "    <h2>Остаёмся на связи в путешествии</h2>",
+    "    <p>Нужно заказать такси, найти аптеку, выбрать ресторан или объясниться с сотрудником отеля? Напишите своему менеджеру в привычном мессенджере.</p>",
+    "    <p>Если возникают сложности с номером, трансфером, багажом или перелётом, связываемся с отелем, перевозчиком, туроператором или принимающей стороной. При необходимости помогаем обратиться в страховую компанию.</p>",
+    "    <p>Обсуждаем с Вами возможные решения, ведём переговоры и держим Вас в курсе, пока вопрос решается.</p>",
+    "  </section>",
+    "  <section id=\"mango-experience\" class=\"section\">",
+    "    <h2>Учитываем опыт Ваших поездок</h2>",
+    "    <p>Запоминаем, какой отель Вам понравился, где не устроил пляж и какой перелёт оказался удобнее. В следующий раз начнём подбор с учётом этого опыта и Ваших новых пожеланий.</p>",
+    "  </section>",
+    "  <section id=\"mango-cost\" class=\"section\">",
+    "    <h2>Сколько стоят наши услуги</h2>",
+    "    <p>Мы работаем по ценам туроператоров без наценок и скидок. Подбор путешествия, помощь в подготовке к поездке и сопровождение до возвращения домой уже входят в стоимость тура.</p>",
+    "  </section>",
+    "  <div class=\"band\">",
+    "    <h3>Расскажите, каким Вы представляете свой отдых.</h3>",
+    "    <button type=\"button\" class=\"primary\" data-request=\"Обсудить поездку\">Обсудить поездку</button>",
+    "  </div>",
+    "</article>"
+  ].join("\n");
+}
+function aboutPage(){return `<h1>О нас</h1><div class="subnav"><button data-page="about" data-anchor="company">О компании</button><button data-page="about" data-anchor="team">Команда</button>${btn('Отзывы','reviews')}${btn('Контакты','contact')}${btn('Документы','documents')}</div><section id="mango-company" class="section"><div class="eyebrow">Работаем в туризме с 2010 года</div><h2>О компании</h2><div class="grid two"><div class="tile"><div class="thumb">Фото компании / команды</div></div><div><h3>Кто мы и как относимся к Вашему отдыху</h3><p>Короткая история Mango Travel, подход к работе и личная ответственность за поездку.</p><div class="actions">${btn('Наш процесс работы →','work','textlink')}</div></div></div></section><section id="mango-team" class="section"><h2>Команда</h2><div class="grid two"><div class="tile"><div class="thumb">Живое фото</div><h3>Имя · роль</h3><p>Опыт, специализация, личный подход к путешествиям.</p></div><div class="tile"><div class="thumb">Живое фото</div><h3>Имя · роль</h3><p>Несколько конкретных деталей, чтобы познакомиться.</p></div></div></section><div class="band"><h3>Давайте познакомимся</h3>${help()}</div>`;}
+function holidayPage(){return `<h1>${holiday}</h1><div class="hero"><div class="eyebrow">Отдых, который Вам по душе</div><h2>Первый экран раздела</h2><p>Описание выбранного отдыха и основная кнопка</p>${requestButton("Обсудить поездку", holiday)}</div>${section('Наполнение раздела','<div class="tile"><span>Тексты и подборки по выбранному виду отдыха</span><span>Внутренняя структура уточняется отдельно для каждого раздела.</span></div>')}${section('Направления и отели','<div class="grid two"><div class="tile">Подходящие страны</div><div class="tile">Подборки отелей / маршрутов</div></div>')}${section('Вопросы и помощь с выбором','<div class="band"><span>Короткие ответы и приглашение к подбору</span>'+help()+'</div>')}`;}
+
+function offerPage({ offerNumber }) {
+  return `
+    <h1>Предложение ${offerNumber}</h1>
+    <div class="hero">
+      <h2>Страна · отель или маршрут</h2>
+      <p>Фото, даты, длительность, город вылета, состав туристов, питание, цена и условия.</p>
+      ${requestButton("Уточнить предложение", "Предложение " + offerNumber)}
+    </div>
+    <div class="section">
+      <h2>Что входит и что учесть</h2>
+      <p>Короткое содержание конкретного предложения.</p>
+    </div>`;
+}
+
+const pageTemplates = {
+  home: home,
+  services: servicePage,
+  countries: () => `<h1>Страны</h1><p class="pageintro">Выберите страну, чтобы узнать о сезоне, курортах и особенностях поездки.</p><div class="grid">${allCountries.map(c=>`<button class="tile" data-country="${c}"><span class="thumb">Фото страны</span><span>${c}</span><span>Перейти к стране →</span></button>`).join('')}</div>`,
+  country: countryPage,
+  work: workPage,
+  about: aboutPage,
+  holiday: holidayPage,
+  reviews: () => `<h1>Отзывы туристов</h1><p class="pageintro">Реальные отзывы с указанием автора, даты и площадки.</p>${sources()}<div class="grid spacer">${reviewCards()}${reviewCards()}</div><div class="band"><h3>Расскажите о своей поездке</h3><div class="row"><button data-demo="Оставить отзыв на Яндексе">Яндекс ↗</button><button data-demo="Оставить отзыв в 2ГИС">2ГИС ↗</button></div></div>`,
+  offers: () => `<h1>Актуальные предложения</h1><p class="pageintro">Все действующие предложения в одном разделе.</p><div class="grid">${offerCards()}</div><div class="band"><h3>Не нашли подходящий вариант?</h3>${help()}</div>`,
+  faq: () => `<h1>Частые вопросы</h1><div class="subnav">${['Подбор','Бронирование и оплата','Документы','В поездке'].map((t,i)=>`<button data-faq-group="${i}" aria-pressed="${i===0}">${t}</button>`).join('')}</div><div id="mango-faq-group">${faqItems(3)}</div><div class="band"><h3>Остались вопросы?</h3>${btn('Связаться с нами','contact','primary')}</div>`,
+  contact: () => `<h1>Связь</h1><div class="grid two"><div class="tile"><h3>Напишите или позвоните</h3><p>Телефон · время работы</p><div class="actions"><button data-demo="MAX">MAX</button><button data-demo="Telegram">Telegram</button></div></div><div class="tile"><h3>Расскажите о планах</h3><p>Короткая форма обращения</p>${help()}</div></div>`,
+  documents: () => `<h1>Документы</h1><div class="grid two">${['Реквизиты','Документы для клиента','Политика обработки персональных данных','Согласие на обработку персональных данных'].map(t=>`<div class="tile"><h3>${t}</h3><span>Место для актуального документа</span></div>`).join('')}</div>`,
+  offer: offerPage
+};
+
+const menuToggles = [...header.querySelectorAll(".menu-toggle")];
+
+function setMenu(toggle, open) {
+  toggle.setAttribute("aria-expanded", String(open));
+  const panel = root.querySelector("#" + toggle.getAttribute("aria-controls"));
+  panel.hidden = !open;
+}
+
+function closeMenus() {
+  menuToggles.forEach(toggle => setMenu(toggle, false));
+}
+
+function populateMenus() {
+  root.querySelector("#mango-country-menu-items").innerHTML = allCountries
+    .map(name => `<li><button type="button" data-country="${name}">${name}</button></li>`)
+    .join("");
+
+  root.querySelector("#mango-service-menu-items").innerHTML = serviceGroups.map(group => `
+    <section>
+      <h3>${group.title}</h3>
+      <ul class="menu-list">
+        ${group.services.map(service => `
+          <li><button type="button" data-open-service="${service.id}">${service.title}</button></li>
+        `).join("")}
+      </ul>
+    </section>`).join("");
+}
+
+function render(page, options = {}) {
+  closeMenus();
+  view.innerHTML = pageTemplates[page](options);
+
+  const isInner = page !== "home";
+  header.classList.toggle("is-inner", isInner);
+  pageLocation.hidden = !isInner;
+
+  const heading = view.querySelector("h1");
+  const parentLinks = {
+    country: ["Страны", "countries"],
+    offer: ["Актуальные предложения", "offers"]
+  };
+  const parent = parentLinks[page];
+  pageLocation.innerHTML = isInner ? `
+    <button type="button" class="back-home" data-page="home"><span aria-hidden="true">←</span>Главная</button>
+    ${parent ? btn(parent[0], parent[1], "textlink") + '<span aria-hidden="true">/</span>' : ""}
+    <span aria-current="page">${heading.textContent}</span>` : "";
+
+  if (options.initial) return;
+  const anchor = options.anchor ? root.querySelector("#mango-" + options.anchor) : null;
+  const focusTarget = anchor?.querySelector("h2") ?? heading;
+  focusTarget.setAttribute("tabindex", "-1");
+  focusTarget.focus({ preventScroll: true });
+
+  if (anchor) {
+    anchor.classList.add("highlight");
+    anchor.style.scrollMarginTop = (header.offsetHeight + 14) + "px";
+    anchor.scrollIntoView({ block: "start" });
+  } else {
+    root.scrollIntoView({ block: "start" });
+  }
+}
+
+function openRequest(topic) {
+  requestForm.reset();
+  requestForm.elements.namedItem("topic").value = topic;
+  root.querySelector("#mango-request-title").textContent = topic;
+  root.querySelector("#mango-request-status").textContent = "";
+  requestDialog.showModal();
+}
+
+function showDemoLink(button) {
+  let status;
+  if (quizDialog.open) {
+    status = root.querySelector("#mango-form-status");
+  } else if (requestDialog.open) {
+    status = root.querySelector("#mango-request-status");
+  } else {
+    status = root.querySelector("#mango-demo-note");
+    if (!status) {
+      status = document.createElement("p");
+      status.id = "mango-demo-note";
+      status.className = "small spacer";
+      status.setAttribute("role", "status");
+      button.parentElement.after(status);
+    }
+  }
+  status.textContent = "Здесь будет переход: " + button.dataset.demo + ".";
+}
+
+root.addEventListener("click", event => {
+  const button = event.target.closest("button");
+  if (!button) return;
+
+  if (button.classList.contains("menu-toggle")) {
+    const shouldOpen = button.getAttribute("aria-expanded") !== "true";
+    closeMenus();
+    setMenu(button, shouldOpen);
+    return;
+  }
+
+  const data = button.dataset;
+  if (data.page) {
+    render(data.page, { anchor: data.anchor });
+    return;
+  }
+  if (data.country) {
+    country = data.country;
+    render("country");
+    return;
+  }
+  if (data.openService) {
+    render("services", { serviceId: data.openService });
+    return;
+  }
+  if (data.holiday) {
+    holiday = data.holiday;
+    render("holiday");
+    return;
+  }
+  if (data.offer) {
+    render("offer", { offerNumber: Number(data.offer) });
+    return;
+  }
+  if (data.service) {
+    selectService(data.service, matchMedia("(max-width: 700px)").matches || event.detail === 0);
+    return;
+  }
+  if (button.hasAttribute("data-help")) {
+    root.querySelector("#mango-form-status").textContent = "";
+    quizDialog.showModal();
+    return;
+  }
+  if (data.request) {
+    openRequest(data.request);
+    return;
+  }
+  if (button.id === "mango-close") {
+    quizDialog.close();
+    return;
+  }
+  if (button.id === "mango-request-close") {
+    requestDialog.close();
+    return;
+  }
+  if (button.id === "mango-expand") {
+    const extraCards = root.querySelector("#mango-more");
+    extraCards.hidden = !extraCards.hidden;
+    button.setAttribute("aria-expanded", String(!extraCards.hidden));
+    button.textContent = extraCards.hidden ? "Другие варианты отдыха" : "Скрыть дополнительные варианты";
+    return;
+  }
+  if (data.slide !== undefined) {
+    slide = Number(data.slide);
+    const carousel = root.querySelector("#mango-hero");
+    carousel.innerHTML = hero();
+    carousel.querySelector('[aria-pressed="true"]').focus({ preventScroll: true });
+    return;
+  }
+  if (data.region !== undefined) {
+    for (const option of view.querySelectorAll("[data-region]")) {
+      option.setAttribute("aria-pressed", String(option === button));
+    }
+    view.querySelector("#mango-resorts").innerHTML = resorts(Number(data.region));
+    return;
+  }
+  if (data.faqGroup !== undefined) {
+    const groups = [[0, 1, 2], [1, 3, 2], [4], [5]];
+    for (const option of view.querySelectorAll("[data-faq-group]")) {
+      option.setAttribute("aria-pressed", String(option === button));
+    }
+    view.querySelector("#mango-faq-group").innerHTML = groups[Number(data.faqGroup)]
+      .map(index => `<details><summary>${faqTitles[index]}</summary><p>${faqContent[index]}</p></details>`)
+      .join("");
+    return;
+  }
+  if (data.demo) showDemoLink(button);
+});
+
+document.addEventListener("click", event => {
+  if (!event.target.closest(".site-menu")) closeMenus();
+});
+
+document.addEventListener("focusin", event => {
+  const active = menuToggles.find(toggle => toggle.getAttribute("aria-expanded") === "true");
+  if (active && !active.closest(".site-menu").contains(event.target)) closeMenus();
+});
+
+header.addEventListener("keydown", event => {
+  if (event.key !== "Escape") return;
+  const active = menuToggles.find(toggle => toggle.getAttribute("aria-expanded") === "true");
+  if (active) {
+    closeMenus();
+    active.focus();
+  }
+});
+
+root.addEventListener("change", event => {
+  const field = event.target;
+  if (field.name === "when") {
+    root.querySelector("#mango-dates").hidden = field.value !== "Знаю даты";
+  }
+  if (field.id === "mango-climate") {
+    root.querySelector("#mango-climate-caption").textContent =
+      "Климат по месяцам · " + field.value + " · места для данных";
+  }
+});
+
+root.querySelector("#mango-form").addEventListener("submit", event => {
+  event.preventDefault();
+  root.querySelector("#mango-form-status").textContent = "Форма открыта в демонстрационном режиме.";
+});
+requestForm.addEventListener("submit", event => {
+  event.preventDefault();
+  root.querySelector("#mango-request-status").textContent = "Форма открыта в демонстрационном режиме.";
+});
+
+populateMenus();
+render("home", { initial: true });
+})();
+</script>
+</body>
+</html>
