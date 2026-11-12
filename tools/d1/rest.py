@@ -7,11 +7,8 @@ def build_rest_pages(ctx):
  for page in data['rest_pages']:
   order=page.get('section_order',data['rest_section_order']);slug=page['slug'];path=f'otdyh/{slug}/index.html';base='rest.'+slug
   def form(place):
-   fields=''
-   for i,label in enumerate(page['fields']):
-    phone=label=='Телефон';name='phone'if phone else'field_'+str(i)
-    fields+=f'<label class="field-label"><span {ed(base+".form.fields."+str(i))}>{E(label)}</span><input name="{name}" type="{"tel"if phone else"text"}"'+(' inputmode="tel" autocomplete="tel" maxlength="18" required'if phone else' maxlength="120"')+f' data-editable="{base}.form.input.{i}"></label>'
-   return f'<!-- component: rest-form --><div class="rest-inquiry" id="rest-inquiry-{place}"><h2 {ed(base+".form.title")}>{E(page["form_title"])}</h2><p class="rest-section-badge" {ed(base+".form.section")}>Раздел: {E(page["accent"])}</p><p class="rest-chosen" data-choice-output data-prefix="Вы выбрали: " aria-live="polite" hidden></p><form data-rest-form data-local-form novalidate><fieldset data-rest-guard data-form-guard disabled><legend class="sr-only">{E(page["form_title"])}</legend><input type="hidden" name="topic" value="{E(page_settings(path)["topic"])}">{fields}<label class="consent" {ed(base+".consent",True)}><input type="checkbox" name="consent" required><span><a href="{url(path,"o-nas/dokumenty/soglasie/index.html")}" target="_blank" rel="noopener" data-goal="rest_consent_read">Согласие на обработку персональных данных</a></span></label><p class="form-error" role="alert" data-rest-error data-phone-error="Укажите телефон полностью." data-consent-error="Пожалуйста, отметьте согласие на обработку данных."></p><button type="submit" class="btn btn-primary" data-rest-submit data-goal="rest_submit" disabled>Подобрать отдых {icon("i-arrow")}</button></fieldset></form><div class="form-success" data-rest-success role="status" tabindex="-1" hidden>{icon("i-check-circle")}<p>Спасибо, менеджер свяжется с Вами</p></div><p class="channel-caption">или напишите нам:</p>{channel_links(page["message"],"rest_"+place)}<noscript><a href="tel:+78512299547" data-goal="rest_phone_nojs">+7 (8512) 29-95-47</a></noscript></div><!-- /component: rest-form -->'
+   from stage6 import form as shared_form
+   return shared_form(path,'holiday:'+slug,place,classes='rest-inquiry',attrs='id="rest-inquiry-'+place+'"')
   def contactline(text,part):
    return f'<div class="rest-contact-line"><p {ed(base+"."+part+".contact")}>{E(text)}</p><div><a href="#rest-inquiry-top" class="btn btn-primary" data-rest-select="{E(page["accent"])}" data-goal="rest_{part}_select">Подобрать отдых</a>{channel_links(page["message"],"rest_"+part)}</div></div>'
   def section(part,title,body,cls=''):

@@ -1,0 +1,23 @@
+[
+  {
+    "width": 360,
+    "scroll_before": 886,
+    "scroll_after": 886,
+    "filter_restored": true,
+    "hidden_at_end_form": true
+  },
+  {
+    "width": 390,
+    "scroll_before": 860,
+    "scroll_after": 860,
+    "filter_restored": true,
+    "hidden_at_end_form": true
+  },
+  {
+    "width": 1440,
+    "scroll_before": 155,
+    "scroll_after": 155,
+    "filter_restored": true,
+    "hidden_at_end_form": true
+  }
+]

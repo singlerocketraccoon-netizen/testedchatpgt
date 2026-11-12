@@ -155,24 +155,25 @@ def ratings_strip(path,large=False):
  return '<div class="review-platforms'+(' review-platforms-large'if large else'')+'" aria-label="Отзывы на картах">'+''.join(f'<div class="review-platform"><a class="review-platform-link" href="{E(p["url"])}" data-review-platform="{p["slug"]}" data-goal="reviews_{p["slug"]}" {editable("reviews.platforms."+p["slug"]+".link")}>{icon("i-arrow-up")}<span {editable("reviews.platforms."+p["slug"]+".label")}>{E(p["label"])}</span></a><span class="review-platform-rating" {editable("reviews.platforms."+p["slug"]+".rating")}>{E(p["rating"])}</span></div>'for p in DATA['review_platforms'])+'</div>'
 
 def build():
- from stage4 import configure,finalize,home_page,extra_pages
+ from stage4 import configure,finalize
  configure(globals())
- home_page()
- from country import configure as configure_countries,index as countries_index,country as country_page,finish as finish_country
+ from country import configure as configure_countries,country as country_page,finish as finish_country
  configure_countries(globals())
- countries_index()
+ import stage6
+ stage6.configure(globals())
+ stage6.home()
+ stage6.countries_index()
  for c in COUNTRIES:country_page(c)
- from online import services_index
- services_index()
- for s in SERVICES:service(s)
+ stage6.services()
  from rest import build_rest_pages
  build_rest_pages(globals())
  from brand import build_brand_guide
  build_brand_guide(globals())
- extra_pages()
+ stage6.extra_pages()
  for page in PAGES:
   finalize(page['path'])
-  finish_country(page['path'])
+  if page['path'].startswith('napravleniya/')and page['path']!='napravleniya/index.html':finish_country(page['path'])
+  stage6.finish(page['path'])
  registry={(SITE/'img'/r['file']).resolve():r for r in json.loads((SITE/'img/sources.json').read_text())}
  for record in PAGES:
   page=SITE/record['path']

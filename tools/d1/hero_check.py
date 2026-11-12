@@ -20,6 +20,6 @@ async def run():
     assert r['gap']>=24-.01,(width,height,i+1,r);assert r['accent']>r['header'],(width,height,i+1,r);positions.append(r['button']);rows.append({'width':width,'height':height,'slide':i+1,**r});await page.locator('[data-hero-next]').click()
    assert max(positions)-min(positions)<1,(width,height,positions);await page.close()
   await b.close()
- (SITE/'STAGE5_HERO_QA.json').write_text(json.dumps({'minimum_gap':24,'measurements':rows},ensure_ascii=False,indent=2)+'\n');print('Passed',len(rows),'slide measurements')
+ (SITE/'STAGE6_HERO_QA.json').write_text(json.dumps({'minimum_gap':24,'measurements':rows},ensure_ascii=False,indent=2)+'\n');print('Passed',len(rows),'slide measurements')
 try:asyncio.run(run())
 finally:server.shutdown()
