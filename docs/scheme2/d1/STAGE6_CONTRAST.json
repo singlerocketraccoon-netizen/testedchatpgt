@@ -1,0 +1,812 @@
+{
+  "viewports": [
+    {
+      "width": 360,
+      "path": "index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/oae/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/oae/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/oae/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/oae/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    }
+  ],
+  "flat_checks": 13396,
+  "flat_failures": [],
+  "photo_checks": 776,
+  "photo_failures": [],
+  "photo_minima": [
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 5.68
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 2",
+      "minimum": 7.99
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 3",
+      "minimum": 5.48
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 4",
+      "minimum": 6.75
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 5.47
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 6.7
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 6.21
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 5.54
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 6.87
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 9.03
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 12.23
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.89
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 12.87
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.52
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.35
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.61
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.7
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 4.35
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 2",
+      "minimum": 5.63
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 3",
+      "minimum": 6.38
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 4",
+      "minimum": 6.72
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 6.73
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 8.67
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.92
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 8.0
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.03
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 8.19
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 10.92
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.86
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 10.92
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 6.63
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 8.65
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.19
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.0
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.24
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 2",
+      "minimum": 8.33
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 3",
+      "minimum": 6.17
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 4",
+      "minimum": 6.82
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 6.63
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.62
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.2
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 6.88
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.27
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 6.87
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 10.33
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.53
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 10.32
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.3
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.02
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.13
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 6.76
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.68
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 2",
+      "minimum": 8.14
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 3",
+      "minimum": 6.17
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 4",
+      "minimum": 6.83
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.17
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.23
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.41
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.03
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.35
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.59
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 10.33
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.65
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 10.33
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.17
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.87
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.06
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 6.91
+    }
+  ],
+  "errors": [],
+  "resources": []
+}

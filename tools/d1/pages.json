@@ -10,13 +10,28 @@
     "type": "page"
   },
   {
-    "path": "napravleniya/turciya/index.html",
-    "title": "Туры в Турцию",
+    "path": "napravleniya/vetnam/index.html",
+    "title": "Туры во Вьетнам",
     "type": "country"
   },
   {
     "path": "napravleniya/egipet/index.html",
     "title": "Туры в Египет",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/indoneziya/index.html",
+    "title": "Туры в Индонезию",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/kitay/index.html",
+    "title": "Туры в Китай",
+    "type": "country"
+  },
+  {
+    "path": "napravleniya/maldivy/index.html",
+    "title": "Туры на Мальдивы",
     "type": "country"
   },
   {
@@ -30,13 +45,8 @@
     "type": "country"
   },
   {
-    "path": "napravleniya/maldivy/index.html",
-    "title": "Туры на Мальдивы",
-    "type": "country"
-  },
-  {
-    "path": "napravleniya/vetnam/index.html",
-    "title": "Туры во Вьетнам",
+    "path": "napravleniya/turciya/index.html",
+    "title": "Туры в Турцию",
     "type": "country"
   },
   {
@@ -45,78 +55,8 @@
     "type": "country"
   },
   {
-    "path": "napravleniya/kitay/index.html",
-    "title": "Туры в Китай",
-    "type": "country"
-  },
-  {
-    "path": "napravleniya/indoneziya/index.html",
-    "title": "Туры в Индонезию",
-    "type": "country"
-  },
-  {
     "path": "uslugi/index.html",
-    "title": "Что нужно для Вашей поездки",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/paketnye-tury/index.html",
-    "title": "Пакетные туры",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/ekskursionnye-tury/index.html",
-    "title": "Экскурсионные туры",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/individualnye-tury/index.html",
-    "title": "Индивидуальные туры",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/kruizy/index.html",
-    "title": "Круизы",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/oteli/index.html",
-    "title": "Бронирование отелей",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/aviabilety/index.html",
-    "title": "Авиабилеты",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/zhd-bilety/index.html",
-    "title": "ЖД билеты",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/avtobusnye-bilety/index.html",
-    "title": "Автобусные билеты",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/transfery/index.html",
-    "title": "Трансферы",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/strahovanie/index.html",
-    "title": "Страхование",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/vip-zaly/index.html",
-    "title": "VIP-залы",
-    "type": "page"
-  },
-  {
-    "path": "uslugi/fast-track/index.html",
-    "title": "Fast Track",
+    "title": "Услуги",
     "type": "page"
   },
   {
@@ -160,13 +100,13 @@
     "type": "redirect"
   },
   {
-    "path": "o-nas/kontakty/index.html",
-    "title": "Связь",
+    "path": "o-nas/otzyvy/index.html",
+    "title": "Отзывы клиентов",
     "type": "page"
   },
   {
-    "path": "o-nas/otzyvy/index.html",
-    "title": "Отзывы туристов",
+    "path": "o-nas/kontakty/index.html",
+    "title": "Контакты",
     "type": "page"
   },
   {
@@ -185,8 +125,8 @@
     "type": "page"
   },
   {
-    "path": "voprosy/index.html",
-    "title": "Частые вопросы",
+    "path": "zagranpasport/index.html",
+    "title": "Проверить срок действия загранпаспорта",
     "type": "page"
   },
   {
@@ -200,33 +140,43 @@
     "type": "page"
   },
   {
-    "path": "predlozheniya/turkey-antalya/index.html",
-    "title": "Отель у моря",
+    "path": "predlozheniya/e1/index.html",
+    "title": "Отель 1",
     "type": "page"
   },
   {
-    "path": "predlozheniya/egypt-sharm/index.html",
-    "title": "Курортный отель",
+    "path": "predlozheniya/h2/index.html",
+    "title": "Отель 2",
     "type": "page"
   },
   {
-    "path": "predlozheniya/uae-dubai/index.html",
-    "title": "Городской отель",
+    "path": "predlozheniya/h3/index.html",
+    "title": "Отель 3",
     "type": "page"
   },
   {
-    "path": "predlozheniya/thailand-phuket/index.html",
-    "title": "Отель у пляжа",
+    "path": "predlozheniya/e2/index.html",
+    "title": "Отель 4",
     "type": "page"
   },
   {
-    "path": "predlozheniya/vietnam-phuquoc/index.html",
-    "title": "Курорт у моря",
+    "path": "predlozheniya/h5/index.html",
+    "title": "Отель 5",
     "type": "page"
   },
   {
-    "path": "predlozheniya/maldives-islands/index.html",
-    "title": "Островной отель",
+    "path": "predlozheniya/h6/index.html",
+    "title": "Отель 6",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/e3/index.html",
+    "title": "Отель 7",
+    "type": "page"
+  },
+  {
+    "path": "predlozheniya/e4/index.html",
+    "title": "Отель 8",
     "type": "page"
   },
   {

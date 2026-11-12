@@ -11,8 +11,8 @@
   --leaf-line: #A5AE98; --mango-line: #C6A48E; --footer-line: #686057;
   --clay-rgb: 174 41 40; --cream-rgb: 250 247 241;
   --line-rgb: 201 190 176; --control-rgb: 136 116 94;
-  --ink-rgb: 51 45 40; --overlay-rgb: 17 39 31;
-  --rest-overlay-rgb: 22 44 35; --backdrop-rgb: 33 38 32;
+  --ink-rgb: 51 45 40; --overlay-rgb: 26 25 24;
+  --rest-overlay-rgb: 26 25 24; --backdrop-rgb: 33 38 32;
   --disabled-bg: var(--sand); --disabled-ink: var(--muted-on-sand);
   --display: 'Cormorant Garamond', Georgia, serif;
   --body: Manrope, 'Segoe UI', Arial, sans-serif;

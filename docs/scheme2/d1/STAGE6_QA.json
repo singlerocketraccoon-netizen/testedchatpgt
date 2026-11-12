@@ -1,0 +1,73 @@
+{
+  "pages": 37,
+  "links": 6748,
+  "viewports": 185,
+  "errors": [],
+  "resources": [],
+  "scenarios": [
+    {
+      "width": 360,
+      "forms": true,
+      "messages_exclude_phone": true,
+      "goals_exclude_contacts": true,
+      "catalogue_return": true,
+      "country_month": true,
+      "keyboard": true
+    },
+    {
+      "width": 390,
+      "forms": true,
+      "messages_exclude_phone": true,
+      "goals_exclude_contacts": true,
+      "catalogue_return": true,
+      "country_month": true,
+      "keyboard": true
+    },
+    {
+      "width": 768,
+      "forms": true,
+      "messages_exclude_phone": true,
+      "goals_exclude_contacts": true,
+      "catalogue_return": true,
+      "country_month": true,
+      "keyboard": true
+    },
+    {
+      "width": 1280,
+      "forms": true,
+      "messages_exclude_phone": true,
+      "goals_exclude_contacts": true,
+      "catalogue_return": true,
+      "country_month": true,
+      "keyboard": true
+    },
+    {
+      "width": 1440,
+      "forms": true,
+      "messages_exclude_phone": true,
+      "goals_exclude_contacts": true,
+      "catalogue_return": true,
+      "country_month": true,
+      "keyboard": true
+    },
+    {
+      "fixture": "offers_empty",
+      "passed": true
+    },
+    {
+      "fixture": "featured_empty",
+      "passed": true
+    },
+    {
+      "fixture": "country_unpublished",
+      "passed": true
+    },
+    {
+      "fixture": "offers_expired",
+      "passed": true
+    }
+  ],
+  "source_copy_exact": true,
+  "protected_country_holiday_content": true,
+  "deterministic_build": true
+}

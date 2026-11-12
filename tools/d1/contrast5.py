@@ -5,7 +5,7 @@ from pathlib import Path
 from http.server import SimpleHTTPRequestHandler,ThreadingHTTPServer
 from PIL import Image
 from playwright.async_api import async_playwright
-R=Path(__file__).resolve().parents[2];S=R/'docs/scheme2/d1';PAGES=[{'path':'index.html','type':'home'}]+[{'path':'napravleniya/'+c['slug']+'/index.html','type':'country'}for c in json.loads((R/'tools/d1/data.json').read_text())['countries']];T=Path(tempfile.mkdtemp());(T/'travel').symlink_to(R/'docs',target_is_directory=True)
+R=Path(__file__).resolve().parents[2];S=R/'docs/scheme2/d1';PAGES=[{'path':'index.html','type':'home'}]+[{'path':'napravleniya/'+c['slug']+'/index.html','type':'country'}for c in json.loads((R/'tools/d1/data.json').read_text())['countries']if c['published']]+[{'path':'otdyh/'+p['slug']+'/index.html','type':'holiday'}for p in json.loads((R/'tools/d1/data.json').read_text())['rest_pages']];T=Path(tempfile.mkdtemp());(T/'travel').symlink_to(R/'docs',target_is_directory=True)
 class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**kw):super().__init__(*a,directory=str(T),**kw)
  def log_message(self,*a):pass
@@ -28,7 +28,7 @@ async def photo(page,rows,width,path,label):
     for fy in [.3,.5,.7]:
      x=min(width-1,max(0,int(rect['x']+rect['w']*fx)));y=min(899,max(0,int(rect['y']+rect['h']*fy)));scores.append(getratio(row['fg'],im.getpixel((x,y))))
   if not scores:continue
-  score=min(scores);limit=4.5;worst=min(worst,score);report['photo_checks']+=1
+  score=min(scores);limit=3 if row['size']>=24 or row['size']>=18.66 and row['weight']>=700 else 4.5;worst=min(worst,score);report['photo_checks']+=1
   if score+0.01<limit:report['photo_failures'].append({'path':path,'width':width,'state':label,'text':row['text'],'cls':row['cls'],'ratio':round(score,2),'required':limit})
  report['photo_minima'].append({'path':path,'width':width,'state':label,'minimum':round(worst,2)})
 async def main():
@@ -42,7 +42,7 @@ async def main():
     if width>=1024:assert abs(geom['logoCenter']-width/2)<.1
     for row in rows:
      if row['kind']!='flat' or row['disabled']:continue
-     score=getratio(row['fg'],row['bg']);limit=4.5;report['flat_checks']+=1
+     score=getratio(row['fg'],row['bg']);limit=3 if row['size']>=24 or row['size']>=18.66 and row['weight']>=700 else 4.5;report['flat_checks']+=1
      if score+.01<limit:report['flat_failures'].append({'path':path,'width':width,'text':row['text'],'cls':row['cls'],'ratio':round(score,2),'required':limit,'fg':row['fg'],'bg':row['bg']})
     if width in[360,768,1280,1440]and(path=='index.html'or rec['type']=='country'or path.startswith('otdyh/')):
      await page.evaluate("document.querySelectorAll('img').forEach(i=>i.loading='eager')");await page.evaluate('Promise.all([...document.images].map(i=>i.decode()))');await photo(page,await page.evaluate(COLLECT),width,path,'initial')
@@ -52,7 +52,7 @@ async def main():
     await page.evaluate('scrollTo(0,240)');await page.wait_for_timeout(40);height=await page.locator('[data-site-header] .brand').evaluate('e=>e.getBoundingClientRect().height');assert abs(height-(42 if width>=1024 else 40))<.1,(width,path,height);report['viewports'].append({'width':width,'path':path,'logo':geom['logoHeight'],'compact':height,'footer':geom['footerHeight']})
    print('Audited',width,flush=True);await page.close()
   await b.close()
- (S/'STAGE5_CONTRAST.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:report[k]for k in['flat_checks','flat_failures','photo_checks','photo_failures','errors','resources']},ensure_ascii=False,indent=2))
+ (S/'STAGE6_CONTRAST.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:report[k]for k in['flat_checks','flat_failures','photo_checks','photo_failures','errors','resources']},ensure_ascii=False,indent=2))
 try:
  asyncio.run(main())
  assert not any(report[k]for k in ['flat_failures','photo_failures','errors','resources']),report
