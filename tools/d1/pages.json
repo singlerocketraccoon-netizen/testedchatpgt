@@ -80,6 +80,26 @@
     "type": "country"
   },
   {
+    "path": "otdyh/ekskursionnye-tury/index.html",
+    "title": "Каждый день — новые места",
+    "type": "country"
+  },
+  {
+    "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+    "title": "Сам отель — уже повод поехать",
+    "type": "country"
+  },
+  {
+    "path": "otdyh/gornyj-vozduh/index.html",
+    "title": "Отпуск, после которого легче дышится",
+    "type": "country"
+  },
+  {
+    "path": "otdyh/svoj-marshrut/index.html",
+    "title": "Увидеть всё, что хочется, и не спешить",
+    "type": "country"
+  },
+  {
     "path": "styleguide.html",
     "title": "Дизайн-система Манго",
     "type": "page"

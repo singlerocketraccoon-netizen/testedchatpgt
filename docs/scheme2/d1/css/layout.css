@@ -1,0 +1,5 @@
+/* Design 1 · layout. Typography values are tokens.css variables. */
+.container{width:min(calc(100% - var(--gutter) * 2), var(--content));margin-inline:auto;}
+.section{padding-block:var(--section);}
+.section-head{margin-bottom:30px;}
+.section-head h2{max-width:780px;}

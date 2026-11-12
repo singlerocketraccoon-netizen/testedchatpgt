@@ -1,0 +1,1020 @@
+{
+  "viewports": [
+    {
+      "width": 360,
+      "path": "index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/oae/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "otdyh/svoj-marshrut/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/oae/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "otdyh/svoj-marshrut/index.html",
+      "logo": 44,
+      "compact": 44,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/oae/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "otdyh/svoj-marshrut/index.html",
+      "logo": 64,
+      "compact": 64,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/oae/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/tishina-i-more/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "otdyh/svoj-marshrut/index.html",
+      "logo": 68,
+      "compact": 68,
+      "footer": 56
+    }
+  ],
+  "flat_checks": 15950,
+  "flat_failures": [],
+  "photo_checks": 984,
+  "photo_failures": [],
+  "photo_minima": [
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.86
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 2",
+      "minimum": 8.03
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 3",
+      "minimum": 4.32
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 4",
+      "minimum": 6.75
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 6.36
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.16
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.24
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.01
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 6.18
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.84
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 12.07
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.89
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 4.67
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 9.39
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 10.2
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.66
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 9.45
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 12.92
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 11.75
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 10.2
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.72
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 5.44
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 2",
+      "minimum": 8.01
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 3",
+      "minimum": 6.29
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 4",
+      "minimum": 6.73
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 6.71
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.27
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 8.71
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 8.04
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.78
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.99
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 10.92
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.5
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 10.92
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.75
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.71
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 4.89
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 8.19
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.22
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 9.09
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 5.07
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 4.78
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.96
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 2",
+      "minimum": 8.31
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 3",
+      "minimum": 6.1
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 4",
+      "minimum": 6.75
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 6.44
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.04
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.78
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.58
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.24
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.84
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 13.39
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.53
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 13.39
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.6
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.78
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 5.2
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 6.35
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.62
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.69
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 5.22
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 5.08
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.31
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 2",
+      "minimum": 8.03
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 3",
+      "minimum": 6.18
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 4",
+      "minimum": 6.82
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.51
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.49
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.49
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.77
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.28
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.32
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 13.18
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.41
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 13.18
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.91
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.02
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 5.04
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.95
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 7.83
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.8
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 5.45
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 5.0
+    }
+  ],
+  "errors": [],
+  "resources": []
+}

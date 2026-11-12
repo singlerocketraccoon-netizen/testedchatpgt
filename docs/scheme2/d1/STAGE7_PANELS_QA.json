@@ -1,0 +1,524 @@
+[
+  {
+    "engine": "chromium",
+    "width": 360,
+    "path": "index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать путешествие",
+        "font": 16,
+        "h": 44,
+        "w": 163.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 360,
+    "path": "otdyh/otdyh-s-detmi/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать отдых",
+        "font": 16,
+        "h": 44,
+        "w": 163.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 360,
+    "path": "napravleniya/egipet/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать тур",
+        "font": 16,
+        "h": 44,
+        "w": 163.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "path": "index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать путешествие",
+        "font": 16,
+        "h": 44,
+        "w": 193.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "path": "otdyh/otdyh-s-detmi/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать отдых",
+        "font": 16,
+        "h": 44,
+        "w": 193.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "path": "napravleniya/egipet/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать тур",
+        "font": 16,
+        "h": 44,
+        "w": 193.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "firefox",
+    "width": 360,
+    "path": "index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать путешествие",
+        "font": 16,
+        "h": 44,
+        "w": 163.8333282470703,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "firefox",
+    "width": 360,
+    "path": "otdyh/otdyh-s-detmi/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать отдых",
+        "font": 16,
+        "h": 44,
+        "w": 163.8333282470703,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "firefox",
+    "width": 360,
+    "path": "napravleniya/egipet/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать тур",
+        "font": 16,
+        "h": 44,
+        "w": 163.8333282470703,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "firefox",
+    "width": 390,
+    "path": "index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать путешествие",
+        "font": 16,
+        "h": 44,
+        "w": 193.8333282470703,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "firefox",
+    "width": 390,
+    "path": "otdyh/otdyh-s-detmi/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать отдых",
+        "font": 16,
+        "h": 44,
+        "w": 193.8333282470703,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "firefox",
+    "width": 390,
+    "path": "napravleniya/egipet/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать тур",
+        "font": 16,
+        "h": 44,
+        "w": 193.8333282470703,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.1666717529297,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 360,
+    "path": "index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать путешествие",
+        "font": 16,
+        "h": 44,
+        "w": 163.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 360,
+    "path": "otdyh/otdyh-s-detmi/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать отдых",
+        "font": 16,
+        "h": 44,
+        "w": 163.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 360,
+    "path": "napravleniya/egipet/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать тур",
+        "font": 16,
+        "h": 44,
+        "w": 163.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "path": "index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать путешествие",
+        "font": 16,
+        "h": 44,
+        "w": 193.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "path": "otdyh/otdyh-s-detmi/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать отдых",
+        "font": 16,
+        "h": 44,
+        "w": 193.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "path": "napravleniya/egipet/index.html",
+    "height": 60,
+    "buttons": [
+      {
+        "t": "Подобрать тур",
+        "font": 16,
+        "h": 44,
+        "w": 193.828125,
+        "over": 0
+      },
+      {
+        "t": "MAX",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      },
+      {
+        "t": "Telegram",
+        "font": 16,
+        "h": 44,
+        "w": 145.171875,
+        "over": 0
+      }
+    ]
+  }
+]

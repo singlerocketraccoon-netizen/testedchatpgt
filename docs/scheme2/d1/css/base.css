@@ -1,0 +1,38 @@
+/* Design 1 · base. Typography values are tokens.css variables. */
+*, *::before, *::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:90px;}
+body{margin:0;color:var(--ink);background:var(--paper);font-style:normal;font-weight:400;font-size:var(--text-body);line-height:1.6;font-family:var(--body);-webkit-font-smoothing:antialiased;}
+a{color:inherit;text-decoration:none;}
+button, input, textarea, select{color:inherit;font:inherit;}
+button, a{-webkit-tap-highlight-color:transparent;}
+button{cursor:pointer;}
+button:disabled{cursor:default;opacity:.5;}
+img{display:block;max-width:100%;height:auto;}
+h1, h2, h3, h4, p, figure, blockquote{margin:0;}
+h1, h2, h3, h4{font-style:normal;font-weight:400;font-size:var(--text-h1);line-height:1.12;font-family:var(--display);letter-spacing:-.035em;}
+h2{font-size:var(--text-h2);}
+h3{font-size:var(--text-h3);}
+h4{font-size:var(--text-h3);}
+p + p{margin-top:12px;}
+[hidden]{display:none!important;}
+::selection{background:var(--clay);color:var(--cream);}
+:focus-visible{outline:3px solid var(--clay);outline-offset:5px;}
+body:has(dialog[open]){overflow:hidden;}
+@media   (prefers-reduced-motion: reduce) { html{scroll-behavior:auto;} }
+@media   (prefers-reduced-motion: reduce) { *, *::before, *::after{animation:none!important;transition:none!important;} }
+body.inner-plain{padding-top:82px;}
+@media   (min-width: 1024px) { body.inner-plain{padding-top:96px;} }
+@media   (max-width:767px) { body:has([data-mobile-contact]){padding-bottom:calc(80px + env(safe-area-inset-bottom));} }
+
+
+
+@keyframes hero-zoom { from { transform: scale(1); } to { transform: scale(1.04); } }/* Shared reading scale and semantic heading weight. */
+body{font-size:var(--text-body);line-height:1.6;}
+h1{font-size:var(--text-h1);font-weight:400;line-height:1.08;}
+h2{font-size:var(--text-h2);font-weight:500;line-height:1.15;}
+h3,h4{font-size:var(--text-h3);font-weight:500;line-height:1.2;}
+p,li{overflow-wrap:break-word;}p{max-width:70ch;}
+button,input,textarea,select{font-family:var(--body);}
+/* Firefox ESR 115 fallback for the optional :has() enhancement. */
+body.dialog-is-open{overflow:hidden;}
+@media  (max-width:767px) { body.has-mobile-panel{padding-bottom:calc(80px + env(safe-area-inset-bottom));} }
