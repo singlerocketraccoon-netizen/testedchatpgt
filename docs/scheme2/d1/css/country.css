@@ -1,163 +1,135 @@
-/* Country schema 8 in the existing design 1 system. */
-.country-hero { position:relative; isolation:isolate; overflow:hidden; padding:130px 0 65px; min-height:75svh; color:var(--cream); background:var(--forest); }
-.country-hero>img,.country-hero>.country-photo-placeholder { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
-.country-hero::after { content:''; position:absolute; z-index:0; inset:0; background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 85%),rgb(var(--overlay-rgb) / 62%) 55%,rgb(var(--overlay-rgb) / 25%)),linear-gradient(0deg,rgb(var(--overlay-rgb) / 65%),transparent 75%); }
-.country-hero>.container { position:relative; z-index:1; }
-.country-hero .breadcrumbs { color:var(--cream); margin-bottom:42px; }
-.country-hero .breadcrumbs a { color:inherit; }
-.country-hero-grid { display:grid; gap:42px; align-items:center; }
-.country-hero h1 { max-width:700px; font-size:clamp(52px,6vw,82px); line-height:1.02; color:var(--cream); }
-.country-hero-copy>.hero-accent { font:400 22px/1.4 'Bad Script',cursive; margin-bottom:18px; }
-.country-subtitle { margin-top:26px; max-width:520px; font-size:14px; line-height:1.85; }
-.country-hero-facts { display:flex; flex-wrap:wrap; gap:12px 20px; margin-top:28px; }
-.country-hero-facts a { color:var(--cream); font-size:11px; line-height:1.6; border-bottom:1px solid rgb(var(--cream-rgb) / 65%); }
-.country-hero-form { display:none; }
-.country-mobile-hero { display:grid; justify-items:start; gap:18px; margin-top:30px; }
-.country-mobile-hero .messenger-actions { margin:0; }
-.country-mobile-hero .btn-outline { color:var(--cream); border-color:rgb(var(--cream-rgb) / 75%); background:transparent; }
-.country-mobile-hero .btn-outline:hover { background:var(--forest); }
-.country-page-nav { position:static; border-bottom:1px solid var(--line); background:var(--cream); z-index:60; }
-.country-page-nav>.container { display:flex; flex-wrap:nowrap; overflow-x:auto; gap:26px; }
-.country-page-nav a { flex-shrink:0; padding:19px 0; font-size:12px; color:var(--muted); }
-.country-page-nav a[aria-current] { color:var(--clay); box-shadow:inset 0 -2px var(--clay); }
-.country-section { scroll-margin-top:90px; padding-block:55px; }
-.country-section .section-head { margin-bottom:28px; }
-.country-section h2 { font-size:clamp(40px,4.2vw,58px); }
-.country-section-intro { color:var(--muted); font-size:14px; line-height:1.85; margin-bottom:28px; max-width:720px; }
-.country-weather,.country-inquiry { padding:25px; background:var(--cream); border:1px solid var(--line); border-radius:var(--radius-card); }
-.country-weather .field-label { margin-top:0; }
-.country-select { max-width:350px; margin-bottom:25px; }
-.country-months { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:8px; margin:24px 0; }
-.country-months button,.country-format button { min-height:44px; padding:9px 7px; border:1px solid var(--line); border-radius:var(--radius-small); font:400 12px/1.5 var(--body); color:var(--ink); background:var(--paper); }
-.country-months button:hover,.country-format button:hover { border-color:var(--clay); }
-.country-months button[aria-pressed=true],.country-format button[aria-pressed=true] { color:var(--cream); background:var(--clay); border-color:var(--clay); }
-.country-weather-result>p { font-size:12px; line-height:1.8; color:var(--muted); }
-.country-temperature { display:flex; gap:42px; margin:25px 0; }
-.country-temperature p { display:grid; gap:10px; }
-.country-temperature strong { font:400 52px/1 var(--display); color:var(--ink); }
-.country-temperature span { font-size:11px; color:var(--muted); }
-.country-weather-table { margin-top:25px; border-top:1px solid var(--line); padding-top:20px; }
-.country-weather-table summary { font-size:13px; }
-.table-scroll { overflow:auto; }
-.country-weather-table table { width:100%; border-collapse:collapse; margin-top:22px; font-size:12px; }
-.country-weather-table td,.country-weather-table th { text-align:left; border-bottom:1px solid var(--line); padding:12px 10px; }
-.country-weather-table th { font-weight:500; }
-.country-weather-table caption { padding:12px 0; text-align:left; color:var(--muted); }
-.country-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:22px; }
-.country-card-panel,.country-index-card { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:var(--radius-card); background:var(--cream); }
-.country-photo-placeholder { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; min-height:185px; background:linear-gradient(135deg,var(--sand),var(--cream) 70%,var(--leaf-wash)); color:var(--sage); }
-.country-photo-placeholder .icon { width:42px; height:42px; }
-.country-photo-placeholder span { font-size:11px; line-height:1.6; text-align:center; padding-inline:15px; }
-.country-hero>.country-photo-placeholder { min-height:100%; background:linear-gradient(125deg,var(--forest),var(--sage)); color:var(--cream); }
-.country-hero>.country-photo-placeholder .icon { position:absolute; right:5%; bottom:10%; width:35vw; height:35vw; opacity:.16; }
-.country-hero>.country-photo-placeholder span { position:absolute; right:25px; bottom:25px; }
-.country-card-panel img,.country-index-card img { display:block; width:100%; height:200px; object-fit:cover; }
-.country-card-body { padding:23px; }
-.country-card-body h3 { font-size:30px; margin-bottom:15px; }
-.country-card-body p { font-size:12px; line-height:1.8; color:var(--muted); margin-bottom:15px; }
-.country-card-body .text-link { margin-top:10px; font-size:12px; }
-.country-format { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:25px; }
-.country-format button { padding:11px 18px; }
-.country-resort summary { cursor:pointer; list-style:none; }
-.country-resort summary::-webkit-details-marker { display:none; }
-.country-resort summary>span { display:flex; align-items:center; justify-content:space-between; padding:22px 23px 0; font:400 31px/1.1 var(--display); }
-.country-resort summary>span>.icon { color:var(--clay); width:20px; height:20px; flex-shrink:0; }
-.country-resort details[open] summary>span>.icon { transform:rotate(45deg); }
-.country-resort-facts { margin:0; }
-.country-resort-facts>div { margin-bottom:15px; }
-.country-resort-facts dt { font-size:12px; margin-bottom:5px; }
-.country-resort-facts dd { margin:0; font-size:12px; line-height:1.8; color:var(--muted); }
-.country-card-links { display:flex; flex-wrap:wrap; gap:14px; font-size:11px; color:var(--clay); }
-[data-more-resorts],.country-more-offers { margin-top:28px; }
-.country-price-strip { display:flex; flex-wrap:wrap; gap:25px; align-items:center; justify-content:space-between; background:var(--sand); border:1px solid var(--line); border-radius:var(--radius-card); padding:28px; }
-.country-price-strip h3 { font-size:30px; }
-.country-price-strip p { margin-top:12px; font-size:12px; line-height:1.8; color:var(--muted); }
-.country-hotel-grid { margin-top:28px; }
-.country-hotel-open { display:block; width:100%; border:0; padding:0; text-align:left; color:var(--ink); background:transparent; }
-.country-hotel-open>span { display:block; padding:23px 23px 0; font:400 31px/1.1 var(--display); }
-.country-hotel-open:hover>span { color:var(--clay); }
-.country-hotel-empty { margin-top:28px; padding:30px; border:1px solid var(--line); border-radius:var(--radius-card); background:var(--cream); }
-.country-hotel-empty h3 { font-size:32px; margin-bottom:22px; }
-.country-hotel-dialog { width:min(700px,calc(100% - 32px)); max-height:calc(100svh - 32px); overflow:auto; padding:25px; border:1px solid var(--line); border-radius:var(--radius-card); background:var(--cream); color:var(--ink); }
-.country-hotel-dialog::backdrop { background:rgb(var(--backdrop-rgb) / 65%); }
-.country-hotel-dialog h2 { font-size:40px; }
-.country-hotel-dialog>p { margin-top:18px; font-size:13px; line-height:1.8; color:var(--muted); }
-.country-hotel-dialog>.btn { margin-top:24px; }
-.country-hotel-photos { margin-top:25px; display:flex; overflow-x:auto; scroll-snap-type:x mandatory; }
-.country-hotel-photos>* { width:100%; min-width:100%; height:260px; object-fit:cover; scroll-snap-align:start; }
-.country-checked { color:var(--muted); font-size:11px!important; }
-.country-end-grid { display:grid; gap:35px; align-items:start; }
-.country-end-grid h2 { margin-bottom:25px; }
-.country-trust { display:flex; flex-wrap:wrap; gap:12px 20px; }
-.country-trust a { color:var(--clay); font-size:11px; line-height:1.8; }
-.country-review { margin:35px 0 0; border-left:1px solid var(--clay); padding-left:22px; }
-.country-review p { font:400 28px/1.4 var(--display); margin-bottom:18px; }
-.country-review cite { font-size:11px; font-style:normal; }
-.country-inquiry { color:var(--ink); }
-.country-inquiry h3 { font-size:34px; line-height:1.1; }
-.country-form-context,.country-viewed-month { font-size:11px; line-height:1.8; color:var(--muted); margin-top:16px; }
-.country-form-context { color:var(--sage); }
-.country-inquiry form { margin-top:22px; }
-.country-inquiry .field-label { margin:0; font-size:11px; }
-.country-inquiry input:not([type=checkbox]),.country-inquiry select { min-width:0; width:100%; min-height:44px; font-size:13px; padding:10px 12px; }
-.country-form-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:16px; }
-.country-form-wide { grid-column:1/-1; }
-.country-optional { margin-top:20px; font-size:11px; }
-.country-optional .field-label { margin-top:16px; }
-.country-consent { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin:22px 0; }
-.country-consent .consent { margin:0; font-size:10px; }
-.country-consent>a { color:var(--clay); font-size:10px; }
-.country-inquiry fieldset>.btn { width:100%; }
-.country-inquiry .channel-caption { margin:22px 0 12px; }
-.country-inquiry .messenger-actions { margin:0; gap:10px; }
-.country-inquiry .messenger-actions .btn { padding:9px 16px; min-height:42px; }
-.country-request-dialog .country-inquiry { padding:22px 0 0; border:0; border-radius:0; }
-.country-request-dialog .country-inquiry h3 { font-size:28px; }
-.country-request-dialog { width:min(660px,calc(100% - 32px)); }
-.country-alternatives { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
-.country-alternatives .country-card-panel h3 { font-size:28px; padding:20px 18px 0; }
-.country-alternatives .country-card-panel p { font-size:11px; line-height:1.8; color:var(--muted); padding:16px 18px 22px; }
-.country-alternatives .country-card-panel img,.country-alternatives .country-photo-placeholder { height:140px; min-height:140px; }
-.country-mobile-panel { align-items:center; padding:10px; border:1px solid var(--line); border-radius:var(--radius-card); background:var(--cream); gap:8px; }
-.country-mobile-panel .btn { padding:9px 11px; min-height:44px; font-size:10px; }
-.country-mobile-panel .messenger-actions { display:flex; margin:0; gap:8px; }
-.country-mobile-panel .messenger-actions .icon { display:none; }
-.country-mobile-panel .messenger-feedback { display:none; }
-.country-index-grid { display:grid; gap:25px; }
-.country-index-card a>div:not(.country-photo-placeholder) { padding:25px; }
-.country-index-card h2 { font-size:38px; margin-bottom:16px; }
-.country-index-card span { font-size:12px; color:var(--clay); }
-.offer-country-back { margin-top:25px; display:block; }
-.country-offer { border:1px solid var(--line); border-radius:var(--radius-card); background:var(--cream); overflow:hidden; }
-.country-offer-photo { display:none; }
-.country-offer-body { padding:22px; }
-.country-offer h3 { font-size:29px; margin-bottom:15px; }
-.country-offer p { margin-top:6px; font-size:12px; line-height:1.6; color:var(--muted); }
-.country-offer .country-offer-price { font:400 32px/1.2 var(--display); color:var(--clay); margin-top:14px; }
-.country-offer .country-price-date { font-size:10px; }
-.country-offer .text-link { margin-top:15px; font-size:12px; }
-@media(max-width:767px) { [data-extra-country-offer]:not(.is-revealed) { display:none; } }
-@media(min-width:600px) { .country-form-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.country-index-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-@media(min-width:768px) {
- .country-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
- .country-offer-photo { display:block; }
- .country-offer-photo img { width:100%; height:180px; object-fit:cover; }
- .country-more-offers { display:none; }
- .country-weather { padding:35px; }.country-months { grid-template-columns:repeat(12,minmax(0,1fr)); }
- .country-end-grid { grid-template-columns:1fr 1fr; gap:55px; }
- .country-alternatives { grid-template-columns:repeat(4,minmax(0,1fr)); }
- .country-card-body { padding:22px; }
-}
-@media(min-width:1024px) {
- .country-hero-grid { grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr); gap:60px; }.country-hero-form { display:block; }.country-mobile-hero { display:none; }
- .country-hero .country-form-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
- .country-page-nav { position:sticky; top:66px; }.country-section { scroll-margin-top:145px; }
- .country-index-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
- .country-weather { max-width:1000px; }.country-inquiry { padding:30px; }
-}
-@media(prefers-reduced-motion:reduce) { .country-page * { scroll-behavior:auto!important; } }
+/* Design 1 · country. Typography values are tokens.css variables. */
 
-.country-hero-copy :focus-visible,.country-hero .breadcrumbs :focus-visible { outline:3px solid var(--cream); outline-offset:5px; }
-/* Keep the white header readable over light skies; the form remains on cream. */
-.country-hero::after { background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 85%),rgb(var(--overlay-rgb) / 62%) 55%,rgb(var(--overlay-rgb) / 25%)),linear-gradient(0deg,rgb(var(--overlay-rgb) / 65%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 82%) 0,rgb(var(--overlay-rgb) / 76%) 100px,transparent 240px); }
-@media(max-width:767px) { .country-hero::after { background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 86%) 0,rgb(var(--overlay-rgb) / 74%) 70%,rgb(var(--overlay-rgb) / 65%)),linear-gradient(0deg,rgb(var(--overlay-rgb) / 65%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 82%) 0,rgb(var(--overlay-rgb) / 76%) 100px,transparent 240px); } }
+
+
+
+
+
+
+
+
+
+
+
+
+.country-subtitle{margin-top:26px;max-width:520px;font-size:var(--text-body);line-height:1.85;}
+.country-page-nav{position:static;border-bottom:1px solid var(--line);background:var(--cream);z-index:60;}
+.country-page-nav>.container{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:26px;}
+.country-page-nav a{flex-shrink:0;padding:19px 0;font-size:var(--text-small);color:var(--muted);}
+.country-page-nav a[aria-current]{color:var(--clay);box-shadow:inset 0 -2px var(--clay);}
+.country-section{scroll-margin-top:90px;padding-block:55px;}
+.country-section .section-head{margin-bottom:28px;}
+.country-section h2{font-size:var(--text-h2);}
+.country-section-intro{color:var(--muted);font-size:var(--text-intro);line-height:1.85;margin-bottom:28px;max-width:720px;}
+.country-weather,.country-inquiry{padding:25px;background:var(--cream);border:1px solid var(--line);border-radius:var(--radius-card);}
+.country-weather .field-label{margin-top:0;}
+.country-select{max-width:350px;margin-bottom:25px;}
+.country-weather-result>p{font-size:var(--text-small);line-height:1.6;color:var(--muted);}
+.country-temperature{display:flex;gap:42px;margin:25px 0;}
+.country-temperature p{display:grid;gap:10px;}
+.country-temperature strong{font-style:normal;font-weight:500;font-size:var(--text-h3);line-height:1.12;font-family:var(--display);color:var(--ink);}
+.country-temperature span{font-size:var(--text-small);color:var(--muted);}
+.country-weather-table{margin-top:25px;border-top:1px solid var(--line);padding-top:20px;}
+.country-weather-table summary{font-size:var(--text-ui);}
+.country-weather-table table{width:100%;border-collapse:collapse;margin-top:22px;font-size:var(--text-ui);}
+.country-weather-table td,.country-weather-table th{text-align:left;border-bottom:1px solid var(--line);padding:12px 10px;}
+.country-weather-table th{font-weight:500;}
+.country-weather-table caption{padding:12px 0;text-align:left;color:var(--muted);}
+.country-photo-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;min-height:185px;background:linear-gradient(135deg,var(--sand),var(--cream) 70%,var(--leaf-wash));color:var(--sage);}
+.country-photo-placeholder .icon{width:42px;height:42px;}
+.country-photo-placeholder span{font-size:var(--text-monogram);line-height:1.6;text-align:center;padding-inline:15px;}
+.country-format{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:25px;}
+.country-format button{padding:11px 18px;}
+.country-resort summary{cursor:pointer;list-style:none;}
+.country-resort summary::-webkit-details-marker{display:none;}
+.country-resort summary>span{display:flex;align-items:center;justify-content:space-between;padding:22px 23px 0;font-style:normal;font-weight:400;font-size:var(--text-ui);line-height:1.6;font-family:var(--body);}
+.country-resort summary>span>.icon{color:var(--clay);width:20px;height:20px;flex-shrink:0;}
+.country-resort details[open] summary>span>.icon{transform:rotate(45deg);}
+.country-resort-facts{margin:0;}
+.country-resort-facts>div{margin-bottom:15px;}
+.country-resort-facts dt{font-size:var(--text-small);margin-bottom:5px;}
+.country-resort-facts dd{margin:0;font-size:var(--text-small);line-height:1.8;color:var(--muted);}
+[data-more-resorts],.country-more-offers{margin-top:28px;}
+.country-hotel-grid{margin-top:28px;}
+.country-hotel-open{display:block;width:100%;border:0;padding:0;text-align:left;color:var(--ink);background:transparent;}
+.country-hotel-open>span{display:block;padding:23px 23px 0;font-style:normal;font-weight:500;font-size:var(--text-h3);line-height:1.12;font-family:var(--display);}
+.country-hotel-open:hover>span{color:var(--clay);}
+.country-hotel-empty{margin-top:28px;padding:30px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);}
+.country-hotel-empty h3{font-size:var(--text-h3);margin-bottom:22px;}
+.country-hotel-dialog{width:min(700px,calc(100% - 32px));max-height:calc(100vh - 32px);max-height:calc(100svh - 32px);overflow:auto;padding:25px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);color:var(--ink);}
+.country-hotel-dialog::backdrop{background:rgb(var(--backdrop-rgb) / 65%);}
+.country-hotel-dialog h2{font-size:var(--text-h2);}
+.country-hotel-dialog>p{margin-top:18px;font-size:var(--text-small);line-height:1.6;color:var(--muted);}
+.country-hotel-dialog>.btn{margin-top:24px;}
+.country-hotel-photos{margin-top:25px;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;}
+.country-hotel-photos>*{width:100%;min-width:100%;height:260px;object-fit:cover;scroll-snap-align:start;}
+.country-checked{color:var(--muted);font-size:var(--text-small)!important;}
+.country-end-grid{display:grid;gap:35px;align-items:start;}
+.country-end-grid h2{margin-bottom:25px;}
+.country-trust{display:flex;flex-wrap:wrap;gap:12px 20px;}
+.country-trust a{color:var(--clay);font-size:var(--text-small);line-height:1.8;}
+.country-review{margin:35px 0 0;border-left:1px solid var(--clay);padding-left:22px;}
+.country-review p{font-style:normal;font-weight:500;font-size:var(--text-h3);line-height:1.6;font-family:var(--display);margin-bottom:18px;}
+.country-review cite{font-size:var(--text-small);font-style:normal;}
+.country-inquiry{color:var(--ink);}
+.country-inquiry h3{font-size:var(--text-h3);line-height:1.1;}
+.country-form-context,.country-viewed-month{font-size:var(--text-small);line-height:1.8;color:var(--muted);margin-top:16px;}
+.country-form-context{color:var(--sage);}
+.country-inquiry form{margin-top:22px;}
+.country-inquiry .field-label{margin:0;font-size:var(--text-small);}
+.country-inquiry input:not([type=checkbox]),.country-inquiry select{min-width:0;width:100%;min-height:44px;font-size:var(--text-ui);padding:10px 12px;}
+.country-form-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;}
+.country-form-wide{grid-column:1/-1;}
+.country-optional{margin-top:20px;font-size:var(--text-small);}
+.country-optional .field-label{margin-top:16px;}
+.country-consent{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:22px 0;}
+.country-consent .consent{margin:0;font-size:var(--text-small);}
+.country-consent>a{color:var(--clay);font-size:var(--text-small);}
+.country-inquiry fieldset>.btn{width:100%;}
+.country-inquiry .channel-caption{margin:22px 0 12px;}
+.country-inquiry .messenger-actions{margin:0;gap:10px;}
+.country-inquiry .messenger-actions .btn{padding:9px 16px;min-height:42px;}
+.country-request-dialog .country-inquiry{padding:22px 0 0;border:0;border-radius:0;}
+.country-request-dialog .country-inquiry h3{font-size:var(--text-h3);}
+.country-request-dialog{width:min(660px,calc(100% - 32px));}
+.country-alternatives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.country-mobile-panel{align-items:center;padding:10px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);gap:8px;}
+.country-mobile-panel .btn{padding:9px 11px;min-height:44px;font-size:var(--text-ui);}
+.country-mobile-panel .messenger-actions{display:flex;margin:0;gap:8px;}
+.country-mobile-panel .messenger-actions .icon{display:none;}
+.country-mobile-panel .messenger-feedback{display:none;}
+.country-index-grid{display:grid;gap:25px;}
+.country-index-card a>div:not(.country-photo-placeholder){padding:25px;}
+.country-index-card h2{font-size:var(--text-h3);margin-bottom:16px;}
+.country-index-card span{font-size:var(--text-small);color:var(--clay);}
+
+.country-offer{border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);overflow:hidden;}
+
+.country-offer-body{padding:22px;}
+.country-offer h3{font-size:var(--text-h3);margin-bottom:15px;}
+.country-offer p{margin-top:6px;font-size:var(--text-small);line-height:1.6;color:var(--muted);}
+.country-offer .country-offer-price{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);color:var(--clay);margin-top:14px;}
+.country-offer .text-link{margin-top:15px;font-size:var(--text-ui);}
+@media   (max-width:767px) { [data-extra-country-offer]:not(.is-revealed){display:none;} }
+@media   (min-width:600px) { .country-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+@media   (min-width:600px) { .country-index-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+
+
+@media   (min-width:768px) { .country-more-offers{display:none;} }
+@media   (min-width:768px) { .country-weather{padding:35px;} }
+@media   (min-width:768px) { .country-end-grid{grid-template-columns:1fr 1fr;gap:55px;} }
+@media   (min-width:768px) { .country-alternatives{grid-template-columns:repeat(4,minmax(0,1fr));} }
+@media   (min-width:1024px) { .country-page-nav{position:sticky;top:66px;} }
+@media   (min-width:1024px) { .country-section{scroll-margin-top:145px;} }
+@media   (min-width:1024px) { .country-index-grid{grid-template-columns:repeat(3,minmax(0,1fr));} }
+@media   (min-width:1024px) { .country-weather{max-width:1000px;} }
+@media   (min-width:1024px) { .country-inquiry{padding:30px;} }
+@media   (prefers-reduced-motion:reduce) { .country-page *{scroll-behavior:auto!important;} }
+
+
+.menu-country-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px;}
+.country-flight-season{font-style:normal;font-weight:400;font-size:var(--text-small);line-height:1.6;font-family:var(--body);color:var(--muted);margin:12px 0;}
+.country-passport-link{margin-bottom:25px;}
+
+/* Country covers, consolidated with their page styles. */
+.country-hero{position:relative;isolation:isolate;overflow:hidden;padding:130px 0 65px;min-height:75vh;min-height:75svh;color:var(--cream);background:var(--forest);}.country-hero>img,.country-hero>.country-photo-placeholder{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}.country-hero>.container{position:relative;z-index:1;}.country-hero .breadcrumbs{color:var(--cream);margin-bottom:42px;}.country-hero .breadcrumbs a{color:inherit;}.country-hero-grid{display:grid;gap:42px;align-items:center;}.country-hero h1{max-width:700px;font-size:var(--text-h1);line-height:1.02;color:var(--cream);}.country-hero-copy>.hero-accent{font-style:normal;font-weight:400;font-size:var(--text-script);line-height:1.6;font-family:"Bad Script",cursive;margin-bottom:18px;}.country-hero-facts{display:flex;flex-wrap:wrap;gap:12px 20px;margin-top:28px;}.country-hero-facts a{color:var(--cream);font-size:var(--text-small);line-height:1.6;border-bottom:1px solid rgb(var(--cream-rgb) / 65%);}.country-hero-form{display:none;}.country-mobile-hero{display:grid;justify-items:start;gap:18px;margin-top:30px;}.country-mobile-hero .messenger-actions{margin:0;}.country-mobile-hero .btn-outline{color:var(--cream);border-color:rgb(var(--cream-rgb) / 75%);background:transparent;}.country-mobile-hero .btn-outline:hover{background:var(--forest);}.country-hero>.country-photo-placeholder{min-height:100%;background:linear-gradient(125deg,var(--forest),var(--sage));color:var(--cream);}.country-hero>.country-photo-placeholder .icon{position:absolute;right:5%;bottom:10%;width:35vw;height:35vw;opacity:.16;}.country-hero>.country-photo-placeholder span{position:absolute;right:25px;bottom:25px;}@media    (min-width:1024px) {.country-hero-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:60px;}}@media    (min-width:1024px) {.country-hero-form{display:block;}}@media    (min-width:1024px) {.country-mobile-hero{display:none;}}@media    (min-width:1024px) {.country-hero .country-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}.country-hero-copy :focus-visible,.country-hero .breadcrumbs :focus-visible{outline:3px solid var(--cream);outline-offset:5px;}.country-hero::after{content:"";position:absolute;z-index:0;inset:0;background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 78%) 0,rgb(var(--overlay-rgb) / 52%) 50%,transparent 95%),linear-gradient(0deg,rgb(var(--overlay-rgb) / 60%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 100px,transparent 220px);}@media    (max-width:767px) {.country-hero::after{background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 80%),rgb(var(--overlay-rgb) / 60%) 75%,rgb(var(--overlay-rgb) / 45%)),linear-gradient(0deg,rgb(var(--overlay-rgb) / 58%),transparent 78%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 90px,transparent 210px);}}@media    (min-width:768px) and (max-width:1023px) {.country-hero::after{background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 80%),rgb(var(--overlay-rgb) / 64%) 65%,transparent),linear-gradient(0deg,rgb(var(--overlay-rgb) / 60%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 100px,transparent 220px);}}

@@ -1,0 +1,1 @@
+(() => {const search=document.querySelector('[data-gallery-search]');search.addEventListener('input',()=>{const text=search.value.trim().toLocaleLowerCase('ru');document.querySelectorAll('[data-gallery-item]').forEach(card=>card.hidden=!(card.dataset.title+' '+card.querySelector('p').textContent).toLocaleLowerCase('ru').includes(text));});})();

@@ -38,7 +38,7 @@ async def main():
    page=await b.new_page(viewport={'width':width,'height':900},reduced_motion='reduce');page.on('pageerror',lambda e:report['errors'].append(str(e)));page.on('response',lambda r:report['resources'].append([r.status,r.url])if r.status>=400 else None)
    for rec in PAGES:
     path=rec['path'];await page.goto(U+path,wait_until='load');await page.evaluate('document.fonts.ready');rows=await page.evaluate(COLLECT)
-    geom=await page.evaluate('''()=>{const h=document.querySelector('[data-site-header]'),l=h.querySelector('.brand'),r=l.getBoundingClientRect();return{doc:document.documentElement.scrollWidth,logoCenter:r.x+r.width/2,logoHeight:r.height,footerHeight:document.querySelector('.site-footer .brand img').getBoundingClientRect().height};}''');assert geom['doc']==width,(width,path,geom);assert abs(geom['logoHeight']-(54 if width>=1024 else 40))<.1,(width,path,geom);assert abs(geom['footerHeight']-56)<.1
+    geom=await page.evaluate('''()=>{const h=document.querySelector('[data-site-header]'),l=h.querySelector('.brand'),r=l.getBoundingClientRect();return{doc:document.documentElement.scrollWidth,logoCenter:r.x+r.width/2,logoHeight:r.height,footerHeight:document.querySelector('.site-footer .brand img').getBoundingClientRect().height};}''');assert geom['doc']==width,(width,path,geom);assert abs(geom['logoHeight']-(68 if width>=1440 else 64 if width>=1280 else 44))<.1,(width,path,geom);assert abs(geom['footerHeight']-56)<.1
     if width>=1024:assert abs(geom['logoCenter']-width/2)<.1
     for row in rows:
      if row['kind']!='flat' or row['disabled']:continue
@@ -49,10 +49,10 @@ async def main():
      if path=='index.html':
       for i in[1,2,3]:
        await page.locator('[data-hero-next]').click();await page.wait_for_timeout(40);assert await page.locator('[data-hero-count]').text_content()==str(i+1);await photo(page,await page.evaluate(COLLECT),width,path,'slide '+str(i+1))
-    await page.evaluate('scrollTo(0,240)');await page.wait_for_timeout(40);height=await page.locator('[data-site-header] .brand').evaluate('e=>e.getBoundingClientRect().height');assert abs(height-(42 if width>=1024 else 40))<.1,(width,path,height);report['viewports'].append({'width':width,'path':path,'logo':geom['logoHeight'],'compact':height,'footer':geom['footerHeight']})
+    await page.evaluate('scrollTo(0,240)');await page.wait_for_timeout(40);height=await page.locator('[data-site-header] .brand').evaluate('e=>e.getBoundingClientRect().height');assert abs(height-(68 if width>=1440 else 64 if width>=1280 else 44))<.1,(width,path,height);report['viewports'].append({'width':width,'path':path,'logo':geom['logoHeight'],'compact':height,'footer':geom['footerHeight']})
    print('Audited',width,flush=True);await page.close()
   await b.close()
- (S/'STAGE6_CONTRAST.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:report[k]for k in['flat_checks','flat_failures','photo_checks','photo_failures','errors','resources']},ensure_ascii=False,indent=2))
+ (S/'STAGE7_CONTRAST.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:report[k]for k in['flat_checks','flat_failures','photo_checks','photo_failures','errors','resources']},ensure_ascii=False,indent=2))
 try:
  asyncio.run(main())
  assert not any(report[k]for k in ['flat_failures','photo_failures','errors','resources']),report

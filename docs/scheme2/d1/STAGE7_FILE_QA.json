@@ -1,0 +1,9 @@
+{
+  "status": "blocked_by_environment_policy",
+  "engine": "Chromium",
+  "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+  "url_scheme": "file:",
+  "policy_changed": false,
+  "static_relative_resources_checked": true,
+  "history_api_securityerror_fallback": true
+}

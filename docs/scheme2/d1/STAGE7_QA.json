@@ -1,0 +1,77 @@
+{
+  "widths": [
+    360,
+    390,
+    414,
+    768,
+    1024,
+    1280,
+    1366,
+    1440,
+    1536,
+    1920
+  ],
+  "engines": {
+    "chromium": {
+      "status": "tested",
+      "version": "156.0.8078.79",
+      "viewports": 410
+    },
+    "firefox": {
+      "status": "tested",
+      "version": "153.0",
+      "viewports": 410
+    },
+    "webkit": {
+      "status": "tested",
+      "version": "26.5",
+      "viewports": 410
+    }
+  },
+  "approved_copy": {
+    "otdyh-s-detmi": 57,
+    "tishina-i-more": 55,
+    "plyazh-i-progulki": 50,
+    "servis-i-kuhnya": 55,
+    "ekskursionnye-tury": 55,
+    "otel-radi-kotorogo-edut": 55,
+    "gornyj-vozduh": 54,
+    "svoj-marshrut": 52
+  },
+  "links": 8134,
+  "errors": [],
+  "layout": [],
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "width": 390,
+      "holiday_context_messenger_tabs_back_dialog_keyboard": "passed"
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "holiday_context_messenger_tabs_back_dialog_keyboard": "passed"
+    },
+    {
+      "engine": "firefox",
+      "width": 390,
+      "holiday_context_messenger_tabs_back_dialog_keyboard": "passed"
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "holiday_context_messenger_tabs_back_dialog_keyboard": "passed"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "holiday_context_messenger_tabs_back_dialog_keyboard": "passed"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "holiday_context_messenger_tabs_back_dialog_keyboard": "passed"
+    }
+  ],
+  "deterministic_build": true
+}

@@ -42,7 +42,7 @@ def brand_icons(path):
 def navitems(path,kind):
  if kind=='countries':return ''.join(link(path,f'napravleniya/{c["slug"]}/index.html',E(c['name']),'nav_country_'+c['slug'])for c in COUNTRIES)
  if kind=='services':return ''.join(link(path,f'uslugi/{s["slug"]}/index.html',icon(s['icon'])+E(s['name']),'nav_service_'+s['slug'])for s in SERVICES)
- return ''.join(link(path,t,label,'nav_about_'+str(i))for i,(label,t)in enumerate([('О нас','o-nas/index.html'),('Команда','o-nas/komanda/index.html'),('Контакты','o-nas/kontakty/index.html'),('Документы','o-nas/dokumenty/index.html'),('Отзывы','o-nas/otzyvy/index.html')]))
+ return ''.join(link(path,t,label,'nav_about_'+str(i))for i,(label,t)in enumerate([('Отзывы','o-nas/otzyvy/index.html'),('Контакты','o-nas/kontakty/index.html'),('Документы','o-nas/dokumenty/index.html')]))
 def dropdown(path,label,kind):
  title={'countries':'Страны','services':'Услуги','about':'Об агентстве'}[kind];alltarget={'countries':'napravleniya/index.html','services':'uslugi/index.html','about':'o-nas/index.html'}[kind]
  return f'<div class="nav-dropdown"><button type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-{kind}" data-goal="nav_{kind}_toggle" disabled>{label}{icon("i-down")}</button><div class="dropdown-panel" id="nav-{kind}" hidden><p class="dropdown-label">{title}</p><div class="dropdown-grid">{navitems(path,kind)}</div>{link(path,alltarget,"Все страны →"if kind=="countries"else"Все услуги →"if kind=="services"else"Об агентстве →","nav_"+kind+"_all","text-link")}</div></div>'
@@ -73,7 +73,7 @@ def image(path,name,alt,lazy=True,cls='',key='media'):
 def crumb(path,items):
  return '<nav class="breadcrumbs" aria-label="Хлебные крошки"><ol>'+''.join('<li>'+ (link(path,target,E(label),'breadcrumb_'+str(i))if target else f'<span aria-current="page">{E(label)}</span>')+'</li>'for i,(label,target)in enumerate([('Главная','index.html')]+items))+'</ol></nav>'
 def aboutnav(path):
- return '<nav class="section-tabs" aria-label="Раздел об агентстве">'+''.join(link(path,target,label,'about_tab_'+str(i),extra='aria-current="page"'if path==target else'')for i,(label,target)in enumerate([('О нас','o-nas/index.html'),('Команда','o-nas/komanda/index.html'),('Контакты','o-nas/kontakty/index.html'),('Документы','o-nas/dokumenty/index.html'),('Отзывы','o-nas/otzyvy/index.html')]))+'</nav>'
+ return '<nav class="section-tabs" aria-label="Раздел об агентстве">'+''.join(link(path,target,label,'about_tab_'+str(i),extra='aria-current="page"'if path==target else'')for i,(label,target)in enumerate([('Отзывы','o-nas/otzyvy/index.html'),('Контакты','o-nas/kontakty/index.html'),('Документы','o-nas/dokumenty/index.html')]))+'</nav>'
 def faq(items,key):
  return '<div class="faq-list">'+''.join(f'<details class="faq-item" {editable(key+"."+str(i),True)}><summary data-goal="{key}_question_{i}">{E(q)}{icon("i-plus")}</summary><p>{E(a)}</p></details>'for i,(q,a)in enumerate(items))+'</div>'
 def agency():return {'@type':'TravelAgency','@id':'https://devfriends.ru/#agency','name':'Манго Путешествия','telephone':['+7-8512-29-95-47','+7-8512-29-95-27'],'email':'man.go.travel@mail.ru','address':{'@type':'PostalAddress','addressLocality':'Астрахань','streetAddress':'ул. Кирова, 14, ТЦ «Арбат», 1 этаж','addressCountry':'RU'},'openingHoursSpecification':[{'@type':'OpeningHoursSpecification','dayOfWeek':['Monday','Tuesday','Wednesday','Thursday','Friday'],'opens':'10:00','closes':'19:00'},{'@type':'OpeningHoursSpecification','dayOfWeek':'Saturday','opens':'10:00','closes':'15:00'}]}
@@ -136,7 +136,7 @@ def home_rest():
  def restcard(c,i):
   key='home.rest.cards.'+str(i);target='#quiz-dialog'if c.get('choice')else url(path,c['target'])
   extra=' data-quiz-open'+(' data-preselect="'+E(c['preselect'])+'"'if c.get('preselect')else'')if c.get('choice')else(' data-future-page'if c.get('future')else'')
-  return f'<!-- component: mood-card --><a class="mood-choice rest-card" href="{target}" data-goal="mood_{c["slug"]}" {editable(key)}{extra}><div class="rest-photo">{image(path,c["image"],c["alt"],key=key+".photo")}</div><span class="rest-caption"><span class="rest-symbol" {editable(key+".icon")} data-icon="{c["icon"]}">{icon(c["icon"])}</span><span class="rest-copy"><span class="rest-label" {editable(key+".label")}>{E(c["label"])}</span><span class="rest-card-subtitle" {editable(key+".subtitle")}>{E(c["subtitle"])}</span></span>{icon('i-arrow')}</span></a><!-- /component: mood-card -->'
+  return f'<!-- component: mood-card --><a class="mood-choice rest-card" href="{target}" data-goal="mood_{c.get("goal_slug",c["slug"])}" {editable(key)}{extra}><div class="rest-photo">{image(path,c["image"],c["alt"],key=key+".photo")}</div><span class="rest-caption"><span class="rest-symbol" {editable(key+".icon")} data-icon="{c["icon"]}">{icon(c["icon"])}</span><span class="rest-copy"><span class="rest-label" {editable(key+".label")}>{E(c["label"])}</span><span class="rest-card-subtitle" {editable(key+".subtitle")}>{E(c["subtitle"])}</span></span>{icon('i-arrow')}</span></a><!-- /component: mood-card -->'
  cards=[restcard(c,i)for i,c in enumerate(rest['cards'])]
  return f'<section class="section mood-section rest-section" data-home-block="02" id="moods"><div class="container"><div class="section-head"><h2 {editable("home.sections.02.title")}>{E(rest["title"])}</h2><p class="mood-subtitle" {editable("home.sections.02.subtitle")}>{E(rest["subtitle"])}</p></div><div class="mood-grid rest-grid">'+''.join(cards[:6])+f'</div><div class="mood-more" id="more-rest" hidden><div class="mood-grid rest-grid">'+''.join(cards[6:])+f'</div></div><div class="rest-actions"><button type="button" class="rest-pill rest-pill-outline" data-rest-toggle data-goal="rest_more" aria-expanded="false" aria-controls="more-rest" disabled><span data-rest-toggle-label {editable("home.rest.more")}>{E(rest["more_label"])}</span><span data-rest-less-label {editable("home.rest.less")} hidden>{E(rest["less_label"])}</span><span data-rest-chevron aria-hidden="true">⌄</span></button><button type="button" class="rest-pill rest-pill-primary" data-quiz-open data-goal="rest_help" {editable("home.rest.help")} disabled>{E(rest["help_label"])}</button></div><noscript><p class="small-note">Обсудить отдых можно по телефону <a href="tel:+78512299547" data-goal="rest_noscript_phone">+7 (8512) 29-95-47</a>.</p></noscript></div></section>'
 
@@ -174,6 +174,8 @@ def build():
   finalize(page['path'])
   if page['path'].startswith('napravleniya/')and page['path']!='napravleniya/index.html':finish_country(page['path'])
   stage6.finish(page['path'])
+  from styles import finish as finish_styles
+  finish_styles(globals(),page['path'])
  registry={(SITE/'img'/r['file']).resolve():r for r in json.loads((SITE/'img/sources.json').read_text())}
  for record in PAGES:
   page=SITE/record['path']

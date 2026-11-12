@@ -1,0 +1,902 @@
+{
+  "before_after_pairs": 72,
+  "baseline": "Stage 6, PR #16",
+  "current": "Stage 7",
+  "expected_changes": [
+    "Larger shared typography and header",
+    "Eight holiday sections in the approved order",
+    "Unified about section"
+  ],
+  "unchanged_content": [
+    "Country data and templates except shared typography",
+    "Four home slides, reviews, people and mood copy",
+    "Palette and SVG logos"
+  ],
+  "pairs": [
+    {
+      "file": "404-1440.jpg",
+      "before": [
+        1440,
+        1017
+      ],
+      "after": [
+        1440,
+        1245
+      ],
+      "normalised_pixel_mae": 20.18
+    },
+    {
+      "file": "404-390.jpg",
+      "before": [
+        780,
+        4040
+      ],
+      "after": [
+        780,
+        5488
+      ],
+      "normalised_pixel_mae": 19.39
+    },
+    {
+      "file": "index-1440.jpg",
+      "before": [
+        1440,
+        7963
+      ],
+      "after": [
+        1440,
+        8082
+      ],
+      "normalised_pixel_mae": 16.13
+    },
+    {
+      "file": "index-390.jpg",
+      "before": [
+        780,
+        22134
+      ],
+      "after": [
+        780,
+        23736
+      ],
+      "normalised_pixel_mae": 20.96
+    },
+    {
+      "file": "kak-my-rabotaem-1440.jpg",
+      "before": [
+        1440,
+        4035
+      ],
+      "after": [
+        1440,
+        4260
+      ],
+      "normalised_pixel_mae": 15.45
+    },
+    {
+      "file": "kak-my-rabotaem-390.jpg",
+      "before": [
+        780,
+        13118
+      ],
+      "after": [
+        780,
+        14440
+      ],
+      "normalised_pixel_mae": 24.19
+    },
+    {
+      "file": "napravleniya-1440.jpg",
+      "before": [
+        1440,
+        2856
+      ],
+      "after": [
+        1440,
+        3153
+      ],
+      "normalised_pixel_mae": 25.63
+    },
+    {
+      "file": "napravleniya-390.jpg",
+      "before": [
+        780,
+        12596
+      ],
+      "after": [
+        780,
+        14304
+      ],
+      "normalised_pixel_mae": 39.07
+    },
+    {
+      "file": "napravleniya-egipet-1440.jpg",
+      "before": [
+        1440,
+        6791
+      ],
+      "after": [
+        1440,
+        7265
+      ],
+      "normalised_pixel_mae": 18.26
+    },
+    {
+      "file": "napravleniya-egipet-390.jpg",
+      "before": [
+        780,
+        23286
+      ],
+      "after": [
+        780,
+        25778
+      ],
+      "normalised_pixel_mae": 20.82
+    },
+    {
+      "file": "napravleniya-indoneziya-1440.jpg",
+      "before": [
+        1440,
+        6010
+      ],
+      "after": [
+        1440,
+        6405
+      ],
+      "normalised_pixel_mae": 16.92
+    },
+    {
+      "file": "napravleniya-indoneziya-390.jpg",
+      "before": [
+        780,
+        20330
+      ],
+      "after": [
+        780,
+        22372
+      ],
+      "normalised_pixel_mae": 22.56
+    },
+    {
+      "file": "napravleniya-kitay-1440.jpg",
+      "before": [
+        1440,
+        6010
+      ],
+      "after": [
+        1440,
+        6469
+      ],
+      "normalised_pixel_mae": 15.7
+    },
+    {
+      "file": "napravleniya-kitay-390.jpg",
+      "before": [
+        780,
+        18780
+      ],
+      "after": [
+        780,
+        20956
+      ],
+      "normalised_pixel_mae": 21.95
+    },
+    {
+      "file": "napravleniya-maldivy-1440.jpg",
+      "before": [
+        1440,
+        6628
+      ],
+      "after": [
+        1440,
+        7074
+      ],
+      "normalised_pixel_mae": 15.8
+    },
+    {
+      "file": "napravleniya-maldivy-390.jpg",
+      "before": [
+        780,
+        21142
+      ],
+      "after": [
+        780,
+        23236
+      ],
+      "normalised_pixel_mae": 22.61
+    },
+    {
+      "file": "napravleniya-oae-1440.jpg",
+      "before": [
+        1440,
+        6628
+      ],
+      "after": [
+        1440,
+        7074
+      ],
+      "normalised_pixel_mae": 15.82
+    },
+    {
+      "file": "napravleniya-oae-390.jpg",
+      "before": [
+        780,
+        21036
+      ],
+      "after": [
+        780,
+        23122
+      ],
+      "normalised_pixel_mae": 21.62
+    },
+    {
+      "file": "napravleniya-shri-lanka-1440.jpg",
+      "before": [
+        1440,
+        5941
+      ],
+      "after": [
+        1440,
+        6331
+      ],
+      "normalised_pixel_mae": 16.99
+    },
+    {
+      "file": "napravleniya-shri-lanka-390.jpg",
+      "before": [
+        780,
+        20192
+      ],
+      "after": [
+        780,
+        22222
+      ],
+      "normalised_pixel_mae": 22.43
+    },
+    {
+      "file": "napravleniya-tailand-1440.jpg",
+      "before": [
+        1440,
+        6628
+      ],
+      "after": [
+        1440,
+        7074
+      ],
+      "normalised_pixel_mae": 15.44
+    },
+    {
+      "file": "napravleniya-tailand-390.jpg",
+      "before": [
+        780,
+        21036
+      ],
+      "after": [
+        780,
+        23264
+      ],
+      "normalised_pixel_mae": 20.74
+    },
+    {
+      "file": "napravleniya-turciya-1440.jpg",
+      "before": [
+        1440,
+        6062
+      ],
+      "after": [
+        1440,
+        6492
+      ],
+      "normalised_pixel_mae": 16.57
+    },
+    {
+      "file": "napravleniya-turciya-390.jpg",
+      "before": [
+        780,
+        20340
+      ],
+      "after": [
+        780,
+        22514
+      ],
+      "normalised_pixel_mae": 21.34
+    },
+    {
+      "file": "napravleniya-vetnam-1440.jpg",
+      "before": [
+        1440,
+        6628
+      ],
+      "after": [
+        1440,
+        7097
+      ],
+      "normalised_pixel_mae": 16.16
+    },
+    {
+      "file": "napravleniya-vetnam-390.jpg",
+      "before": [
+        780,
+        21036
+      ],
+      "after": [
+        780,
+        23236
+      ],
+      "normalised_pixel_mae": 21.43
+    },
+    {
+      "file": "o-nas-1440.jpg",
+      "before": [
+        1440,
+        2109
+      ],
+      "after": [
+        1440,
+        2216
+      ],
+      "normalised_pixel_mae": 19.89
+    },
+    {
+      "file": "o-nas-390.jpg",
+      "before": [
+        780,
+        7442
+      ],
+      "after": [
+        780,
+        8728
+      ],
+      "normalised_pixel_mae": 27.01
+    },
+    {
+      "file": "o-nas-dokumenty-1440.jpg",
+      "before": [
+        1440,
+        2114
+      ],
+      "after": [
+        1440,
+        2408
+      ],
+      "normalised_pixel_mae": 15.81
+    },
+    {
+      "file": "o-nas-dokumenty-390.jpg",
+      "before": [
+        780,
+        7544
+      ],
+      "after": [
+        780,
+        8770
+      ],
+      "normalised_pixel_mae": 27.78
+    },
+    {
+      "file": "o-nas-dokumenty-politika-1440.jpg",
+      "before": [
+        1440,
+        1742
+      ],
+      "after": [
+        1440,
+        1944
+      ],
+      "normalised_pixel_mae": 19.03
+    },
+    {
+      "file": "o-nas-dokumenty-politika-390.jpg",
+      "before": [
+        780,
+        5948
+      ],
+      "after": [
+        780,
+        7284
+      ],
+      "normalised_pixel_mae": 27.34
+    },
+    {
+      "file": "o-nas-dokumenty-soglasie-1440.jpg",
+      "before": [
+        1440,
+        1742
+      ],
+      "after": [
+        1440,
+        1944
+      ],
+      "normalised_pixel_mae": 19.06
+    },
+    {
+      "file": "o-nas-dokumenty-soglasie-390.jpg",
+      "before": [
+        780,
+        5948
+      ],
+      "after": [
+        780,
+        7284
+      ],
+      "normalised_pixel_mae": 27.37
+    },
+    {
+      "file": "o-nas-komanda-1440.jpg",
+      "before": [
+        1440,
+        2109
+      ],
+      "after": [
+        1440,
+        2216
+      ],
+      "normalised_pixel_mae": 19.89
+    },
+    {
+      "file": "o-nas-komanda-390.jpg",
+      "before": [
+        780,
+        7442
+      ],
+      "after": [
+        780,
+        8728
+      ],
+      "normalised_pixel_mae": 27.01
+    },
+    {
+      "file": "o-nas-kontakty-1440.jpg",
+      "before": [
+        1440,
+        1553
+      ],
+      "after": [
+        1440,
+        1821
+      ],
+      "normalised_pixel_mae": 21.44
+    },
+    {
+      "file": "o-nas-kontakty-390.jpg",
+      "before": [
+        780,
+        6154
+      ],
+      "after": [
+        780,
+        7638
+      ],
+      "normalised_pixel_mae": 24.45
+    },
+    {
+      "file": "o-nas-otzyvy-1440.jpg",
+      "before": [
+        1440,
+        1897
+      ],
+      "after": [
+        1440,
+        1993
+      ],
+      "normalised_pixel_mae": 23.05
+    },
+    {
+      "file": "o-nas-otzyvy-390.jpg",
+      "before": [
+        780,
+        8588
+      ],
+      "after": [
+        780,
+        9278
+      ],
+      "normalised_pixel_mae": 32.04
+    },
+    {
+      "file": "otdyh-otdyh-s-detmi-1440.jpg",
+      "before": [
+        1440,
+        7149
+      ],
+      "after": [
+        1440,
+        7473
+      ],
+      "normalised_pixel_mae": 21.03
+    },
+    {
+      "file": "otdyh-otdyh-s-detmi-390.jpg",
+      "before": [
+        780,
+        25606
+      ],
+      "after": [
+        780,
+        24500
+      ],
+      "normalised_pixel_mae": 35.54
+    },
+    {
+      "file": "otdyh-plyazh-i-progulki-1440.jpg",
+      "before": [
+        1440,
+        6300
+      ],
+      "after": [
+        1440,
+        6800
+      ],
+      "normalised_pixel_mae": 21.45
+    },
+    {
+      "file": "otdyh-plyazh-i-progulki-390.jpg",
+      "before": [
+        780,
+        23638
+      ],
+      "after": [
+        780,
+        24320
+      ],
+      "normalised_pixel_mae": 34.33
+    },
+    {
+      "file": "otdyh-servis-i-kuhnya-1440.jpg",
+      "before": [
+        1440,
+        7020
+      ],
+      "after": [
+        1440,
+        7579
+      ],
+      "normalised_pixel_mae": 20.5
+    },
+    {
+      "file": "otdyh-servis-i-kuhnya-390.jpg",
+      "before": [
+        780,
+        25378
+      ],
+      "after": [
+        780,
+        26814
+      ],
+      "normalised_pixel_mae": 32.1
+    },
+    {
+      "file": "otdyh-tishina-i-more-1440.jpg",
+      "before": [
+        1440,
+        6870
+      ],
+      "after": [
+        1440,
+        7457
+      ],
+      "normalised_pixel_mae": 20.4
+    },
+    {
+      "file": "otdyh-tishina-i-more-390.jpg",
+      "before": [
+        780,
+        24700
+      ],
+      "after": [
+        780,
+        25884
+      ],
+      "normalised_pixel_mae": 33.09
+    },
+    {
+      "file": "predlozheniya-1440.jpg",
+      "before": [
+        1440,
+        2300
+      ],
+      "after": [
+        1440,
+        2681
+      ],
+      "normalised_pixel_mae": 32.87
+    },
+    {
+      "file": "predlozheniya-390.jpg",
+      "before": [
+        780,
+        9370
+      ],
+      "after": [
+        780,
+        12006
+      ],
+      "normalised_pixel_mae": 25.25
+    },
+    {
+      "file": "predlozheniya-e1-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 23.87
+    },
+    {
+      "file": "predlozheniya-e1-390.jpg",
+      "before": [
+        780,
+        6858
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 31.07
+    },
+    {
+      "file": "predlozheniya-e2-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 23.87
+    },
+    {
+      "file": "predlozheniya-e2-390.jpg",
+      "before": [
+        780,
+        6858
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 31.09
+    },
+    {
+      "file": "predlozheniya-e3-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 23.89
+    },
+    {
+      "file": "predlozheniya-e3-390.jpg",
+      "before": [
+        780,
+        6908
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 31.34
+    },
+    {
+      "file": "predlozheniya-e4-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 23.92
+    },
+    {
+      "file": "predlozheniya-e4-390.jpg",
+      "before": [
+        780,
+        6908
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 31.37
+    },
+    {
+      "file": "predlozheniya-h2-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 23.41
+    },
+    {
+      "file": "predlozheniya-h2-390.jpg",
+      "before": [
+        780,
+        6858
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 31.14
+    },
+    {
+      "file": "predlozheniya-h3-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 18.95
+    },
+    {
+      "file": "predlozheniya-h3-390.jpg",
+      "before": [
+        780,
+        6858
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 25.13
+    },
+    {
+      "file": "predlozheniya-h5-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 23.55
+    },
+    {
+      "file": "predlozheniya-h5-390.jpg",
+      "before": [
+        780,
+        6858
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 29.95
+    },
+    {
+      "file": "predlozheniya-h6-1440.jpg",
+      "before": [
+        1440,
+        2166
+      ],
+      "after": [
+        1440,
+        2424
+      ],
+      "normalised_pixel_mae": 20.5
+    },
+    {
+      "file": "predlozheniya-h6-390.jpg",
+      "before": [
+        780,
+        6858
+      ],
+      "after": [
+        780,
+        8520
+      ],
+      "normalised_pixel_mae": 27.73
+    },
+    {
+      "file": "styleguide-1440.jpg",
+      "before": [
+        1440,
+        4445
+      ],
+      "after": [
+        1440,
+        4978
+      ],
+      "normalised_pixel_mae": 23.02
+    },
+    {
+      "file": "styleguide-390.jpg",
+      "before": [
+        780,
+        16896
+      ],
+      "after": [
+        780,
+        19444
+      ],
+      "normalised_pixel_mae": 43.25
+    },
+    {
+      "file": "uslugi-1440.jpg",
+      "before": [
+        1440,
+        1632
+      ],
+      "after": [
+        1440,
+        1825
+      ],
+      "normalised_pixel_mae": 20.02
+    },
+    {
+      "file": "uslugi-390.jpg",
+      "before": [
+        780,
+        6408
+      ],
+      "after": [
+        780,
+        7498
+      ],
+      "normalised_pixel_mae": 29.91
+    },
+    {
+      "file": "zagranpasport-1440.jpg",
+      "before": [
+        1440,
+        1242
+      ],
+      "after": [
+        1440,
+        1443
+      ],
+      "normalised_pixel_mae": 24.16
+    },
+    {
+      "file": "zagranpasport-390.jpg",
+      "before": [
+        780,
+        4568
+      ],
+      "after": [
+        780,
+        6128
+      ],
+      "normalised_pixel_mae": 20.74
+    }
+  ],
+  "palette_unchanged": true,
+  "logo_sha256": {
+    "logo-mango.svg": "e429af763b0afc51bdedb875b36918966c48ea7a707cc247a71e3a1ca9dabf2f",
+    "logo-mango-light.svg": "36aed594dfcb0b83f382b3ccac535ef36015217f52aa86cee076371528de6233",
+    "logo-mango-mark.svg": "40d124a442a0fcb39cef7a3035d2bdfb755eca8067b7ac4477de190df230f95c"
+  },
+  "visual_comparison": "Normalised pixel MAE for every pair; contact sheets reviewed, expected typography and requested layout differences.",
+  "restored_unrequested_layout_changes": [
+    "Two-column document grid",
+    "Horizontal catalogue toolbar"
+  ],
+  "responsive_spacing_unchanged": {
+    "768": {
+      "gutter": 42,
+      "section": 88
+    },
+    "1100": {
+      "gutter": 60,
+      "section": 96
+    }
+  }
+}

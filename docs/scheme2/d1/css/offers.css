@@ -1,33 +1,51 @@
-/* Shared, editable offer cards and the home rail. */
-.rest-copy { flex: 1; min-width: 0; display: grid; gap: 7px; }
-.rest-copy .rest-label { display: block; }
-.rest-card-subtitle { display: block; color: var(--muted); font: 400 11px/1.6 var(--body); }
-.rest-caption { min-height: 112px; }
-.rest-symbol { align-self: start; padding-top: 2px; }
-.home-offer-carousel > .container { width: min(calc(100% - var(--gutter) * 2),var(--content)); margin-inline: auto; }
-.home-offer-carousel .section-head { display: flex; align-items: end; justify-content: space-between; gap: 20px; padding-right: 0; }
-.offer-controls { display: none; gap: 9px; flex-shrink: 0; }
-.offer-controls button { color: var(--clay); border: 1px solid var(--line); background: var(--cream); }
-.offer-controls button:disabled { opacity: .4; }
-.home-offer-carousel .offer-grid { display: flex; gap: 18px; overflow-x: auto; margin-inline: calc(-1 * var(--gutter)); padding: 0 var(--gutter) 12px; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); overscroll-behavior-x: contain; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
-.home-offer-carousel .offer-card { flex: 0 0 84vw; min-width: 0; scroll-snap-align: start; }
-.home-offer-carousel .offer-link { height: 100%; }
-.home-offer-carousel .offer-body h3 { min-height: 95px; }
-.offer-card .offer-link > img { width: 100%; height: auto; aspect-ratio: 16/10; object-fit: cover; }
-.offers-all { margin-top: 24px; }
-.offers-toolbar { display: flex; flex-direction: column; align-items: start; gap: 20px; margin-bottom: 26px; }
-.offers-toolbar .filter-chips { margin: 0; }
-.offers-sort { min-width: 190px; margin: 0; font-size: 11px; }
-.offers-sort select { min-height: 42px; padding: 10px 12px; background: var(--cream); }
-.process-details { margin-top: 28px; }
-@media (min-width: 768px) {
- .offer-controls { display: flex; }
- .home-offer-carousel .offer-grid { margin: 0; padding: 0 0 12px; scroll-padding-inline: 0; }
- .home-offer-carousel .offer-card { flex-basis: calc((100% - 18px)/2); }
- .inner-page .offers-catalog { grid-template-columns: repeat(2,minmax(0,1fr)); }
- .offers-toolbar { flex-direction: row; align-items: end; justify-content: space-between; gap: 35px; }
-}
-@media (min-width: 1100px) {
- .home-offer-carousel .offer-card { flex-basis: calc((100% - 36px)/3); }
- .inner-page .offers-catalog { grid-template-columns: repeat(3,minmax(0,1fr)); }
-}
+/* Design 1 · offers. Typography values are tokens.css variables. */
+.offers-toolbar .filter-chips{margin:0;}
+@media   (min-width: 768px) { .offers-toolbar{flex-direction:row;align-items:end;justify-content:space-between;gap:35px;} }
+
+
+
+
+
+
+
+
+
+.tickets-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;}
+.ticket-vertical{position:relative;min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);}
+.ticket-link-cover{display:grid;grid-template-columns:95px minmax(0,1fr);height:100%;}
+.ticket-link-cover>img{width:100%;height:100%;min-height:250px;object-fit:cover;}
+.ticket-body{position:relative;padding:20px 17px;border-left:1px dashed var(--line);font-size:var(--text-small);line-height:1.7;}
+.ticket-body h3{margin:14px 0 9px;font-size:var(--text-h3);}
+.ticket-body p{color:var(--muted);margin-top:6px;}
+.ticket-body .ticket-price{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);color:var(--clay);margin-top:18px;}
+.ticket-price small{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);display:block;margin-top:5px;}
+.ticket-body .ticket-price-date{font-size:var(--text-small);}
+.ticket-link{display:block;margin-top:20px;color:var(--clay);font-size:var(--text-small);}
+.ticket-vertical:hover{border-color:var(--clay);}
+@media   (min-width:600px) { .tickets-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
+@media   (min-width:600px) { .ticket-link-cover{grid-template-columns:1fr;grid-template-rows:185px 1fr;} }
+@media   (min-width:600px) { .ticket-link-cover>img{height:185px;min-height:0;} }
+@media   (min-width:600px) { .ticket-body{border-left:0;border-top:1px dashed var(--line);padding:23px;} }
+@media   (min-width:600px) { .ticket-body::before,.ticket-body::after{content:"";position:absolute;top:-8px;width:15px;height:15px;border-radius:50%;background:var(--paper);border:1px solid var(--line);} }
+@media   (min-width:600px) { .ticket-body::before{left:-8px;} }
+@media   (min-width:600px) { .ticket-body::after{right:-8px;} }
+@media   (min-width:1100px) { .tickets-grid{grid-template-columns:repeat(4,minmax(0,1fr));} }
+.offers-toolbar{display:flex;flex-direction:row;align-items:end;gap:25px;margin-bottom:32px;flex-wrap:wrap;justify-content:space-between;}
+.offer-detail-photos{display:grid;gap:20px;}
+.offer-detail-photos>img,.offer-detail-photos>.country-photo-placeholder{width:100%;height:320px;object-fit:cover;border-radius:var(--radius-card);}
+.offer-detail-summary{max-width:800px;margin-top:45px;}
+.offer-conditions{display:grid;gap:22px;margin:25px 0;}
+.offer-conditions>div{border-bottom:1px solid var(--line);padding-bottom:18px;}
+.offer-conditions dt{color:var(--muted);font-size:var(--text-small);}
+.offer-conditions dd{margin:7px 0 0;font-size:var(--text-body);line-height:1.8;}
+.offer-detail-summary .offer-detail-price{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);color:var(--clay);margin:28px 0 12px;}
+.offer-detail-summary>.btn{margin-top:25px;}
+.offer-back-links{display:flex;flex-wrap:wrap;gap:25px;margin-top:40px;}
+@media   (min-width:768px) { .offer-detail-photos{grid-template-columns:1.4fr 1fr;} }
+@media   (min-width:768px) { .offer-detail-photos>*{height:410px!important;} }
+@media   (max-width:599px) { .ticket-body{padding:16px 14px;line-height:1.6;} }
+@media   (max-width:599px) { .ticket-body h3{font-size:var(--text-h3);margin:8px 0 6px;} }
+@media   (max-width:599px) { .ticket-body p{margin-top:4px;} }
+@media   (max-width:599px) { .ticket-body .ticket-price{font-size:var(--text-price);margin-top:12px;} }
+@media   (max-width:599px) { .ticket-price small{display:inline;margin-left:4px;} }
+@media   (max-width:599px) { .ticket-link{margin-top:12px;} }
