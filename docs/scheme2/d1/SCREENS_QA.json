@@ -15,7 +15,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 23736,
+      "pixel_height": 23608,
+      "kind": "page"
+    },
+    {
+      "page": "index.html",
+      "title": "Ваш отпуск заслуживает внимания",
+      "file": "index-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 8038,
       "kind": "page"
     },
     {
@@ -26,7 +37,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 14304,
+      "pixel_height": 14196,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/index.html",
+      "title": "Страны",
+      "file": "napravleniya-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 3109,
       "kind": "page"
     },
     {
@@ -37,7 +59,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 23236,
+      "pixel_height": 16036,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/vetnam/index.html",
+      "title": "Туры во Вьетнам",
+      "file": "napravleniya-vetnam-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5294,
       "kind": "page"
     },
     {
@@ -48,7 +81,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 25778,
+      "pixel_height": 28482,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Туры в Египет",
+      "file": "napravleniya-egipet-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 8265,
       "kind": "page"
     },
     {
@@ -59,7 +103,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 22372,
+      "pixel_height": 16062,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/indoneziya/index.html",
+      "title": "Туры в Индонезию",
+      "file": "napravleniya-indoneziya-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5063,
       "kind": "page"
     },
     {
@@ -70,7 +125,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 20956,
+      "pixel_height": 15398,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/kitay/index.html",
+      "title": "Туры в Китай",
+      "file": "napravleniya-kitay-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 4759,
       "kind": "page"
     },
     {
@@ -81,7 +147,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 23236,
+      "pixel_height": 15992,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/maldivy/index.html",
+      "title": "Туры на Мальдивы",
+      "file": "napravleniya-maldivy-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5270,
       "kind": "page"
     },
     {
@@ -92,7 +169,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 23122,
+      "pixel_height": 15992,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/oae/index.html",
+      "title": "Туры в ОАЭ",
+      "file": "napravleniya-oae-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5270,
       "kind": "page"
     },
     {
@@ -103,7 +191,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 23264,
+      "pixel_height": 15992,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/tailand/index.html",
+      "title": "Туры в Таиланд",
+      "file": "napravleniya-tailand-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5270,
       "kind": "page"
     },
     {
@@ -114,7 +213,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 22514,
+      "pixel_height": 16332,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/turciya/index.html",
+      "title": "Туры в Турцию",
+      "file": "napravleniya-turciya-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5176,
       "kind": "page"
     },
     {
@@ -125,7 +235,18 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 22222,
+      "pixel_height": 14954,
+      "kind": "page"
+    },
+    {
+      "page": "napravleniya/shri-lanka/index.html",
+      "title": "Туры на Шри-Ланку",
+      "file": "napravleniya-shri-lanka-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 4445,
       "kind": "page"
     },
     {
@@ -137,435 +258,6 @@
       "device_scale_factor": 2,
       "pixel_width": 780,
       "pixel_height": 7498,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/otdyh-s-detmi/index.html",
-      "title": "Отпуск, в котором отдыхают и дети, и взрослые",
-      "file": "otdyh-otdyh-s-detmi-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 24500,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/tishina-i-more/index.html",
-      "title": "Отпуск, в котором слышно море",
-      "file": "otdyh-tishina-i-more-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 25884,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/plyazh-i-progulki/index.html",
-      "title": "Когда одного пляжа мало",
-      "file": "otdyh-plyazh-i-progulki-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 24320,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/servis-i-kuhnya/index.html",
-      "title": "К хорошему быстро привыкаешь",
-      "file": "otdyh-servis-i-kuhnya-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 26814,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/ekskursionnye-tury/index.html",
-      "title": "Каждый день — новые места",
-      "file": "otdyh-ekskursionnye-tury-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 25630,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
-      "title": "Сам отель — уже повод поехать",
-      "file": "otdyh-otel-radi-kotorogo-edut-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 26486,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/gornyj-vozduh/index.html",
-      "title": "Отпуск, после которого легче дышится",
-      "file": "otdyh-gornyj-vozduh-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 25474,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/svoj-marshrut/index.html",
-      "title": "Увидеть всё, что хочется, и не спешить",
-      "file": "otdyh-svoj-marshrut-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 28422,
-      "kind": "page"
-    },
-    {
-      "page": "styleguide.html",
-      "title": "Дизайн-система Манго",
-      "file": "styleguide-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 19444,
-      "kind": "page"
-    },
-    {
-      "page": "kak-my-rabotaem/index.html",
-      "title": "Как мы работаем",
-      "file": "kak-my-rabotaem-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 14440,
-      "kind": "page"
-    },
-    {
-      "page": "o-nas/index.html",
-      "title": "О нас",
-      "file": "o-nas-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8728,
-      "kind": "page"
-    },
-    {
-      "page": "o-nas/komanda/index.html",
-      "title": "Команда → О нас",
-      "file": "o-nas-komanda-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8728,
-      "kind": "page"
-    },
-    {
-      "page": "o-nas/otzyvy/index.html",
-      "title": "Отзывы клиентов",
-      "file": "o-nas-otzyvy-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 9278,
-      "kind": "page"
-    },
-    {
-      "page": "o-nas/kontakty/index.html",
-      "title": "Контакты",
-      "file": "o-nas-kontakty-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 7638,
-      "kind": "page"
-    },
-    {
-      "page": "o-nas/dokumenty/politika/index.html",
-      "title": "Политика обработки персональных данных",
-      "file": "o-nas-dokumenty-politika-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 7284,
-      "kind": "page"
-    },
-    {
-      "page": "o-nas/dokumenty/soglasie/index.html",
-      "title": "Согласие на обработку персональных данных",
-      "file": "o-nas-dokumenty-soglasie-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 7284,
-      "kind": "page"
-    },
-    {
-      "page": "zagranpasport/index.html",
-      "title": "Проверить срок действия загранпаспорта",
-      "file": "zagranpasport-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 6128,
-      "kind": "page"
-    },
-    {
-      "page": "404.html",
-      "title": "Страница не найдена",
-      "file": "404-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 5488,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/e1/index.html",
-      "title": "Отель 1",
-      "file": "predlozheniya-e1-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/h2/index.html",
-      "title": "Отель 2",
-      "file": "predlozheniya-h2-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/h3/index.html",
-      "title": "Отель 3",
-      "file": "predlozheniya-h3-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/e2/index.html",
-      "title": "Отель 4",
-      "file": "predlozheniya-e2-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/h5/index.html",
-      "title": "Отель 5",
-      "file": "predlozheniya-h5-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/h6/index.html",
-      "title": "Отель 6",
-      "file": "predlozheniya-h6-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/e3/index.html",
-      "title": "Отель 7",
-      "file": "predlozheniya-e3-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/e4/index.html",
-      "title": "Отель 8",
-      "file": "predlozheniya-e4-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page"
-    },
-    {
-      "page": "o-nas/dokumenty/index.html",
-      "title": "Документы",
-      "file": "o-nas-dokumenty-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8770,
-      "kind": "page"
-    },
-    {
-      "page": "predlozheniya/index.html",
-      "title": "Актуальные предложения",
-      "file": "predlozheniya-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 12006,
-      "kind": "page"
-    },
-    {
-      "page": "index.html",
-      "title": "Ваш отпуск заслуживает внимания",
-      "file": "index-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 8082,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/index.html",
-      "title": "Страны",
-      "file": "napravleniya-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3153,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/vetnam/index.html",
-      "title": "Туры во Вьетнам",
-      "file": "napravleniya-vetnam-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7097,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/egipet/index.html",
-      "title": "Туры в Египет",
-      "file": "napravleniya-egipet-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7265,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/indoneziya/index.html",
-      "title": "Туры в Индонезию",
-      "file": "napravleniya-indoneziya-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 6405,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/kitay/index.html",
-      "title": "Туры в Китай",
-      "file": "napravleniya-kitay-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 6469,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/maldivy/index.html",
-      "title": "Туры на Мальдивы",
-      "file": "napravleniya-maldivy-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7074,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/oae/index.html",
-      "title": "Туры в ОАЭ",
-      "file": "napravleniya-oae-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7074,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/tailand/index.html",
-      "title": "Туры в Таиланд",
-      "file": "napravleniya-tailand-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7074,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/turciya/index.html",
-      "title": "Туры в Турцию",
-      "file": "napravleniya-turciya-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 6492,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/shri-lanka/index.html",
-      "title": "Туры на Шри-Ланку",
-      "file": "napravleniya-shri-lanka-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 6331,
       "kind": "page"
     },
     {
@@ -582,12 +274,34 @@
     {
       "page": "otdyh/otdyh-s-detmi/index.html",
       "title": "Отпуск, в котором отдыхают и дети, и взрослые",
+      "file": "otdyh-otdyh-s-detmi-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 24364,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "title": "Отпуск, в котором отдыхают и дети, и взрослые",
       "file": "otdyh-otdyh-s-detmi-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7473,
+      "pixel_height": 6814,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/tishina-i-more/index.html",
+      "title": "Отпуск, в котором слышно море",
+      "file": "otdyh-tishina-i-more-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 25756,
       "kind": "page"
     },
     {
@@ -598,7 +312,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7457,
+      "pixel_height": 7134,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "title": "Когда одного пляжа мало",
+      "file": "otdyh-plyazh-i-progulki-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 24192,
       "kind": "page"
     },
     {
@@ -609,7 +334,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 6800,
+      "pixel_height": 6476,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "title": "К хорошему быстро привыкаешь",
+      "file": "otdyh-servis-i-kuhnya-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 26686,
       "kind": "page"
     },
     {
@@ -620,7 +356,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7579,
+      "pixel_height": 7325,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "title": "Каждый день — новые места",
+      "file": "otdyh-ekskursionnye-tury-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 25502,
       "kind": "page"
     },
     {
@@ -631,7 +378,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7163,
+      "pixel_height": 6839,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "title": "Сам отель — уже повод поехать",
+      "file": "otdyh-otel-radi-kotorogo-edut-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 26300,
       "kind": "page"
     },
     {
@@ -642,7 +400,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7600,
+      "pixel_height": 7276,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "title": "Отпуск, после которого легче дышится",
+      "file": "otdyh-gornyj-vozduh-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 25346,
       "kind": "page"
     },
     {
@@ -653,7 +422,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7059,
+      "pixel_height": 6735,
+      "kind": "page"
+    },
+    {
+      "page": "otdyh/svoj-marshrut/index.html",
+      "title": "Увидеть всё, что хочется, и не спешить",
+      "file": "otdyh-svoj-marshrut-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 28514,
       "kind": "page"
     },
     {
@@ -664,7 +444,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 9515,
+      "pixel_height": 7233,
+      "kind": "page"
+    },
+    {
+      "page": "styleguide.html",
+      "title": "Дизайн-система Манго",
+      "file": "styleguide-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 19316,
       "kind": "page"
     },
     {
@@ -675,7 +466,18 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 4978,
+      "pixel_height": 4934,
+      "kind": "page"
+    },
+    {
+      "page": "kak-my-rabotaem/index.html",
+      "title": "Как мы работаем",
+      "file": "kak-my-rabotaem-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 14440,
       "kind": "page"
     },
     {
@@ -692,12 +494,34 @@
     {
       "page": "o-nas/index.html",
       "title": "О нас",
+      "file": "o-nas-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8728,
+      "kind": "page"
+    },
+    {
+      "page": "o-nas/index.html",
+      "title": "О нас",
       "file": "o-nas-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 2216,
+      "kind": "page"
+    },
+    {
+      "page": "o-nas/komanda/index.html",
+      "title": "Команда → О нас",
+      "file": "o-nas-komanda-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8728,
       "kind": "page"
     },
     {
@@ -714,6 +538,17 @@
     {
       "page": "o-nas/otzyvy/index.html",
       "title": "Отзывы клиентов",
+      "file": "o-nas-otzyvy-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 9278,
+      "kind": "page"
+    },
+    {
+      "page": "o-nas/otzyvy/index.html",
+      "title": "Отзывы клиентов",
       "file": "o-nas-otzyvy-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -725,12 +560,34 @@
     {
       "page": "o-nas/kontakty/index.html",
       "title": "Контакты",
+      "file": "o-nas-kontakty-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 7544,
+      "kind": "page"
+    },
+    {
+      "page": "o-nas/kontakty/index.html",
+      "title": "Контакты",
       "file": "o-nas-kontakty-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 1821,
+      "pixel_height": 1785,
+      "kind": "page"
+    },
+    {
+      "page": "o-nas/dokumenty/index.html",
+      "title": "Документы",
+      "file": "o-nas-dokumenty-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8770,
       "kind": "page"
     },
     {
@@ -747,12 +604,34 @@
     {
       "page": "o-nas/dokumenty/politika/index.html",
       "title": "Политика обработки персональных данных",
+      "file": "o-nas-dokumenty-politika-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 7226,
+      "kind": "page"
+    },
+    {
+      "page": "o-nas/dokumenty/politika/index.html",
+      "title": "Политика обработки персональных данных",
       "file": "o-nas-dokumenty-politika-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 1944,
+      "kind": "page"
+    },
+    {
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "title": "Согласие на обработку персональных данных",
+      "file": "o-nas-dokumenty-soglasie-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 7226,
       "kind": "page"
     },
     {
@@ -769,12 +648,34 @@
     {
       "page": "zagranpasport/index.html",
       "title": "Проверить срок действия загранпаспорта",
+      "file": "zagranpasport-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 6128,
+      "kind": "page"
+    },
+    {
+      "page": "zagranpasport/index.html",
+      "title": "Проверить срок действия загранпаспорта",
       "file": "zagranpasport-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 1443,
+      "kind": "page"
+    },
+    {
+      "page": "404.html",
+      "title": "Страница не найдена",
+      "file": "404-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 5488,
       "kind": "page"
     },
     {
@@ -791,12 +692,34 @@
     {
       "page": "predlozheniya/index.html",
       "title": "Актуальные предложения",
+      "file": "predlozheniya-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 12006,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/index.html",
+      "title": "Актуальные предложения",
       "file": "predlozheniya-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 2681,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/e1/index.html",
+      "title": "Отель 1",
+      "file": "predlozheniya-e1-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
       "kind": "page"
     },
     {
@@ -813,12 +736,34 @@
     {
       "page": "predlozheniya/h2/index.html",
       "title": "Отель 2",
+      "file": "predlozheniya-h2-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/h2/index.html",
+      "title": "Отель 2",
       "file": "predlozheniya-h2-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 2424,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/h3/index.html",
+      "title": "Отель 3",
+      "file": "predlozheniya-h3-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
       "kind": "page"
     },
     {
@@ -835,12 +780,34 @@
     {
       "page": "predlozheniya/e2/index.html",
       "title": "Отель 4",
+      "file": "predlozheniya-e2-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/e2/index.html",
+      "title": "Отель 4",
       "file": "predlozheniya-e2-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 2424,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/h5/index.html",
+      "title": "Отель 5",
+      "file": "predlozheniya-h5-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
       "kind": "page"
     },
     {
@@ -857,6 +824,17 @@
     {
       "page": "predlozheniya/h6/index.html",
       "title": "Отель 6",
+      "file": "predlozheniya-h6-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/h6/index.html",
+      "title": "Отель 6",
       "file": "predlozheniya-h6-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -868,12 +846,34 @@
     {
       "page": "predlozheniya/e3/index.html",
       "title": "Отель 7",
+      "file": "predlozheniya-e3-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/e3/index.html",
+      "title": "Отель 7",
       "file": "predlozheniya-e3-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 2424,
+      "kind": "page"
+    },
+    {
+      "page": "predlozheniya/e4/index.html",
+      "title": "Отель 8",
+      "file": "predlozheniya-e4-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
       "kind": "page"
     },
     {
@@ -932,6 +932,72 @@
       "kind": "component"
     },
     {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · хлебные крошки",
+      "file": "egipet-kroshki-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 692,
+      "pixel_height": 88,
+      "kind": "component"
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · раскрытый курорт",
+      "file": "egipet-kurort-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 4668,
+      "kind": "component"
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · климатическая таблица",
+      "file": "egipet-klimat-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 3718,
+      "kind": "component"
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · хлебные крошки",
+      "file": "egipet-kroshki-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1280,
+      "pixel_height": 44,
+      "kind": "component"
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · раскрытый курорт",
+      "file": "egipet-kurort-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1338,
+      "kind": "component"
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · климатическая таблица",
+      "file": "egipet-klimat-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1651,
+      "kind": "component"
+    },
+    {
       "page": "index.html",
       "title": "Главная · WebKit",
       "file": "index-webkit-390.jpg",
@@ -939,7 +1005,7 @@
       "engine": "WebKit",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 23762,
+      "pixel_height": 23636,
       "kind": "page"
     },
     {
@@ -950,10 +1016,10 @@
       "engine": "WebKit",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 8094,
+      "pixel_height": 8050,
       "kind": "page"
     }
   ],
   "errors": [],
-  "screenshot_count": 86
+  "screenshot_count": 92
 }

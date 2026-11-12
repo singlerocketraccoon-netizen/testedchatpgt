@@ -1,0 +1,730 @@
+{
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1280,
+    1366,
+    1440,
+    1920
+  ],
+  "engines": {
+    "chromium": {
+      "version": "156.0.8078.79",
+      "pages": 328,
+      "widths": [
+        360,
+        390,
+        768,
+        1024,
+        1280,
+        1366,
+        1440,
+        1920
+      ]
+    },
+    "firefox": {
+      "version": "153.0",
+      "pages": 328,
+      "widths": [
+        360,
+        390,
+        768,
+        1024,
+        1280,
+        1366,
+        1440,
+        1920
+      ]
+    },
+    "webkit": {
+      "version": "26.5",
+      "pages": 328,
+      "widths": [
+        360,
+        390,
+        768,
+        1024,
+        1280,
+        1366,
+        1440,
+        1920
+      ]
+    }
+  },
+  "approved_copy": {
+    "egypt": {
+      "verbatim_passages": 96,
+      "climate_stations": 4,
+      "month_cells": 252,
+      "status": "passed"
+    },
+    "otdyh-s-detmi": "passed (only heading terminal punctuation removed)",
+    "tishina-i-more": "passed (only heading terminal punctuation removed)",
+    "plyazh-i-progulki": "passed (only heading terminal punctuation removed)",
+    "servis-i-kuhnya": "passed (only heading terminal punctuation removed)",
+    "ekskursionnye-tury": "passed (only heading terminal punctuation removed)",
+    "otel-radi-kotorogo-edut": "passed (only heading terminal punctuation removed)",
+    "gornyj-vozduh": "passed (only heading terminal punctuation removed)",
+    "svoj-marshrut": "passed (only heading terminal punctuation removed)"
+  },
+  "links": 7989,
+  "errors": [],
+  "geometry_failures": [],
+  "width_exceptions": [
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/egipet/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.12279094827586207,
+          "centered": false
+        },
+        {
+          "section": "hotels",
+          "element": "field-label country-select",
+          "ratio": 0.3017241379310345,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/turciya/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.12279094827586207,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.7327586206896551,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.7327586206896551,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "404.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "text-link",
+          "ratio": 0.09326508620689655,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/egipet/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.111279296875,
+          "centered": false
+        },
+        {
+          "section": "hotels",
+          "element": "field-label country-select",
+          "ratio": 0.2734375,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/turciya/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.111279296875,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.6640625,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.6640625,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "404.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "text-link",
+          "ratio": 0.084521484375,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/egipet/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.12277299289045662,
+          "centered": false
+        },
+        {
+          "section": "hotels",
+          "element": "field-label country-select",
+          "ratio": 0.3017241379310345,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/turciya/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.12277299289045662,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.7327586206896551,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.7327586206896551,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "404.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "text-link",
+          "ratio": 0.09326149512981546,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/egipet/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.11126302480697632,
+          "centered": false
+        },
+        {
+          "section": "hotels",
+          "element": "field-label country-select",
+          "ratio": 0.2734375,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/turciya/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.11126302480697632,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.6640625,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.6640625,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "404.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "text-link",
+          "ratio": 0.08451822996139527,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/egipet/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.12279094827586207,
+          "centered": false
+        },
+        {
+          "section": "hotels",
+          "element": "field-label country-select",
+          "ratio": 0.3017241379310345,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/turciya/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.12279094827586207,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.7327586206896551,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.7327586206896551,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "404.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "text-link",
+          "ratio": 0.09377693965517242,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/egipet/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.111279296875,
+          "centered": false
+        },
+        {
+          "section": "hotels",
+          "element": "field-label country-select",
+          "ratio": 0.2734375,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/turciya/index.html",
+      "blocks": [
+        {
+          "section": "resorts",
+          "element": "btn btn-outline",
+          "ratio": 0.111279296875,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.6640625,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "legal-copy",
+          "ratio": 0.6640625,
+          "centered": false
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "404.html",
+      "blocks": [
+        {
+          "section": "section inner-section ",
+          "element": "text-link",
+          "ratio": 0.0849853515625,
+          "centered": false
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "width": 390,
+      "egypt": "passed"
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "egypt": "passed"
+    },
+    {
+      "engine": "firefox",
+      "width": 390,
+      "egypt": "passed"
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "egypt": "passed"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "egypt": "passed"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "egypt": "passed"
+    }
+  ],
+  "header": [
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "center": -0.0078125,
+      "leftGap": 222.640625,
+      "rightGap": 36.0625,
+      "oneLine": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "center": -0.0078125,
+      "leftGap": 255.21875,
+      "rightGap": 46.640625,
+      "oneLine": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1200,
+      "center": -0.0078125,
+      "leftGap": 305.21875,
+      "rightGap": 96.640625,
+      "oneLine": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "center": -0.0078125,
+      "leftGap": 323.796875,
+      "rightGap": 157.21875,
+      "oneLine": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "center": -0.0078125,
+      "leftGap": 366.796875,
+      "rightGap": 200.21875,
+      "oneLine": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "center": -0.0078125,
+      "leftGap": 394.375,
+      "rightGap": 61.5,
+      "oneLine": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "center": -0.0078125,
+      "leftGap": 434.375,
+      "rightGap": 101.5,
+      "oneLine": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1024,
+      "center": -1.52587890625e-05,
+      "leftGap": 222.68331909179688,
+      "rightGap": 36.083343505859375,
+      "oneLine": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1100,
+      "center": 0.00835418701171875,
+      "leftGap": 255.26669311523438,
+      "rightGap": 46.66664123535156,
+      "oneLine": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1200,
+      "center": 0.00835418701171875,
+      "leftGap": 305.2666931152344,
+      "rightGap": 96.66664123535156,
+      "oneLine": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "center": 0,
+      "leftGap": 323.8333435058594,
+      "rightGap": 157.23333740234375,
+      "oneLine": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "center": 0,
+      "leftGap": 366.8333435058594,
+      "rightGap": 200.23333740234375,
+      "oneLine": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "center": -1.52587890625e-05,
+      "leftGap": 394.4166564941406,
+      "rightGap": 61.550018310546875,
+      "oneLine": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "center": -1.52587890625e-05,
+      "leftGap": 434.4166564941406,
+      "rightGap": 101.55007934570312,
+      "oneLine": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "center": -0.0078125,
+      "leftGap": 222.640625,
+      "rightGap": 36.0625,
+      "oneLine": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1100,
+      "center": -0.0078125,
+      "leftGap": 255.21875,
+      "rightGap": 46.640625,
+      "oneLine": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1200,
+      "center": -0.0078125,
+      "leftGap": 305.21875,
+      "rightGap": 96.640625,
+      "oneLine": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "center": -0.0078125,
+      "leftGap": 323.796875,
+      "rightGap": 157.21875,
+      "oneLine": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "center": -0.0078125,
+      "leftGap": 366.796875,
+      "rightGap": 200.21875,
+      "oneLine": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "center": -0.0078125,
+      "leftGap": 394.375,
+      "rightGap": 61.5,
+      "oneLine": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "center": -0.0078125,
+      "leftGap": 434.375,
+      "rightGap": 101.5,
+      "oneLine": true
+    }
+  ],
+  "deterministic_build": true,
+  "offer_visibility": [
+    {
+      "showOffers": true,
+      "empty": false,
+      "block": true,
+      "nav": true,
+      "price_strip": true
+    },
+    {
+      "showOffers": false,
+      "empty": false,
+      "block": false,
+      "nav": false,
+      "price_strip": true
+    },
+    {
+      "showOffers": true,
+      "empty": true,
+      "block": false,
+      "nav": false,
+      "price_strip": true
+    }
+  ],
+  "status": "passed"
+}

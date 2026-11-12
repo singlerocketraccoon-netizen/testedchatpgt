@@ -1,135 +1,48 @@
-/* Design 1 · country. Typography values are tokens.css variables. */
-
-
-
-
-
-
-
-
-
-
-
-
-
-.country-subtitle{margin-top:26px;max-width:520px;font-size:var(--text-body);line-height:1.85;}
-.country-page-nav{position:static;border-bottom:1px solid var(--line);background:var(--cream);z-index:60;}
-.country-page-nav>.container{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:26px;}
-.country-page-nav a{flex-shrink:0;padding:19px 0;font-size:var(--text-small);color:var(--muted);}
-.country-page-nav a[aria-current]{color:var(--clay);box-shadow:inset 0 -2px var(--clay);}
-.country-section{scroll-margin-top:90px;padding-block:55px;}
-.country-section .section-head{margin-bottom:28px;}
-.country-section h2{font-size:var(--text-h2);}
-.country-section-intro{color:var(--muted);font-size:var(--text-intro);line-height:1.85;margin-bottom:28px;max-width:720px;}
-.country-weather,.country-inquiry{padding:25px;background:var(--cream);border:1px solid var(--line);border-radius:var(--radius-card);}
-.country-weather .field-label{margin-top:0;}
-.country-select{max-width:350px;margin-bottom:25px;}
-.country-weather-result>p{font-size:var(--text-small);line-height:1.6;color:var(--muted);}
-.country-temperature{display:flex;gap:42px;margin:25px 0;}
-.country-temperature p{display:grid;gap:10px;}
-.country-temperature strong{font-style:normal;font-weight:500;font-size:var(--text-h3);line-height:1.12;font-family:var(--display);color:var(--ink);}
-.country-temperature span{font-size:var(--text-small);color:var(--muted);}
-.country-weather-table{margin-top:25px;border-top:1px solid var(--line);padding-top:20px;}
-.country-weather-table summary{font-size:var(--text-ui);}
-.country-weather-table table{width:100%;border-collapse:collapse;margin-top:22px;font-size:var(--text-ui);}
-.country-weather-table td,.country-weather-table th{text-align:left;border-bottom:1px solid var(--line);padding:12px 10px;}
-.country-weather-table th{font-weight:500;}
-.country-weather-table caption{padding:12px 0;text-align:left;color:var(--muted);}
-.country-photo-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;min-height:185px;background:linear-gradient(135deg,var(--sand),var(--cream) 70%,var(--leaf-wash));color:var(--sage);}
-.country-photo-placeholder .icon{width:42px;height:42px;}
-.country-photo-placeholder span{font-size:var(--text-monogram);line-height:1.6;text-align:center;padding-inline:15px;}
-.country-format{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:25px;}
-.country-format button{padding:11px 18px;}
-.country-resort summary{cursor:pointer;list-style:none;}
-.country-resort summary::-webkit-details-marker{display:none;}
-.country-resort summary>span{display:flex;align-items:center;justify-content:space-between;padding:22px 23px 0;font-style:normal;font-weight:400;font-size:var(--text-ui);line-height:1.6;font-family:var(--body);}
-.country-resort summary>span>.icon{color:var(--clay);width:20px;height:20px;flex-shrink:0;}
-.country-resort details[open] summary>span>.icon{transform:rotate(45deg);}
-.country-resort-facts{margin:0;}
-.country-resort-facts>div{margin-bottom:15px;}
-.country-resort-facts dt{font-size:var(--text-small);margin-bottom:5px;}
-.country-resort-facts dd{margin:0;font-size:var(--text-small);line-height:1.8;color:var(--muted);}
-[data-more-resorts],.country-more-offers{margin-top:28px;}
-.country-hotel-grid{margin-top:28px;}
-.country-hotel-open{display:block;width:100%;border:0;padding:0;text-align:left;color:var(--ink);background:transparent;}
-.country-hotel-open>span{display:block;padding:23px 23px 0;font-style:normal;font-weight:500;font-size:var(--text-h3);line-height:1.12;font-family:var(--display);}
-.country-hotel-open:hover>span{color:var(--clay);}
-.country-hotel-empty{margin-top:28px;padding:30px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);}
-.country-hotel-empty h3{font-size:var(--text-h3);margin-bottom:22px;}
-.country-hotel-dialog{width:min(700px,calc(100% - 32px));max-height:calc(100vh - 32px);max-height:calc(100svh - 32px);overflow:auto;padding:25px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);color:var(--ink);}
-.country-hotel-dialog::backdrop{background:rgb(var(--backdrop-rgb) / 65%);}
-.country-hotel-dialog h2{font-size:var(--text-h2);}
-.country-hotel-dialog>p{margin-top:18px;font-size:var(--text-small);line-height:1.6;color:var(--muted);}
-.country-hotel-dialog>.btn{margin-top:24px;}
-.country-hotel-photos{margin-top:25px;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;}
-.country-hotel-photos>*{width:100%;min-width:100%;height:260px;object-fit:cover;scroll-snap-align:start;}
-.country-checked{color:var(--muted);font-size:var(--text-small)!important;}
-.country-end-grid{display:grid;gap:35px;align-items:start;}
-.country-end-grid h2{margin-bottom:25px;}
-.country-trust{display:flex;flex-wrap:wrap;gap:12px 20px;}
-.country-trust a{color:var(--clay);font-size:var(--text-small);line-height:1.8;}
-.country-review{margin:35px 0 0;border-left:1px solid var(--clay);padding-left:22px;}
-.country-review p{font-style:normal;font-weight:500;font-size:var(--text-h3);line-height:1.6;font-family:var(--display);margin-bottom:18px;}
-.country-review cite{font-size:var(--text-small);font-style:normal;}
-.country-inquiry{color:var(--ink);}
-.country-inquiry h3{font-size:var(--text-h3);line-height:1.1;}
-.country-form-context,.country-viewed-month{font-size:var(--text-small);line-height:1.8;color:var(--muted);margin-top:16px;}
-.country-form-context{color:var(--sage);}
-.country-inquiry form{margin-top:22px;}
-.country-inquiry .field-label{margin:0;font-size:var(--text-small);}
-.country-inquiry input:not([type=checkbox]),.country-inquiry select{min-width:0;width:100%;min-height:44px;font-size:var(--text-ui);padding:10px 12px;}
-.country-form-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;}
-.country-form-wide{grid-column:1/-1;}
-.country-optional{margin-top:20px;font-size:var(--text-small);}
-.country-optional .field-label{margin-top:16px;}
-.country-consent{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:22px 0;}
-.country-consent .consent{margin:0;font-size:var(--text-small);}
-.country-consent>a{color:var(--clay);font-size:var(--text-small);}
-.country-inquiry fieldset>.btn{width:100%;}
-.country-inquiry .channel-caption{margin:22px 0 12px;}
-.country-inquiry .messenger-actions{margin:0;gap:10px;}
-.country-inquiry .messenger-actions .btn{padding:9px 16px;min-height:42px;}
-.country-request-dialog .country-inquiry{padding:22px 0 0;border:0;border-radius:0;}
-.country-request-dialog .country-inquiry h3{font-size:var(--text-h3);}
-.country-request-dialog{width:min(660px,calc(100% - 32px));}
-.country-alternatives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
-.country-mobile-panel{align-items:center;padding:10px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);gap:8px;}
-.country-mobile-panel .btn{padding:9px 11px;min-height:44px;font-size:var(--text-ui);}
-.country-mobile-panel .messenger-actions{display:flex;margin:0;gap:8px;}
-.country-mobile-panel .messenger-actions .icon{display:none;}
-.country-mobile-panel .messenger-feedback{display:none;}
-.country-index-grid{display:grid;gap:25px;}
-.country-index-card a>div:not(.country-photo-placeholder){padding:25px;}
-.country-index-card h2{font-size:var(--text-h3);margin-bottom:16px;}
-.country-index-card span{font-size:var(--text-small);color:var(--clay);}
-
-.country-offer{border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);overflow:hidden;}
-
-.country-offer-body{padding:22px;}
-.country-offer h3{font-size:var(--text-h3);margin-bottom:15px;}
-.country-offer p{margin-top:6px;font-size:var(--text-small);line-height:1.6;color:var(--muted);}
-.country-offer .country-offer-price{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);color:var(--clay);margin-top:14px;}
-.country-offer .text-link{margin-top:15px;font-size:var(--text-ui);}
-@media   (max-width:767px) { [data-extra-country-offer]:not(.is-revealed){display:none;} }
-@media   (min-width:600px) { .country-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
-@media   (min-width:600px) { .country-index-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
-
-
-@media   (min-width:768px) { .country-more-offers{display:none;} }
-@media   (min-width:768px) { .country-weather{padding:35px;} }
-@media   (min-width:768px) { .country-end-grid{grid-template-columns:1fr 1fr;gap:55px;} }
-@media   (min-width:768px) { .country-alternatives{grid-template-columns:repeat(4,minmax(0,1fr));} }
-@media   (min-width:1024px) { .country-page-nav{position:sticky;top:66px;} }
-@media   (min-width:1024px) { .country-section{scroll-margin-top:145px;} }
-@media   (min-width:1024px) { .country-index-grid{grid-template-columns:repeat(3,minmax(0,1fr));} }
-@media   (min-width:1024px) { .country-weather{max-width:1000px;} }
-@media   (min-width:1024px) { .country-inquiry{padding:30px;} }
-@media   (prefers-reduced-motion:reduce) { .country-page *{scroll-behavior:auto!important;} }
-
-
-.menu-country-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px;}
-.country-flight-season{font-style:normal;font-weight:400;font-size:var(--text-small);line-height:1.6;font-family:var(--body);color:var(--muted);margin:12px 0;}
-.country-passport-link{margin-bottom:25px;}
-
+/* Country template: scheme 12.11, design 1. */
 /* Country covers, consolidated with their page styles. */
-.country-hero{position:relative;isolation:isolate;overflow:hidden;padding:130px 0 65px;min-height:75vh;min-height:75svh;color:var(--cream);background:var(--forest);}.country-hero>img,.country-hero>.country-photo-placeholder{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}.country-hero>.container{position:relative;z-index:1;}.country-hero .breadcrumbs{color:var(--cream);margin-bottom:42px;}.country-hero .breadcrumbs a{color:inherit;}.country-hero-grid{display:grid;gap:42px;align-items:center;}.country-hero h1{max-width:700px;font-size:var(--text-h1);line-height:1.02;color:var(--cream);}.country-hero-copy>.hero-accent{font-style:normal;font-weight:400;font-size:var(--text-script);line-height:1.6;font-family:"Bad Script",cursive;margin-bottom:18px;}.country-hero-facts{display:flex;flex-wrap:wrap;gap:12px 20px;margin-top:28px;}.country-hero-facts a{color:var(--cream);font-size:var(--text-small);line-height:1.6;border-bottom:1px solid rgb(var(--cream-rgb) / 65%);}.country-hero-form{display:none;}.country-mobile-hero{display:grid;justify-items:start;gap:18px;margin-top:30px;}.country-mobile-hero .messenger-actions{margin:0;}.country-mobile-hero .btn-outline{color:var(--cream);border-color:rgb(var(--cream-rgb) / 75%);background:transparent;}.country-mobile-hero .btn-outline:hover{background:var(--forest);}.country-hero>.country-photo-placeholder{min-height:100%;background:linear-gradient(125deg,var(--forest),var(--sage));color:var(--cream);}.country-hero>.country-photo-placeholder .icon{position:absolute;right:5%;bottom:10%;width:35vw;height:35vw;opacity:.16;}.country-hero>.country-photo-placeholder span{position:absolute;right:25px;bottom:25px;}@media    (min-width:1024px) {.country-hero-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:60px;}}@media    (min-width:1024px) {.country-hero-form{display:block;}}@media    (min-width:1024px) {.country-mobile-hero{display:none;}}@media    (min-width:1024px) {.country-hero .country-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}.country-hero-copy :focus-visible,.country-hero .breadcrumbs :focus-visible{outline:3px solid var(--cream);outline-offset:5px;}.country-hero::after{content:"";position:absolute;z-index:0;inset:0;background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 78%) 0,rgb(var(--overlay-rgb) / 52%) 50%,transparent 95%),linear-gradient(0deg,rgb(var(--overlay-rgb) / 60%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 100px,transparent 220px);}@media    (max-width:767px) {.country-hero::after{background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 80%),rgb(var(--overlay-rgb) / 60%) 75%,rgb(var(--overlay-rgb) / 45%)),linear-gradient(0deg,rgb(var(--overlay-rgb) / 58%),transparent 78%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 90px,transparent 210px);}}@media    (min-width:768px) and (max-width:1023px) {.country-hero::after{background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 80%),rgb(var(--overlay-rgb) / 64%) 65%,transparent),linear-gradient(0deg,rgb(var(--overlay-rgb) / 60%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 100px,transparent 220px);}}
+.country-hero{position:relative;isolation:isolate;overflow:hidden;padding:130px 0 65px;min-height:75vh;min-height:75svh;color:var(--cream);background:var(--forest);}.country-hero>img,.country-hero>.country-photo-placeholder{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}.country-hero>.container{position:relative;z-index:1;}.country-hero .breadcrumbs{color:var(--cream);margin-bottom:42px;}.country-hero .breadcrumbs a{color:inherit;}.country-hero-grid{display:grid;gap:42px;align-items:center;}.country-hero h1{max-width:700px;font-size:var(--text-h1);line-height:1.02;color:var(--cream);}.country-hero-copy>.hero-accent{font-style:normal;font-weight:400;font-size:var(--text-script);line-height:1.6;font-family:"Bad Script",cursive;margin-bottom:18px;}.country-hero-facts{display:flex;flex-wrap:wrap;gap:12px 20px;margin-top:28px;}.country-hero-facts a{color:var(--cream);font-size:var(--text-small);line-height:1.6;border-bottom:1px solid rgb(var(--cream-rgb) / 65%);}.country-hero-form{display:none;}.country-mobile-hero{display:grid;justify-items:start;gap:18px;margin-top:30px;}.country-mobile-hero .messenger-actions{margin:0;}.country-mobile-hero .btn-outline{color:var(--cream);border-color:rgb(var(--cream-rgb) / 75%);background:transparent;}.country-mobile-hero .btn-outline:hover{background:var(--forest);}.country-hero>.country-photo-placeholder{min-height:100%;background:linear-gradient(125deg,var(--forest),var(--sage));color:var(--cream);}.country-hero>.country-photo-placeholder .icon{position:absolute;right:5%;bottom:10%;width:35vw;height:35vw;opacity:.16;}.country-hero>.country-photo-placeholder span{position:absolute;right:25px;bottom:25px;}@media    (min-width:1024px) {.country-hero-grid{grid-template-columns:minmax(0,1fr) minmax(400px,500px);gap:40px;}}@media    (min-width:1024px) {.country-hero-form{display:block;}}@media    (min-width:1024px) {.country-mobile-hero{display:none;}}@media    (min-width:1024px) {.country-hero .country-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}.country-hero-copy :focus-visible,.country-hero .breadcrumbs :focus-visible{outline:3px solid var(--cream);outline-offset:5px;}.country-hero::after{content:"";position:absolute;z-index:0;inset:0;background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 78%) 0,rgb(var(--overlay-rgb) / 52%) 50%,transparent 95%),linear-gradient(0deg,rgb(var(--overlay-rgb) / 60%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 100px,transparent 220px);}@media    (max-width:767px) {.country-hero::after{background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 80%),rgb(var(--overlay-rgb) / 60%) 75%,rgb(var(--overlay-rgb) / 45%)),linear-gradient(0deg,rgb(var(--overlay-rgb) / 58%),transparent 78%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 90px,transparent 210px);}}@media    (min-width:768px) and (max-width:1023px) {.country-hero::after{background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 80%),rgb(var(--overlay-rgb) / 64%) 65%,transparent),linear-gradient(0deg,rgb(var(--overlay-rgb) / 60%),transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 72%) 0,rgb(var(--overlay-rgb) / 68%) 100px,transparent 220px);}}
+.country-subtitle{margin-top:24px;max-width:46ch;font-size:var(--text-body);line-height:1.7;}
+.country-page-nav{position:static;z-index:60;background:var(--cream);border-bottom:1px solid var(--line);}
+.country-page-nav>.container{display:flex;gap:28px;overflow-x:auto;scrollbar-width:thin;}
+.country-page-nav a{flex:none;display:flex;align-items:center;min-height:56px;font-size:var(--text-small);color:var(--muted);}
+.country-page-nav a[aria-current]{color:var(--clay);box-shadow:inset 0 -2px var(--clay);}
+.country-section{scroll-margin-top:var(--country-offset,100px);padding-block:var(--section);}
+.country-section .section-head{margin-bottom:28px;}.country-section-intro{max-width:70ch;margin-bottom:28px;color:var(--muted);font-size:var(--text-intro);line-height:1.65;}
+.country-weather{width:100%;padding:22px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);}
+.country-select{width:100%;max-width:350px;margin:0 0 24px;}
+.country-select select{width:100%;min-height:44px;}
+.country-weather-result>p,.country-weather-result [data-weather-notes]{font-size:var(--text-small);color:var(--muted);line-height:1.7;}
+.country-temperature{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:28px 0;}
+.country-temperature p{display:grid;gap:10px;}.country-temperature strong{white-space:nowrap;font:500 var(--text-h3)/1.1 var(--display);}.country-temperature span{font-size:var(--text-caption);color:var(--muted);}
+.country-weather-table{margin-top:28px;border-top:1px solid var(--line);padding-top:10px;}
+.country-weather-table summary{display:flex;align-items:center;min-height:44px;font-size:var(--text-ui);cursor:pointer;}
+.table-scroll{max-width:100%;overflow-x:auto;}
+.country-weather-table table{width:100%;border-collapse:collapse;font-size:var(--text-small);}
+.country-weather-table caption{text-align:left;padding:18px 0;color:var(--muted);}
+.country-weather-table th,.country-weather-table td{padding:12px 8px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap;}.country-weather-table th{font-weight:500;}
+.country-weather-foot{margin-top:18px;max-width:70ch;color:var(--muted);font-size:var(--text-small);}
+.country-photo-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:190px;background:linear-gradient(135deg,var(--sand),var(--cream) 70%,var(--leaf-wash));color:var(--sage);}
+.country-photo-placeholder .icon{width:40px;height:40px;}.country-photo-placeholder span{font-size:var(--text-small);text-align:center;padding-inline:16px;}
+.country-resort summary{cursor:pointer;list-style:none;}.country-resort summary::-webkit-details-marker{display:none;}
+.country-resort summary>span{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 22px 0;font:500 var(--text-h3)/1.2 var(--display);}
+.country-resort summary>span>.icon{width:20px;height:20px;flex:none;color:var(--clay);}.country-resort details[open] summary>span>.icon{transform:rotate(45deg);}
+.country-resort-facts{margin:0;}.country-resort-facts>div{margin-bottom:18px;}.country-resort-facts dt{font-size:var(--text-small);font-weight:600;margin-bottom:6px;}.country-resort-facts dd{margin:0;color:var(--muted);font-size:var(--text-small);line-height:1.65;}
+.country-card-links a{display:inline-flex;align-items:center;min-height:44px;}
+[data-more-resorts]{margin-top:28px;}
+.country-strip-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;}.country-strip-actions .messenger-actions{margin:0;}
+.country-price-strip p{font-size:var(--text-body);max-width:70ch;}.country-price-strip h3{font:500 var(--text-h3)/1.2 var(--display);}
+.country-hotel-tips{display:grid;gap:18px;margin-bottom:32px;}.country-hotel-tips p{font-size:var(--text-small);line-height:1.65;color:var(--muted);margin-top:16px;}
+.country-hotel-grid{margin-top:28px;}.country-hotel-open{display:block;width:100%;padding:0;border:0;background:transparent;text-align:left;color:var(--ink);}.country-hotel-open>span{display:block;padding:22px 22px 0;font:500 var(--text-h3)/1.2 var(--display);}.country-hotel-open:hover>span{color:var(--clay);}
+.country-hotel-empty{padding:28px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);}.country-hotel-empty h3{font-size:var(--text-h3);margin-bottom:20px;}
+.country-hotel-dialog{width:min(700px,calc(100% - 28px));max-height:calc(100svh - 28px);overflow:auto;padding:24px;border:1px solid var(--line);border-radius:var(--radius-card);background:var(--cream);color:var(--ink);}.country-hotel-dialog::backdrop{background:rgb(var(--backdrop-rgb) / 65%);}.country-hotel-dialog>.country-photo-placeholder{margin-top:20px;}.country-hotel-dialog>p{margin-top:18px;color:var(--muted);font-size:var(--text-small);}.country-hotel-dialog>.btn{margin-top:24px;}
+.country-experiences{display:grid;grid-auto-flow:column;grid-auto-columns:85%;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;}.country-experiences>article{scroll-snap-align:start;}.country-experiences+.country-price-strip{margin-top:28px;}
+.country-essentials{display:grid;gap:0;align-items:start;}.country-essentials .faq-item{border-top:1px solid var(--line);}.country-checked{font-size:var(--text-small);color:var(--muted);}
+.country-passport-link{margin-top:28px;}.country-end-grid{display:grid;gap:36px;align-items:start;}.country-end-grid h2{margin-bottom:24px;}.country-trust{display:flex;flex-wrap:wrap;gap:12px 20px;}.country-trust a{display:inline-flex;align-items:center;min-height:44px;color:var(--clay);font-size:var(--text-small);}
+.country-review{margin-top:28px;border-left:1px solid var(--clay);padding-left:20px;}.country-review p{font:500 var(--text-quote)/1.5 var(--display);}.country-review cite{font-size:var(--text-small);}
+.country-hero-form .unified-card{padding:22px;}.country-hero-form .unified-title,.country-hero-form .unified-context{margin-bottom:12px;}
+.country-alternatives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.country-index-grid{display:grid;gap:25px;}.country-index-card a>div:not(.country-photo-placeholder){padding:25px;}.country-index-card h2{font-size:var(--text-h3);margin-bottom:16px;}.country-index-card span{font-size:var(--text-small);color:var(--clay);}.country-flight-season{font:400 var(--text-small)/1.6 var(--body);color:var(--muted);margin:12px 0;}
+@media(min-width:600px){.country-index-grid,.country-hotel-tips{grid-template-columns:repeat(2,minmax(0,1fr));}.country-temperature strong{font-size:var(--text-stat);}.country-experiences{grid-auto-columns:44%;}}
+@media(min-width:768px){.country-end-grid{grid-template-columns:1fr 1fr;gap:40px;}.country-alternatives{grid-template-columns:repeat(4,minmax(0,1fr));}.country-weather{padding:32px;}}
+@media(min-width:1024px){.country-page-nav{position:sticky;top:var(--country-header-height,66px);}.country-index-grid,.country-hotel-tips{grid-template-columns:repeat(3,minmax(0,1fr));}.country-essentials{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;}.country-experiences{grid-auto-flow:row;grid-template-columns:repeat(4,minmax(0,1fr));overflow:visible;}}
+@media(prefers-reduced-motion:reduce){.country-page *{scroll-behavior:auto!important;}}
