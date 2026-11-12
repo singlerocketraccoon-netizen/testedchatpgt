@@ -112,7 +112,7 @@ def offer(path,o):
  return f'<!-- component: offer-card --><article class="offer-card" role="listitem" data-offer-id="{E(o["id"])}" data-country="{o["country"]}" data-price="{o["price_from"]}" data-date="{o["departure_date"]}" {editable(key,True)}><a class="offer-link" href="#contact" data-offer="{E(topic)}" data-contact-topic="{E(topic)}" data-goal="offer_discuss">{image(path,o["photo"],c["name"]+" — формат отдыха",key=key+".photo")}<div class="offer-body"><h3 {editable(key+".title")}>{E(title)}</h3><p class="offer-meta" {editable(key+".details")}><time datetime="{o["departure_date"]}">{human_date(o["departure_date"])}</time> · {o["nights"]} ночей · {E(o["departure_city"])}</p><p class="offer-price" {editable(key+".price",True)}>от {price} ₽ <small>за двоих</small></p><p class="price-date" {editable(key+".priceDate",True)}>Цена на {human_date(o["price_date"])}, актуальную уточнит менеджер</p><span class="offer-action">Обсудить поездку {icon("i-arrow")}</span></div></a></article><!-- /component: offer-card -->'
 def home_offers():
  controls=f'<div class="offer-controls"><button type="button" class="icon-btn" data-offers-prev aria-label="Предыдущие предложения" aria-controls="home-offers" data-goal="offers_previous" disabled>{icon("i-arrow-left")}</button><button type="button" class="icon-btn" data-offers-next aria-label="Следующие предложения" aria-controls="home-offers" data-goal="offers_next" disabled>{icon("i-arrow")}</button></div>'
- return '<section class="section offers-section home-offer-carousel" data-home-block="03" id="offers" data-offer-carousel><div class="container"><div class="section-head"><h2 data-editable="home.sections.03.title">Актуальные предложения</h2>'+controls+'</div><div class="offer-grid scroll-rail" id="home-offers" role="list" aria-label="Актуальные предложения" tabindex="0">'+''.join(offer('index.html',o)for o in active_offers())+'</div>'+link('index.html','predlozheniya/index.html','Все предложения →','all_offers','text-link offers-all')+'</div></section>'
+ return '<section class="section offers-section home-offer-carousel" data-home-block="03" id="offers" data-offer-carousel><div class="container"><div class="section-head"><h2 data-editable="home.sections.03.title">Актуальные предложения</h2>'+controls+'</div><div class="offer-grid scroll-rail" id="home-offers" role="list" aria-label="Актуальные предложения" tabindex="0">'+''.join(offer('index.html',o)for o in active_offers()[:6])+'</div>'+link('index.html','predlozheniya/index.html','Все предложения →','all_offers','text-link offers-all')+'</div></section>'
 def offers_page():
  path='predlozheniya/index.html';rows=active_offers();countries=[c for c in COUNTRIES if any(o['country']==c['slug']for o in rows)]
  chips='<div class="filter-chips" role="group" aria-label="Страна">'+''.join(f'<button type="button" data-offer-filter="{value}" aria-pressed="{str(i==0).lower()}" data-goal="offers_filter_{value}" {editable("offers.filters."+value)}>{E(label)}</button>'for i,(value,label)in enumerate([('all','Все')]+[(c['slug'],c['name'])for c in countries]))+'</div>'
@@ -172,36 +172,20 @@ def ratings_strip(path,large=False):
  return '<div class="review-platforms'+(' review-platforms-large'if large else'')+'" aria-label="Отзывы на картах">'+''.join(f'<div class="review-platform"><a class="review-platform-link" href="{E(p["url"])}" data-review-platform="{p["slug"]}" data-goal="reviews_{p["slug"]}" {editable("reviews.platforms."+p["slug"]+".link")}>{icon("i-arrow-up")}<span {editable("reviews.platforms."+p["slug"]+".label")}>{E(p["label"])}</span></a><span class="review-platform-rating" {editable("reviews.platforms."+p["slug"]+".rating")}>{E(p["rating"])}</span></div>'for p in DATA['review_platforms'])+'</div>'
 
 def build():
- from online import configure,finalize,services_index,years_in_tourism,years_label
+ from stage4 import configure,finalize,home_page,extra_pages
  configure(globals())
- # Assemble the approved home slots, process steps and common navigation.
- home=HOME.replace('<!-- slot: years-in-tourism -->',str(years_in_tourism())+' '+years_label(years_in_tourism())+' в туризме').replace('<!-- slot: home-rest -->',home_rest()).replace('<!-- slot: home-offers -->',home_offers()).replace('<!-- slot: process-steps -->',home_steps()).replace('<!-- slot: selection-dialog -->',selection_dialog());home=re.sub(r'<!-- component: header -->.*?<!-- /component: header -->',header('index.html',True),home,flags=re.S);home=re.sub(r'<svg class="sprite".*?</svg>',SPRITE,home,count=1,flags=re.S);home=re.sub(r'<!-- component: footer -->.*?<!-- /component: footer -->',footer('index.html',True),home,flags=re.S);home=remap(home,'index.html',True)
- # Only the approved home sections change; preserve their surrounding components.
- home=home.replace('<div class="review-grid scroll-rail">',ratings_strip('index.html')+'<div class="review-grid scroll-rail">',1)
- home=home.replace('</head>','<link rel="stylesheet" href="css/offers.css"><script defer src="js/offers.js"></script></head>')
- home=home.replace('<link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">',brand_icons('index.html'))
- home=home.replace('#f3eee4','#F6F1E9')
- home=home.replace('<script defer src="js/main.js"></script>','<link rel="stylesheet" href="css/navigation.css"><script defer src="js/navigation.js"></script><script defer src="js/main.js"></script>');
- def safe_image(match):
-  tag=match[0]
-  for r in DATA.get('photo_replacements',[]):
-   if 'src="../../assets/img/'+r['original']+'"'in tag:
-    tag=tag.replace('src="../../assets/img/'+r['original']+'"','src="img/'+r['file']+'"')
-    tag=re.sub(r'width="\d+"','width="'+str(r['width'])+'"',tag);tag=re.sub(r'height="\d+"','height="'+str(r['height'])+'"',tag)
-  return tag
- home=re.sub(r'<img\b[^>]*>',safe_image,home)
- (SITE/'index.html').write_text(home);PAGES.append({'path':'index.html','title':'Главная','type':'home'})
+ home_page()
  path='napravleniya/index.html';body=section('Найдите свой формат',filters(['Пляж','Экскурсии','Экзотика'],'countries')+'<p class="filter-status sr-only" data-filter-status aria-live="polite"></p><div class="country-grid">'+''.join(countrycard(path,c)for c in COUNTRIES)+'</div>')
  emit(path,'Страны отдыха из Астрахани — Манго','Турция, Египет, ОАЭ, Таиланд и другие направления. Сравните сезоны и формат отдыха с персональным менеджером в Астрахани.','Страны','Начните с моря, новых мест или спокойного ритма. Даты и маршрут подберём вместе.',body,[('Страны',None)],'Выбираю направление')
  for c in COUNTRIES:country(c)
+ from online import services_index
  services_index()
  for s in SERVICES:service(s)
- offers_page()
  from rest import build_rest_pages
  build_rest_pages(globals())
  from brand import build_brand_guide
  build_brand_guide(globals())
- extras()
+ extra_pages()
  for page in PAGES:finalize(page['path'])
  registry={(SITE/'img'/r['file']).resolve():r for r in json.loads((SITE/'img/sources.json').read_text())}
  for record in PAGES:
@@ -209,46 +193,12 @@ def build():
   for tag in re.findall(r'<img\b[^>]*>',page.read_text()):
    src=re.search(r'src="([^"]+)"',tag)[1];asset=(page.parent/src).resolve();entry=registry.get(asset)
    assert entry and entry.get('license'),f'Missing photo/brand source and license: {src}'
-   if entry.get('asset_kind')=='photo':assert entry.get('active') and entry['license'].get('commercial_use'),f'Photo use is not cleared: {src}'
+   if entry.get('asset_kind')=='photo':assert entry.get('active')and entry['license'].get('commercial_use'),f'Photo use is not cleared: {src}'
  (TOOLS/'pages.json').write_text(json.dumps(PAGES,ensure_ascii=False,indent=2)+'\n')
+ archive=SITE/'accent-options.html'
+ if archive.exists():
+  from stage4 import brand
+  archive.write_text(brand(archive.read_text()))
  print('Built',len(PAGES),'HTML pages')
-
-def extras():
- from online import about_pages
- about_pages()
- path='o-nas/dokumenty/index.html';body=section('Документы для знакомства','<div class="document-grid">'+''.join(link(path,target,icon('i-file')+f'<h3>{label}</h3><span>Читать документ →</span>','document_'+str(i),'document-card',editable('documents.'+str(i),True))for i,(label,target)in enumerate([('Политика конфиденциальности','o-nas/dokumenty/politika/index.html'),('Согласие на обработку персональных данных','o-nas/dokumenty/soglasie/index.html')]))+'<a href="#contact" class="document-card" data-contact-topic="Запрос образца договора" data-goal="contract_request" '+editable('documents.contract',True)+'>'+icon('i-file')+'<h3>Образец договора</h3><span>Запросить у менеджера →</span></a></div>')
- body+=section('Реквизиты','<dl class="details-list" '+editable('company.details',True)+'><div><dt>Наименование</dt><dd>Данные организации уточнит менеджер</dd></div><div><dt>ИНН</dt><dd>Уточните у менеджера</dd></div><div><dt>ОГРНИП / ОГРН</dt><dd>Уточните у менеджера</dd></div><div class="legal-address"><dt>Юридический адрес</dt><dd data-editable="contacts.legalAddress" data-needs-approval="legal-address">Юридический адрес уточняется</dd></div></dl>')
- emit(path,'Документы турагентства в Астрахани — Манго','Политика, согласие на обработку персональных данных и запрос образца договора. Документы Манго Путешествия в Астрахани.','Понятные документы','Условия поездки и порядок оформления обсуждаем до оплаты.',body,[('О нас','o-nas/index.html'),('Документы',None)],'Вопрос по документам и договору',about=True,approval_intro=True)
- for slug,title in [('politika','Политика конфиденциальности'),('soglasie','Согласие на обработку персональных данных')]:
-  path=f'o-nas/dokumenty/{slug}/index.html'
-  texts=[('Статус документа','Текст служит основой для юридической редакции. До публикации необходимо указать сведения об операторе, правовые основания, сроки хранения и порядок обращений. Неокончательная редакция.'),('Какие сведения используются','В обращении могут быть указаны имя или контакт для связи, направление поездки, даты и пожелания. Владелец сайта определяет окончательный перечень данных и цели их обработки.'),('Цели и основания','Обсуждение запроса клиента и подготовка предложения о поездке. Правовые основания, состав поручений и сведения о получателях требуют юридического согласования.'),('Ваши права','Порядок доступа, уточнения и удаления данных, а также отзыва согласия необходимо привести в соответствие с действующими требованиями. Для обсуждения обращения: man.go.travel@mail.ru.'),('Оператор и сроки','Реквизиты оператора, сроки обработки и хранения, условия прекращения обработки и способы направления обращений заполняются после юридической проверки.')]
-  body=section('Условия документа','<article class="legal-copy" '+editable('legal.'+slug,True)+'>'+''.join(f'<h3>{h}</h3><p>{t}</p>'for h,t in texts)+'</article>')
-  emit(path,('Политика конфиденциальности — Манго, Астрахань'if slug=='politika'else'Согласие на обработку данных — Манго, Астрахань'),('Политика работы с персональными данными посетителей Манго Путешествия в Астрахани. Основа для юридического согласования.'if slug=='politika'else'Согласие на обработку данных для обращения в Манго Путешествия, Астрахань. Основа для юридического согласования.'),title,'Порядок работы с обращениями и персональными данными.',body,[('О нас','o-nas/index.html'),('Документы','o-nas/dokumenty/index.html'),(title,None)],'Вопрос о персональных данных',about=True,approval_intro=True)
- path='o-nas/otzyvy/index.html';cards=''
- for i,r in enumerate(DATA['reviews']):
-  cards+=f'<!-- component: review-card --><article class="review-card full-review" data-filter-item data-categories="{r["destination"]}" {editable("reviews."+str(i),i==0)}><blockquote>{E(r["text"])}</blockquote><p class="review-author">{r["name"]}</p><p class="review-destination">{r["destination"]}</p><p class="review-meta"><span>{r["date"]}</span> · <a href="{r["source"]}" target="_blank" rel="noopener" data-goal="review_source_{i}" {editable("reviews."+str(i)+".source")}>Источник ↗</a></p></article><!-- /component: review-card -->'
- body=section('Слова после путешествия',ratings_strip(path,True)+filters([r['destination']for r in DATA['reviews']],'reviews')+'<p class="filter-status sr-only" data-filter-status aria-live="polite"></p><div class="reviews-list">'+cards+'</div>')
- body+=section('Впечатления на картах','<div class="rating-grid"><div class="rating-placeholder" '+editable('ratings.yandex',True)+'>'+icon('i-pin')+'<h3>Яндекс Карты</h3><p>Отзывы и фотографии путешественников</p></div><div class="rating-placeholder" '+editable('ratings.2gis',True)+'>'+icon('i-pin')+'<h3>2ГИС</h3><p>Впечатления о знакомстве с агентством</p></div></div><a href="#contact" class="btn btn-primary" data-contact-topic="Хочу оставить отзыв о поездке" data-goal="leave_review">Оставить отзыв</a>')
- emit(path,'Отзывы о турагентстве в Астрахани — Манго','Реальные отзывы туристов Манго Путешествия: Италия и Швейцария, ОАЭ, Иордания. Обсудите поездку с менеджером в Астрахани.','Отзывы о путешествиях','Личные впечатления тех, кто уже вернулся домой.',body,[('О нас','o-nas/index.html'),('Отзывы',None)],'Хочу поделиться впечатлениями',about=True)
- path='kak-my-rabotaem/index.html';steps=[('Обсуждаем пожелания','Расскажите о датах, бюджете, городе вылета и том, что важно в отдыхе.'),('Подбираем и согласуем','Сравним предложения разных туроператоров и обсудим различия.'),('Бронирование и договор','Проверим состав поездки и согласуем условия оформления.'),('Оплата','Обсудим порядок оплаты и, если нужно, условия рассрочки.'),('Документы и подготовка','Разберём документы на поездку и вопросы перед отправлением.'),('Сопровождение в поездке','Ваш персональный менеджер остаётся точкой связи по запросу.'),('Возвращение домой','Будем рады услышать, как прошёл отдых и что хочется учесть в следующий раз.')]
- body=section('От разговора до возвращения','<ol class="timeline" '+editable('process.steps',True)+'>'+''.join(f'<li'+(' id="soprovozhdenie"'if i==5 else'')+f'><span class="timeline-number">0{i+1}</span><div><h3>{h}</h3><p>{t}</p></div></li>'for i,(h,t)in enumerate(steps))+'</ol>')
- body+=section('Встречные шаги','<div class="editorial-grid"><article class="info-card" '+editable('process.we',True)+'><h3>Что делаем мы</h3><p>Сравниваем предложения, объясняем условия и согласуем детали поездки.</p></article><article class="info-card" '+editable('process.you',True)+'><h3>Что нужно от Вас</h3><p>Пожелания, актуальные данные путешественников и внимательная проверка согласованных условий.</p></article></div>')
- body+=section('Оплата и договор','<div class="editorial-text" '+editable('process.payment',True)+'><p>Состав поездки, стоимость и порядок оплаты согласуем перед оформлением. Возможна рассрочка; условия уточняются для конкретного запроса.</p><p>Попросите менеджера объяснить ограничения тарифа, порядок изменений и отмены. Образец договора можно запросить до принятия решения.</p>'+link(path,'o-nas/dokumenty/index.html','Посмотреть документы →','process_documents','text-link')+'</div>')
- questions=[('Можно ли начать подбор онлайн?','Да, обсудить пожелания можно по телефону, в MAX или Telegram. Порядок оформления согласуем отдельно.'),('Можно ли оплатить в рассрочку?','Рассрочка доступна. Конкретные условия и порядок оформления менеджер уточнит под Вашу поездку.'),('Что делать, если изменятся планы?','Свяжитесь с менеджером. Возможность изменений и расходы зависят от условий бронирования и поставщиков.')]
- body+=section('Частые вопросы',faq(questions,'process.faq'))
- emit(path,'Как мы работаем — Манго Путешествия, Астрахань','Как проходит подбор и оформление поездки в Манго Путешествия: обсуждение, предложения, договор, оплата и подготовка. Турагентство в Астрахани.','Спокойно, шаг за шагом','От первого разговора до возвращения домой — с персональным менеджером.',body,[('Как мы работаем',None)],'Хочу обсудить порядок подбора',questions=questions,approval_intro=True)
- path='404.html';body=section('Продолжим с понятного места','<div class="related-links">'+link(path,'index.html','На главную →','404_home')+link(path,'napravleniya/index.html','Выбрать направление →','404_countries')+link(path,'uslugi/index.html','Все услуги →','404_services')+'</div>')
- emit(path,'Страница не найдена — Манго Путешествия','Страница не найдена. Вернитесь к направлениям или свяжитесь с Манго Путешествия в Астрахани.','Здесь маршрут меняется','Такой страницы нет. Давайте найдём нужную или обсудим Ваш вопрос.',body,[('Страница не найдена',None)],'Нужна помощь с поиском страницы')
- path='pages.html';entries=PAGES.copy();body=section('Страницы сайта','<div class="page-directory">'+''.join(link(path,p['path'],p['title']+' <small>'+p['path']+'</small>','directory_'+str(i))for i,p in enumerate(entries))+'</div>')
- emit(path,'Страницы сайта — Манго Путешествия, Астрахань','Техническое оглавление страниц Манго Путешествия в Астрахани.','Страницы сайта','Навигация для просмотра и проверки.',body,[('Страницы',None)],'Вопрос о сайте')
-
-def team_content(path):
- people=DATA['team_members'];count=len(people);cards=''
- for i,p in enumerate(people):
-  key='team.'+str(i)
-  cards+=f'<!-- component: team-card --><article class="team-travel-card" role="listitem" {editable(key)}><div class="team-travel-media">{image(path,p["photo"],p["photo_alt"],key=key+".photo")}<span class="team-initials" {editable(key+".initials")}>{E(p["initials"])}</span></div><div class="team-travel-body"><h3 {editable(key+".name")}>{E(p["name"])}</h3><p class="team-travel-role" {editable(key+".role")}>{E(p["role"])}</p><p class="team-expertise" {editable(key+".countries",p.get("expertise_needs_approval",False))}>{E(p["expertise"])}</p><div class="team-travel-channels"><a href="{E(p["max"])}" data-messenger="MAX" data-goal="team_detail_max_{i}" {editable(key+".links.max")}>{icon("i-max")}<span>MAX</span></a><a href="{E(p["telegram"])}" data-messenger="Telegram" data-goal="team_detail_telegram_{i}" {editable(key+".links.telegram")}>{icon("i-telegram")}<span>Telegram</span></a></div></div></article><!-- /component: team-card -->'
- columns=max(1,min(count,4))
- body=f'<section class="section inner-section team-picker{" is-carousel"if count>4 else""}" data-team-collection style="--team-columns:{columns}"><div class="container"><div class="section-head team-picker-head"><h2 id="team-picker-title" {editable("team.section.title")}>Поможем с выбором</h2><p {editable("team.section.subtitle")}>Поддержим на всех этапах путешествия — от выбора тура до возвращения домой</p></div></div><div class="team-travel-frame"><div class="team-travel-list" id="team-travel-list" data-team-list role="list" aria-labelledby="team-picker-title">{cards}</div><div class="team-travel-arrows" data-team-arrows hidden><button class="icon-btn" type="button" data-team-prev data-goal="team_previous" aria-label="Предыдущая карточка" aria-controls="team-travel-list" disabled>{icon("i-arrow-left")}</button><button class="icon-btn" type="button" data-team-next data-goal="team_next" aria-label="Следующая карточка" aria-controls="team-travel-list" disabled>{icon("i-arrow")}</button></div></div><div class="container"><p class="team-picker-note" {editable("team.personal")}>Каждого клиента ведёт один менеджер — от выбора тура до возвращения домой</p></div></section>'
- return body
 
 if __name__=='__main__':build()
