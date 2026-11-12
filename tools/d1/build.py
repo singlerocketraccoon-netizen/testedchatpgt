@@ -99,8 +99,6 @@ def emit(path,title,description,h1,intro,body,items,prefill='',photo=None,questi
  for review in DATA['reviews']:rendered=rendered.replace(E(formal(review['text'])),E(review['text']))
  out.write_text(rendered);PAGES.append({'path':path,'title':h1,'type':'country'if photo else'page'})
 
-def countrycard(path,c):
- tags='|'.join(c['tags']);return f'<!-- component: direction-card --><article class="country-card" data-filter-item data-categories="{E(tags)}" {editable("countries."+c["slug"])}>{link(path,"napravleniya/"+c["slug"]+"/index.html",image(path,c["image"],c["alt"])+f"<div class=\"country-card-body\"><h3>{c['name']}</h3><p>{c['intro']}</p><p class=\"country-months\">Месяцы для отдыха: "+', '.join(['янв','фев','мар','апр','май','июн','июл','авг','сен','окт','ноя','дек'][i]for i,v in enumerate(c['months'])if v=='good')+f"</p><span class=\"country-price\" data-needs-approval=\"price\">от {c['price']:,} ₽ <small>за двоих</small></span></div>".replace(',', ' '),'country_'+c['slug'])}</article><!-- /component: direction-card -->'
 def filters(values,key):
  return '<div class="filter-chips" role="group" aria-label="Фильтр">'+''.join(f'<button type="button" data-filter="{E(v)}" aria-pressed="{"true"if i==0 else"false"}" data-goal="{key}_filter" {editable(key+".filters."+str(i))}>{E(v)}</button>'for i,v in enumerate(['Все']+values))+'</div>'
 MONTH_NAMES=['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря']
@@ -119,21 +117,6 @@ def offers_page():
  sort='<label class="field-label offers-sort"><span>Сортировка</span><select data-offer-sort data-goal="offers_sort"><option value="date">По дате вылета</option><option value="price">Сначала дешевле</option></select></label>'
  body='<section class="section inner-section offers-list-section"><div class="container"><div class="offers-toolbar">'+chips+sort+'</div><p class="sr-only" data-offer-status aria-live="polite"></p><div class="offer-grid offers-catalog" data-offers-list role="list">'+''.join(offer(path,o)for o in sorted(rows,key=lambda o:o['departure_date']))+'</div></div></section>'
  emit(path,'Предложения туров из Астрахани — Манго','Туры из Астрахани и других городов вылета: сравните страны, даты и цены. Обсудите выбранную поездку с персональным менеджером.','Актуальные предложения','Выберите страну и удобные даты — детали обсудим с Вашим менеджером.',body,[('Предложения',None)],'Хочу обсудить предложение',assets=['css/offers.css','js/offers.js'])
-
-def country(c):
- slug=c['slug'];path=f'napravleniya/{slug}/index.html';key='countries.'+slug
- facts=[('Столица',c['capital'],False),('Валюта',c['currency'],False),('Язык',c['language'],False),('Виза','Проверим правила въезда',True),('Перелёт','Зависит от маршрута',True),('Время',c['time']+' от Астрахани'if c['time']!='Как в Астрахани'else c['time'],True)]
- body='<section class="facts-strip"><div class="container fact-grid">'+''.join(f'<div {editable(key+".facts."+str(i),a)}><span>{label}</span><strong>{value}</strong></div>'for i,(label,value,a)in enumerate(facts))+'</div></section>'
- months=['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'];states={'good':'Комфортно','hot':'Жарко','shoulder':'Межсезонье'}
- body+=section('Когда ехать','<p class="section-description" '+editable(key+'.season')+'>'+c['season']+'</p><div class="month-scale">'+''.join(f'<div class="month {state}" aria-label="{month}: {states[state]}" {editable(key+".months."+str(i))}><span>{month}</span><i aria-hidden="true"></i><small>{states[state]}</small></div>'for i,(month,state)in enumerate(zip(months,c['months'])))+'</div><p class="season-legend">Комфортно · Жарко · Межсезонье</p>',key+'.seasonTitle')
- body+=section('Курорты и места','<div class="info-grid">'+''.join(card(name,['Для поездки к морю и прогулок.','Обсудим расположение отеля и привычный ритм отдыха.','Выберем формат под Ваш маршрут.'][i],key+'.resorts.'+str(i),'i-pin',True)for i,name in enumerate(c['resorts']))+'</div>',key+'.resortsTitle')
- if DATA.get('show_country_offers') and active_offers(slug):body+=section('Актуальные предложения','<div class="offer-grid" role="list">'+''.join(offer(path,o)for o in active_offers(slug))+'</div>',key+'.offersTitle','cream-section')
- body+=section('Что важно знать','<div class="info-grid">'+card('Документы','До оплаты проверим правила въезда для Вашего гражданства и документа. Требования могут изменяться.',key+'.visa','i-file',True)+card('Дорога','Вылет и стыковки подбираются на даты поездки. Астрахань, Волгоград, Москва, Краснодар и Ростов-на-Дону — города для проверки маршрутов.',key+'.flight','i-plane',True)+card('Бюджет','Сравнивайте весь состав поездки: питание, дорогу, багаж и переезды. Цену подтвердим перед оформлением.',key+'.budget','i-mood-cloche',True)+'</div>')
- questions=[(f'Когда планировать поездку {c["preposition"]} {c["accusative"]}?',c['season']),('Нужна ли виза?','Проверим актуальные требования к въезду для Вашего гражданства и паспорта перед бронированием.'),('Можно ли вылететь из Астрахани?','Проверим маршруты на Ваши даты. При необходимости сравним другие разрешённые города вылета; прямой рейс заранее не обещаем.')]
- body+=section('Вопросы о поездке',faq(questions,key+'.faq'))
- body+=section('Обсудим Ваш маршрут',f'<div class="inline-contact"><p>Персональный менеджер поможет сравнить варианты.</p><a class="text-link" href="#contact" data-goal="country_selection">Подобрать тур {c["preposition"]} {c["accusative"]} →</a><a href="#" data-messenger="MAX" data-goal="country_max">MAX</a><a href="#" data-messenger="Telegram" data-goal="country_telegram">Telegram</a></div>')
- body+=section('Другие направления','<div class="related-links">'+''.join(link(path,'napravleniya/'+v['slug']+'/index.html',v['name']+' →','related_country_'+v['slug'])for v in COUNTRIES if v['slug']!=slug)+'</div>')
- emit(path,f'Туры {c["preposition"]} {c["accusative"]} из Астрахани — Манго',f'Отдых {c["preposition"]} {c["locative"]}: сезоны, курорты и подбор поездки в Астрахани. Обсудите даты, маршрут и отель с персональным менеджером.',f'Туры {c["preposition"]} {c["accusative"]}',c['intro'],body,[('Страны','napravleniya/index.html'),(c['name'],None)],c['name'],photo=(c['image'],c['alt']),questions=questions)
 
 def service(s):
  slug=s['slug'];path=f'uslugi/{slug}/index.html';key='services.'+slug
@@ -175,9 +158,10 @@ def build():
  from stage4 import configure,finalize,home_page,extra_pages
  configure(globals())
  home_page()
- path='napravleniya/index.html';body=section('Найдите свой формат',filters(['Пляж','Экскурсии','Экзотика'],'countries')+'<p class="filter-status sr-only" data-filter-status aria-live="polite"></p><div class="country-grid">'+''.join(countrycard(path,c)for c in COUNTRIES)+'</div>')
- emit(path,'Страны отдыха из Астрахани — Манго','Турция, Египет, ОАЭ, Таиланд и другие направления. Сравните сезоны и формат отдыха с персональным менеджером в Астрахани.','Страны','Начните с моря, новых мест или спокойного ритма. Даты и маршрут подберём вместе.',body,[('Страны',None)],'Выбираю направление')
- for c in COUNTRIES:country(c)
+ from country import configure as configure_countries,index as countries_index,country as country_page,finish as finish_country
+ configure_countries(globals())
+ countries_index()
+ for c in COUNTRIES:country_page(c)
  from online import services_index
  services_index()
  for s in SERVICES:service(s)
@@ -186,7 +170,9 @@ def build():
  from brand import build_brand_guide
  build_brand_guide(globals())
  extra_pages()
- for page in PAGES:finalize(page['path'])
+ for page in PAGES:
+  finalize(page['path'])
+  finish_country(page['path'])
  registry={(SITE/'img'/r['file']).resolve():r for r in json.loads((SITE/'img/sources.json').read_text())}
  for record in PAGES:
   page=SITE/record['path']

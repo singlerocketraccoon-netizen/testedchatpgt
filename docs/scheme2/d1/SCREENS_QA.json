@@ -5,8 +5,8 @@
   "scroll_down_and_back": true,
   "fonts_ready": true,
   "extra_wait_ms": 500,
-  "page_count": 47,
-  "detail_count": 8,
+  "page_count": 46,
+  "detail_count": 16,
   "captures": [
     {
       "page": "index.html#moods",
@@ -67,226 +67,6 @@
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 1000
-    },
-    {
-      "page": "napravleniya/index.html",
-      "file": "napravleniya-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 6531.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 13062
-    },
-    {
-      "page": "napravleniya/index.html",
-      "file": "napravleniya-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3240.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3240
-    },
-    {
-      "page": "napravleniya/turciya/index.html",
-      "file": "napravleniya-turciya-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5741.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11482
-    },
-    {
-      "page": "napravleniya/turciya/index.html",
-      "file": "napravleniya-turciya-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/egipet/index.html",
-      "file": "napravleniya-egipet-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5741.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11482
-    },
-    {
-      "page": "napravleniya/egipet/index.html",
-      "file": "napravleniya-egipet-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/oae/index.html",
-      "file": "napravleniya-oae-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5741.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11482
-    },
-    {
-      "page": "napravleniya/oae/index.html",
-      "file": "napravleniya-oae-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/tailand/index.html",
-      "file": "napravleniya-tailand-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5741.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11482
-    },
-    {
-      "page": "napravleniya/tailand/index.html",
-      "file": "napravleniya-tailand-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/vetnam/index.html",
-      "file": "napravleniya-vetnam-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5765.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11530
-    },
-    {
-      "page": "napravleniya/vetnam/index.html",
-      "file": "napravleniya-vetnam-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/maldivy/index.html",
-      "file": "napravleniya-maldivy-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5765.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11530
-    },
-    {
-      "page": "napravleniya/maldivy/index.html",
-      "file": "napravleniya-maldivy-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/tunis/index.html",
-      "file": "napravleniya-tunis-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5741.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11482
-    },
-    {
-      "page": "napravleniya/tunis/index.html",
-      "file": "napravleniya-tunis-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/greciya/index.html",
-      "file": "napravleniya-greciya-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5765.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11530
-    },
-    {
-      "page": "napravleniya/greciya/index.html",
-      "file": "napravleniya-greciya-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/kipr/index.html",
-      "file": "napravleniya-kipr-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5741.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11482
-    },
-    {
-      "page": "napravleniya/kipr/index.html",
-      "file": "napravleniya-kipr-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
-    },
-    {
-      "page": "napravleniya/bolgariya/index.html",
-      "file": "napravleniya-bolgariya-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5765.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11530
-    },
-    {
-      "page": "napravleniya/bolgariya/index.html",
-      "file": "napravleniya-bolgariya-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3910.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3910
     },
     {
       "page": "uslugi/index.html",
@@ -649,26 +429,6 @@
       "pixel_height": 3824
     },
     {
-      "page": "kak-my-rabotaem/index.html",
-      "file": "kak-my-rabotaem-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 5825.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11650
-    },
-    {
-      "page": "kak-my-rabotaem/index.html",
-      "file": "kak-my-rabotaem-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 3750.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 3750
-    },
-    {
       "page": "o-nas/index.html",
       "file": "o-nas-390.jpg",
       "kind": "page",
@@ -969,16 +729,6 @@
       "pixel_height": 1583
     },
     {
-      "page": "index.html",
-      "file": "index-390.jpg",
-      "kind": "page",
-      "width": 390,
-      "height": 8909.0,
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 17818
-    },
-    {
       "page": "index.html#offers",
       "file": "glavnaya-karusel-predlozheniy-390.jpg",
       "kind": "component",
@@ -987,16 +737,6 @@
       "device_scale_factor": 2,
       "pixel_width": 780,
       "pixel_height": 1786
-    },
-    {
-      "page": "index.html",
-      "file": "index-1440.jpg",
-      "kind": "page",
-      "width": 1440,
-      "height": 7153.0,
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7153
     },
     {
       "page": "index.html#offers",
@@ -1027,8 +767,342 @@
       "device_scale_factor": 1,
       "pixel_width": 1440,
       "pixel_height": 1959
+    },
+    {
+      "page": "kak-my-rabotaem/index.html",
+      "file": "kak-my-rabotaem-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 5825.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 11650
+    },
+    {
+      "page": "kak-my-rabotaem/index.html",
+      "file": "kak-my-rabotaem-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 3750.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 3750
+    },
+    {
+      "page": "napravleniya/index.html",
+      "file": "napravleniya-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 4907.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 9814
+    },
+    {
+      "page": "napravleniya/index.html",
+      "file": "napravleniya-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 2149.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2149
+    },
+    {
+      "page": "index.html",
+      "file": "index-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 8909.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 17818
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-1-390.jpg",
+      "kind": "hero_slide",
+      "width": 390,
+      "height": 844.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 1688
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-2-390.jpg",
+      "kind": "hero_slide",
+      "width": 390,
+      "height": 844.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 1688
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-3-390.jpg",
+      "kind": "hero_slide",
+      "width": 390,
+      "height": 844.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 1688
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-4-390.jpg",
+      "kind": "hero_slide",
+      "width": 390,
+      "height": 844.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 1688
+    },
+    {
+      "page": "index.html",
+      "file": "index-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 7053.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 7053
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-1-1440.jpg",
+      "kind": "hero_slide",
+      "width": 1440,
+      "height": 900.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-2-1440.jpg",
+      "kind": "hero_slide",
+      "width": 1440,
+      "height": 900.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-3-1440.jpg",
+      "kind": "hero_slide",
+      "width": 1440,
+      "height": 900.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900
+    },
+    {
+      "page": "index.html",
+      "file": "glavnaya-slayd-4-1440.jpg",
+      "kind": "hero_slide",
+      "width": 1440,
+      "height": 900.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900
+    },
+    {
+      "page": "napravleniya/turciya/index.html",
+      "file": "napravleniya-turciya-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 10083.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 20166
+    },
+    {
+      "page": "napravleniya/turciya/index.html",
+      "file": "napravleniya-turciya-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6538.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6538
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "file": "napravleniya-egipet-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 10271.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 20542
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "file": "napravleniya-egipet-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6579.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6579
+    },
+    {
+      "page": "napravleniya/oae/index.html",
+      "file": "napravleniya-oae-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 9956.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 19912
+    },
+    {
+      "page": "napravleniya/oae/index.html",
+      "file": "napravleniya-oae-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6417.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6417
+    },
+    {
+      "page": "napravleniya/tailand/index.html",
+      "file": "napravleniya-tailand-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 9956.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 19912
+    },
+    {
+      "page": "napravleniya/tailand/index.html",
+      "file": "napravleniya-tailand-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6454.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6454
+    },
+    {
+      "page": "napravleniya/maldivy/index.html",
+      "file": "napravleniya-maldivy-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 10009.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 20018
+    },
+    {
+      "page": "napravleniya/maldivy/index.html",
+      "file": "napravleniya-maldivy-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6454.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6454
+    },
+    {
+      "page": "napravleniya/vetnam/index.html",
+      "file": "napravleniya-vetnam-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 9956.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 19912
+    },
+    {
+      "page": "napravleniya/vetnam/index.html",
+      "file": "napravleniya-vetnam-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 6454.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 6454
+    },
+    {
+      "page": "napravleniya/shri-lanka/index.html",
+      "file": "napravleniya-shri-lanka-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 9504.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 19008
+    },
+    {
+      "page": "napravleniya/shri-lanka/index.html",
+      "file": "napravleniya-shri-lanka-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 5793.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5793
+    },
+    {
+      "page": "napravleniya/kitay/index.html",
+      "file": "napravleniya-kitay-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 8797.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 17594
+    },
+    {
+      "page": "napravleniya/kitay/index.html",
+      "file": "napravleniya-kitay-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 5824.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5824
+    },
+    {
+      "page": "napravleniya/indoneziya/index.html",
+      "file": "napravleniya-indoneziya-390.jpg",
+      "kind": "page",
+      "width": 390,
+      "height": 9573.0,
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 19146
+    },
+    {
+      "page": "napravleniya/indoneziya/index.html",
+      "file": "napravleniya-indoneziya-1440.jpg",
+      "kind": "page",
+      "width": 1440,
+      "height": 5862.0,
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 5862
     }
   ],
   "errors": [],
-  "screenshot_count": 102
+  "screenshot_count": 108,
+  "stage5_refreshed": [
+    "index.html",
+    "kak-my-rabotaem/index.html",
+    "napravleniya/egipet/index.html",
+    "napravleniya/index.html",
+    "napravleniya/indoneziya/index.html",
+    "napravleniya/kitay/index.html",
+    "napravleniya/maldivy/index.html",
+    "napravleniya/oae/index.html",
+    "napravleniya/shri-lanka/index.html",
+    "napravleniya/tailand/index.html",
+    "napravleniya/turciya/index.html",
+    "napravleniya/vetnam/index.html"
+  ]
 }
