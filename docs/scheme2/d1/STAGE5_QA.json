@@ -1,0 +1,61 @@
+{
+  "pages": 47,
+  "links": 8912,
+  "viewports": 188,
+  "errors": [],
+  "resources": [],
+  "scenarios": [
+    {
+      "width": 360,
+      "climate": true,
+      "resort_links": true,
+      "hotel_filter_and_modal": true,
+      "country_form_and_message": true,
+      "routes": true,
+      "keyboard_focus": true
+    },
+    {
+      "width": 768,
+      "climate": true,
+      "resort_links": true,
+      "hotel_filter_and_modal": true,
+      "country_form_and_message": true,
+      "routes": true,
+      "keyboard_focus": true
+    },
+    {
+      "width": 1280,
+      "climate": true,
+      "resort_links": true,
+      "hotel_filter_and_modal": true,
+      "country_form_and_message": true,
+      "routes": true,
+      "keyboard_focus": true
+    },
+    {
+      "width": 1440,
+      "climate": true,
+      "resort_links": true,
+      "hotel_filter_and_modal": true,
+      "country_form_and_message": true,
+      "routes": true,
+      "keyboard_focus": true
+    },
+    {
+      "offers_fixture": "disabled",
+      "passed": true
+    },
+    {
+      "offers_fixture": "empty",
+      "passed": true
+    },
+    {
+      "offers_fixture": "more",
+      "passed": true
+    }
+  ],
+  "approved_work_paragraphs": 19,
+  "egypt_source_exact": true,
+  "protected_content_unchanged": true,
+  "deterministic_build": true
+}

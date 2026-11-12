@@ -30,33 +30,28 @@
     "type": "country"
   },
   {
-    "path": "napravleniya/vetnam/index.html",
-    "title": "Туры во Вьетнам",
-    "type": "country"
-  },
-  {
     "path": "napravleniya/maldivy/index.html",
     "title": "Туры на Мальдивы",
     "type": "country"
   },
   {
-    "path": "napravleniya/tunis/index.html",
-    "title": "Туры в Тунис",
+    "path": "napravleniya/vetnam/index.html",
+    "title": "Туры во Вьетнам",
     "type": "country"
   },
   {
-    "path": "napravleniya/greciya/index.html",
-    "title": "Туры в Грецию",
+    "path": "napravleniya/shri-lanka/index.html",
+    "title": "Туры на Шри-Ланку",
     "type": "country"
   },
   {
-    "path": "napravleniya/kipr/index.html",
-    "title": "Туры на Кипр",
+    "path": "napravleniya/kitay/index.html",
+    "title": "Туры в Китай",
     "type": "country"
   },
   {
-    "path": "napravleniya/bolgariya/index.html",
-    "title": "Туры в Болгарию",
+    "path": "napravleniya/indoneziya/index.html",
+    "title": "Туры в Индонезию",
     "type": "country"
   },
   {

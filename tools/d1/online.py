@@ -113,9 +113,9 @@ def selection_dialog():
 
 def service(s):
  path='uslugi/'+s['slug']+'/index.html';key='services.'+s['slug'];name='Бронирование отелей'if s['slug']=='oteli'else s['name']
- photo=s.get('image',D['countries'][0]['image'])
+ photo=s.get('image',D['countries'][0]['heroPhoto'])
  # Only use a registered existing picture; image keys are data-driven for future replacement.
- if photo not in D['image_dimensions']:photo=D['countries'][0]['image']
+ if photo not in D['image_dimensions']:photo=D['countries'][0]['heroPhoto']
  cover=f'<section class="inner-cover service-cover" data-inner-cover><div class="container">{C["crumb"](path,[("Услуги","uslugi/index.html"),(name,None)])}<div class="service-cover-grid"><div><p class="eyebrow" {ED(key+".label",True)}>Под Вашу поездку</p><h1 {ED(key+".title")}>{E(name)}</h1><p class="inner-lead" {ED(key+".intro",True)}>{E(s["intro"])}</p></div>{C["image"](path,photo,name,False,key=key+".image")}</div></div></section>'
  actions=s['actions']+(['Согласуем стоимость и условия до оформления']if len(s['actions'])<4 else[])
  important=[s['audience'],'Стоимость рассчитаем под Ваш запрос.','Условия подтвердим до оформления.']

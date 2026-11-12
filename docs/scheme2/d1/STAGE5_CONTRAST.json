@@ -1,0 +1,604 @@
+{
+  "viewports": [
+    {
+      "width": 360,
+      "path": "index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/oae/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 360,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/oae/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 768,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 40,
+      "compact": 40,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/oae/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1280,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/turciya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/egipet/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/oae/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/tailand/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/maldivy/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/vetnam/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/shri-lanka/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/kitay/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    },
+    {
+      "width": 1440,
+      "path": "napravleniya/indoneziya/index.html",
+      "logo": 54,
+      "compact": 42,
+      "footer": 56
+    }
+  ],
+  "flat_checks": 9600,
+  "flat_failures": [],
+  "photo_checks": 606,
+  "photo_failures": [],
+  "photo_minima": [
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 5.8
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 2",
+      "minimum": 7.51
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 3",
+      "minimum": 5.32
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "state": "slide 4",
+      "minimum": 9.75
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.29
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.3
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.01
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 7.36
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 8.07
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 9.88
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 12.3
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 9.99
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 360,
+      "state": "initial",
+      "minimum": 12.64
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 4.55
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 2",
+      "minimum": 5.82
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 3",
+      "minimum": 6.01
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "state": "slide 4",
+      "minimum": 9.23
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 5.35
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.38
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 6.99
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.05
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 5.77
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.13
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 11.29
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 7.55
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 768,
+      "state": "initial",
+      "minimum": 11.29
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.7
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 2",
+      "minimum": 9.22
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 3",
+      "minimum": 7.89
+    },
+    {
+      "path": "index.html",
+      "width": 1280,
+      "state": "slide 4",
+      "minimum": 8.44
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 7.74
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 9.51
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 9.2
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.5
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.34
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 8.09
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 11.15
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 9.17
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 1280,
+      "state": "initial",
+      "minimum": 11.15
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.76
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 2",
+      "minimum": 9.34
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 3",
+      "minimum": 7.88
+    },
+    {
+      "path": "index.html",
+      "width": 1440,
+      "state": "slide 4",
+      "minimum": 8.44
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 9.22
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 9.24
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.67
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.13
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.33
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.54
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 11.14
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 8.89
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "width": 1440,
+      "state": "initial",
+      "minimum": 11.14
+    }
+  ],
+  "errors": [],
+  "resources": []
+}

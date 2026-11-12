@@ -28,7 +28,7 @@ def build_rest_pages(ctx):
   def countries():
    cards=''
    for i,c in enumerate(page['countries']):
-    exists=any(v['slug']==c['slug']for v in data['countries']);name=link(path,'napravleniya/'+c['slug']+'/index.html',E(c['name']),'rest_country_'+c['slug'])if exists else E(c['name'])
+    exists=c['slug']in data['rest_country_links'];name=link(path,'napravleniya/'+c['slug']+'/index.html',E(c['name']),'rest_country_'+c['slug'])if exists else E(c['name'])
     cards+=f'<article class="rest-country-card" {ed(base+".countries."+str(i),True)}><h3>{name}</h3><dl><div><dt>Сезон</dt><dd>{E(c["season"])}</dd></div><div><dt>Перелёт из Москвы</dt><dd>{E(c["flight"])}</dd></div></dl><p>{E(c["text"])}</p><div class="rest-country-actions"><a href="#hotels" class="text-link" data-country-hotels="{c["slug"]}" data-goal="rest_hotels_{c["slug"]}">Отели →</a><a href="#rest-inquiry-top" class="text-link" data-rest-select="{E(c["name"])}" data-goal="rest_country_select_{c["slug"]}">{E(c["select_label"])}</a></div></article>'
    note=f'<p class="rest-country-note" {ed(base+".countries.note",True)}>{E(page["countries_note"])}</p>'if page.get('countries_note')else''
    return section('countries',page['countries_title'],f'<p class="section-description" {ed(base+".countries.intro",True)}>{E(page["countries_intro"])}</p>'+note+'<div class="rest-country-grid">'+cards+'</div>')
