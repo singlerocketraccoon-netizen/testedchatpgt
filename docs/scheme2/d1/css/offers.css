@@ -33,7 +33,7 @@
 .offers-toolbar{display:flex;flex-direction:row;align-items:end;gap:25px;margin-bottom:32px;flex-wrap:wrap;justify-content:space-between;}
 .offer-detail-photos{display:grid;gap:20px;}
 .offer-detail-photos>img,.offer-detail-photos>.country-photo-placeholder{width:100%;height:320px;object-fit:cover;border-radius:var(--radius-card);}
-.offer-detail-summary{max-width:800px;margin-top:45px;}
+.offer-detail-summary{width:100%;margin-top:45px;}
 .offer-conditions{display:grid;gap:22px;margin:25px 0;}
 .offer-conditions>div{border-bottom:1px solid var(--line);padding-bottom:18px;}
 .offer-conditions dt{color:var(--muted);font-size:var(--text-small);}

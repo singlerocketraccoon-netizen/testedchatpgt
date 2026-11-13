@@ -17,7 +17,7 @@
 .rest-format-card h3{font-size:var(--text-h3);font-weight:500;line-height:1.2;margin-bottom:15px;}
 .rest-format-card p{color:var(--muted);font-size:var(--text-small);line-height:1.6;margin-bottom:20px;}
 .rest-format-card .text-link{margin-top:auto;text-align:left;}
-.rest-age-list,.rest-check-list{max-width:1000px;}.rest-age-item,.rest-check-item{border-bottom:1px solid var(--line);}
+.rest-age-list,.rest-check-list{width:100%;}.rest-age-item,.rest-check-item{border-bottom:1px solid var(--line);}
 .rest-age-item:first-child,.rest-check-item:first-child{border-top:1px solid var(--line);}
 .rest-age-item summary,.rest-check-item summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:64px;padding:18px 0;list-style:none;cursor:pointer;font:500 var(--text-h3)/1.3 var(--display);}
 .rest-age-item summary::-webkit-details-marker,.rest-check-item summary::-webkit-details-marker{display:none;}
@@ -45,8 +45,8 @@
 .rest-end-grid{display:grid;gap:36px;}.rest-end h2{margin-bottom:24px;}.rest-end p{max-width:45ch;}
 @media  (min-width:600px) { .rest-destination-grid,.rest-selection-grid{grid-template-columns:repeat(2,minmax(0,1fr));} }
 @media  (min-width:1024px) {
- .rest-cover{padding:140px 0 72px;}.rest-cover-grid{grid-template-columns:minmax(0,1.2fr) minmax(360px,.85fr);gap:60px;}
- .rest-hero-form{display:block;}.rest-hero-actions{display:none;}.rest-hero-form .unified-card{padding:28px;}
+ .rest-cover{padding:140px 0 72px;}.rest-cover-grid{grid-template-columns:minmax(0,1fr) minmax(400px,500px);gap:40px;}
+ .rest-hero-form{display:block;}.rest-hero-actions{display:none;}.rest-hero-form .unified-card{padding:22px;}.rest-hero-form .unified-title{margin-bottom:12px;}.rest-hero-form .unified-context{margin-bottom:12px;}.rest-age-list,.rest-check-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;align-items:start;}.rest-age-item,.rest-check-item{border-top:1px solid var(--line);}
  .rest-format-grid{grid-template-columns:repeat(4,minmax(0,1fr));}.rest-mode-routes .rest-format-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
  .rest-destination-grid,.rest-selection-grid{grid-template-columns:repeat(3,minmax(0,1fr));}.rest-end-grid{grid-template-columns:1fr 1fr;align-items:start;gap:60px;}
 }

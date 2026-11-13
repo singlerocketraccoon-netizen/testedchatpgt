@@ -66,7 +66,7 @@ def topic(key):
     if bits[2]=='type':extra=[p['types'][int(bits[3])]['title']]
     elif bits[2]=='country':extra=[next(c['name']for c in p['countries']if c['slug']==bits[3])]
     elif bits[2]=='hotel':
-     c,h=next((c,h)for c in p['countries']for h in p['hotels'][c['slug']]if h['id']==bits[3]);extra=[c['name'],h['name']]
+     c,h=next((c,h)for c in p['countries']for h in p['hotels'][c['slug']]if h['id']==bits[3]);extra=[c['name']]if p['mode']=='routes'else[c['name'],h['name']]
    return ' · '.join([title]+extra),p['message']+('. '+'. '.join([title]+extra)if extra else'')
   card=next((c for c in D['home_rest']['cards']if c['slug']==identifier),None);name=card['label']if card else identifier;h=next((h for h in D['schema6']['holidays']if h['name']==name),None);msg=h['msg']if h and not h['msg'].startswith('[')else'Здравствуйте! Интересует раздел «'+name+'»';return name,msg
  if category=='country':
@@ -74,7 +74,7 @@ def topic(key):
  if category in['resort','hotel','route','price']:
   c=country_by(identifier);itemid=bits[2]if len(bits)>2 else''
   if category=='resort':
-   r=next(r for r in c['resorts']if r['id']==itemid);phrase='в '+r['loc']if r.get('loc')!=r['name']else('на атолле «'if c['resortLabel']=='Атолл'else'на курорте «')+r['name']+'»';return c['name']+' · '+r['name'],'Здравствуйте! Интересует отдых '+phrase
+   r=next(r for r in c['resorts']if r['id']==itemid);phrase='в '+r['loc']if c['slug']=='egipet'or r.get('loc')!=r['name']else('на атолле «'if c['resortLabel']=='Атолл'else'на курорте «')+r['name']+'»';return c['name']+' · '+r['name'],'Здравствуйте! Интересует отдых '+phrase
   if category=='hotel':
    h=next(h for h in c['hotels']if h['id']==itemid);r=next(r for r in c['resorts']if r['id']==h['resort']);return h['name']+' · '+r['name'],'Здравствуйте! Интересует отель '+h['name']
   if category=='route':
@@ -94,14 +94,14 @@ def channels(key,goal='message'):
 def month_options():
  t=now();return '<option value="">Пока не определились</option>'+''.join('<option value="'+str(t.year+(t.month-1+i)//12)+'-'+str((t.month-1+i)%12+1).zfill(2)+'">'+MONTHS[(t.month-1+i)%12]+' '+str(t.year+(t.month-1+i)//12)+'</option>'for i in range(24))
 def field(label,control,cls=''):return '<label class="field-label '+cls+'"><span>'+label+'</span>'+control+'</label>'
-def travel_fields(family=False):
- return field('Месяц и год поездки','<select name="month" data-goal="form_month">'+month_options()+'</select>')+field('Город вылета','<input name="city" autocomplete="address-level2" maxlength="100">')+field('Кто едет','<select name="who" data-goal="form_who"><option value="">Выберите</option>'+''.join('<option'+(' selected'if family and label=='С детьми'else'')+'>'+label+'</option>'for label in['Один взрослый','Двое взрослых','С детьми','Другой состав'])+'</select>')+'<label class="field-label form-wide" data-ages'+(''if family else' hidden')+'><span>Состав поездки и возраст детей</span><input name="ages" maxlength="160"'+(''if family else' disabled')+'></label>'
+def travel_fields(family=False,phone=""):
+ return field('Месяц и год поездки','<select name="month" data-goal="form_month">'+month_options()+'</select>','form-month')+field('Город вылета','<input name="city" autocomplete="address-level2" maxlength="100">','form-city')+field('Кто едет','<select name="who" data-goal="form_who"><option value="">Выберите</option>'+''.join('<option'+(' selected'if family and label=='С детьми'else'')+'>'+label+'</option>'for label in['Один взрослый','Двое взрослых','С детьми','Другой состав'])+'</select>','form-travelers')+phone+'<label class="field-label form-wide" data-ages'+(''if family else' hidden')+'><span>Состав поездки и возраст детей</span><input name="ages" maxlength="160"'+(''if family else' disabled')+'></label>'
 def consent(path,goal):return '<div class="unified-consent"><label class="consent"><input name="consent" type="checkbox" required><span>'+L(path,'o-nas/dokumenty/soglasie/index.html','Согласие на обработку персональных данных',goal+'_consent',extra='target="_blank" rel="noopener"')+'</span></label>'+L(path,'o-nas/dokumenty/politika/index.html','Политика',goal+'_policy',extra='target="_blank" rel="noopener"')+'</div>'
 def form(path,key='home',place='end',mode=None,heading=True,classes='',attrs=''):
  mode=mode or kind(key);title,contextmsg=topic(key);family=key=='holiday:otdyh-s-detmi';goal='form_'+place+'_'+mode
  hidden=''.join('<input type="hidden" name="'+n+'" value="'+E(key if n=='topic'else path if n=='page'else'')+'">'for n in HIDDEN)
- phone=field('Телефон','<input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required maxlength="18">')
- fields=phone if mode=='offer'else field('Что нужно организовать','<textarea name="task" rows="3" maxlength="1500"></textarea>','form-wide')+phone if mode=='service'else travel_fields(family)+phone
+ phone=field('Телефон','<input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required maxlength="18">','form-phone')
+ fields=phone if mode=='offer'else field('Что нужно организовать','<textarea name="task" rows="3" maxlength="1500"></textarea>','form-wide')+phone if mode=='service'else travel_fields(family,phone)
  optional='<details class="unified-options"><summary data-goal="'+goal+'_options">Изменить параметры тура</summary><div class="unified-grid">'+travel_fields()+field('Уточнения','<textarea name="task" rows="2" maxlength="1500"></textarea>','form-wide')+'</div></details>'if mode=='offer'else''if mode=='service'else'<details class="unified-options"><summary data-goal="'+goal+'_options">Даты и бюджет, по желанию</summary><div class="unified-grid">'+field('Даты поездки','<input name="dates" maxlength="100">')+field('Бюджет на всю поездку','<input name="budget" maxlength="100">')+'</div></details>'
  submit=TITLES['offer']if mode=='offer'else'Отправить обращение'if mode=='service'else'Получить варианты'
  return f'<!-- component: discussion-form --><div class="unified-card {classes}" data-unified-card {attrs} {ED(goal)}><h3 class="unified-title"'+(' hidden'if not heading else'')+'>'+TITLES[mode]+'</h3><p class="unified-context" data-form-context'+(' hidden'if not title else'')+'>'+E(title)+'</p><p class="unified-viewed" data-viewed-month hidden></p><form class="unified-form" data-unified-form data-mode="'+mode+'" data-topic="'+E(key)+'"'+(' data-end-form'if place in['end','bottom']else'')+' novalidate><fieldset data-form-guard disabled><legend class="sr-only">'+TITLES[mode]+'</legend>'+hidden+'<div class="unified-grid">'+fields+'</div>'+optional+consent(path,goal)+'<p class="form-error" data-form-error role="alert"></p><button type="submit" class="btn btn-primary" data-goal="'+goal+'_submit">'+submit+'</button></fieldset><p class="channel-caption">Или напишите в мессенджер</p>'+channels(key,goal)+'</form><div class="form-success" data-form-success role="status" tabindex="-1" hidden><p>'+SUCCESS+'</p></div><noscript><p><a href="tel:+78512299547" data-goal="'+goal+'_nojs">+7 (8512) 29-95-47</a></p></noscript></div><!-- /component: discussion-form -->'
@@ -272,10 +272,6 @@ def finish(path):
   if 'data-request'in attrs and'data-open-form'not in attrs:attrs=re.sub(r'\sdata-request(?:="[^"]*")?','',attrs)+' data-open-form="'+pagekey+'"'
   return '<'+tag+attrs+'>'+content+'</'+tag+'>'
  h=re.sub(r'<(a|button)\b([^>]*)>(.*?)</\1>',attributes,h,flags=re.S)
- # Add the passport helper without changing the country's existing advice.
- if path.startswith('napravleniya/')and path!='napravleniya/index.html':
-  h=h.replace('id="inquiry"', 'id="inquiry"',1)
-  marker='<section class="section country-section" id="inquiry"';pos=h.index(marker);h=h[:pos]+'<div class="container country-passport-link">'+L(path,'zagranpasport/index.html','Проверить срок действия загранпаспорта →','country_passport','text-link')+'</div>'+h[pos:]
  def schema_hours(m):
   obj=json.loads(m[1])
   for entry in obj.get('@graph',[]):
