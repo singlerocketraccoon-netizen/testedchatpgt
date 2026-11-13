@@ -1,4 +1,5 @@
 """One static holiday template; cruise copy is a draft from the scheme."""
+import re
 def build_rest_pages(ctx):
  import stage6 as shared
  D=ctx['DATA'];E=ctx['E'];U=ctx['url'];L=ctx['link'];ED=ctx['editable'];I=ctx['icon'];image=ctx['image'];emit=ctx['emit']
@@ -47,7 +48,7 @@ def build_rest_pages(ctx):
    for i,c in enumerate(p['checks']):
     label,sep,body=c['text'].partition('. ');label=label.rstrip(':.');
     if mode=='cruises':label=c['title'];body=c['text']
-    example='<aside class="rest-example" '+ED(base+'.checks.'+str(i)+'.example',True)+'>'+E(c['example'])+'</aside>'if c['example']else''
+    example='<aside class="rest-example" '+ED(base+'.checks.'+str(i)+'.example',True)+'>'+re.sub(r'^(Например)(:?)',r'<strong>\1</strong>\2',E(c['example']))+'</aside>'if c['example']else''
     rows+='<details class="rest-check-item" '+ED(base+'.checks.'+str(i),True)+'><summary data-goal="rest_check_'+str(i)+'">'+E(label)+I('i-plus')+'</summary><div><p>'+E(body)+'</p>'+example+'</div></details>'
    return section('checks',p['checks_title'],'<div class="rest-check-list">'+rows+'</div>')
   def faq():return section('faq',p['faq_title'],ctx['faq'](p['questions'],base+'.faq'))
