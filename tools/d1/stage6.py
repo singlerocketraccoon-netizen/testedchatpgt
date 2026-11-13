@@ -39,6 +39,7 @@ def kind(key):
 def page_topic(path):
  if path=='index.html':return 'home'
  if path.startswith('napravleniya/')and path!='napravleniya/index.html':return 'country:'+path.split('/')[1]
+ if path=='otdyh/kruizy/index.html':return 'holiday:cruises'
  if path.startswith('otdyh/'):return 'holiday:'+path.split('/')[1]
  if path.startswith('predlozheniya/')and path!='predlozheniya/index.html':return 'offer:'+path.split('/')[1]
  if path.startswith('uslugi/'):return 'contact'
@@ -59,6 +60,8 @@ def topic(key):
  if category=='slide':
   s=D['slides'][int(identifier)];return s['name'],s['msg']
  if category=='holiday':
+  if identifier=='cruises'and len(bits)>3:
+   p=D['cruise_page'];detail=p['types'][int(bits[3])]['title'];return p['accent']+' · '+detail,p['message']+'. '+detail
   p=next((p for p in D['rest_pages']if p['slug']==identifier),None)
   if p:
    title=p['accent'];extra=[]
@@ -172,7 +175,7 @@ def services():
   for s in D['services']:
    if s['group']!=group:continue
    key='service:'+s['id'];target=key
-   cta=L(path,'napravleniya/index.html',s['action'],'service_packages','btn btn-primary')if s['id']=='packages'else L(path,'otdyh/'+('svoj-marshrut'if s['id']=='custom'else'ekskursionnye-tury')+'/index.html',s['action'],'service_request_'+s['id'],'btn btn-primary')if s['id']in['custom','tours']else action(s['action'],target,'service_request_'+s['id'])
+   cta=L(path,'napravleniya/index.html',s['action'],'service_packages','btn btn-primary')if s['id']=='packages'else L(path,'otdyh/kruizy/index.html',s['action'],'service_request_'+s['id'],'btn btn-primary')if s['id']=='cruises'else L(path,'otdyh/'+('svoj-marshrut'if s['id']=='custom'else'ekskursionnye-tury')+'/index.html',s['action'],'service_request_'+s['id'],'btn btn-primary')if s['id']in['custom','tours']else action(s['action'],target,'service_request_'+s['id'])
    body+='<details class="service-accordion" id="'+s['id']+'" '+ED('services.'+s['id'],True)+'><summary data-goal="service_expand_'+s['id']+'">'+I('i-mood-compass')+'<span>'+E(s['title'])+'</span>'+I('i-plus')+'</summary><div><p>'+E(s['text'])+'</p>'+cta+'</div></details>'
   body+='</section>'
  body+='</div>';C['emit'](path,'Услуги — Mango Travel','Выберите, с чем Вам нужна помощь. Путешествия и организация поездки с Mango Travel.','Услуги','Выберите, с чем Вам нужна помощь.',body,[('Услуги',None)],contact_override='',raw=True)
@@ -225,6 +228,7 @@ def quiz(path):
  return '<dialog id="quiz-dialog" class="quiz-dialog selection-dialog" aria-modal="true" aria-labelledby="quiz-title"><div class="dialog-top"><h2 id="quiz-title">Помогите выбрать</h2><button class="icon-btn" type="button" data-dialog-close data-goal="quiz_close" aria-label="Закрыть подбор">'+I('i-close')+'</button></div><p class="quiz-intro">Ответьте на три вопроса. Менеджер предложит варианты с учётом Ваших пожеланий.</p><div class="unified-card unified-quiz" data-unified-card><form class="unified-form" data-unified-form data-mode="pick" data-topic="quiz" data-quiz-form novalidate><fieldset data-form-guard disabled><legend class="sr-only">Пожелания к поездке</legend>'+hidden+groups+'<div class="unified-grid">'+field('Бюджет на всю поездку, по желанию','<input name="budget" maxlength="100">')+field('Телефон','<input type="tel" name="phone" autocomplete="tel" inputmode="tel" required maxlength="18" placeholder="+7 (___) ___-__-__">')+'</div>'+consent(path,'quiz')+'<p class="form-error" data-form-error role="alert"></p><button type="submit" class="btn btn-primary" data-goal="quiz_submit">Получить варианты</button></fieldset><p class="channel-caption">Или напишите в мессенджер</p>'+channels('quiz','quiz')+'</form><div class="form-success" data-form-success role="status" tabindex="-1" hidden><p>'+SUCCESS+'</p></div></div></dialog>'
 def topic_map(path):
  keys=['home','contact','passport','quiz']+['slide:'+str(i)for i in range(4)]+['holiday:'+card['slug']for card in D['home_rest']['cards']]+['holiday:'+p['slug']for p in D['rest_pages']]+['offer:'+o['id']for o in active_offers()]+['service:'+s['id']for s in D['services']]
+ if path=='otdyh/kruizy/index.html':keys+=['holiday:cruises:option:'+str(i)for i in range(len(D['cruise_page']['types']))]
  for c in published_countries():
   keys+=['country:'+c['slug'],'price:'+c['slug'],'route:'+c['slug']+':custom']
   for group,kind_ in[('resorts','resort'),('hotels','hotel'),('routes','route')]:keys += [kind_+':'+c['slug']+':'+item['id']for item in c[group]]
@@ -233,7 +237,7 @@ def topic_map(path):
   prefix='holiday:'+p['slug'];keys += [prefix+':type:'+str(i)for i in range(len(p['types']))]+[prefix+':country:'+c['slug']for c in p['countries']]+[prefix+':hotel:'+h['id']for group in p['hotels'].values()for h in group]
  return {key:{'title':topic(key)[0],'message':topic(key)[1],'kind':kind(key)}for key in keys}
 def mobile_panel(path):
- key=page_topic(path);label='Подобрать путешествие'if path=='index.html'else'Подобрать тур'if key.startswith('country:')else'Подобрать отдых'if key.startswith('holiday:')else'Связаться с нами'if key in['contact','passport']else'Обсудить поездку'
+ key=page_topic(path);label='Подобрать круиз'if path=='otdyh/kruizy/index.html'else'Подобрать путешествие'if path=='index.html'else'Подобрать тур'if key.startswith('country:')else'Подобрать отдых'if key.startswith('holiday:')else'Связаться с нами'if key in['contact','passport']else'Обсудить поездку'
  return '<div class="mobile-contact unified-mobile-panel" data-mobile-contact hidden>'+action(label,key,'mobile_primary')+channels(key,'mobile_channel')+'</div>'
 def finish(path):
  p=C['SITE']/path;h=p.read_text()

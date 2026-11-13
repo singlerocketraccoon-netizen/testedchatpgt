@@ -1,0 +1,283 @@
+{
+  "stage": 10,
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1280,
+    1366,
+    1440,
+    1920
+  ],
+  "engines": {
+    "chromium": {
+      "version": "156.0.8078.79",
+      "viewports": [
+        {
+          "width": 360,
+          "layout": {
+            "cols": 1,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 390,
+          "layout": {
+            "cols": 1,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 768,
+          "layout": {
+            "cols": 2,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 1024,
+          "layout": {
+            "cols": 3,
+            "coverage": 0.9999833776595745,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1280,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1366,
+          "layout": {
+            "cols": 3,
+            "coverage": 0.9999874598715891,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1440,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1920,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "version": "153.0",
+      "viewports": [
+        {
+          "width": 360,
+          "layout": {
+            "cols": 1,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 390,
+          "layout": {
+            "cols": 1,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 768,
+          "layout": {
+            "cols": 2,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 1024,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1280,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1366,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1440,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1920,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        }
+      ]
+    },
+    "webkit": {
+      "version": "26.5",
+      "viewports": [
+        {
+          "width": 360,
+          "layout": {
+            "cols": 1,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 390,
+          "layout": {
+            "cols": 1,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 768,
+          "layout": {
+            "cols": 2,
+            "coverage": 1,
+            "checks": 1
+          }
+        },
+        {
+          "width": 1024,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1280,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1366,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1440,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        },
+        {
+          "width": 1920,
+          "layout": {
+            "cols": 3,
+            "coverage": 1,
+            "checks": 2
+          }
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "failures": [],
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "width": 390,
+      "three_contexts_and_messenger": "passed",
+      "phone_not_in_message": true,
+      "validation_and_local_result": "passed",
+      "home_and_service_links": "passed"
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "three_contexts_and_messenger": "passed",
+      "phone_not_in_message": true,
+      "validation_and_local_result": "passed",
+      "home_and_service_links": "passed"
+    },
+    {
+      "engine": "firefox",
+      "width": 390,
+      "three_contexts_and_messenger": "passed",
+      "phone_not_in_message": true,
+      "validation_and_local_result": "passed",
+      "home_and_service_links": "passed"
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "three_contexts_and_messenger": "passed",
+      "phone_not_in_message": true,
+      "validation_and_local_result": "passed",
+      "home_and_service_links": "passed"
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "three_contexts_and_messenger": "passed",
+      "phone_not_in_message": true,
+      "validation_and_local_result": "passed",
+      "home_and_service_links": "passed"
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "three_contexts_and_messenger": "passed",
+      "phone_not_in_message": true,
+      "validation_and_local_result": "passed",
+      "home_and_service_links": "passed"
+    }
+  ],
+  "links": 8170,
+  "approval": "All cruise copy is a draft from the scheme; no approved docx.",
+  "preserved_pages": 41,
+  "other_pages_only_authorized_links_changed": true,
+  "verbatim_passages": 17,
+  "footer_links": 41,
+  "service_menu_links_preserved": 82,
+  "deterministic_build": true,
+  "status": "passed"
+}
