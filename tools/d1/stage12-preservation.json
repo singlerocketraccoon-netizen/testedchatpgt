@@ -1,0 +1,230 @@
+{
+  "data": "e6956db293233b350a61b8abbcb933a6b8994c5fba46dce7172fe99971f30be8",
+  "assets": {
+    "css/tokens.css": "b824d0b3252bd67b809a38a7c558839d49aea6b7f3d8269aad37a1c253ee1d98",
+    "css/fonts.css": "ea78478a9a549c64e3907a100c68994efedb34c862804efb697e855fc45e429e",
+    "img/logo-mango-light.svg": "36aed594dfcb0b83f382b3ccac535ef36015217f52aa86cee076371528de6233",
+    "img/logo-mango.svg": "e429af763b0afc51bdedb875b36918966c48ea7a707cc247a71e3a1ca9dabf2f",
+    "img/logo-mango-mark.svg": "40d124a442a0fcb39cef7a3035d2bdfb755eca8067b7ac4477de190df230f95c",
+    "img/sources.json": "0fda0dd9c580e20951d41696f886c447408aee79865e2e8fccb09eb8ff313280",
+    "fonts/bad-script-OFL.txt": "09639f2ef3211727426c057fef42c5b663e7eb7a431fe225d8391fd7dd3ba01f",
+    "fonts/sources.json": "9f3a373311cb18e4874ed125d33f718df979e316282d46e0337773f1a75dfe72",
+    "fonts/bad-script-5.woff2": "01c47bfe80281d0a2f2554f1226de5e75fca6655751c287bf1590ce350c23971",
+    "fonts/bad-script-3.woff2": "4908153e94c23a286c37cc7d99172ee76e5b4d7446602e743ab43f204f836470",
+    "fonts/bad-script-2.woff2": "c839bd44e6793f2ba20603ee9bf1ef34d23c04cd7d452cd53a3171cecf241d24",
+    "fonts/bad-script-1.woff2": "3410c9b99ec6bc97e6a941eb2d8b805dc13d9123a9d838e608e5e32579bc9d28",
+    "fonts/bad-script-4.woff2": "8a4db72c9b7b7739235eb38138af1e0b710554ce7f217f8387c0b2e9778b7faa"
+  },
+  "pages": {
+    "index.html": {
+      "copy": "7be15279f77f84eba173dd6255dfadc63c8180e6bd1aa5f73925f55df51fc646",
+      "header": "9dfbda5ccde95726c3fa6fe1dabfd743079f8ca26e73fffac6a7156bb772b123",
+      "footer": "946c5a8cfb29a5a41b976fbffa067a5ec3b418b48a3340d86c124fe907db5ad5"
+    },
+    "napravleniya/index.html": {
+      "copy": "d4e8564df0c6cef6ad875cb03ce8ae929291dea96510a354788da65b9af992c6",
+      "header": "1384ec2a9436ab39b86582e72f24f1b87aa1c6ee3d4ff522299f8c50f272ad95",
+      "footer": "d64e9f865a68851121f74ad18fb5cba5f0932f33de97c4957a12fc0852455396"
+    },
+    "napravleniya/vetnam/index.html": {
+      "copy": "c984cf7021b779091fd73e08a462bf57fe8197fd3c1705b40c82d7fe050f0645",
+      "header": "1f82c23d3243382cc4860987e513b1d797a7ce039c130ff0b5032f8bb5c92fa4",
+      "footer": "f193badbbf9adfcbace41f11195ea13d03f2b61b7afd91402b253ba07aa9d9de"
+    },
+    "napravleniya/egipet/index.html": {
+      "copy": "08e088c7ea35779968ffd5b34770f7fabce04ac012dbdeddad20b3534d0b1541",
+      "header": "d62182ae0b04002d4c4a037c952300e176bde0677f90ceb96787b04acfe66894",
+      "footer": "91c88af40f76c9d1a10b065b45842a33e8f97840a4418eb94ba1cd440ba74336"
+    },
+    "napravleniya/indoneziya/index.html": {
+      "copy": "290a09806cc5a90033b615fa9c3dc289f150ba351343e6af3dda558072631fd3",
+      "header": "6e94edaebd94f7b778a432319fc9f981c781f38853c165f15ea766c1eda9b598",
+      "footer": "24ab1d3ca0e9404c83b5400d53c1f1113d265613657ffda5fdd6f5981ef0e60f"
+    },
+    "napravleniya/kitay/index.html": {
+      "copy": "2db4dfb595d59cba90a77a2aa775a14c4b3c8c147d010ca64c446c5d68301450",
+      "header": "5d4b99ddedf74bddcb07165e1ad5385e1a153771d794a461c7c397df6e023bca",
+      "footer": "aea46fa73646963ae579905ccb9dd5745839178489f5a388c838c6692de0f3a5"
+    },
+    "napravleniya/maldivy/index.html": {
+      "copy": "942151cadf773548991b3a8703805f934490695c65c860f9674dbcf74ab902c0",
+      "header": "7f914878e8e49f68aa8a936e7b2d38a827013e1bec6edb6ea09898a04d2a8930",
+      "footer": "a967d76df7f51ff4e6da24a7a28fa7401502d6255b01b0d1735cf71d31169f0d"
+    },
+    "napravleniya/oae/index.html": {
+      "copy": "9f13b9a10c332b101ccf1fa5f2f0a7a9d90d59858b6f7c4b44fdd9dfb80c2a8c",
+      "header": "a14145bbbeb88cfa23ab1152f5a6fa40aea77257afb103619e43dd7a02b24740",
+      "footer": "1f5abab2a9f1f3726808fbd0b413c646768fd780b7e32b3525db258c0507a37e"
+    },
+    "napravleniya/tailand/index.html": {
+      "copy": "00e62c6acee2add849f3ed9542b65067e0233774da03098be2245e6eb3fad8bf",
+      "header": "660fd848a1f8443cee2c28eb2ba7dc71a5dacb020d71945111e46998851fda7f",
+      "footer": "786f59be891c5b4e361f3e66c4eb305a93e64076e9239cb8cb1bac6365cde8c4"
+    },
+    "napravleniya/turciya/index.html": {
+      "copy": "e4434af84f5f24e18b5d2bbd9cb1ccccfb29f1dc30c6a20d5bc6bf2a4f50b7c2",
+      "header": "42606ff841d440562a49d046f8742795b042c73855a318d51eb27736fc2b730e",
+      "footer": "ed1e7e42986a0705236c171fe53716816d377093c35d59b6348acdd409ac7e71"
+    },
+    "napravleniya/shri-lanka/index.html": {
+      "copy": "3dd2c46eeeedb08d06fc954918838d8e6615cd6cfdb774a5304a63d2bac79e58",
+      "header": "17ef5d63ba5e4496152732d4aefdef200f62f67fda1c4ab5a1977658c6fe3aaa",
+      "footer": "ecbbfcf3336144441c14af951b9c515e3c6f1aef57342da6374409cf356a14d4"
+    },
+    "uslugi/index.html": {
+      "copy": "981c5bcf8e071059f5ab9a354d5d356e2cffdb141ed344863246b4b7bef1ecd1",
+      "header": "3fb079c128dfb8cc8b7bd620ab0ae9110d58f1cbfe7bab8256187bcaaa44ccc8",
+      "footer": "16a2799c5fb6b40a8a75424c9576245291476eef4a23950544110212f9ca1b09"
+    },
+    "otdyh/otdyh-s-detmi/index.html": {
+      "copy": "d324197f4e19b143b143daae043c45f12349099c609ab35b142446c2272fb8ae",
+      "header": "f4612d79a95553d847ab4e50911aaf6a93d90adfa0366ea2a49977ed3b20a863",
+      "footer": "65449a79031ed8462fed494971f57bc9d2d5505d2d4174548e777d17a21accad"
+    },
+    "otdyh/tishina-i-more/index.html": {
+      "copy": "5228e1e34a42b5440b7221266ce9c4ac45996cd2c3419d555e4c61978ce7468e",
+      "header": "54588b095494224ddbe139d64bed1bf73820500370e64f45abc89ea900fb2ce0",
+      "footer": "996646c38f70c423a6496c7acf3bc8affeaa0aba9b6145b1d8cf6e024232e750"
+    },
+    "otdyh/plyazh-i-progulki/index.html": {
+      "copy": "330fdc63659fd512742faad2dec2c3a554c2a6469ab8f86909dd15bb8056eb37",
+      "header": "86c3f1b5279c1d2096656c835c034783fb948787a02b9e83e5df52232f31a422",
+      "footer": "7d978f7fbcad4631c8564615320fb86a2b9988c90f890ed027a79753e74c0d3e"
+    },
+    "otdyh/servis-i-kuhnya/index.html": {
+      "copy": "c490c0ebd6d1e6e89573bc88d48017ae0dbbf681b7c2782bdca66af0715a1531",
+      "header": "c20df6bc96d82e8da4477de57da33eb1a0b1edff80440947e5b5b130b14f33f0",
+      "footer": "05902947554f3975ca16356ff23612b0dc016f77256eb821c067fd162fd21711"
+    },
+    "otdyh/ekskursionnye-tury/index.html": {
+      "copy": "3dd55af8acfa546e73c45bb2b1e2c46205d9a326ec98e39611c8b72e604e3b8b",
+      "header": "cc182e70fbf906b7e4cfa2ef2509ee4cb931ab16a9e20cdbfad789dad8a5e8a0",
+      "footer": "b6269598bce7b6d3dfba91b61354e674d5f97e9e1e53efe522f043a18955e975"
+    },
+    "otdyh/otel-radi-kotorogo-edut/index.html": {
+      "copy": "69c2233e57871037cbee1ac1cdf51b8f1471c0e236cf755fb672dda04cdc947b",
+      "header": "e9693d5907f97dfe16399e5d46906282aaec6c2e55b4da89ba2849c847cbbfb4",
+      "footer": "f3459100f809adf809e8e950c4be3ccc1ac3a3c91d98e6ac48344a5d94a5bacd"
+    },
+    "otdyh/gornyj-vozduh/index.html": {
+      "copy": "880b7782d908d9c090860223168a44b5a9f93e9f31926efc1e98377c70d3a045",
+      "header": "00fdbd3ccb41dd155f406e01a0d940155d3cfb7499376a431b630199baaa6534",
+      "footer": "e91c7330ae7531d807786ad55f23b0bcd4d622c48d3421400bdca05323b348c0"
+    },
+    "otdyh/svoj-marshrut/index.html": {
+      "copy": "f3ce07c47a6b801872bcb54cf103e8bad0de929778452be1ab65c3e95dc9608f",
+      "header": "88829c1d83f141ac98b5a9d01fd7519b74794c20dbee2e3f24b81c9979f7d62c",
+      "footer": "4e767b4865f83df86a9654d959b9d3be59cd96a9ae1b62daa4240fe42016ec92"
+    },
+    "otdyh/kruizy/index.html": {
+      "copy": "eaf54fda7ae953fa884850713342060f01ade39043e817331ff94539bfd77071",
+      "header": "4c38aa7781450b19a91dc0f8cbf97da622de8be606dd30de7ff28f764cd3e94f",
+      "footer": "5fb4d481b6e171554955d3c681337f0b2b1380a01bc6fd5239e8b27549f2ba71"
+    },
+    "styleguide.html": {
+      "copy": "ee5bcef3e0d131a1887dd290527014fceeab4a3f45ca995948d30f0c34003d84",
+      "header": "9a650e92c0e7cc92e063376095c1b6a94b5e76d9ce631b44473fb24c13b44272",
+      "footer": "946c5a8cfb29a5a41b976fbffa067a5ec3b418b48a3340d86c124fe907db5ad5"
+    },
+    "kak-my-rabotaem/index.html": {
+      "copy": "0fe21addce59dd2f0d099f09b0cce9500eeb5ec8b0362cfa5adaef6931e19c7d",
+      "header": "b6918d741e452eeacc949b7cacbba2107edd21d56859776101dccf8f82f3b7ff",
+      "footer": "760b2e198c0b329461f28003e8292d6c22778629e217ead73ff8ec23466fdc96"
+    },
+    "o-nas/index.html": {
+      "copy": "65262856cac46212ee8fbdb2f4e8f85a399385a9ec2ecbc81cff6d42c185411b",
+      "header": "7aaa6af84c9413e47e6cd59e65c16ffc717d1a879755edd335594e22cb71dfb3",
+      "footer": "6719707361287adff03130deb8884e42bf2b4d500022f246ec2e6b85d61a52d4"
+    },
+    "o-nas/otzyvy/index.html": {
+      "copy": "695a50514ae6389af08a376673bb9125d08150987c8d00b24c0a66872097be74",
+      "header": "c45437fde72c56c366cbee3aee6894d701f0e80854ae79c2b714f671d1bf055a",
+      "footer": "a29701d62c30234a04204259c8b756f3a4502ff5903b4e8596bdd3d39f7b4032"
+    },
+    "o-nas/kontakty/index.html": {
+      "copy": "e4cb383ec37648c4dac51799d68f52c94c322d5d5682f7092ecf14f80c55a5fa",
+      "header": "a232020651e10a29267091b7635f07ce27e33a62e836344c13538ef8f9d7d6f3",
+      "footer": "b621c091bb00f1f24d47251e861964f115b943cbd53e4335305d54351c0b438d"
+    },
+    "o-nas/dokumenty/index.html": {
+      "copy": "ae77b00d10afc144be7d8ac0c01565d672df8fbbeedbadaab5b959ca93dbf0b7",
+      "header": "fc1b9419eb5254af9b948b13faf098948577c2db0d268a7c86f14cac31cb14f1",
+      "footer": "b3fb20d453f556e9b9072283979e1ec851a2527acb5e084cc360f8f5b9a9ecd7"
+    },
+    "o-nas/dokumenty/rekvizity/index.html": {
+      "copy": "68caf9aa7389db1342a9b9380de549153406ed259860032d384acaec9f108ae5",
+      "header": "1bfcea0312b427bc70982b61372d0ea91fd3f280b16bd771b750635d45ce9fb0",
+      "footer": "e8e762e2cf7e76a2555eb725adb4fd8a4ba743d6e009728012a39851bc27cb06"
+    },
+    "o-nas/dokumenty/politika/index.html": {
+      "copy": "b58d8cde4132b9f599edf3eebda40496b39731ff24e42f23a348d6bbde5917ed",
+      "header": "1bfcea0312b427bc70982b61372d0ea91fd3f280b16bd771b750635d45ce9fb0",
+      "footer": "e8e762e2cf7e76a2555eb725adb4fd8a4ba743d6e009728012a39851bc27cb06"
+    },
+    "o-nas/dokumenty/soglasie/index.html": {
+      "copy": "fb818de0d176ba798492c1601f98f21c4c50574a96757b01e86a205513903dc3",
+      "header": "1bfcea0312b427bc70982b61372d0ea91fd3f280b16bd771b750635d45ce9fb0",
+      "footer": "e8e762e2cf7e76a2555eb725adb4fd8a4ba743d6e009728012a39851bc27cb06"
+    },
+    "zagranpasport/index.html": {
+      "copy": "7f2d7dc81c53d081ae0d17f5487effeb02d516eba8018212c66d9de4e0bf6f24",
+      "header": "f68a032aa32609285ae36c9a9586de242898b995623b01d8a84e09d6779ffa53",
+      "footer": "06a7c0e388fd1922d3f9d018b135820c4fbecaba23bb15709c0d383ba1eb0707"
+    },
+    "404.html": {
+      "copy": "e3ceff7a0f06b0afb4d43e4c07fd6e8127442bede85d75bd7bc503cfd0593d78",
+      "header": "9a650e92c0e7cc92e063376095c1b6a94b5e76d9ce631b44473fb24c13b44272",
+      "footer": "946c5a8cfb29a5a41b976fbffa067a5ec3b418b48a3340d86c124fe907db5ad5"
+    },
+    "predlozheniya/index.html": {
+      "copy": "b6cfbb88da43ce90486c95077f4a60044619f0b16ed49ceed0ad5f9080b2737b",
+      "header": "8f1722f95ded2f92b0456d85b1c708daea42719f19b250bcd509ca6445cb8a89",
+      "footer": "e0c69990c184485e65ced26a77d419890f8f5442aee01b68c095220d150ca3d7"
+    },
+    "predlozheniya/e1/index.html": {
+      "copy": "434823d392dfb439607e72b02bb8ddec8095c40d6ef662137f31b075e29f4382",
+      "header": "80636bcd3a6617d0b5348f061aeb1542de44c6b08787d9a97a2ba9c79fb87eb1",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "predlozheniya/h2/index.html": {
+      "copy": "f94cca116f3767ccb8ba87f8292d7930f8f24bd61b9be566e88a7adb342e7c77",
+      "header": "e8f3fea5f619398d1c1759c093aa7ee818af82246f430bfba3f4af6e5bda616c",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "predlozheniya/h3/index.html": {
+      "copy": "ce433bc5776977e13c650d3e217133f9dc17b9ef0f8e6cfed18fee4e7a313673",
+      "header": "a2cdb5033585696646240d724490db66682155eda193b0d9f6e7e9d457e20e96",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "predlozheniya/e2/index.html": {
+      "copy": "16f01ba774b6512719eadb07b0ffedc184f5153d5fa3fd5021cfc769901f4cd6",
+      "header": "491f97bf6f6523eb2718c69efe69ac22c0dd043bcccc17ef71b74de7ff78cfb2",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "predlozheniya/h5/index.html": {
+      "copy": "0f6276d52df824dba6c395ad34e1b5694f9e1eb9e44a429c89d6809a94f04f9f",
+      "header": "9747167728c46771f5854d95b74a87ac0e18c6235a6519e5ad5cd1517d740cc8",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "predlozheniya/h6/index.html": {
+      "copy": "3bcd09ae9da8cef1da995c749e37839373878c48c327b96b637966c775e0990f",
+      "header": "10afa03d9ae39c73ae2f3c01088fc8dd952eab451e7ccb5b1f4470c00d67194e",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "predlozheniya/e3/index.html": {
+      "copy": "40985e505b45d7874ce0c8655af113e5df6c41da1a51111ea4ab59aad1ec0098",
+      "header": "88f6d51c6f6088c3d86ae6c23ba850a2bc3e185bb9fed88fbf45b7a136d8170e",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "predlozheniya/e4/index.html": {
+      "copy": "84fca09097464be5eb3912f092fc6f78864b6c58a7cb1339cc1e456ad880cd14",
+      "header": "ea3bcabb9c75e1331a7a81c23d153cc2f869c565fbbed367f8752707af91d6dc",
+      "footer": "b5014eeb5c95f592f4407fcd30c771d99b1c655d896d58d3202d9309cc4b76ae"
+    },
+    "pages.html": {
+      "copy": "ae8fb4aae96385e641dbd4de06b8fbd8d397e13f0a4b6fc201633326b9fab42a",
+      "header": "9a650e92c0e7cc92e063376095c1b6a94b5e76d9ce631b44473fb24c13b44272",
+      "footer": "946c5a8cfb29a5a41b976fbffa067a5ec3b418b48a3340d86c124fe907db5ad5"
+    }
+  }
+}

@@ -23,17 +23,21 @@ async def capture(b,path,title,width,file,selector=None,state=None):
  await ready(p)
  if state:await state(p);await p.evaluate('window.MangoLayout?.refresh()');await p.wait_for_timeout(150)
  assert await p.evaluate('document.documentElement.scrollWidth')==width,(path,width)
- dest=(DETAIL if selector or file.startswith('stage11-')else OUT)/file;dest.parent.mkdir(parents=True,exist_ok=True)
- if selector:await p.add_style_tag(content='.d1-header,.mobile-contact,.skip-link{visibility:hidden!important}');await p.locator(selector).screenshot(path=str(dest),type='jpeg',quality=75)
+ dest=(DETAIL if selector or file.startswith(('stage11-','stage12-'))else OUT)/file;dest.parent.mkdir(parents=True,exist_ok=True)
+ if selector and selector!='@viewport':
+  await p.add_style_tag(content='.d1-header,.mobile-contact,.skip-link{visibility:hidden!important}');await p.locator(selector).screenshot(path=str(dest),type='jpeg',quality=75)
+ elif selector=='@viewport':
+  assert await p.locator('.dropdown-panel:visible').count()==1
+  await p.screenshot(path=str(dest),type='jpeg',quality=75,full_page=False)
  else:await p.screenshot(path=str(dest),type='jpeg',quality=75,full_page=True)
- im=Image.open(dest);report['captures'].append(dict(page=path,title=title,file=file,width=width,engine='Chromium',device_scale_factor=2 if width==390 else 1,pixel_width=im.width,pixel_height=im.height,kind='component'if selector else'page',directory='pages'if dest.parent==DETAIL else'review',stage=11));await ctx.close()
+ im=Image.open(dest);report['captures'].append(dict(page=path,title=title,file=file,width=width,engine='Chromium',device_scale_factor=2 if width==390 else 1,pixel_width=im.width,pixel_height=im.height,kind='component'if selector else'page',directory='pages'if dest.parent==DETAIL else'review',stage=report.get('stage',11)));await ctx.close()
 def gallery(folder,items,archive=False):
  groups={}
  for c in items:groups.setdefault((c['page'],c['title']),[]).append(c)
  cards=''
  for i,((path,title),captures)in enumerate(groups.items()):
   cards+='<article class="gallery-card" data-gallery-item data-title="'+E(title,quote=True)+'"><h2><a href="../../'+path+'" data-goal="gallery_page_'+str(i)+'">'+E(title)+'</a></h2><p>'+E(path)+'</p><div class="gallery-shots">'+''.join('<a href="'+c['file']+'" data-goal="gallery_shot_'+str(i)+'_'+str(c['width'])+'"><span>'+str(c['width'])+' px ↗</span><img src="'+c['file']+'" alt="'+E(title,quote=True)+' — '+str(c['width'])+' px" width="'+str(c['pixel_width'])+'" height="'+str(c['pixel_height'])+'" loading="lazy"></a>'for c in captures)+'</div></article>'
- text='Текущие страницы после этапа 11.'if not archive else'Детали этапа 11 и подписанный архив предыдущих этапов. Полный комплект текущих страниц — в соседней галерее.'
+ text=f"Текущие страницы после этапа {report.get('stage',11)}."if not archive else f"Детали этапа {report.get('stage',11)} и подписанный архив предыдущих этапов. Полный комплект текущих страниц — в соседней галерее."
  html='<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="description" content="'+text+'"><title>Галерея страниц — Mango Travel</title>'+''.join('<link rel="stylesheet" href="../../css/'+n+'.css">'for n in['tokens','fonts','base','gallery'])+'<script defer src="../../js/gallery.js"></script></head><body class="gallery-page"><main class="gallery-main"><header><h1>Страницы Mango Travel</h1><p>'+text+'</p><p>'+str(len(items))+' снимков</p><a href="../'+('review'if archive else'pages')+'/index.html">'+('Все текущие страницы'if archive else'Детали и архив')+' →</a><label>Найти страницу<input type="search" data-gallery-search autocomplete="off"></label></header>'+cards+'</main></body></html>\n'
  (folder/'index.html').write_text(html)
 async def main():

@@ -32,6 +32,9 @@
 @media   (min-width:1100px) { .tickets-grid{grid-template-columns:repeat(4,minmax(0,1fr));} }
 .offers-toolbar{display:flex;flex-direction:row;align-items:end;gap:25px;margin-bottom:32px;flex-wrap:wrap;justify-content:space-between;}
 .offer-detail-photos{display:grid;gap:20px;}
+.offer-detail-photos>.country-photo-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:20px;border:1px solid var(--line);background:linear-gradient(135deg,var(--sand),var(--cream) 70%,var(--leaf-wash));color:var(--sage);text-align:center;}
+.offer-detail-photos>.country-photo-placeholder .icon{width:40px;height:40px;}
+.offer-detail-photos>.country-photo-placeholder span{font-size:var(--text-small);}
 .offer-detail-photos>img,.offer-detail-photos>.country-photo-placeholder{width:100%;height:320px;object-fit:cover;border-radius:var(--radius-card);}
 .offer-detail-summary{width:100%;margin-top:45px;}
 .offer-conditions{display:grid;gap:22px;margin:25px 0;}
@@ -41,7 +44,7 @@
 .offer-detail-summary .offer-detail-price{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);color:var(--clay);margin:28px 0 12px;}
 .offer-detail-summary>.btn{margin-top:25px;}
 .offer-back-links{display:flex;flex-wrap:wrap;gap:25px;margin-top:40px;}
-@media   (min-width:768px) { .offer-detail-photos{grid-template-columns:1.4fr 1fr;} }
+@media   (min-width:768px) { .offer-detail-photos{grid-template-columns:minmax(0,2fr) minmax(0,1fr);} }
 @media   (min-width:768px) { .offer-detail-photos>*{height:410px!important;} }
 @media   (max-width:599px) { .ticket-body{padding:16px 14px;line-height:1.6;} }
 @media   (max-width:599px) { .ticket-body h3{font-size:var(--text-h3);margin:8px 0 6px;} }

@@ -12,7 +12,7 @@ def crumb(path,items):
  for i,(label,target)in enumerate(items,1):rows+='<li>'+ (L(path,target,E(label),'breadcrumb_'+str(i))if target else'<span aria-current="page">'+E(label)+'</span>')+'</li>'
  return '<nav class="breadcrumbs" aria-label="Хлебные крошки"><ol>'+rows+'</ol></nav>'
 def aboutnav(path):
- return '<nav class="section-tabs" aria-label="Раздел об агентстве">'+''.join(L(path,target,label,'about_tab_'+str(i),extra='aria-current="page"'if path==target else'')for i,(label,target)in enumerate([('О нас','o-nas/index.html'),('Отзывы','o-nas/otzyvy/index.html'),('Контакты','o-nas/kontakty/index.html'),('Документы','o-nas/dokumenty/index.html')]))+'</nav>'
+ return '<nav class="section-tabs" aria-label="Раздел об агентстве">'+''.join(L(path,target,label,'about_tab_'+str(i),extra='aria-current="page"'if path==target else'aria-current="true"'if target=='o-nas/dokumenty/index.html'and path.startswith('o-nas/dokumenty/')else'')for i,(label,target)in enumerate([('О нас','o-nas/index.html'),('Отзывы','o-nas/otzyvy/index.html'),('Контакты','o-nas/kontakty/index.html'),('Документы','o-nas/dokumenty/index.html')]))+'</nav>'
 def reviews_grid(home=False):
  cards=''
  for i,r in enumerate(D['reviews'][:3]):
@@ -20,7 +20,7 @@ def reviews_grid(home=False):
  return '<div class="stage4-review-grid">'+cards+'</div>'
 def documents():
  path='o-nas/dokumenty/index.html';items=[('Реквизиты и реестр турагентов','o-nas/dokumenty/rekvizity/index.html'),('Документы для клиента','o-nas/dokumenty/index.html#client-documents'),('Политика обработки персональных данных','o-nas/dokumenty/politika/index.html'),('Согласие на обработку персональных данных','o-nas/dokumenty/soglasie/index.html')]
- cards=''.join('<article class="document-card"'+(' id="client-documents"'if i==1 else'')+' '+ED('documents.'+str(i),True)+'>'+I('i-file')+'<h2>'+title+'</h2><p>Место для актуального документа</p>'+L(path,target,'Посмотреть →','document_'+str(i),'text-link')+'</article>'for i,(title,target)in enumerate(items))
+ cards=''.join('<article class="document-card"'+(' id="client-documents"'if i==1 else'')+' '+ED('documents.'+str(i),True)+'>'+I('i-file')+'<h2>'+title+'</h2>'+('<p>Место для актуального документа</p>'if i else'')+L(path,target,'Посмотреть →','document_'+str(i),'text-link')+'</article>'for i,(title,target)in enumerate(items))
  C['emit'](path,'Документы — Mango Travel','Реквизиты, выписка из реестра турагентов, документы для клиента и обработка персональных данных. Mango Travel.','Документы','',C['section']('','<div class="document-grid">'+cards+'</div>'),[('О нас','o-nas/index.html'),('Документы',None)],about=True,contact_override='',raw=True)
  requisites()
 def external_label(label):

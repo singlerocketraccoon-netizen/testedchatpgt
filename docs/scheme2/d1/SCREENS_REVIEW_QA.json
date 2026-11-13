@@ -1,5 +1,5 @@
 {
-  "stage": 11,
+  "stage": 12,
   "format": "JPEG",
   "quality": 75,
   "reduced_motion": "reduce",
@@ -19,7 +19,7 @@
       "pixel_height": 25856,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "index.html",
@@ -32,7 +32,7 @@
       "pixel_height": 8167,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/index.html",
@@ -45,7 +45,7 @@
       "pixel_height": 14622,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/index.html",
@@ -58,7 +58,7 @@
       "pixel_height": 3167,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/vetnam/index.html",
@@ -71,7 +71,7 @@
       "pixel_height": 14396,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/vetnam/index.html",
@@ -84,7 +84,7 @@
       "pixel_height": 4455,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/egipet/index.html",
@@ -94,10 +94,10 @@
       "engine": "Chromium",
       "device_scale_factor": 2,
       "pixel_width": 780,
-      "pixel_height": 28544,
+      "pixel_height": 28534,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/egipet/index.html",
@@ -107,10 +107,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 8276,
+      "pixel_height": 8274,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/indoneziya/index.html",
@@ -123,7 +123,7 @@
       "pixel_height": 14422,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/indoneziya/index.html",
@@ -136,7 +136,7 @@
       "pixel_height": 4258,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/kitay/index.html",
@@ -149,7 +149,7 @@
       "pixel_height": 13758,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/kitay/index.html",
@@ -162,7 +162,7 @@
       "pixel_height": 3606,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/maldivy/index.html",
@@ -175,7 +175,7 @@
       "pixel_height": 14352,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/maldivy/index.html",
@@ -188,7 +188,7 @@
       "pixel_height": 4455,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/oae/index.html",
@@ -201,7 +201,7 @@
       "pixel_height": 14352,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/oae/index.html",
@@ -214,7 +214,7 @@
       "pixel_height": 4455,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/tailand/index.html",
@@ -227,7 +227,7 @@
       "pixel_height": 14352,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/tailand/index.html",
@@ -240,7 +240,7 @@
       "pixel_height": 4455,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/turciya/index.html",
@@ -253,7 +253,7 @@
       "pixel_height": 14692,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/turciya/index.html",
@@ -266,7 +266,7 @@
       "pixel_height": 4339,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/shri-lanka/index.html",
@@ -279,7 +279,7 @@
       "pixel_height": 13334,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "napravleniya/shri-lanka/index.html",
@@ -292,7 +292,7 @@
       "pixel_height": 3650,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "uslugi/index.html",
@@ -305,7 +305,7 @@
       "pixel_height": 7498,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "uslugi/index.html",
@@ -318,7 +318,7 @@
       "pixel_height": 1825,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/otdyh-s-detmi/index.html",
@@ -331,7 +331,7 @@
       "pixel_height": 24272,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/otdyh-s-detmi/index.html",
@@ -341,10 +341,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 6791,
+      "pixel_height": 6787,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/tishina-i-more/index.html",
@@ -357,7 +357,7 @@
       "pixel_height": 25672,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/tishina-i-more/index.html",
@@ -367,10 +367,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7111,
+      "pixel_height": 6637,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/plyazh-i-progulki/index.html",
@@ -383,7 +383,7 @@
       "pixel_height": 24248,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/plyazh-i-progulki/index.html",
@@ -393,10 +393,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 6453,
+      "pixel_height": 6451,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/servis-i-kuhnya/index.html",
@@ -409,7 +409,7 @@
       "pixel_height": 26602,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/servis-i-kuhnya/index.html",
@@ -419,10 +419,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7302,
+      "pixel_height": 6802,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/ekskursionnye-tury/index.html",
@@ -435,7 +435,7 @@
       "pixel_height": 25558,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/ekskursionnye-tury/index.html",
@@ -445,10 +445,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 6816,
+      "pixel_height": 6813,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/otel-radi-kotorogo-edut/index.html",
@@ -461,7 +461,7 @@
       "pixel_height": 26304,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/otel-radi-kotorogo-edut/index.html",
@@ -471,10 +471,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 7253,
+      "pixel_height": 6735,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/gornyj-vozduh/index.html",
@@ -487,7 +487,7 @@
       "pixel_height": 25306,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/gornyj-vozduh/index.html",
@@ -497,36 +497,10 @@
       "engine": "Chromium",
       "device_scale_factor": 1,
       "pixel_width": 1440,
-      "pixel_height": 6712,
+      "pixel_height": 6710,
       "kind": "page",
       "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/svoj-marshrut/index.html",
-      "title": "Увидеть всё, что хочется, и не спешить",
-      "file": "otdyh-svoj-marshrut-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 28152,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/svoj-marshrut/index.html",
-      "title": "Увидеть всё, что хочется, и не спешить",
-      "file": "otdyh-svoj-marshrut-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7186,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/kruizy/index.html",
@@ -539,7 +513,7 @@
       "pixel_height": 11944,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "otdyh/kruizy/index.html",
@@ -552,683 +526,7 @@
       "pixel_height": 3622,
       "kind": "page",
       "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "kak-my-rabotaem/index.html",
-      "title": "Как мы работаем",
-      "file": "kak-my-rabotaem-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 14440,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "kak-my-rabotaem/index.html",
-      "title": "Как мы работаем",
-      "file": "kak-my-rabotaem-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 4260,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/index.html",
-      "title": "О нас",
-      "file": "o-nas-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8838,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/index.html",
-      "title": "О нас",
-      "file": "o-nas-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2216,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/komanda/index.html",
-      "title": "Команда → О нас",
-      "file": "o-nas-komanda-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8838,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/komanda/index.html",
-      "title": "Команда → О нас",
-      "file": "o-nas-komanda-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2216,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/otzyvy/index.html",
-      "title": "Отзывы клиентов",
-      "file": "o-nas-otzyvy-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 9852,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/otzyvy/index.html",
-      "title": "Отзывы клиентов",
-      "file": "o-nas-otzyvy-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2082,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/kontakty/index.html",
-      "title": "Контакты",
-      "file": "o-nas-kontakty-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 7700,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/kontakty/index.html",
-      "title": "Контакты",
-      "file": "o-nas-kontakty-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1785,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/index.html",
-      "title": "Документы",
-      "file": "o-nas-dokumenty-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 7554,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/index.html",
-      "title": "Документы",
-      "file": "o-nas-dokumenty-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1774,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/politika/index.html",
-      "title": "Политика обработки персональных данных",
-      "file": "o-nas-dokumenty-politika-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 7426,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/politika/index.html",
-      "title": "Политика обработки персональных данных",
-      "file": "o-nas-dokumenty-politika-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1944,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/soglasie/index.html",
-      "title": "Согласие на обработку персональных данных",
-      "file": "o-nas-dokumenty-soglasie-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 7426,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/soglasie/index.html",
-      "title": "Согласие на обработку персональных данных",
-      "file": "o-nas-dokumenty-soglasie-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1944,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "zagranpasport/index.html",
-      "title": "Проверить срок действия загранпаспорта",
-      "file": "zagranpasport-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 6128,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "zagranpasport/index.html",
-      "title": "Проверить срок действия загранпаспорта",
-      "file": "zagranpasport-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1443,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "404.html",
-      "title": "Страница не найдена",
-      "file": "404-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 5488,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "404.html",
-      "title": "Страница не найдена",
-      "file": "404-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1245,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/index.html",
-      "title": "Актуальные предложения",
-      "file": "predlozheniya-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 11858,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/index.html",
-      "title": "Актуальные предложения",
-      "file": "predlozheniya-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2642,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e1/index.html",
-      "title": "Отель 1",
-      "file": "predlozheniya-e1-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e1/index.html",
-      "title": "Отель 1",
-      "file": "predlozheniya-e1-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h2/index.html",
-      "title": "Отель 2",
-      "file": "predlozheniya-h2-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h2/index.html",
-      "title": "Отель 2",
-      "file": "predlozheniya-h2-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h3/index.html",
-      "title": "Отель 3",
-      "file": "predlozheniya-h3-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h3/index.html",
-      "title": "Отель 3",
-      "file": "predlozheniya-h3-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e2/index.html",
-      "title": "Отель 4",
-      "file": "predlozheniya-e2-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e2/index.html",
-      "title": "Отель 4",
-      "file": "predlozheniya-e2-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h5/index.html",
-      "title": "Отель 5",
-      "file": "predlozheniya-h5-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h5/index.html",
-      "title": "Отель 5",
-      "file": "predlozheniya-h5-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h6/index.html",
-      "title": "Отель 6",
-      "file": "predlozheniya-h6-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/h6/index.html",
-      "title": "Отель 6",
-      "file": "predlozheniya-h6-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e3/index.html",
-      "title": "Отель 7",
-      "file": "predlozheniya-e3-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e3/index.html",
-      "title": "Отель 7",
-      "file": "predlozheniya-e3-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e4/index.html",
-      "title": "Отель 8",
-      "file": "predlozheniya-e4-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8520,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "predlozheniya/e4/index.html",
-      "title": "Отель 8",
-      "file": "predlozheniya-e4-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2424,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "index.html",
-      "title": "Главная",
-      "file": "index-2560.jpg",
-      "width": 2560,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 2560,
-      "pixel_height": 8218,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/otdyh-s-detmi/index.html",
-      "title": "Отдых с детьми",
-      "file": "otdyh-otdyh-s-detmi-2560.jpg",
-      "width": 2560,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 2560,
-      "pixel_height": 6831,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/tishina-i-more/index.html",
-      "title": "Тишина и море",
-      "file": "otdyh-tishina-i-more-2560.jpg",
-      "width": 2560,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 2560,
-      "pixel_height": 7151,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "napravleniya/egipet/index.html",
-      "title": "Египет",
-      "file": "napravleniya-egipet-2560.jpg",
-      "width": 2560,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 2560,
-      "pixel_height": 8317,
-      "kind": "page",
-      "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "index.html",
-      "title": "Отдых по душе · этап 11",
-      "file": "stage11-otdyh-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1375,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "index.html",
-      "title": "Отдых по душе · этап 11",
-      "file": "stage11-otdyh-2560.jpg",
-      "width": 2560,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 2560,
-      "pixel_height": 1380,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/otdyh-s-detmi/index.html",
-      "title": "Куда поехать с детьми · этап 11",
-      "file": "stage11-deti-strany-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1499,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/tishina-i-more/index.html",
-      "title": "Тихий отдых бывает разным · этап 11",
-      "file": "stage11-tishina-formaty-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 534,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/otdyh-s-detmi/index.html",
-      "title": "Что мы проверяем · раскрытые примеры · этап 11",
-      "file": "stage11-proverki-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 920,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "napravleniya/egipet/index.html",
-      "title": "Показатели Египта · этап 11",
-      "file": "stage11-egipet-cifry-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1214,
-      "pixel_height": 81,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "napravleniya/egipet/index.html",
-      "title": "Своя стрелка select · этап 11",
-      "file": "stage11-select-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 350,
-      "pixel_height": 84,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/otzyvy/index.html",
-      "title": "Отзывы · этап 11",
-      "file": "stage11-otzyvy-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 2082,
-      "kind": "page",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/otzyvy/index.html",
-      "title": "Отзывы · этап 11",
-      "file": "stage11-otzyvy-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 9852,
-      "kind": "page",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "otdyh/kruizy/index.html",
-      "title": "Перенос крошек · этап 11",
-      "file": "stage11-kroshki-kruizy-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 692,
-      "pixel_height": 176,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "styleguide.html",
@@ -1241,7 +539,7 @@
       "pixel_height": 19530,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "styleguide.html",
@@ -1254,7 +552,163 @@
       "pixel_height": 4966,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
+    },
+    {
+      "page": "kak-my-rabotaem/index.html",
+      "title": "Как мы работаем",
+      "file": "kak-my-rabotaem-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 14440,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "kak-my-rabotaem/index.html",
+      "title": "Как мы работаем",
+      "file": "kak-my-rabotaem-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 4260,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/index.html",
+      "title": "О нас",
+      "file": "o-nas-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8838,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/index.html",
+      "title": "О нас",
+      "file": "o-nas-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2216,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/komanda/index.html",
+      "title": "Команда → О нас",
+      "file": "o-nas-komanda-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8838,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/komanda/index.html",
+      "title": "Команда → О нас",
+      "file": "o-nas-komanda-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2216,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/otzyvy/index.html",
+      "title": "Отзывы клиентов",
+      "file": "o-nas-otzyvy-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 9852,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/otzyvy/index.html",
+      "title": "Отзывы клиентов",
+      "file": "o-nas-otzyvy-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2082,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/kontakty/index.html",
+      "title": "Контакты",
+      "file": "o-nas-kontakty-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 7700,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/kontakty/index.html",
+      "title": "Контакты",
+      "file": "o-nas-kontakty-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1785,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/dokumenty/index.html",
+      "title": "Документы",
+      "file": "o-nas-dokumenty-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 7510,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/dokumenty/index.html",
+      "title": "Документы",
+      "file": "o-nas-dokumenty-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1774,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
     },
     {
       "page": "o-nas/dokumenty/rekvizity/index.html",
@@ -1267,33 +721,7 @@
       "pixel_height": 8978,
       "kind": "page",
       "directory": "review",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/rekvizity/index.html",
-      "title": "Реквизиты · этап 11",
-      "file": "stage11-rekvizity-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 780,
-      "pixel_height": 8978,
-      "kind": "page",
-      "directory": "pages",
-      "stage": 11
-    },
-    {
-      "page": "o-nas/dokumenty/rekvizity/index.html",
-      "title": "Окно документа · этап 11",
-      "file": "stage11-dokument-390.jpg",
-      "width": 390,
-      "engine": "Chromium",
-      "device_scale_factor": 2,
-      "pixel_width": 704,
-      "pixel_height": 476,
-      "kind": "component",
-      "directory": "pages",
-      "stage": 11
+      "stage": 12
     },
     {
       "page": "o-nas/dokumenty/rekvizity/index.html",
@@ -1306,12 +734,480 @@
       "pixel_height": 2353,
       "kind": "page",
       "directory": "review",
-      "stage": 11
+      "stage": 12
+    },
+    {
+      "page": "o-nas/dokumenty/politika/index.html",
+      "title": "Политика обработки персональных данных",
+      "file": "o-nas-dokumenty-politika-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 7426,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/dokumenty/politika/index.html",
+      "title": "Политика обработки персональных данных",
+      "file": "o-nas-dokumenty-politika-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1944,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "title": "Согласие на обработку персональных данных",
+      "file": "o-nas-dokumenty-soglasie-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 7426,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "title": "Согласие на обработку персональных данных",
+      "file": "o-nas-dokumenty-soglasie-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1944,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "zagranpasport/index.html",
+      "title": "Проверить срок действия загранпаспорта",
+      "file": "zagranpasport-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 6128,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "zagranpasport/index.html",
+      "title": "Проверить срок действия загранпаспорта",
+      "file": "zagranpasport-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1443,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "404.html",
+      "title": "Страница не найдена",
+      "file": "404-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 5488,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "404.html",
+      "title": "Страница не найдена",
+      "file": "404-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1245,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/index.html",
+      "title": "Актуальные предложения",
+      "file": "predlozheniya-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 11858,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/index.html",
+      "title": "Актуальные предложения",
+      "file": "predlozheniya-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2642,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e1/index.html",
+      "title": "Отель 1",
+      "file": "predlozheniya-e1-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e1/index.html",
+      "title": "Отель 1",
+      "file": "predlozheniya-e1-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h2/index.html",
+      "title": "Отель 2",
+      "file": "predlozheniya-h2-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h2/index.html",
+      "title": "Отель 2",
+      "file": "predlozheniya-h2-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h3/index.html",
+      "title": "Отель 3",
+      "file": "predlozheniya-h3-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h3/index.html",
+      "title": "Отель 3",
+      "file": "predlozheniya-h3-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e2/index.html",
+      "title": "Отель 4",
+      "file": "predlozheniya-e2-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e2/index.html",
+      "title": "Отель 4",
+      "file": "predlozheniya-e2-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h5/index.html",
+      "title": "Отель 5",
+      "file": "predlozheniya-h5-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h5/index.html",
+      "title": "Отель 5",
+      "file": "predlozheniya-h5-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h6/index.html",
+      "title": "Отель 6",
+      "file": "predlozheniya-h6-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/h6/index.html",
+      "title": "Отель 6",
+      "file": "predlozheniya-h6-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e3/index.html",
+      "title": "Отель 7",
+      "file": "predlozheniya-e3-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e3/index.html",
+      "title": "Отель 7",
+      "file": "predlozheniya-e3-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e4/index.html",
+      "title": "Отель 8",
+      "file": "predlozheniya-e4-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e4/index.html",
+      "title": "Отель 8",
+      "file": "predlozheniya-e4-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Главная",
+      "file": "index-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 8218,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "title": "Отдых с детьми",
+      "file": "otdyh-otdyh-s-detmi-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 6827,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "otdyh/tishina-i-more/index.html",
+      "title": "Тишина и море",
+      "file": "otdyh-tishina-i-more-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 6677,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет",
+      "file": "napravleniya-egipet-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 8315,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Отдых по душе · этап 12",
+      "file": "stage12-otdyh-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 992,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "otdyh/tishina-i-more/index.html",
+      "title": "Куда поехать за тишиной · этап 12",
+      "file": "stage12-tishina-strany-1024.jpg",
+      "width": 1024,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1024,
+      "pixel_height": 1830,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "otdyh/tishina-i-more/index.html",
+      "title": "Куда поехать за тишиной · этап 12",
+      "file": "stage12-tishina-strany-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1570,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e1/index.html",
+      "title": "Предложение e1 · этап 12",
+      "file": "stage12-e1-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8520,
+      "kind": "page",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "predlozheniya/e1/index.html",
+      "title": "Предложение e1 · этап 12",
+      "file": "stage12-e1-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2424,
+      "kind": "page",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "o-nas/dokumenty/index.html",
+      "title": "Документы · этап 12",
+      "file": "stage12-dokumenty-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1774,
+      "kind": "page",
+      "directory": "pages",
+      "stage": 12
     },
     {
       "page": "o-nas/dokumenty/rekvizity/index.html",
-      "title": "Реквизиты · этап 11",
-      "file": "stage11-rekvizity-1440.jpg",
+      "title": "Реквизиты · этап 12",
+      "file": "stage12-rekvizity-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
@@ -1319,37 +1215,154 @@
       "pixel_height": 2353,
       "kind": "page",
       "directory": "pages",
-      "stage": 11
+      "stage": 12
     },
     {
-      "page": "o-nas/dokumenty/rekvizity/index.html",
-      "title": "Окно документа · этап 11",
-      "file": "stage11-dokument-1440.jpg",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "title": "Что мы проверяем · этап 12",
+      "file": "stage12-checks-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
       "device_scale_factor": 1,
-      "pixel_width": 600,
-      "pixel_height": 218,
+      "pixel_width": 1440,
+      "pixel_height": 709,
       "kind": "component",
       "directory": "pages",
-      "stage": 11
+      "stage": 12
     },
     {
-      "page": "o-nas/dokumenty/rekvizity/index.html",
-      "title": "Перенос крошек · этап 11",
-      "file": "stage11-kroshki-rekvizity-390.jpg",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "title": "Увидеть всё, что хочется, и не спешить",
+      "file": "otdyh-svoj-marshrut-390.jpg",
       "width": 390,
       "engine": "Chromium",
       "device_scale_factor": 2,
-      "pixel_width": 692,
-      "pixel_height": 176,
+      "pixel_width": 780,
+      "pixel_height": 27914,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "otdyh/svoj-marshrut/index.html",
+      "title": "Увидеть всё, что хочется, и не спешить",
+      "file": "otdyh-svoj-marshrut-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 7183,
+      "kind": "page",
+      "directory": "review",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню Страны · этап 12",
+      "file": "stage12-menu-countries-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900,
       "kind": "component",
       "directory": "pages",
-      "stage": 11
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню Услуги · этап 12",
+      "file": "stage12-menu-services-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню О нас · этап 12",
+      "file": "stage12-menu-about-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню услуг после прокрутки · этап 12",
+      "file": "stage12-menu-services-scroll-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню Страны · этап 12",
+      "file": "stage12-menu-countries-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 900,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню Услуги · этап 12",
+      "file": "stage12-menu-services-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 900,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню О нас · этап 12",
+      "file": "stage12-menu-about-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 900,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
+    },
+    {
+      "page": "index.html",
+      "title": "Меню услуг после прокрутки · этап 12",
+      "file": "stage12-menu-services-scroll-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 900,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 12
     }
   ],
   "errors": [],
   "full_page_count": 88,
-  "detail_count": 15,
+  "detail_count": 16,
   "status": "passed"
 }

@@ -6,16 +6,33 @@
  const $$=(s,r=document)=>[...r.querySelectorAll(s)],shown=e=>e.getClientRects().length&&!e.closest('[hidden],dialog:not([open]),[inert]');
  const mediaSelector=':scope>.rest-photo,:scope>img,:scope>.rest-photo-placeholder,:scope>.country-photo-placeholder,:scope>.rest-card-photo,:scope>.ticket-link-cover>img,:scope>a>img,:scope>a>.country-photo-placeholder,:scope>details>summary>img,:scope>details>summary>.country-photo-placeholder,:scope>.country-hotel-open>img,:scope>.country-hotel-open>.country-photo-placeholder';
  const titleSelector='h2,h3,.rest-label,.country-resort summary>span,.country-hotel-open>span';
+ const accordionMedia=matchMedia('(min-width:1024px)');
+ const accordions=$$('[data-independent-accordion]').map(root=>({root,items:[...root.children].filter(e=>e.tagName==='DETAILS'),columns:$$(':scope>[data-accordion-column]',root)}));
+ function arrangeAccordions(){
+  const focused=document.activeElement;
+  for(const {root,items,columns}of accordions){
+   if(accordionMedia.matches){items.forEach((item,i)=>columns[i%2].append(item));columns.forEach(c=>c.hidden=false);root.classList.add('has-independent-columns');}
+   else{items.forEach(item=>root.insertBefore(item,columns[0]));columns.forEach(c=>c.hidden=true);root.classList.remove('has-independent-columns');}
+  }
+  if(focused&&accordions.some(({root})=>root.contains(focused)))focused.focus({preventScroll:true});
+ }
+ arrangeAccordions();accordionMedia.addEventListener('change',arrangeAccordions);
  let pending=false,running=false,lastWidth=0;
  function equalize(){
   if(running)return;running=true;pending=false;
   const grids=$$(selectors).filter(shown),opened=[];
   for(const g of grids)for(const card of [...g.children].filter(shown)){
-   card.classList.add('equal-card');card.style.removeProperty('--equal-height');
+   card.classList.add('equal-card');card.classList.remove('is-orphan-card');card.style.removeProperty('--equal-height');
    $$('.equal-prefix',card).forEach(t=>{t.style.removeProperty('min-height');t.classList.remove('equal-prefix');});
    $$('.equal-title',card).forEach(t=>{t.style.removeProperty('min-height');t.classList.remove('equal-title');});
    $$('.equal-media',card).forEach(m=>{m.style.removeProperty('height');m.classList.remove('equal-media');});
    $$('details[open]',card).forEach(d=>{opened.push(d);d.open=false;});
+  }
+  for(const g of grids){
+   const cards=[...g.children].filter(shown);g.classList.toggle('card-grid-seven',cards.length===7);
+   if(cards.length<3||getComputedStyle(g).display!=='grid')continue;
+   const y=cards[0].getBoundingClientRect().top,columns=cards.filter(c=>Math.abs(c.getBoundingClientRect().top-y)<2).length;
+   if(columns>1&&cards.length%columns===1)cards.at(-1).classList.add('is-orphan-card');
   }
   for(const g of grids){
    const rows=[];
