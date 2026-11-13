@@ -5,7 +5,7 @@
   "scroll_down_and_back": true,
   "fonts_ready": true,
   "extra_wait_ms": 500,
-  "page_count": 40,
+  "page_count": 41,
   "captures": [
     {
       "page": "index.html",
@@ -1073,10 +1073,58 @@
       "pixel_height": 96,
       "kind": "component",
       "stage": 9
+    },
+    {
+      "page": "otdyh/kruizy/index.html",
+      "title": "Круизы · этап 10",
+      "file": "otdyh-kruizy-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 11994,
+      "kind": "page",
+      "stage": 10
+    },
+    {
+      "page": "otdyh/kruizy/index.html",
+      "title": "Круизы · окно «Речной круиз» · этап 10",
+      "file": "kruizy-okno-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 704,
+      "pixel_height": 1624,
+      "kind": "component",
+      "stage": 10
+    },
+    {
+      "page": "otdyh/kruizy/index.html",
+      "title": "Круизы · этап 10",
+      "file": "otdyh-kruizy-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 3646,
+      "kind": "page",
+      "stage": 10
+    },
+    {
+      "page": "otdyh/kruizy/index.html",
+      "title": "Круизы · окно «Речной круиз» · этап 10",
+      "file": "kruizy-okno-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 670,
+      "pixel_height": 632,
+      "kind": "component",
+      "stage": 10
     }
   ],
   "errors": [],
-  "screenshot_count": 96,
+  "screenshot_count": 100,
   "stage9_updated": [
     "napravleniya-egipet-1440.jpg",
     "egipet-kurort-1440.jpg",
@@ -1089,5 +1137,11 @@
     "predlozheniya-egipet-390.jpg",
     "shapka-1024.jpg",
     "shapka-1280.jpg"
+  ],
+  "stage10_updated": [
+    "otdyh-kruizy-390.jpg",
+    "kruizy-okno-390.jpg",
+    "otdyh-kruizy-1440.jpg",
+    "kruizy-okno-1440.jpg"
   ]
 }

@@ -1,20 +1,22 @@
-"""One static template for all eight approved holiday sections."""
+"""One static holiday template; cruise copy is a draft from the scheme."""
 def build_rest_pages(ctx):
  import stage6 as shared
  D=ctx['DATA'];E=ctx['E'];U=ctx['url'];L=ctx['link'];ED=ctx['editable'];I=ctx['icon'];image=ctx['image'];emit=ctx['emit']
- for p in D['rest_pages']:
-  slug=p['slug'];path='otdyh/'+slug+'/index.html';base='rest.'+slug;topic='holiday:'+slug;dialogs=[];mode=p['mode']
+ for p in D['rest_pages']+[D['cruise_page']]:
+  slug=p['slug'];path='otdyh/'+slug+'/index.html';base='rest.'+slug;topic=p.get('topic','holiday:'+slug);dialogs=[];mode=p['mode']
   def button(label,key=topic,goal='rest_select',cls='btn btn-primary'):return shared.action(label,key,goal,cls)
   def photo(name,alt,key,lazy=True):return image(path,name,alt,lazy,key=key)if name else'<div class="rest-photo-placeholder" role="img" aria-label="'+E(alt)+'" '+ED(key,True)+'>'+I('i-mood-compass')+'</div>'
   def form(place):return shared.form(path,topic,place,classes='rest-inquiry',attrs='id="rest-inquiry-'+place+'"')
-  def section(part,title,content,tonal=False):return '<section class="section rest-content-section'+(' rest-tonal'if tonal else'')+'" id="'+part+'" data-rest-section="'+part+'"><div class="container"><div class="section-head"><h2 '+ED(base+'.'+part+'.title')+'>'+E(title)+'</h2></div>'+content+'</div></section>'
+  def section(part,title,content,tonal=False):return '<section '+(ED(base+'.'+part,True)+' 'if mode=='cruises'else'')+'class="section rest-content-section'+(' rest-tonal'if tonal else'')+'" id="'+part+'" data-rest-section="'+part+'"><div class="container"><div class="section-head"><h2 '+ED(base+'.'+part+'.title')+'>'+E(title)+'</h2></div>'+content+'</div></section>'
   def types():
    cards=''
    for i,t in enumerate(p['types']):
     key=base+'.types.'+str(i);title=E(t['title'].rstrip(':.'));body='<p '+ED(key+'.text',True)+'>'+E(t['text'])+'</p>'
-    if slug=='otdyh-s-detmi':cards+='<details class="rest-age-item" '+ED(key,True)+'><summary data-goal="rest_age_'+str(i)+'">'+title+I('i-plus')+'</summary>'+body+'</details>'
+    if mode=='cruises':
+     cards+='<article class="rest-selection-card" '+ED(key,True)+'>'+photo(t['image'],'Круизный маршрут',key+'.photo')+'<div class="rest-selection-body"><h3 class="rest-card-title" '+ED(key+'.title',True)+'>'+title+'</h3>'+button('Обсудить вариант →',topic+':option:'+str(i),'cruise_option_'+str(i),'text-link')+'</div></article>'
+    elif slug=='otdyh-s-detmi':cards+='<details class="rest-age-item" '+ED(key,True)+'><summary data-goal="rest_age_'+str(i)+'">'+title+I('i-plus')+'</summary>'+body+'</details>'
     else:cards+='<article class="rest-format-card" '+ED(key,True)+'><span class="rest-format-number" aria-hidden="true">'+str(i+1).zfill(2)+'</span><h3>'+title+'</h3>'+body+button('Обсудить вариант →',topic+':type:'+str(i),'rest_type_'+str(i),'text-link')+'</article>'
-   return section('types',p['types_title'],'<div class="'+('rest-age-list'if slug=='otdyh-s-detmi'else'rest-format-grid')+'">'+cards+'</div>')
+   return section('types',p['types_title'],'<div class="'+('rest-selection-grid'if mode=='cruises'else'rest-age-list'if slug=='otdyh-s-detmi'else'rest-format-grid')+'">'+cards+'</div>')
   def countries():
    cards=''
    for i,c in enumerate(p['countries']):
@@ -43,13 +45,15 @@ def build_rest_pages(ctx):
   def checks():
    rows=''
    for i,c in enumerate(p['checks']):
-    label,sep,body=c['text'].partition('. ');label=label.rstrip(':.');example='<aside class="rest-example" '+ED(base+'.checks.'+str(i)+'.example',True)+'>'+E(c['example'])+'</aside>'if c['example']else''
+    label,sep,body=c['text'].partition('. ');label=label.rstrip(':.');
+    if mode=='cruises':label=c['title'];body=c['text']
+    example='<aside class="rest-example" '+ED(base+'.checks.'+str(i)+'.example',True)+'>'+E(c['example'])+'</aside>'if c['example']else''
     rows+='<details class="rest-check-item" '+ED(base+'.checks.'+str(i),True)+'><summary data-goal="rest_check_'+str(i)+'">'+E(label)+I('i-plus')+'</summary><div><p>'+E(body)+'</p>'+example+'</div></details>'
    return section('checks',p['checks_title'],'<div class="rest-check-list">'+rows+'</div>')
   def faq():return section('faq',p['faq_title'],ctx['faq'](p['questions'],base+'.faq'))
-  def final():return '<section class="section rest-end" id="contact" data-rest-section="final"><div class="container rest-end-grid"><div><h2 '+ED(base+'.end.title')+'>'+E(p['end_title'])+'</h2><p '+ED(base+'.end.text')+'>'+E(p['end_text'])+'</p></div>'+form('bottom')+'</div></section>'
-  actions='<div class="rest-hero-actions">'+button('Обсудить маршрут'if mode=='routes'else'Подобрать отдых',topic,'rest_hero_action')+shared.channels(topic,'rest_hero')+'</div>'
-  cover='<section class="rest-cover" data-inner-cover>'+photo(p['hero_image'],p['accent'],base+'.hero',False)+'<div class="container">'+ctx['crumb'](path,[('Отдых по душе','index.html#moods'),(p['accent'],None)])+'<div class="rest-cover-grid"><div class="rest-cover-copy"><p class="hero-accent" '+ED(base+'.accent')+'>'+E(p['accent'])+'</p><h1 '+ED(base+'.h1')+'>'+E(p['h1'])+'</h1><p class="rest-lead" '+ED(base+'.intro',True)+'>'+E(p['intro'])+'</p>'+actions+'</div><div class="rest-hero-form">'+form('top')+'</div></div></div></section>'
+  def final():return '<section '+(ED(base+'.final',True)+' 'if mode=='cruises'else'')+'class="section rest-end" id="contact" data-rest-section="final"><div class="container rest-end-grid"><div><h2 '+ED(base+'.end.title',mode=='cruises')+'>'+E(p['end_title'])+'</h2><p '+ED(base+'.end.text',mode=='cruises')+'>'+E(p['end_text'])+'</p></div>'+form('bottom')+'</div></section>'
+  actions='<div class="rest-hero-actions">'+button('Подобрать круиз'if mode=='cruises'else'Обсудить маршрут'if mode=='routes'else'Подобрать отдых',topic,'rest_hero_action')+shared.channels(topic,'rest_hero')+'</div>'
+  cover='<section '+(ED(base+'.cover',True)+' 'if mode=='cruises'else'')+'class="rest-cover" data-inner-cover>'+photo(p['hero_image'],p['accent'],base+'.hero',False)+'<div class="container">'+ctx['crumb'](path,[('Отдых по душе','index.html#moods'),(p['accent'],None)])+'<div class="rest-cover-grid"><div class="rest-cover-copy"><p class="hero-accent" '+ED(base+'.accent')+'>'+E(p['accent'])+'</p><h1 '+ED(base+'.h1')+'>'+E(p['h1'])+'</h1><p class="rest-lead" '+ED(base+'.intro',True)+'>'+E(p['intro'])+'</p>'+actions+'</div><div class="rest-hero-form">'+form('top')+'</div></div></div></section>'
   builders=dict(types=types,countries=countries,hotels=hotels,checks=checks,faq=faq,final=final);body=''.join(builders[k]()for k in p['section_order'])+''.join(dialogs)
   emit(path,p['accent']+' из Астрахани — Манго',p['intro'][:157]+'…'if len(p['intro'])>160 else p['intro'],p['h1'],p['intro'],body,[('Отдых по душе','index.html#moods'),(p['accent'],None)],photo=(p['hero_image'],p['accent']),questions=p['questions'],raw=True,cover_override=cover,contact_override='',page_class='rest-page rest-mode-'+mode,page_script='js/main.js',assets=['css/rest.css','js/rest.js'])
- checklist='# Отдых по душе — проверить перед публикацией\n\n'+''.join('## '+p['accent']+'\n\n'+p['checklist']+'\n\n'for p in D['rest_pages']);out=ctx['SITE']/'otdyh/CHECKLIST.md';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(checklist.rstrip()+'\n')
+ checklist='# Отдых по душе — проверить перед публикацией\n\n'+''.join('## '+p['accent']+'\n\n'+p['checklist']+'\n\n'for p in D['rest_pages']+[D['cruise_page']]);out=ctx['SITE']/'otdyh/CHECKLIST.md';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(checklist.rstrip()+'\n')

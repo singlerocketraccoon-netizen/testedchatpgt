@@ -100,6 +100,11 @@
     "type": "country"
   },
   {
+    "path": "otdyh/kruizy/index.html",
+    "title": "Круизы по морям и рекам",
+    "type": "country"
+  },
+  {
     "path": "styleguide.html",
     "title": "Дизайн-система Манго",
     "type": "page"

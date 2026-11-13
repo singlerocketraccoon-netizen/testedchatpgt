@@ -1,0 +1,4 @@
+// Development-only extraction of literal data; never executes the HTML application.
+const fs=require('fs'),vm=require('vm'),source=fs.readFileSync('mango-structure-12-11-v2.html','utf8');
+function literal(name){const match=new RegExp('const '+name+' = ([\\[{])').exec(source);if(!match)throw Error(name);const start=match.index+match[0].length-1,open=source[start],close=open==='['?']':'}';let depth=0,quote=null,escape=false;for(let i=start;i<source.length;i++){const c=source[i];if(quote){if(escape)escape=false;else if(c==='\\')escape=true;else if(c===quote)quote=null;continue;}if(['"',"'",'`'].includes(c)){quote=c;continue;}if(c===open)depth++;if(c===close&&!--depth)return vm.runInNewContext('('+source.slice(start,i+1)+')',{}, {timeout:1000});}throw Error(name);}
+process.stdout.write(JSON.stringify({holidays:literal('holidays'),settings:literal('holidaySettings')['Круизы по морям и рекам']}));
