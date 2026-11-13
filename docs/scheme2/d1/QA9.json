@@ -1,0 +1,4505 @@
+{
+  "stage": 9,
+  "base": "8b4161ed81061a9557c139f47801a702ceb0b278",
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1280,
+    1366,
+    1440,
+    1920
+  ],
+  "engines": {
+    "chromium": {
+      "version": "156.0.8078.79",
+      "cases": 328
+    },
+    "firefox": {
+      "version": "153.0",
+      "cases": 328
+    },
+    "webkit": {
+      "version": "26.5",
+      "cases": 328
+    }
+  },
+  "errors": [],
+  "failures": [],
+  "header": [
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "center": -0.0078125,
+      "leftGap": 246.640625,
+      "rightGap": 36.0625,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1100,
+      "center": -0.0078125,
+      "leftGap": 255.21875,
+      "rightGap": 44.640625,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1200,
+      "center": -0.0078125,
+      "leftGap": 305.21875,
+      "rightGap": 94.640625,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "center": -0.0078125,
+      "leftGap": 323.796875,
+      "rightGap": 105.21875,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "center": -0.0078125,
+      "leftGap": 366.796875,
+      "rightGap": 148.21875,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "center": -0.0078125,
+      "leftGap": 394.375,
+      "rightGap": 45.5,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 166.296875,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "center": -0.0078125,
+      "leftGap": 434.375,
+      "rightGap": 85.5,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 166.296875,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1024,
+      "center": -1.52587890625e-05,
+      "leftGap": 246.68331909179688,
+      "rightGap": 36.083343505859375,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1100,
+      "center": 0.00835418701171875,
+      "leftGap": 255.26669311523438,
+      "rightGap": 44.66664123535156,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        23.99993896484375
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1200,
+      "center": 0.00835418701171875,
+      "leftGap": 305.2666931152344,
+      "rightGap": 94.66664123535156,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        23.99993896484375,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "center": 0,
+      "leftGap": 323.8333435058594,
+      "rightGap": 105.23333740234375,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "center": 0,
+      "leftGap": 366.8333435058594,
+      "rightGap": 148.23333740234375,
+      "oneLine": true,
+      "gaps": [
+        24.00006103515625,
+        23.99993896484375,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "center": -1.52587890625e-05,
+      "leftGap": 394.4166564941406,
+      "rightGap": 45.550018310546875,
+      "oneLine": true,
+      "gaps": [
+        24.000015258789062,
+        24.000045776367188,
+        23.99993896484375,
+        24
+      ],
+      "targets": [
+        {
+          "width": 166.26666259765625,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "center": -1.52587890625e-05,
+      "leftGap": 434.4166564941406,
+      "rightGap": 85.55007934570312,
+      "oneLine": true,
+      "gaps": [
+        23.999954223632812,
+        24.000045776367188,
+        23.99993896484375,
+        24
+      ],
+      "targets": [
+        {
+          "width": 166.26666259765625,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "center": -0.0078125,
+      "leftGap": 246.640625,
+      "rightGap": 36.0625,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1100,
+      "center": -0.0078125,
+      "leftGap": 255.21875,
+      "rightGap": 44.640625,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1200,
+      "center": -0.0078125,
+      "leftGap": 305.21875,
+      "rightGap": 94.640625,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 32,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "center": -0.0078125,
+      "leftGap": 323.796875,
+      "rightGap": 105.21875,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "center": -0.0078125,
+      "leftGap": 366.796875,
+      "rightGap": 148.21875,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 32,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "center": -0.0078125,
+      "leftGap": 394.375,
+      "rightGap": 45.5,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 166.296875,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "center": -0.0078125,
+      "leftGap": 434.375,
+      "rightGap": 85.5,
+      "oneLine": true,
+      "gaps": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "targets": [
+        {
+          "width": 166.296875,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/index.html",
+      "grids": [
+        {
+          "grid": "country-index-grid",
+          "count": 9,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/vetnam/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/egipet/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-hotel-tips",
+          "count": 3,
+          "first": 3,
+          "coverage": 0.9999865301724138
+        },
+        {
+          "grid": "country-grid country-hotel-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/indoneziya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/kitay/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/maldivy/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/oae/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/tailand/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/turciya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 3,
+          "first": 3,
+          "coverage": 0.9999865301724138
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "napravleniya/shri-lanka/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "uslugi/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "grids": [
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/tishina-i-more/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "otdyh/svoj-marshrut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid rest-route-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "styleguide.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "kak-my-rabotaem/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/komanda/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/otzyvy/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/kontakty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/dokumenty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "zagranpasport/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "404.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/e1/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/h2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/h3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/e2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/h5/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/h6/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/e3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "predlozheniya/e4/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "page": "pages.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/index.html",
+      "grids": [
+        {
+          "grid": "country-index-grid",
+          "count": 9,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/vetnam/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/egipet/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-hotel-tips",
+          "count": 3,
+          "first": 3,
+          "coverage": 0.99998779296875
+        },
+        {
+          "grid": "country-grid country-hotel-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/indoneziya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/kitay/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/maldivy/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/oae/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/tailand/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/turciya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 3,
+          "first": 3,
+          "coverage": 0.99998779296875
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "napravleniya/shri-lanka/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "uslugi/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "grids": [
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/tishina-i-more/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "otdyh/svoj-marshrut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid rest-route-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "styleguide.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "kak-my-rabotaem/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/komanda/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/otzyvy/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/kontakty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/dokumenty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "zagranpasport/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "404.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/e1/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/h2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/h3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/e2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/h5/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/h6/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/e3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "predlozheniya/e4/index.html",
+      "grids": []
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "page": "pages.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/index.html",
+      "grids": [
+        {
+          "grid": "country-index-grid",
+          "count": 9,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/vetnam/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/egipet/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-hotel-tips",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-grid country-hotel-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/indoneziya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/kitay/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/maldivy/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/oae/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/tailand/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/turciya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "napravleniya/shri-lanka/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "uslugi/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "grids": [
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/tishina-i-more/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "otdyh/svoj-marshrut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid rest-route-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "styleguide.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "kak-my-rabotaem/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/komanda/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/otzyvy/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/kontakty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/dokumenty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "zagranpasport/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "404.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/e1/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/h2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/h3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/e2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/h5/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/h6/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/e3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "predlozheniya/e4/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "page": "pages.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/index.html",
+      "grids": [
+        {
+          "grid": "country-index-grid",
+          "count": 9,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/vetnam/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/egipet/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-hotel-tips",
+          "count": 3,
+          "first": 3,
+          "coverage": 1.0000000476837159
+        },
+        {
+          "grid": "country-grid country-hotel-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/indoneziya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/kitay/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/maldivy/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/oae/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/tailand/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/turciya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 3,
+          "first": 3,
+          "coverage": 1.0000000476837159
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "napravleniya/shri-lanka/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "uslugi/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "grids": [
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/tishina-i-more/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "otdyh/svoj-marshrut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 0.9999999523162841
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid rest-route-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "styleguide.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "kak-my-rabotaem/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/komanda/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/otzyvy/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/kontakty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/dokumenty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "zagranpasport/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "404.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/e1/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/h2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/h3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/e2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/h5/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/h6/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/e3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "predlozheniya/e4/index.html",
+      "grids": []
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "page": "pages.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/index.html",
+      "grids": [
+        {
+          "grid": "country-index-grid",
+          "count": 9,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/vetnam/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/egipet/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-hotel-tips",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-grid country-hotel-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/indoneziya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/kitay/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/maldivy/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/oae/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/tailand/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/turciya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "napravleniya/shri-lanka/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "uslugi/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "grids": [
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/tishina-i-more/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "otdyh/svoj-marshrut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 0.9999865301724138
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid rest-route-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "styleguide.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "kak-my-rabotaem/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/komanda/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/otzyvy/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/kontakty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/dokumenty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "zagranpasport/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "404.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/e1/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/h2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/h3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/e2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/h5/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/h6/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/e3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "predlozheniya/e4/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "page": "pages.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/index.html",
+      "grids": [
+        {
+          "grid": "country-index-grid",
+          "count": 9,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/vetnam/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/egipet/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-hotel-tips",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-grid country-hotel-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/indoneziya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/kitay/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/maldivy/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/oae/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/tailand/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "tickets-grid",
+          "count": 1,
+          "first": 1,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/turciya/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-experiences",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "napravleniya/shri-lanka/index.html",
+      "grids": [
+        {
+          "grid": "country-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "country-alternatives",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "uslugi/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "grids": [
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/tishina-i-more/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 7,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 4,
+          "first": 4,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "otdyh/svoj-marshrut/index.html",
+      "grids": [
+        {
+          "grid": "rest-format-grid",
+          "count": 3,
+          "first": 3,
+          "coverage": 0.99998779296875
+        },
+        {
+          "grid": "rest-destination-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        },
+        {
+          "grid": "rest-selection-grid rest-route-grid",
+          "count": 6,
+          "first": 3,
+          "coverage": 1
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "styleguide.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "kak-my-rabotaem/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/komanda/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/otzyvy/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/kontakty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/dokumenty/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/dokumenty/politika/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "o-nas/dokumenty/soglasie/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "zagranpasport/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "404.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/e1/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/h2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/h3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/e2/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/h5/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/h6/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/e3/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "predlozheniya/e4/index.html",
+      "grids": []
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "page": "pages.html",
+      "grids": []
+    }
+  ],
+  "consent": {
+    "checked": 3735,
+    "same_row": 2775,
+    "wrapped": 960
+  },
+  "prices": 480,
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "hurghada": {
+        "before": [
+          402.96875,
+          425.359375
+        ],
+        "after": [
+          402.96875,
+          425.359375
+        ]
+      },
+      "climate_and_hotel": "passed",
+      "visible_card_count": "passed",
+      "details_grids": "passed"
+    },
+    {
+      "engine": "firefox",
+      "hurghada": {
+        "before": [
+          403,
+          425.3999938964844
+        ],
+        "after": [
+          403,
+          425.3999938964844
+        ]
+      },
+      "climate_and_hotel": "passed",
+      "visible_card_count": "passed",
+      "details_grids": "passed"
+    },
+    {
+      "engine": "webkit",
+      "hurghada": {
+        "before": [
+          402.96875,
+          425.359375
+        ],
+        "after": [
+          402.96875,
+          425.359375
+        ]
+      },
+      "climate_and_hotel": "passed",
+      "visible_card_count": "passed",
+      "details_grids": "passed"
+    }
+  ],
+  "protected_data_sha256": "c8667150dfe7b09fac33a0a52d04f082623389dd1bdeb02b42b9ffc503addcc2",
+  "static": {
+    "widths": [
+      360,
+      390,
+      768,
+      1024,
+      1280,
+      1366,
+      1440,
+      1920
+    ],
+    "engines": {},
+    "approved_copy": {
+      "egypt": {
+        "verbatim_passages": 96,
+        "climate_stations": 4,
+        "month_cells": 252,
+        "status": "passed"
+      },
+      "otdyh-s-detmi": "passed (only heading terminal punctuation removed)",
+      "tishina-i-more": "passed (only heading terminal punctuation removed)",
+      "plyazh-i-progulki": "passed (only heading terminal punctuation removed)",
+      "servis-i-kuhnya": "passed (only heading terminal punctuation removed)",
+      "ekskursionnye-tury": "passed (only heading terminal punctuation removed)",
+      "otel-radi-kotorogo-edut": "passed (only heading terminal punctuation removed)",
+      "gornyj-vozduh": "passed (only heading terminal punctuation removed)",
+      "svoj-marshrut": "passed (only heading terminal punctuation removed)"
+    },
+    "links": 7987,
+    "errors": [],
+    "geometry_failures": [],
+    "width_exceptions": [],
+    "scenarios": [],
+    "header": [],
+    "deterministic_build": true,
+    "offer_visibility": [
+      {
+        "showOffers": true,
+        "empty": false,
+        "block": true,
+        "nav": true,
+        "price_strip": true
+      },
+      {
+        "showOffers": false,
+        "empty": false,
+        "block": false,
+        "nav": false,
+        "price_strip": true
+      },
+      {
+        "showOffers": true,
+        "empty": true,
+        "block": false,
+        "nav": false,
+        "price_strip": true
+      }
+    ]
+  },
+  "climate_fixtures": [
+    {
+      "data": "empty",
+      "season": false,
+      "nav": false,
+      "hero": false
+    },
+    {
+      "data": "null",
+      "season": false,
+      "nav": false,
+      "hero": false
+    },
+    {
+      "data": "numeric",
+      "season": true,
+      "nav": true,
+      "hero": true
+    }
+  ],
+  "status": "passed",
+  "cardinality": [
+    {
+      "engine": "chromium",
+      "count": 1,
+      "state": "initial",
+      "first": 1,
+      "expected": 1,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 2,
+      "state": "initial",
+      "first": 2,
+      "expected": 2,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 3,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 4,
+      "state": "initial",
+      "first": 4,
+      "expected": 4,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 5,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 6,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 1,
+      "state": "visibility-change",
+      "first": 1,
+      "expected": 1,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 2,
+      "state": "visibility-change",
+      "first": 2,
+      "expected": 2,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 3,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 4,
+      "state": "visibility-change",
+      "first": 4,
+      "expected": 4,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 5,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "chromium",
+      "count": 6,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 1,
+      "state": "initial",
+      "first": 1,
+      "expected": 1,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 2,
+      "state": "initial",
+      "first": 2,
+      "expected": 2,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 3,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 4,
+      "state": "initial",
+      "first": 4,
+      "expected": 4,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 5,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 6,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 1,
+      "state": "visibility-change",
+      "first": 1,
+      "expected": 1,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 2,
+      "state": "visibility-change",
+      "first": 2,
+      "expected": 2,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 3,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 4,
+      "state": "visibility-change",
+      "first": 4,
+      "expected": 4,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 5,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "firefox",
+      "count": 6,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 1,
+      "state": "initial",
+      "first": 1,
+      "expected": 1,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 2,
+      "state": "initial",
+      "first": 2,
+      "expected": 2,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 3,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 4,
+      "state": "initial",
+      "first": 4,
+      "expected": 4,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 5,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 6,
+      "state": "initial",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 1,
+      "state": "visibility-change",
+      "first": 1,
+      "expected": 1,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 2,
+      "state": "visibility-change",
+      "first": 2,
+      "expected": 2,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 3,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 4,
+      "state": "visibility-change",
+      "first": 4,
+      "expected": 4,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 5,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    },
+    {
+      "engine": "webkit",
+      "count": 6,
+      "state": "visibility-change",
+      "first": 3,
+      "expected": 3,
+      "coverage": 1
+    }
+  ]
+}

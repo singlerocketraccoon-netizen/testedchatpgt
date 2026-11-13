@@ -677,10 +677,11 @@ dialog::backdrop{background:rgb(var(--backdrop-rgb) / 62%);}
 .unified-form .form-wide{grid-column:1/-1;}
 .unified-options{margin-top:12px;font-size:var(--text-small);}
 .unified-options summary{padding-bottom:12px;}
-.unified-consent{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:12px 0;}
+.unified-consent{display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px 12px;margin:12px 0;}
 .unified-consent .consent{margin:0;align-items:start;line-height:1.6;font-size:var(--text-small);}
-.unified-consent .consent input{margin-top:3px;}
-.unified-consent .consent a{align-items:flex-start;}
+.unified-consent .consent input{margin-top:14px;}
+.unified-consent .consent>span{display:block;}
+.unified-consent .consent a,.unified-consent>a{align-items:flex-start;padding:11px 0;min-height:44px;line-height:1.6;}
 .unified-consent>a{font-size:var(--text-small);color:var(--clay);}
 .unified-form fieldset>.btn{width:100%;margin-top:10px;}
 .unified-form .channel-caption{margin:16px 0 8px;}

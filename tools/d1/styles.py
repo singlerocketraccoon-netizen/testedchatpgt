@@ -10,6 +10,7 @@ def finish(ctx,path):
  elif path.startswith('predlozheniya/'):files+=['offers']
  elif path=='styleguide.html':files+=['brand-guide']
  else:files+=['home'] # Shared people, reviews and process components.
+ files+=['grids']
  styles=''.join('<link rel="stylesheet" href="'+U(path,'css/'+name+'.css')+'">'for name in files)
  fonts=['../../assets/fonts/manrope-2.woff2','../../assets/fonts/manrope-6.woff2','../../assets/fonts/cormorant-garamond-2.woff2','../../assets/fonts/cormorant-garamond-5.woff2']
  preload=''.join('<link rel="preload" href="'+U(path,f)+'" as="font" type="font/woff2" crossorigin>'for f in fonts)

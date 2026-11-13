@@ -1,0 +1,290 @@
+[
+  {
+    "engine": "chromium",
+    "count": 1,
+    "state": "initial",
+    "first": 1,
+    "expected": 1,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 2,
+    "state": "initial",
+    "first": 2,
+    "expected": 2,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 3,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 4,
+    "state": "initial",
+    "first": 4,
+    "expected": 4,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 5,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 6,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 1,
+    "state": "visibility-change",
+    "first": 1,
+    "expected": 1,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 2,
+    "state": "visibility-change",
+    "first": 2,
+    "expected": 2,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 3,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 4,
+    "state": "visibility-change",
+    "first": 4,
+    "expected": 4,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 5,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "chromium",
+    "count": 6,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 1,
+    "state": "initial",
+    "first": 1,
+    "expected": 1,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 2,
+    "state": "initial",
+    "first": 2,
+    "expected": 2,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 3,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 4,
+    "state": "initial",
+    "first": 4,
+    "expected": 4,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 5,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 6,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 1,
+    "state": "visibility-change",
+    "first": 1,
+    "expected": 1,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 2,
+    "state": "visibility-change",
+    "first": 2,
+    "expected": 2,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 3,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 4,
+    "state": "visibility-change",
+    "first": 4,
+    "expected": 4,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 5,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "firefox",
+    "count": 6,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 1,
+    "state": "initial",
+    "first": 1,
+    "expected": 1,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 2,
+    "state": "initial",
+    "first": 2,
+    "expected": 2,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 3,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 4,
+    "state": "initial",
+    "first": 4,
+    "expected": 4,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 5,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 6,
+    "state": "initial",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 1,
+    "state": "visibility-change",
+    "first": 1,
+    "expected": 1,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 2,
+    "state": "visibility-change",
+    "first": 2,
+    "expected": 2,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 3,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 4,
+    "state": "visibility-change",
+    "first": 4,
+    "expected": 4,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 5,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  },
+  {
+    "engine": "webkit",
+    "count": 6,
+    "state": "visibility-change",
+    "first": 3,
+    "expected": 3,
+    "coverage": 1
+  }
+]
