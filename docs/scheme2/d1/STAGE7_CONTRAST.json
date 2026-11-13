@@ -505,9 +505,9 @@
       "footer": 56
     }
   ],
-  "flat_checks": 13994,
+  "flat_checks": 11422,
   "flat_failures": [],
-  "photo_checks": 903,
+  "photo_checks": 871,
   "photo_failures": [],
   "photo_minima": [
     {
@@ -538,7 +538,7 @@
       "path": "napravleniya/turciya/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 6.55
+      "minimum": 5.83
     },
     {
       "path": "napravleniya/egipet/index.html",
@@ -556,7 +556,7 @@
       "path": "napravleniya/tailand/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 8.53
+      "minimum": 8.4
     },
     {
       "path": "napravleniya/maldivy/index.html",
@@ -592,49 +592,49 @@
       "path": "otdyh/otdyh-s-detmi/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 8.98
+      "minimum": 10.08
     },
     {
       "path": "otdyh/tishina-i-more/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 9.78
+      "minimum": 10.65
     },
     {
       "path": "otdyh/plyazh-i-progulki/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 8.16
+      "minimum": 10.29
     },
     {
       "path": "otdyh/servis-i-kuhnya/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 9.37
+      "minimum": 10.01
     },
     {
       "path": "otdyh/ekskursionnye-tury/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 11.62
+      "minimum": 12.53
     },
     {
       "path": "otdyh/otel-radi-kotorogo-edut/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 12.48
+      "minimum": 11.54
     },
     {
       "path": "otdyh/gornyj-vozduh/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 10.37
+      "minimum": 10.01
     },
     {
       "path": "otdyh/svoj-marshrut/index.html",
       "width": 360,
       "state": "initial",
-      "minimum": 8.35
+      "minimum": 9.71
     },
     {
       "path": "index.html",
@@ -748,7 +748,7 @@
       "path": "otdyh/otel-radi-kotorogo-edut/index.html",
       "width": 768,
       "state": "initial",
-      "minimum": 8.29
+      "minimum": 7.28
     },
     {
       "path": "otdyh/gornyj-vozduh/index.html",
@@ -772,49 +772,49 @@
       "path": "index.html",
       "width": 1280,
       "state": "slide 2",
-      "minimum": 8.46
+      "minimum": 8.33
     },
     {
       "path": "index.html",
       "width": 1280,
       "state": "slide 3",
-      "minimum": 6.17
+      "minimum": 6.29
     },
     {
       "path": "index.html",
       "width": 1280,
       "state": "slide 4",
-      "minimum": 6.73
+      "minimum": 6.82
     },
     {
       "path": "napravleniya/turciya/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 6.69
+      "minimum": 6.76
     },
     {
       "path": "napravleniya/egipet/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 7.64
+      "minimum": 7.32
     },
     {
       "path": "napravleniya/oae/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 8.4
+      "minimum": 8.87
     },
     {
       "path": "napravleniya/tailand/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 7.94
+      "minimum": 7.79
     },
     {
       "path": "napravleniya/maldivy/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 7.31
+      "minimum": 8.25
     },
     {
       "path": "napravleniya/vetnam/index.html",
@@ -832,7 +832,7 @@
       "path": "napravleniya/kitay/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 7.77
+      "minimum": 8.23
     },
     {
       "path": "napravleniya/indoneziya/index.html",
@@ -844,19 +844,19 @@
       "path": "otdyh/otdyh-s-detmi/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 8.1
+      "minimum": 8.33
     },
     {
       "path": "otdyh/tishina-i-more/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 7.88
+      "minimum": 8.64
     },
     {
       "path": "otdyh/plyazh-i-progulki/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 5.47
+      "minimum": 5.89
     },
     {
       "path": "otdyh/servis-i-kuhnya/index.html",
@@ -868,25 +868,25 @@
       "path": "otdyh/ekskursionnye-tury/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 7.62
+      "minimum": 7.71
     },
     {
       "path": "otdyh/otel-radi-kotorogo-edut/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 8.38
+      "minimum": 7.98
     },
     {
       "path": "otdyh/gornyj-vozduh/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 5.68
+      "minimum": 6.2
     },
     {
       "path": "otdyh/svoj-marshrut/index.html",
       "width": 1280,
       "state": "initial",
-      "minimum": 5.32
+      "minimum": 5.86
     },
     {
       "path": "index.html",
@@ -898,13 +898,13 @@
       "path": "index.html",
       "width": 1440,
       "state": "slide 2",
-      "minimum": 8.03
+      "minimum": 8.05
     },
     {
       "path": "index.html",
       "width": 1440,
       "state": "slide 3",
-      "minimum": 6.18
+      "minimum": 6.17
     },
     {
       "path": "index.html",
@@ -916,37 +916,37 @@
       "path": "napravleniya/turciya/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.72
+      "minimum": 7.07
     },
     {
       "path": "napravleniya/egipet/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.64
+      "minimum": 7.85
     },
     {
       "path": "napravleniya/oae/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 8.26
+      "minimum": 8.49
     },
     {
       "path": "napravleniya/tailand/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 8.04
+      "minimum": 7.59
     },
     {
       "path": "napravleniya/maldivy/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.36
+      "minimum": 7.78
     },
     {
       "path": "napravleniya/vetnam/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.69
+      "minimum": 7.79
     },
     {
       "path": "napravleniya/shri-lanka/index.html",
@@ -958,7 +958,7 @@
       "path": "napravleniya/kitay/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.53
+      "minimum": 7.83
     },
     {
       "path": "napravleniya/indoneziya/index.html",
@@ -970,49 +970,49 @@
       "path": "otdyh/otdyh-s-detmi/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 8.37
+      "minimum": 8.28
     },
     {
       "path": "otdyh/tishina-i-more/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.8
+      "minimum": 7.7
     },
     {
       "path": "otdyh/plyazh-i-progulki/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 4.97
+      "minimum": 5.25
     },
     {
       "path": "otdyh/servis-i-kuhnya/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.25
+      "minimum": 6.76
     },
     {
       "path": "otdyh/ekskursionnye-tury/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 7.95
+      "minimum": 8.07
     },
     {
       "path": "otdyh/otel-radi-kotorogo-edut/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 8.79
+      "minimum": 8.8
     },
     {
       "path": "otdyh/gornyj-vozduh/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 5.3
+      "minimum": 5.47
     },
     {
       "path": "otdyh/svoj-marshrut/index.html",
       "width": 1440,
       "state": "initial",
-      "minimum": 4.99
+      "minimum": 5.23
     }
   ],
   "errors": [],

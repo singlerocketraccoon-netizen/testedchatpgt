@@ -1,0 +1,1170 @@
+{
+  "cases": [
+    {
+      "engine": "chromium",
+      "width": 360,
+      "selects": [
+        {
+          "width": 272,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 272,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "selects": [
+        {
+          "width": 302,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 302,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 1280,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 1920,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "chromium",
+      "width": 2560,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 161.5419921875,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.2109375,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        },
+        {
+          "label": "MAX",
+          "delta": 0.796875
+        },
+        {
+          "label": "Telegram",
+          "delta": 0.796875
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 360,
+      "selects": [
+        {
+          "width": 272,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 272,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 390,
+      "selects": [
+        {
+          "width": 302,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 302,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 768,
+      "selects": [
+        {
+          "width": 356.66668701171875,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 1024,
+      "selects": [
+        {
+          "width": 356.66668701171875,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 1280,
+      "selects": [
+        {
+          "width": 356.66668701171875,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "selects": [
+        {
+          "width": 356.66668701171875,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "selects": [
+        {
+          "width": 356.66668701171875,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 1920,
+      "selects": [
+        {
+          "width": 356.66668701171875,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "firefox",
+      "width": 2560,
+      "selects": [
+        {
+          "width": 356.66668701171875,
+          "need": 162.88333129882812,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 304,
+          "need": 102.41666793823242,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 360,
+      "selects": [
+        {
+          "width": 272,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 272,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "selects": [
+        {
+          "width": 302,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 302,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 303.984375,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 303.984375,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 1280,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 303.984375,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 303.984375,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 303.984375,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 1920,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 303.984375,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    },
+    {
+      "engine": "webkit",
+      "width": 2560,
+      "selects": [
+        {
+          "width": 356.65625,
+          "need": 162.91989135742188,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        },
+        {
+          "width": 303.984375,
+          "need": 102.42996215820312,
+          "appearance": "none",
+          "right": "calc(100% - 16px) 50%",
+          "padding": "44px"
+        }
+      ],
+      "icons": [
+        {
+          "label": "Другие варианты отдыхаСкрыть другие варианты",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        },
+        {
+          "label": "MAX",
+          "delta": 0
+        },
+        {
+          "label": "Telegram",
+          "delta": 0
+        }
+      ],
+      "site_icons": 104
+    }
+  ],
+  "url_fixture": {
+    "empty_urls": "five keyboard-enabled dialogs",
+    "filled_url": "ordinary PDF link, new tab, noopener",
+    "source_json_unchanged": true
+  }
+}

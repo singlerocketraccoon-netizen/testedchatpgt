@@ -1,0 +1,92 @@
+{
+  "stage": 11,
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1280,
+    1366,
+    1440,
+    1920,
+    2560
+  ],
+  "errors": [],
+  "failures": [],
+  "engines": {
+    "chromium": {
+      "version": "156.0.8078.79",
+      "cases": 387
+    },
+    "firefox": {
+      "version": "153.0",
+      "cases": 387
+    },
+    "webkit": {
+      "version": "26.5",
+      "cases": 387
+    }
+  },
+  "links": 8432,
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "closed_resorts": {
+        "before": [
+          415.359375,
+          415.359375
+        ],
+        "after": [
+          415.359375,
+          415.359375
+        ]
+      },
+      "document_dialog_escape": "passed",
+      "about_navigation": "passed"
+    },
+    {
+      "engine": "firefox",
+      "closed_resorts": {
+        "before": [
+          415.4000244140625,
+          415.4000244140625
+        ],
+        "after": [
+          415.4000244140625,
+          415.4000244140625
+        ]
+      },
+      "document_dialog_escape": "passed",
+      "about_navigation": "passed"
+    },
+    {
+      "engine": "webkit",
+      "closed_resorts": {
+        "before": [
+          415.359375,
+          415.359375
+        ],
+        "after": [
+          415.359375,
+          415.359375
+        ]
+      },
+      "document_dialog_escape": "passed",
+      "about_navigation": "passed"
+    }
+  ],
+  "cards": 6480,
+  "selects": 1863,
+  "cormorant_nodes": 17739,
+  "contrast": {
+    "#FFFFFF": 5.304115944027844,
+    "#F6F1E9": 4.717461339948177,
+    "#FAF7F1": 4.960429224170297,
+    "sand_link": 5.6747887694707995
+  },
+  "row_diagnostics": [],
+  "status": "passed",
+  "deterministic_build": true,
+  "existing_content_unchanged": true,
+  "requisites_final_controls": "QA11_REQUISITES.json"
+}

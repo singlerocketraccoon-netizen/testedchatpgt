@@ -1,0 +1,31 @@
+{
+  "stage": 11,
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1280,
+    1366,
+    1440,
+    1920,
+    2560
+  ],
+  "errors": [],
+  "failures": [],
+  "engines": {},
+  "links": 8432,
+  "scenarios": [],
+  "cards": 0,
+  "selects": 0,
+  "cormorant_nodes": 0,
+  "contrast": {
+    "#FFFFFF": 5.304115944027844,
+    "#F6F1E9": 4.717461339948177,
+    "#FAF7F1": 4.960429224170297,
+    "sand_link": 5.6747887694707995
+  },
+  "row_diagnostics": [],
+  "existing_content_unchanged": true,
+  "deterministic_build": true
+}

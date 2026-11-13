@@ -140,6 +140,11 @@
     "type": "page"
   },
   {
+    "path": "o-nas/dokumenty/rekvizity/index.html",
+    "title": "Реквизиты и реестр турагентов",
+    "type": "page"
+  },
+  {
     "path": "o-nas/dokumenty/politika/index.html",
     "title": "Политика обработки персональных данных",
     "type": "page"

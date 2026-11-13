@@ -9,7 +9,7 @@
   "captures": [
     {
       "page": "index.html",
-      "title": "Ваш отпуск заслуживает внимания",
+      "title": "Ваш отпуск заслуживает внимания · архив",
       "file": "index-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -20,7 +20,7 @@
     },
     {
       "page": "index.html",
-      "title": "Ваш отпуск заслуживает внимания",
+      "title": "Ваш отпуск заслуживает внимания · архив",
       "file": "index-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -31,7 +31,7 @@
     },
     {
       "page": "napravleniya/index.html",
-      "title": "Страны",
+      "title": "Страны · архив",
       "file": "napravleniya-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -42,7 +42,7 @@
     },
     {
       "page": "napravleniya/index.html",
-      "title": "Страны",
+      "title": "Страны · архив",
       "file": "napravleniya-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -53,7 +53,7 @@
     },
     {
       "page": "napravleniya/vetnam/index.html",
-      "title": "Туры во Вьетнам",
+      "title": "Туры во Вьетнам · архив",
       "file": "napravleniya-vetnam-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -64,7 +64,7 @@
     },
     {
       "page": "napravleniya/vetnam/index.html",
-      "title": "Туры во Вьетнам",
+      "title": "Туры во Вьетнам · архив",
       "file": "napravleniya-vetnam-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -75,7 +75,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Туры в Египет",
+      "title": "Туры в Египет · архив",
       "file": "napravleniya-egipet-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -86,7 +86,7 @@
     },
     {
       "page": "napravleniya/indoneziya/index.html",
-      "title": "Туры в Индонезию",
+      "title": "Туры в Индонезию · архив",
       "file": "napravleniya-indoneziya-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -97,7 +97,7 @@
     },
     {
       "page": "napravleniya/indoneziya/index.html",
-      "title": "Туры в Индонезию",
+      "title": "Туры в Индонезию · архив",
       "file": "napravleniya-indoneziya-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -108,7 +108,7 @@
     },
     {
       "page": "napravleniya/kitay/index.html",
-      "title": "Туры в Китай",
+      "title": "Туры в Китай · архив",
       "file": "napravleniya-kitay-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -119,7 +119,7 @@
     },
     {
       "page": "napravleniya/maldivy/index.html",
-      "title": "Туры на Мальдивы",
+      "title": "Туры на Мальдивы · архив",
       "file": "napravleniya-maldivy-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -130,7 +130,7 @@
     },
     {
       "page": "napravleniya/maldivy/index.html",
-      "title": "Туры на Мальдивы",
+      "title": "Туры на Мальдивы · архив",
       "file": "napravleniya-maldivy-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -141,7 +141,7 @@
     },
     {
       "page": "napravleniya/oae/index.html",
-      "title": "Туры в ОАЭ",
+      "title": "Туры в ОАЭ · архив",
       "file": "napravleniya-oae-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -152,7 +152,7 @@
     },
     {
       "page": "napravleniya/oae/index.html",
-      "title": "Туры в ОАЭ",
+      "title": "Туры в ОАЭ · архив",
       "file": "napravleniya-oae-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -163,7 +163,7 @@
     },
     {
       "page": "napravleniya/tailand/index.html",
-      "title": "Туры в Таиланд",
+      "title": "Туры в Таиланд · архив",
       "file": "napravleniya-tailand-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -174,7 +174,7 @@
     },
     {
       "page": "napravleniya/tailand/index.html",
-      "title": "Туры в Таиланд",
+      "title": "Туры в Таиланд · архив",
       "file": "napravleniya-tailand-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -185,7 +185,7 @@
     },
     {
       "page": "napravleniya/turciya/index.html",
-      "title": "Туры в Турцию",
+      "title": "Туры в Турцию · архив",
       "file": "napravleniya-turciya-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -196,7 +196,7 @@
     },
     {
       "page": "napravleniya/shri-lanka/index.html",
-      "title": "Туры на Шри-Ланку",
+      "title": "Туры на Шри-Ланку · архив",
       "file": "napravleniya-shri-lanka-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -207,7 +207,7 @@
     },
     {
       "page": "napravleniya/shri-lanka/index.html",
-      "title": "Туры на Шри-Ланку",
+      "title": "Туры на Шри-Ланку · архив",
       "file": "napravleniya-shri-lanka-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -218,7 +218,7 @@
     },
     {
       "page": "uslugi/index.html",
-      "title": "Услуги",
+      "title": "Услуги · архив",
       "file": "uslugi-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -229,7 +229,7 @@
     },
     {
       "page": "uslugi/index.html",
-      "title": "Услуги",
+      "title": "Услуги · архив",
       "file": "uslugi-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -240,7 +240,7 @@
     },
     {
       "page": "otdyh/otdyh-s-detmi/index.html",
-      "title": "Отпуск, в котором отдыхают и дети, и взрослые",
+      "title": "Отпуск, в котором отдыхают и дети, и взрослые · архив",
       "file": "otdyh-otdyh-s-detmi-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -251,7 +251,7 @@
     },
     {
       "page": "otdyh/otdyh-s-detmi/index.html",
-      "title": "Отпуск, в котором отдыхают и дети, и взрослые",
+      "title": "Отпуск, в котором отдыхают и дети, и взрослые · архив",
       "file": "otdyh-otdyh-s-detmi-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -262,7 +262,7 @@
     },
     {
       "page": "otdyh/tishina-i-more/index.html",
-      "title": "Отпуск, в котором слышно море",
+      "title": "Отпуск, в котором слышно море · архив",
       "file": "otdyh-tishina-i-more-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -273,7 +273,7 @@
     },
     {
       "page": "otdyh/tishina-i-more/index.html",
-      "title": "Отпуск, в котором слышно море",
+      "title": "Отпуск, в котором слышно море · архив",
       "file": "otdyh-tishina-i-more-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -284,7 +284,7 @@
     },
     {
       "page": "otdyh/plyazh-i-progulki/index.html",
-      "title": "Когда одного пляжа мало",
+      "title": "Когда одного пляжа мало · архив",
       "file": "otdyh-plyazh-i-progulki-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -295,7 +295,7 @@
     },
     {
       "page": "otdyh/plyazh-i-progulki/index.html",
-      "title": "Когда одного пляжа мало",
+      "title": "Когда одного пляжа мало · архив",
       "file": "otdyh-plyazh-i-progulki-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -306,7 +306,7 @@
     },
     {
       "page": "otdyh/servis-i-kuhnya/index.html",
-      "title": "К хорошему быстро привыкаешь",
+      "title": "К хорошему быстро привыкаешь · архив",
       "file": "otdyh-servis-i-kuhnya-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -317,7 +317,7 @@
     },
     {
       "page": "otdyh/servis-i-kuhnya/index.html",
-      "title": "К хорошему быстро привыкаешь",
+      "title": "К хорошему быстро привыкаешь · архив",
       "file": "otdyh-servis-i-kuhnya-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -328,7 +328,7 @@
     },
     {
       "page": "otdyh/ekskursionnye-tury/index.html",
-      "title": "Каждый день — новые места",
+      "title": "Каждый день — новые места · архив",
       "file": "otdyh-ekskursionnye-tury-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -339,7 +339,7 @@
     },
     {
       "page": "otdyh/ekskursionnye-tury/index.html",
-      "title": "Каждый день — новые места",
+      "title": "Каждый день — новые места · архив",
       "file": "otdyh-ekskursionnye-tury-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -350,7 +350,7 @@
     },
     {
       "page": "otdyh/otel-radi-kotorogo-edut/index.html",
-      "title": "Сам отель — уже повод поехать",
+      "title": "Сам отель — уже повод поехать · архив",
       "file": "otdyh-otel-radi-kotorogo-edut-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -361,7 +361,7 @@
     },
     {
       "page": "otdyh/otel-radi-kotorogo-edut/index.html",
-      "title": "Сам отель — уже повод поехать",
+      "title": "Сам отель — уже повод поехать · архив",
       "file": "otdyh-otel-radi-kotorogo-edut-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -372,7 +372,7 @@
     },
     {
       "page": "otdyh/gornyj-vozduh/index.html",
-      "title": "Отпуск, после которого легче дышится",
+      "title": "Отпуск, после которого легче дышится · архив",
       "file": "otdyh-gornyj-vozduh-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -383,7 +383,7 @@
     },
     {
       "page": "otdyh/gornyj-vozduh/index.html",
-      "title": "Отпуск, после которого легче дышится",
+      "title": "Отпуск, после которого легче дышится · архив",
       "file": "otdyh-gornyj-vozduh-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -394,7 +394,7 @@
     },
     {
       "page": "otdyh/svoj-marshrut/index.html",
-      "title": "Увидеть всё, что хочется, и не спешить",
+      "title": "Увидеть всё, что хочется, и не спешить · архив",
       "file": "otdyh-svoj-marshrut-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -405,7 +405,7 @@
     },
     {
       "page": "styleguide.html",
-      "title": "Дизайн-система Манго",
+      "title": "Дизайн-система Манго · архив",
       "file": "styleguide-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -416,7 +416,7 @@
     },
     {
       "page": "styleguide.html",
-      "title": "Дизайн-система Манго",
+      "title": "Дизайн-система Манго · архив",
       "file": "styleguide-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -427,7 +427,7 @@
     },
     {
       "page": "kak-my-rabotaem/index.html",
-      "title": "Как мы работаем",
+      "title": "Как мы работаем · архив",
       "file": "kak-my-rabotaem-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -438,7 +438,7 @@
     },
     {
       "page": "kak-my-rabotaem/index.html",
-      "title": "Как мы работаем",
+      "title": "Как мы работаем · архив",
       "file": "kak-my-rabotaem-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -449,7 +449,7 @@
     },
     {
       "page": "o-nas/index.html",
-      "title": "О нас",
+      "title": "О нас · архив",
       "file": "o-nas-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -460,7 +460,7 @@
     },
     {
       "page": "o-nas/index.html",
-      "title": "О нас",
+      "title": "О нас · архив",
       "file": "o-nas-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -471,7 +471,7 @@
     },
     {
       "page": "o-nas/komanda/index.html",
-      "title": "Команда → О нас",
+      "title": "Команда → О нас · архив",
       "file": "o-nas-komanda-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -482,7 +482,7 @@
     },
     {
       "page": "o-nas/komanda/index.html",
-      "title": "Команда → О нас",
+      "title": "Команда → О нас · архив",
       "file": "o-nas-komanda-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -493,7 +493,7 @@
     },
     {
       "page": "o-nas/otzyvy/index.html",
-      "title": "Отзывы клиентов",
+      "title": "Отзывы клиентов · архив",
       "file": "o-nas-otzyvy-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -504,7 +504,7 @@
     },
     {
       "page": "o-nas/otzyvy/index.html",
-      "title": "Отзывы клиентов",
+      "title": "Отзывы клиентов · архив",
       "file": "o-nas-otzyvy-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -515,7 +515,7 @@
     },
     {
       "page": "o-nas/kontakty/index.html",
-      "title": "Контакты",
+      "title": "Контакты · архив",
       "file": "o-nas-kontakty-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -526,7 +526,7 @@
     },
     {
       "page": "o-nas/kontakty/index.html",
-      "title": "Контакты",
+      "title": "Контакты · архив",
       "file": "o-nas-kontakty-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -537,7 +537,7 @@
     },
     {
       "page": "o-nas/dokumenty/index.html",
-      "title": "Документы",
+      "title": "Документы · архив",
       "file": "o-nas-dokumenty-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -548,7 +548,7 @@
     },
     {
       "page": "o-nas/dokumenty/index.html",
-      "title": "Документы",
+      "title": "Документы · архив",
       "file": "o-nas-dokumenty-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -559,7 +559,7 @@
     },
     {
       "page": "o-nas/dokumenty/politika/index.html",
-      "title": "Политика обработки персональных данных",
+      "title": "Политика обработки персональных данных · архив",
       "file": "o-nas-dokumenty-politika-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -570,7 +570,7 @@
     },
     {
       "page": "o-nas/dokumenty/politika/index.html",
-      "title": "Политика обработки персональных данных",
+      "title": "Политика обработки персональных данных · архив",
       "file": "o-nas-dokumenty-politika-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -581,7 +581,7 @@
     },
     {
       "page": "o-nas/dokumenty/soglasie/index.html",
-      "title": "Согласие на обработку персональных данных",
+      "title": "Согласие на обработку персональных данных · архив",
       "file": "o-nas-dokumenty-soglasie-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -592,7 +592,7 @@
     },
     {
       "page": "o-nas/dokumenty/soglasie/index.html",
-      "title": "Согласие на обработку персональных данных",
+      "title": "Согласие на обработку персональных данных · архив",
       "file": "o-nas-dokumenty-soglasie-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -603,7 +603,7 @@
     },
     {
       "page": "zagranpasport/index.html",
-      "title": "Проверить срок действия загранпаспорта",
+      "title": "Проверить срок действия загранпаспорта · архив",
       "file": "zagranpasport-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -614,7 +614,7 @@
     },
     {
       "page": "zagranpasport/index.html",
-      "title": "Проверить срок действия загранпаспорта",
+      "title": "Проверить срок действия загранпаспорта · архив",
       "file": "zagranpasport-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -625,7 +625,7 @@
     },
     {
       "page": "404.html",
-      "title": "Страница не найдена",
+      "title": "Страница не найдена · архив",
       "file": "404-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -636,7 +636,7 @@
     },
     {
       "page": "404.html",
-      "title": "Страница не найдена",
+      "title": "Страница не найдена · архив",
       "file": "404-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -647,7 +647,7 @@
     },
     {
       "page": "predlozheniya/index.html",
-      "title": "Актуальные предложения",
+      "title": "Актуальные предложения · архив",
       "file": "predlozheniya-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -658,7 +658,7 @@
     },
     {
       "page": "predlozheniya/index.html",
-      "title": "Актуальные предложения",
+      "title": "Актуальные предложения · архив",
       "file": "predlozheniya-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -669,7 +669,7 @@
     },
     {
       "page": "predlozheniya/e1/index.html",
-      "title": "Отель 1",
+      "title": "Отель 1 · архив",
       "file": "predlozheniya-e1-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -680,7 +680,7 @@
     },
     {
       "page": "predlozheniya/e1/index.html",
-      "title": "Отель 1",
+      "title": "Отель 1 · архив",
       "file": "predlozheniya-e1-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -691,7 +691,7 @@
     },
     {
       "page": "predlozheniya/h2/index.html",
-      "title": "Отель 2",
+      "title": "Отель 2 · архив",
       "file": "predlozheniya-h2-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -702,7 +702,7 @@
     },
     {
       "page": "predlozheniya/h2/index.html",
-      "title": "Отель 2",
+      "title": "Отель 2 · архив",
       "file": "predlozheniya-h2-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -713,7 +713,7 @@
     },
     {
       "page": "predlozheniya/h3/index.html",
-      "title": "Отель 3",
+      "title": "Отель 3 · архив",
       "file": "predlozheniya-h3-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -724,7 +724,7 @@
     },
     {
       "page": "predlozheniya/h3/index.html",
-      "title": "Отель 3",
+      "title": "Отель 3 · архив",
       "file": "predlozheniya-h3-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -735,7 +735,7 @@
     },
     {
       "page": "predlozheniya/e2/index.html",
-      "title": "Отель 4",
+      "title": "Отель 4 · архив",
       "file": "predlozheniya-e2-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -746,7 +746,7 @@
     },
     {
       "page": "predlozheniya/e2/index.html",
-      "title": "Отель 4",
+      "title": "Отель 4 · архив",
       "file": "predlozheniya-e2-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -757,7 +757,7 @@
     },
     {
       "page": "predlozheniya/h5/index.html",
-      "title": "Отель 5",
+      "title": "Отель 5 · архив",
       "file": "predlozheniya-h5-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -768,7 +768,7 @@
     },
     {
       "page": "predlozheniya/h5/index.html",
-      "title": "Отель 5",
+      "title": "Отель 5 · архив",
       "file": "predlozheniya-h5-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -779,7 +779,7 @@
     },
     {
       "page": "predlozheniya/h6/index.html",
-      "title": "Отель 6",
+      "title": "Отель 6 · архив",
       "file": "predlozheniya-h6-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -790,7 +790,7 @@
     },
     {
       "page": "predlozheniya/h6/index.html",
-      "title": "Отель 6",
+      "title": "Отель 6 · архив",
       "file": "predlozheniya-h6-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -801,7 +801,7 @@
     },
     {
       "page": "predlozheniya/e3/index.html",
-      "title": "Отель 7",
+      "title": "Отель 7 · архив",
       "file": "predlozheniya-e3-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -812,7 +812,7 @@
     },
     {
       "page": "predlozheniya/e3/index.html",
-      "title": "Отель 7",
+      "title": "Отель 7 · архив",
       "file": "predlozheniya-e3-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -823,7 +823,7 @@
     },
     {
       "page": "predlozheniya/e4/index.html",
-      "title": "Отель 8",
+      "title": "Отель 8 · архив",
       "file": "predlozheniya-e4-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -834,7 +834,7 @@
     },
     {
       "page": "predlozheniya/e4/index.html",
-      "title": "Отель 8",
+      "title": "Отель 8 · архив",
       "file": "predlozheniya-e4-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -845,7 +845,7 @@
     },
     {
       "page": "index.html",
-      "title": "Шапка",
+      "title": "Шапка · архив",
       "file": "shapka-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -856,7 +856,7 @@
     },
     {
       "page": "index.html",
-      "title": "Шапка",
+      "title": "Шапка · архив",
       "file": "shapka-1920.jpg",
       "width": 1920,
       "engine": "Chromium",
@@ -867,7 +867,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · хлебные крошки",
+      "title": "Египет · хлебные крошки · архив",
       "file": "egipet-kroshki-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -878,7 +878,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · раскрытый курорт",
+      "title": "Египет · раскрытый курорт · архив",
       "file": "egipet-kurort-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -889,7 +889,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · климатическая таблица",
+      "title": "Египет · климатическая таблица · архив",
       "file": "egipet-klimat-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -900,7 +900,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · хлебные крошки",
+      "title": "Египет · хлебные крошки · архив",
       "file": "egipet-kroshki-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -911,7 +911,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · климатическая таблица",
+      "title": "Египет · климатическая таблица · архив",
       "file": "egipet-klimat-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -922,7 +922,7 @@
     },
     {
       "page": "index.html",
-      "title": "Главная · WebKit",
+      "title": "Главная · WebKit · архив",
       "file": "index-webkit-390.jpg",
       "width": 390,
       "engine": "WebKit",
@@ -933,7 +933,7 @@
     },
     {
       "page": "index.html",
-      "title": "Главная · WebKit",
+      "title": "Главная · WebKit · архив",
       "file": "index-webkit-1440.jpg",
       "width": 1440,
       "engine": "WebKit",
@@ -944,7 +944,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · раскрытая Хургада · этап 9",
+      "title": "Египет · раскрытая Хургада · этап 9 · архив",
       "file": "napravleniya-egipet-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -956,7 +956,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · карточки курортов · этап 9",
+      "title": "Египет · карточки курортов · этап 9 · архив",
       "file": "egipet-kurort-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -968,7 +968,7 @@
     },
     {
       "page": "napravleniya/turciya/index.html",
-      "title": "Турция · этап 9",
+      "title": "Турция · этап 9 · архив",
       "file": "napravleniya-turciya-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -980,7 +980,7 @@
     },
     {
       "page": "napravleniya/kitay/index.html",
-      "title": "Китай · этап 9",
+      "title": "Китай · этап 9 · архив",
       "file": "napravleniya-kitay-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -992,7 +992,7 @@
     },
     {
       "page": "otdyh/svoj-marshrut/index.html",
-      "title": "Свой маршрут · этап 9",
+      "title": "Свой маршрут · этап 9 · архив",
       "file": "otdyh-svoj-marshrut-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -1004,7 +1004,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Строка согласия · этап 9",
+      "title": "Строка согласия · этап 9 · архив",
       "file": "soglasie-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -1016,7 +1016,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Строка согласия · этап 9",
+      "title": "Строка согласия · этап 9 · архив",
       "file": "soglasie-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -1028,7 +1028,7 @@
     },
     {
       "page": "index.html",
-      "title": "Предложения на главной · этап 9",
+      "title": "Предложения на главной · этап 9 · архив",
       "file": "predlozheniya-glavnaya-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -1040,7 +1040,7 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Предложения Египта · этап 9",
+      "title": "Предложения Египта · этап 9 · архив",
       "file": "predlozheniya-egipet-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -1052,7 +1052,7 @@
     },
     {
       "page": "index.html",
-      "title": "Шапка · этап 9",
+      "title": "Шапка · этап 9 · архив",
       "file": "shapka-1024.jpg",
       "width": 1024,
       "engine": "Chromium",
@@ -1064,7 +1064,7 @@
     },
     {
       "page": "index.html",
-      "title": "Шапка · этап 9",
+      "title": "Шапка · этап 9 · архив",
       "file": "shapka-1280.jpg",
       "width": 1280,
       "engine": "Chromium",
@@ -1076,7 +1076,7 @@
     },
     {
       "page": "otdyh/kruizy/index.html",
-      "title": "Круизы · этап 10",
+      "title": "Круизы · этап 10 · архив",
       "file": "otdyh-kruizy-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -1088,7 +1088,7 @@
     },
     {
       "page": "otdyh/kruizy/index.html",
-      "title": "Круизы · окно «Речной круиз» · этап 10",
+      "title": "Круизы · окно «Речной круиз» · этап 10 · архив",
       "file": "kruizy-okno-390.jpg",
       "width": 390,
       "engine": "Chromium",
@@ -1100,7 +1100,7 @@
     },
     {
       "page": "otdyh/kruizy/index.html",
-      "title": "Круизы · этап 10",
+      "title": "Круизы · этап 10 · архив",
       "file": "otdyh-kruizy-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -1112,7 +1112,7 @@
     },
     {
       "page": "otdyh/kruizy/index.html",
-      "title": "Круизы · окно «Речной круиз» · этап 10",
+      "title": "Круизы · окно «Речной круиз» · этап 10 · архив",
       "file": "kruizy-okno-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -1121,10 +1121,205 @@
       "pixel_height": 632,
       "kind": "component",
       "stage": 10
+    },
+    {
+      "page": "index.html",
+      "title": "Отдых по душе · этап 11",
+      "file": "stage11-otdyh-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1375,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "index.html",
+      "title": "Отдых по душе · этап 11",
+      "file": "stage11-otdyh-2560.jpg",
+      "width": 2560,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 2560,
+      "pixel_height": 1380,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "title": "Куда поехать с детьми · этап 11",
+      "file": "stage11-deti-strany-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1499,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "otdyh/tishina-i-more/index.html",
+      "title": "Тихий отдых бывает разным · этап 11",
+      "file": "stage11-tishina-formaty-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 534,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "title": "Что мы проверяем · раскрытые примеры · этап 11",
+      "file": "stage11-proverki-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 920,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Показатели Египта · этап 11",
+      "file": "stage11-egipet-cifry-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1214,
+      "pixel_height": 81,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Своя стрелка select · этап 11",
+      "file": "stage11-select-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 350,
+      "pixel_height": 84,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "o-nas/otzyvy/index.html",
+      "title": "Отзывы · этап 11",
+      "file": "stage11-otzyvy-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2082,
+      "kind": "page",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "o-nas/otzyvy/index.html",
+      "title": "Отзывы · этап 11",
+      "file": "stage11-otzyvy-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 9852,
+      "kind": "page",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "otdyh/kruizy/index.html",
+      "title": "Перенос крошек · этап 11",
+      "file": "stage11-kroshki-kruizy-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 692,
+      "pixel_height": 176,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "title": "Реквизиты · этап 11",
+      "file": "stage11-rekvizity-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 8978,
+      "kind": "page",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "title": "Окно документа · этап 11",
+      "file": "stage11-dokument-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 704,
+      "pixel_height": 476,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "title": "Реквизиты · этап 11",
+      "file": "stage11-rekvizity-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 2353,
+      "kind": "page",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "title": "Окно документа · этап 11",
+      "file": "stage11-dokument-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 600,
+      "pixel_height": 218,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
+    },
+    {
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "title": "Перенос крошек · этап 11",
+      "file": "stage11-kroshki-rekvizity-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 692,
+      "pixel_height": 176,
+      "kind": "component",
+      "directory": "pages",
+      "stage": 11
     }
   ],
   "errors": [],
-  "screenshot_count": 100,
+  "screenshot_count": 115,
   "stage9_updated": [
     "napravleniya-egipet-1440.jpg",
     "egipet-kurort-1440.jpg",
@@ -1143,5 +1338,22 @@
     "kruizy-okno-390.jpg",
     "otdyh-kruizy-1440.jpg",
     "kruizy-okno-1440.jpg"
+  ],
+  "stage11_updated": [
+    "stage11-otdyh-1440.jpg",
+    "stage11-otdyh-2560.jpg",
+    "stage11-deti-strany-1440.jpg",
+    "stage11-tishina-formaty-1440.jpg",
+    "stage11-proverki-1440.jpg",
+    "stage11-egipet-cifry-1440.jpg",
+    "stage11-select-1440.jpg",
+    "stage11-otzyvy-1440.jpg",
+    "stage11-rekvizity-1440.jpg",
+    "stage11-dokument-1440.jpg",
+    "stage11-otzyvy-390.jpg",
+    "stage11-rekvizity-390.jpg",
+    "stage11-dokument-390.jpg",
+    "stage11-kroshki-rekvizity-390.jpg",
+    "stage11-kroshki-kruizy-390.jpg"
   ]
 }

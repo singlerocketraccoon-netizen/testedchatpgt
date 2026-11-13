@@ -1,15 +1,15 @@
 /* Design 1: palette, type scale, spacing and component dimensions. */
 :root {
   --paper: #F6F1E9; --cream: #faf7f1; --sand: #EDE4D8;
-  --ink: #332d28; --muted: #6C6056; --clay: #AE2928;
-  --clay-hover: #8F2121; --sage: #5C7042; --forest: #263e35;
+  --ink: #332d28; --muted: #6C6056; --clay: #A9532B;
+  --clay-hover: #8C4322; --sage: #5C7042; --forest: #263e35;
   --line: #c9beb0; --control: #88745e; --error: #902d20; --muted-on-sand: #62574e;
   --footer: #2d2c27; --footer-text: #d2c9bd;
   --mango: #DE7C20; --mango-tint: #FBECDC; --leaf: #738A53;
-  --accent-tint: #F9E7E4; --surface-hover: #EFE7DD;
+  --accent-tint: #F6E6DC; --surface-hover: #EFE7DD;
   --leaf-tint: #EFF1E7; --leaf-wash: #D9E1CD; --mango-wash: #EAD4B8;
   --leaf-line: #A5AE98; --mango-line: #C6A48E; --footer-line: #686057;
-  --clay-rgb: 174 41 40; --cream-rgb: 250 247 241;
+  --clay-rgb: 169 83 43; --cream-rgb: 250 247 241;
   --line-rgb: 201 190 176; --control-rgb: 136 116 94;
   --ink-rgb: 51 45 40; --overlay-rgb: 26 25 24;
   --rest-overlay-rgb: 26 25 24; --backdrop-rgb: 33 38 32;
@@ -21,6 +21,7 @@
   --space-1: 8px; --space-2: 16px; --space-3: 24px; --space-4: 40px; --space-5: 64px; --space-6: 96px;
   --shadow: 0 14px 45px rgb(var(--ink-rgb) / 12%);
 
+  --text-note:.9375rem; --text-climate:clamp(1.5rem,3vw,2.75rem);
   --text-body: 1rem; --text-intro: 1.25rem; --text-small: .875rem; --text-caption: .8125rem; --text-ui: 1rem;
   --text-h1: clamp(2.25rem, 2.2vw + 1.375rem, 4rem);
   --text-h2: clamp(1.875rem, 1.6vw + 1.125rem, 2.875rem);
