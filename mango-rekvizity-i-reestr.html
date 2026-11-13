@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Реквизиты и реестр турагентов · Mango Travel</title>
+<style>
+  :root {
+    color-scheme: light;
+    --ink: #28372e;
+    --muted: #5c675d;
+    --paper: #fbf8f0;
+    --card: #fffdf8;
+    --line: #deddd0;
+    --brand: #354f3f;
+    --accent: #915413;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #eeebe3; color: var(--ink); font: 15px/1.5 Inter, "Segoe UI", Arial, sans-serif; }
+  h1, h2, p, dl, dd, ul { margin: 0; }
+  h1, h2 { font-family: "PT Serif", Georgia, serif; font-weight: 400; line-height: 1.14; }
+  h1 { font-size: clamp(32px, 5vw, 53px); letter-spacing: -.025em; }
+  h2 { font-size: 27px; }
+  a { color: inherit; text-underline-offset: 4px; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+  .shell { width: min(1120px, calc(100% - 32px)); margin-inline: auto; }
+  .preview { min-height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 10px; color: var(--muted); font-size: 13px; }
+  .switch { border: 1px solid #c9c9b9; border-radius: 7px; background: var(--card); padding: 6px 11px; }
+  .switch:hover, .switch[aria-pressed="true"] { background: #e6e9de; }
+  .site { margin-bottom: 28px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); container-type: inline-size; }
+  .phone .site { max-width: 390px; }
+  .header { border-bottom: 1px solid var(--line); padding: 17px 28px; text-align: center; }
+  .wordmark { font: 19px Georgia, serif; letter-spacing: .14em; color: var(--brand); }
+  .inside { padding: 26px 44px 34px; }
+  .crumbs { font-size: 13px; color: var(--muted); margin-bottom: 20px; }
+  .crumbs span { margin-inline: 6px; color: #6a746a; }
+  .intro { margin-top: 11px; color: var(--muted); max-width: 630px; }
+  .overview { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 18px; margin-top: 25px; align-items: start; }
+  .panel { border: 1px solid var(--line); border-radius: 10px; padding: 22px; background: var(--card); min-width: 0; }
+  .panel h2 { margin-bottom: 14px; }
+  .requisites > div { display: grid; grid-template-columns: minmax(115px, .73fr) minmax(0, 1.4fr); gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); }
+  dt { color: var(--muted); }
+  dd { overflow-wrap: anywhere; }
+  .pending { color: var(--muted); font-size: 13px; }
+  .registry { background: var(--brand); color: #fffdf5; border-color: var(--brand); }
+  .registry h2 { font: 15px/1.4 Inter, "Segoe UI", Arial, sans-serif; color: #e3ebdf; margin-bottom: 7px; }
+  .number { font: clamp(28px, 4.5cqi, 40px)/1.16 "PT Serif", Georgia, serif; letter-spacing: .02em; font-variant-numeric: lining-nums tabular-nums; }
+  .registry p { color: #e3ebdf; margin: 10px 0 16px; font-size: 14px; }
+  .primary { display: inline-flex; align-items: center; min-height: 42px; padding: 9px 13px; gap: 9px; border-radius: 6px; background: #fffdf5; color: #263d30; font-weight: 600; text-decoration: none; }
+  .primary:hover { background: #e6eadf; }
+  .registry :focus-visible { outline-color: #fffdf5; }
+  .documents { margin-top: 28px; }
+  .documents h2 { margin-bottom: 9px; }
+  .files { list-style: none; padding: 0; border-top: 1px solid var(--line); }
+  .file { width: 100%; min-height: 51px; display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 12px; padding: 10px 0; background: transparent; border: 0; border-bottom: 1px solid var(--line); text-align: left; }
+  .file:hover .label { text-decoration: underline; text-underline-offset: 4px; color: var(--accent); }
+  .label { font-weight: 550; }
+  .format { color: var(--muted); font-size: 12px; }
+  .arrow { color: var(--brand); font-size: 20px; line-height: 1; padding-inline: 4px; }
+  .fns { display: inline-flex; gap: 6px; margin-top: 15px; font-size: 14px; color: var(--brand); }
+  footer { border-top: 1px solid var(--line); padding: 15px 44px; display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: 13px; }
+  dialog { width: min(440px, calc(100% - 32px)); border: 1px solid var(--line); border-radius: 12px; padding: 24px; color: var(--ink); background: var(--card); }
+  dialog::backdrop { background: #17251db0; }
+  dialog p { margin: 12px 0 16px; color: var(--muted); }
+  dialog h2 { overflow-wrap: anywhere; }
+  @container (max-width: 650px) {
+    .inside { padding: 19px 21px 26px; }
+    .header { padding: 15px; }
+    h1 { font-size: clamp(30px, 8cqi, 44px); }
+    .overview { grid-template-columns: minmax(0, 1fr); margin-top: 20px; gap: 12px; }
+    .panel { padding: 17px; }
+    .registry { grid-row: 1; }
+    .number { font-size: 33px; }
+    footer { padding-inline: 21px; }
+  }
+  @container (max-width: 385px) {
+    .requisites > div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+    .file { gap: 7px; }
+  }
+  @media (max-width: 480px) {
+    .shell { width: calc(100% - 20px); }
+    .switch.preview-toggle { display: none; }
+    .preview { min-height: 40px; }
+  }
+</style>
+</head>
+<body>
+  <div class="shell preview">
+    <span>Макет страницы сайта</span>
+    <button class="switch preview-toggle" type="button" aria-pressed="false">Вид на телефоне</button>
+  </div>
+  <div class="site shell">
+    <header class="header" id="top"><span class="wordmark">MANGO TRAVEL</span></header>
+    <main class="inside">
+      <p class="crumbs">Документы <span aria-hidden="true">/</span> Реквизиты и реестр турагентов</p>
+      <h1>Реквизиты и реестр турагентов</h1>
+      <p class="intro">Здесь можно проверить Mango Travel в официальных реестрах и ознакомиться с документами агентства.</p>
+
+      <div class="overview">
+        <section class="panel" aria-labelledby="details-heading">
+          <h2 id="details-heading">Реквизиты агентства</h2>
+          <dl class="requisites">
+            <div><dt>Наименование</dt><dd>ИП Зарщиков Михаил Юрьевич</dd></div>
+            <div><dt>ИНН</dt><dd>301504796247</dd></div>
+            <div><dt>ОГРНИП</dt><dd>310301510600012</dd></div>
+            <div><dt>Адрес</dt><dd class="pending">Добавим из карточки реквизитов</dd></div>
+            <div><dt>Телефон и почта</dt><dd class="pending">Добавим актуальные контакты</dd></div>
+            <div><dt>Время работы</dt><dd>10:00–19:00 МСК</dd></div>
+          </dl>
+        </section>
+
+        <section class="panel registry" aria-labelledby="registry-heading">
+          <h2 id="registry-heading">Номер в реестре турагентов</h2>
+          <div class="number">РТА 0020071</div>
+          <p>Введите номер в поиске по реестру.</p>
+          <a class="primary" href="https://ev.economy.gov.ru/lk_exp/registry/" target="_blank" rel="noopener">Проверить в реестре <span aria-hidden="true">↗</span></a>
+        </section>
+      </div>
+
+      <section class="documents" aria-labelledby="documents-heading">
+        <h2 id="documents-heading">Документы агентства</h2>
+        <ul class="files">
+          <li><button class="file" type="button"><span class="label">Выписка из реестра турагентов</span><span class="format">PDF</span><span class="arrow" aria-hidden="true">↗</span></button></li>
+          <li><button class="file" type="button"><span class="label">Свидетельство о государственной регистрации ИП</span><span class="format">PDF</span><span class="arrow" aria-hidden="true">↗</span></button></li>
+          <li><button class="file" type="button"><span class="label">Свидетельство о постановке на налоговый учёт (ИНН)</span><span class="format">PDF</span><span class="arrow" aria-hidden="true">↗</span></button></li>
+          <li><button class="file" type="button"><span class="label">Выписка из ЕГРИП</span><span class="format">PDF</span><span class="arrow" aria-hidden="true">↗</span></button></li>
+          <li><button class="file" type="button"><span class="label">Карточка реквизитов агентства</span><span class="format">PDF</span><span class="arrow" aria-hidden="true">↗</span></button></li>
+        </ul>
+        <a class="fns" href="https://egrul.nalog.ru/" target="_blank" rel="noopener">Проверить сведения об ИП на сайте ФНС <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+    <footer><span>Mango Travel</span><a href="#top">К началу страницы ↑</a></footer>
+  </div>
+
+  <dialog aria-labelledby="file-title">
+    <h2 id="file-title"></h2>
+    <p>Это место для ссылки на PDF. Добавим её, когда будет готов файл.</p>
+    <form method="dialog"><button class="switch">Закрыть</button></form>
+  </dialog>
+<script>
+  const toggle = document.querySelector('.preview-toggle');
+  const dialog = document.querySelector('dialog');
+  const fileTitle = document.querySelector('#file-title');
+
+  toggle.addEventListener('click', () => {
+    const phone = document.body.classList.toggle('phone');
+    toggle.setAttribute('aria-pressed', String(phone));
+    toggle.textContent = phone ? 'Вид на компьютере' : 'Вид на телефоне';
+  });
+
+  document.querySelector('.files').addEventListener('click', (event) => {
+    const row = event.target.closest('.file');
+    if (!row) return;
+    fileTitle.textContent = row.querySelector('.label').textContent;
+    dialog.showModal();
+  });
+</script>
+</body>
+</html>
