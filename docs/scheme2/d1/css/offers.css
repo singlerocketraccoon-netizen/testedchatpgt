@@ -18,7 +18,7 @@
 .ticket-body h3{margin:14px 0 9px;font-size:var(--text-h3);}
 .ticket-body p{color:var(--muted);margin-top:6px;}
 .ticket-body .ticket-price{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);color:var(--clay);margin-top:18px;}
-.ticket-price small{font-style:normal;font-weight:400;font-size:var(--text-price);line-height:1.6;font-family:var(--body);display:block;margin-top:5px;}
+.ticket-price small{font-style:normal;font-weight:400;font-size:var(--text-small);color:var(--muted);line-height:1.6;font-family:var(--body);display:block;margin-top:5px;}
 .ticket-body .ticket-price-date{font-size:var(--text-small);}
 .ticket-link{display:block;margin-top:20px;color:var(--clay);font-size:var(--text-small);}
 .ticket-vertical:hover{border-color:var(--clay);}
@@ -47,5 +47,7 @@
 @media   (max-width:599px) { .ticket-body h3{font-size:var(--text-h3);margin:8px 0 6px;} }
 @media   (max-width:599px) { .ticket-body p{margin-top:4px;} }
 @media   (max-width:599px) { .ticket-body .ticket-price{font-size:var(--text-price);margin-top:12px;} }
-@media   (max-width:599px) { .ticket-price small{display:inline;margin-left:4px;} }
+@media   (max-width:599px) { .ticket-price small{display:block;margin-left:0;} }
 @media   (max-width:599px) { .ticket-link{margin-top:12px;} }
+
+.ticket-price-value{display:block;white-space:nowrap;}

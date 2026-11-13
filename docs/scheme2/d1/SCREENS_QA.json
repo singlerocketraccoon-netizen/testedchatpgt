@@ -85,17 +85,6 @@
       "kind": "page"
     },
     {
-      "page": "napravleniya/egipet/index.html",
-      "title": "Туры в Египет",
-      "file": "napravleniya-egipet-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 8265,
-      "kind": "page"
-    },
-    {
       "page": "napravleniya/indoneziya/index.html",
       "title": "Туры в Индонезию",
       "file": "napravleniya-indoneziya-390.jpg",
@@ -126,17 +115,6 @@
       "device_scale_factor": 2,
       "pixel_width": 780,
       "pixel_height": 15398,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/kitay/index.html",
-      "title": "Туры в Китай",
-      "file": "napravleniya-kitay-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 4759,
       "kind": "page"
     },
     {
@@ -214,17 +192,6 @@
       "device_scale_factor": 2,
       "pixel_width": 780,
       "pixel_height": 16332,
-      "kind": "page"
-    },
-    {
-      "page": "napravleniya/turciya/index.html",
-      "title": "Туры в Турцию",
-      "file": "napravleniya-turciya-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 5176,
       "kind": "page"
     },
     {
@@ -434,17 +401,6 @@
       "device_scale_factor": 2,
       "pixel_width": 780,
       "pixel_height": 28514,
-      "kind": "page"
-    },
-    {
-      "page": "otdyh/svoj-marshrut/index.html",
-      "title": "Увидеть всё, что хочется, и не спешить",
-      "file": "otdyh-svoj-marshrut-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 7233,
       "kind": "page"
     },
     {
@@ -890,28 +846,6 @@
     {
       "page": "index.html",
       "title": "Шапка",
-      "file": "shapka-1024.jpg",
-      "width": 1024,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1024,
-      "pixel_height": 96,
-      "kind": "component"
-    },
-    {
-      "page": "index.html",
-      "title": "Шапка",
-      "file": "shapka-1280.jpg",
-      "width": 1280,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1280,
-      "pixel_height": 96,
-      "kind": "component"
-    },
-    {
-      "page": "index.html",
-      "title": "Шапка",
       "file": "shapka-1440.jpg",
       "width": 1440,
       "engine": "Chromium",
@@ -977,17 +911,6 @@
     },
     {
       "page": "napravleniya/egipet/index.html",
-      "title": "Египет · раскрытый курорт",
-      "file": "egipet-kurort-1440.jpg",
-      "width": 1440,
-      "engine": "Chromium",
-      "device_scale_factor": 1,
-      "pixel_width": 1440,
-      "pixel_height": 1338,
-      "kind": "component"
-    },
-    {
-      "page": "napravleniya/egipet/index.html",
       "title": "Египет · климатическая таблица",
       "file": "egipet-klimat-1440.jpg",
       "width": 1440,
@@ -1018,8 +941,153 @@
       "pixel_width": 1440,
       "pixel_height": 8050,
       "kind": "page"
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · раскрытая Хургада · этап 9",
+      "file": "napravleniya-egipet-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 8680,
+      "kind": "page",
+      "stage": 9
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · карточки курортов · этап 9",
+      "file": "egipet-kurort-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 1338,
+      "kind": "component",
+      "stage": 9
+    },
+    {
+      "page": "napravleniya/turciya/index.html",
+      "title": "Турция · этап 9",
+      "file": "napravleniya-turciya-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 4359,
+      "kind": "page",
+      "stage": 9
+    },
+    {
+      "page": "napravleniya/kitay/index.html",
+      "title": "Китай · этап 9",
+      "file": "napravleniya-kitay-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 3616,
+      "kind": "page",
+      "stage": 9
+    },
+    {
+      "page": "otdyh/svoj-marshrut/index.html",
+      "title": "Свой маршрут · этап 9",
+      "file": "otdyh-svoj-marshrut-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1440,
+      "pixel_height": 7234,
+      "kind": "page",
+      "stage": 9
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Строка согласия · этап 9",
+      "file": "soglasie-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 588,
+      "pixel_height": 236,
+      "kind": "component",
+      "stage": 9
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Строка согласия · этап 9",
+      "file": "soglasie-1440.jpg",
+      "width": 1440,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 454,
+      "pixel_height": 45,
+      "kind": "component",
+      "stage": 9
+    },
+    {
+      "page": "index.html",
+      "title": "Предложения на главной · этап 9",
+      "file": "predlozheniya-glavnaya-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 3004,
+      "kind": "component",
+      "stage": 9
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Предложения Египта · этап 9",
+      "file": "predlozheniya-egipet-390.jpg",
+      "width": 390,
+      "engine": "Chromium",
+      "device_scale_factor": 2,
+      "pixel_width": 780,
+      "pixel_height": 2970,
+      "kind": "component",
+      "stage": 9
+    },
+    {
+      "page": "index.html",
+      "title": "Шапка · этап 9",
+      "file": "shapka-1024.jpg",
+      "width": 1024,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1024,
+      "pixel_height": 96,
+      "kind": "component",
+      "stage": 9
+    },
+    {
+      "page": "index.html",
+      "title": "Шапка · этап 9",
+      "file": "shapka-1280.jpg",
+      "width": 1280,
+      "engine": "Chromium",
+      "device_scale_factor": 1,
+      "pixel_width": 1280,
+      "pixel_height": 96,
+      "kind": "component",
+      "stage": 9
     }
   ],
   "errors": [],
-  "screenshot_count": 92
+  "screenshot_count": 96,
+  "stage9_updated": [
+    "napravleniya-egipet-1440.jpg",
+    "egipet-kurort-1440.jpg",
+    "napravleniya-turciya-1440.jpg",
+    "napravleniya-kitay-1440.jpg",
+    "otdyh-svoj-marshrut-1440.jpg",
+    "soglasie-390.jpg",
+    "soglasie-1440.jpg",
+    "predlozheniya-glavnaya-390.jpg",
+    "predlozheniya-egipet-390.jpg",
+    "shapka-1024.jpg",
+    "shapka-1280.jpg"
+  ]
 }
