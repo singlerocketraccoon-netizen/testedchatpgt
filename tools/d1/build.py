@@ -74,6 +74,10 @@ def crumb(path,items):
  return '<nav class="breadcrumbs" aria-label="Хлебные крошки"><ol>'+''.join('<li>'+ (link(path,target,E(label),'breadcrumb_'+str(i))if target else f'<span aria-current="page">{E(label)}</span>')+'</li>'for i,(label,target)in enumerate([('Главная','index.html')]+items))+'</ol></nav>'
 def aboutnav(path):
  return '<nav class="section-tabs" aria-label="Раздел об агентстве">'+''.join(link(path,target,label,'about_tab_'+str(i),extra='aria-current="page"'if path==target else'')for i,(label,target)in enumerate([('Отзывы','o-nas/otzyvy/index.html'),('Контакты','o-nas/kontakty/index.html'),('Документы','o-nas/dokumenty/index.html')]))+'</nav>'
+def accordion_columns(classes,content):
+ order=iter(range(content.count('<details')))
+ content=re.sub(r'<details\b',lambda m:m[0]+' data-accordion-order="'+str(next(order))+'"',content)
+ return '<div class="'+classes+' independent-accordion" data-independent-accordion>'+content+'<div class="accordion-column" data-accordion-column hidden></div><div class="accordion-column" data-accordion-column hidden></div></div>'
 def faq(items,key):
  return '<div class="faq-list">'+''.join(f'<details class="faq-item" {editable(key+"."+str(i),True)}><summary data-goal="{key}_question_{i}">{E(q)}{icon("i-plus")}</summary><p>{E(a)}</p></details>'for i,(q,a)in enumerate(items))+'</div>'
 def agency():return {'@type':'TravelAgency','@id':'https://devfriends.ru/#agency','name':'Манго Путешествия','telephone':['+7-8512-29-95-47','+7-8512-29-95-27'],'email':'man.go.travel@mail.ru','address':{'@type':'PostalAddress','addressLocality':'Астрахань','streetAddress':'ул. Кирова, 14, ТЦ «Арбат», 1 этаж','addressCountry':'RU'},'openingHoursSpecification':[{'@type':'OpeningHoursSpecification','dayOfWeek':['Monday','Tuesday','Wednesday','Thursday','Friday'],'opens':'10:00','closes':'19:00'},{'@type':'OpeningHoursSpecification','dayOfWeek':'Saturday','opens':'10:00','closes':'15:00'}]}

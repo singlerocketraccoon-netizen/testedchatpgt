@@ -8,3 +8,10 @@
  :is(.country-page,.rest-page) :is(.country-grid,.country-experiences,.country-alternatives,.country-hotel-tips,.tickets-grid,.rest-format-grid,.rest-destination-grid,.rest-selection-grid):has(>:not([hidden])~:not([hidden])~:not([hidden])):not(:has(>:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden]))),.country-index-grid:has(>:not([hidden])~:not([hidden])~:not([hidden])):not(:has(>:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden]))){--card-columns:3;}
  :is(.country-page,.rest-page) :is(.country-grid,.country-experiences,.country-alternatives,.country-hotel-tips,.tickets-grid,.rest-format-grid,.rest-destination-grid,.rest-selection-grid):has(>:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden])):not(:has(>:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden]))),.country-index-grid:has(>:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden])):not(:has(>:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden])~:not([hidden]))){--card-columns:4;}
 }
+
+/* Original source order without JS and on phones; independent columns on desktop. */
+[data-independent-accordion]{display:block;border-top:1px solid var(--line);}
+[data-independent-accordion] :is(.faq-item,.rest-age-item,.rest-check-item){border-top:0;border-bottom:1px solid var(--line);}
+[data-independent-accordion].has-independent-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px;border-top:0;align-items:start;}
+.accordion-column{min-width:0;border-top:1px solid var(--line);}
+@media(min-width:1280px){.card-grid-seven{grid-template-columns:repeat(4,minmax(0,1fr))!important;}}

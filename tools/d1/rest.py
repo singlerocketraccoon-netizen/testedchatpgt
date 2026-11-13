@@ -17,7 +17,7 @@ def build_rest_pages(ctx):
      cards+='<article class="rest-selection-card" '+ED(key,True)+'>'+photo(t['image'],'Круизный маршрут',key+'.photo')+'<div class="rest-selection-body"><h3 class="rest-card-title" '+ED(key+'.title',True)+'>'+title+'</h3>'+button('Обсудить вариант →',topic+':option:'+str(i),'cruise_option_'+str(i),'text-link')+'</div></article>'
     elif slug=='otdyh-s-detmi':cards+='<details class="rest-age-item" '+ED(key,True)+'><summary data-goal="rest_age_'+str(i)+'">'+title+I('i-plus')+'</summary>'+body+'</details>'
     else:cards+='<article class="rest-format-card" '+ED(key,True)+'><span class="rest-format-number" aria-hidden="true">'+str(i+1).zfill(2)+'</span><h3>'+title+'</h3>'+body+button('Обсудить вариант →',topic+':type:'+str(i),'rest_type_'+str(i),'text-link')+'</article>'
-   return section('types',p['types_title'],'<div class="'+('rest-selection-grid'if mode=='cruises'else'rest-age-list'if slug=='otdyh-s-detmi'else'rest-format-grid')+'">'+cards+'</div>')
+   return section('types',p['types_title'],ctx['accordion_columns']('rest-age-list',cards)if slug=='otdyh-s-detmi'else'<div class="'+('rest-selection-grid'if mode=='cruises'else'rest-format-grid')+'">'+cards+'</div>')
   def countries():
    cards=''
    for i,c in enumerate(p['countries']):
@@ -50,7 +50,7 @@ def build_rest_pages(ctx):
     if mode=='cruises':label=c['title'];body=c['text']
     example='<aside class="rest-example" '+ED(base+'.checks.'+str(i)+'.example',True)+'>'+re.sub(r'^(Например)(:?)',r'<strong>\1</strong>\2',E(c['example']))+'</aside>'if c['example']else''
     rows+='<details class="rest-check-item" '+ED(base+'.checks.'+str(i),True)+'><summary data-goal="rest_check_'+str(i)+'">'+E(label)+I('i-plus')+'</summary><div><p>'+E(body)+'</p>'+example+'</div></details>'
-   return section('checks',p['checks_title'],'<div class="rest-check-list">'+rows+'</div>')
+   return section('checks',p['checks_title'],ctx['accordion_columns']('rest-check-list',rows))
   def faq():return section('faq',p['faq_title'],ctx['faq'](p['questions'],base+'.faq'))
   def final():return '<section '+(ED(base+'.final',True)+' 'if mode=='cruises'else'')+'class="section rest-end" id="contact" data-rest-section="final"><div class="container rest-end-grid"><div><h2 '+ED(base+'.end.title',mode=='cruises')+'>'+E(p['end_title'])+'</h2><p '+ED(base+'.end.text',mode=='cruises')+'>'+E(p['end_text'])+'</p></div>'+form('bottom')+'</div></section>'
   actions='<div class="rest-hero-actions">'+button('Подобрать круиз'if mode=='cruises'else'Обсудить маршрут'if mode=='routes'else'Подобрать отдых',topic,'rest_hero_action')+shared.channels(topic,'rest_hero')+'</div>'
