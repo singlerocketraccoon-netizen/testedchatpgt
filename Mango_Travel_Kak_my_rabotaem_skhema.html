@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mango Travel · страница «Как мы работаем» · схема · 13 ноября 2026</title>
+<style>
+  :root {
+    color-scheme: light;
+    --ink: #28372e;
+    --muted: #5c675d;
+    --paper: #fbf8f0;
+    --card: #fffdf8;
+    --line: #deddd0;
+    --soft: #eeeee3;
+    --mango: #915413;
+    --mango-soft: #faebd6;
+    --brand: #354f3f;
+    --prop: #2f6fb5;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: #eeebe3; color: var(--ink); font: 15px/1.5 Inter, "Segoe UI", Arial, sans-serif; }
+  h1, h2, h3, p { margin: 0; }
+  h1, h2 { font-family: "PT Serif", Georgia, serif; font-weight: 400; line-height: 1.12; }
+  h1 { font-size: clamp(32px, 4vw, 46px); }
+  h2 { font-size: clamp(24px, 2.8vw, 31px); margin-bottom: 14px; }
+  h3 { font-size: 16px; line-height: 1.3; }
+  p { color: var(--muted); }
+  button, input, select { color: inherit; font: inherit; }
+  button { cursor: pointer; border: 1px solid var(--line); border-radius: 7px; padding: 8px 12px; background: var(--card); text-align: left; }
+  button:hover { background: var(--soft); }
+  :focus-visible { outline: 2px solid var(--mango); outline-offset: 3px; }
+  .primary, button[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+  .primary:hover, button[aria-pressed="true"]:hover { background: #294235; }
+  .quiet { padding: 4px 0; border: 0; background: transparent; color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+  .quiet:hover { background: transparent; }
+  .small { font-size: 13px; color: var(--muted); }
+  .eyebrow { color: var(--mango); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+  .row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .msg { padding: 7px 11px; font-size: 13px; font-weight: 600; }
+  .photo { width: 100%; display: grid; place-items: center; padding: 10px; text-align: center; color: var(--muted); font-size: 12.5px; border-radius: 10px; background: repeating-linear-gradient(145deg, #e6e8dd, #e6e8dd 9px, #edece2 9px, #edece2 18px); }
+  .prop { position: relative; outline: 2px dashed var(--prop); outline-offset: 8px; border-radius: 6px; }
+  .prop-tag { display: inline-block; margin-bottom: 10px; padding: 2px 8px; border-radius: 5px; border: 1px dashed var(--prop); color: var(--prop); font-size: 12px; font-weight: 600; }
+
+  /* панель схемы */
+  .preview { max-width: 1160px; margin: 0 auto; padding: 14px 18px; }
+  .preview-bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .preview-bar button { font-size: 13px; }
+  .preview details { margin-top: 9px; }
+  .preview summary { color: var(--brand); font-size: 13px; cursor: pointer; }
+  .note-box { max-width: 920px; margin-top: 8px; padding: 12px 16px; border: 1px solid #e5cdaa; border-radius: 8px; background: var(--mango-soft); font-size: 13px; }
+  .note-box ul { margin: 0; padding-left: 18px; }
+  .note-box li + li { margin-top: 5px; }
+
+  /* сайт */
+  .site { max-width: 1160px; margin: 0 auto 40px; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; overflow: clip; }
+  .phone-preview .site { max-width: 390px; margin-bottom: 90px; }
+  .head { position: sticky; top: 0; z-index: 5; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px 16px; padding: 14px 22px; background: var(--paper); border-bottom: 1px solid var(--line); }
+  .head nav { display: flex; gap: 16px; font-size: 14px; white-space: nowrap; }
+  .head nav span[aria-current] { color: var(--mango); }
+  .head .right { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 4px 14px; }
+  .logo { font: 19px Georgia, serif; letter-spacing: .12em; }
+  .tel { font-weight: 600; font-size: 13.5px; white-space: nowrap; }
+  .head .msg { padding: 4px 8px; font-size: 12px; }
+  .mm { display: none; }
+  .crumbs { display: flex; gap: 10px; align-items: center; padding: 8px 22px; border-bottom: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+  .crumbs span:first-child { background: var(--soft); border-radius: 7px; padding: 5px 11px; color: var(--ink); }
+  main { padding: 26px 24px 8px; }
+  section { padding: 28px 0; border-bottom: 1px solid var(--line); }
+  section:last-child { border-bottom: 0; }
+
+  /* текст руководителя */
+  .story { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 40px; align-items: start; }
+  .portrait { position: sticky; top: 92px; }
+  .portrait .photo { aspect-ratio: 4 / 5; font-size: 13px; }
+  .portrait figcaption, .inline-portrait figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); }
+  figure { margin: 0; }
+  .letter { max-width: 640px; }
+  .letter h1 { margin: 6px 0 22px; }
+  .letter p { color: var(--ink); font-size: 17px; line-height: 1.65; }
+  .letter p { margin-top: 16px; }
+  .letter .hello { margin-top: 0; }
+  .letter .hello { font: 22px/1.4 "PT Serif", Georgia, serif; }
+  .letter .welcome { font: 20px/1.4 "PT Serif", Georgia, serif; color: var(--brand); margin-top: 22px; }
+  .inline-portrait { display: none; margin: 20px 0 22px; }
+  .inline-portrait .photo { aspect-ratio: 4 / 3; }
+
+  /* поездки и команда */
+  .row-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+  .row-cards .photo { aspect-ratio: 4 / 3; }
+  .row-cards figcaption { margin-top: 6px; font-size: 13px; color: var(--muted); }
+  .team { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+  .member { border: 1px solid var(--line); border-radius: 10px; background: var(--card); overflow: hidden; }
+  .member .photo { aspect-ratio: 1 / 1; border-radius: 0; }
+  .phone .member .photo { aspect-ratio: 4 / 5; }
+  .member .body { padding: 12px 14px 14px; display: grid; gap: 3px; }
+  .member .role { color: var(--mango); font-size: 13px; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+
+  /* форма */
+  .end { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+  .form { border: 1px solid var(--line); border-radius: 10px; padding: 16px; background: var(--card); display: grid; gap: 10px; }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  label { display: grid; gap: 4px; font-size: 13px; min-width: 0; }
+  input, select { min-width: 0; width: 100%; padding: 8px 9px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+  .consent { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; }
+  .consent label { display: flex; align-items: center; gap: 6px; font-size: inherit; }
+  .consent input { width: auto; }
+  .form .primary { text-align: center; }
+  .status { font-size: 13px; color: var(--brand); font-weight: 600; }
+  .direct { display: grid; gap: 8px; }
+
+  .footer { border-top: 1px solid var(--line); padding: 18px 24px; background: var(--soft); font-size: 13px; color: var(--muted); }
+  .sticky { position: fixed; z-index: 7; bottom: 0; display: flex; gap: 8px; align-items: center; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); border-top: 1px solid var(--line); background: var(--card); box-shadow: 0 -3px 10px #332c1b14; }
+  .sticky .primary { flex: 1; text-align: center; }
+  dialog { width: min(440px, calc(100% - 24px)); padding: 17px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink); }
+  dialog::backdrop { background: #17282070; }
+  .message-box { padding: 10px; background: var(--soft); border-radius: 6px; margin: 9px 0; color: var(--ink); }
+
+  /* телефон */
+  .phone .site { border-radius: 0; }
+  .phone .head { position: static; grid-template-columns: 1fr auto; padding: 10px 14px; }
+  .phone .head nav, .phone .head .right { display: none; }
+  .phone .mm { display: inline-block; }
+  .phone .crumbs { padding: 8px 14px; }
+  .phone main { padding: 16px 14px 8px; }
+  .phone section { padding: 22px 0; }
+  .phone .story { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .phone .portrait { display: none; }
+  .phone .inline-portrait { display: block; }
+  .phone .letter p { font-size: 16px; }
+  .phone .letter .hello { font-size: 20px; }
+  .phone .row-cards, .phone .team { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; margin-right: -14px; padding: 0 14px 6px 0; }
+  .phone .row-cards > * { flex: 0 0 62%; scroll-snap-align: start; }
+  .phone .team > * { flex: 0 0 78%; scroll-snap-align: start; }
+  .phone .end { grid-template-columns: minmax(0, 1fr); }
+  .phone .form-grid { grid-template-columns: minmax(0, 1fr); }
+  .phone input, .phone select { font-size: 16px; }
+  .phone dialog { margin: auto auto 0; border-radius: 12px 12px 0 0; width: min(390px, 100%); }
+
+  /* как мы работаем */
+  .hero { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 32px; align-items: center; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+  .hero h1 { margin: 6px 0 16px; }
+  .hero .lead { color: var(--ink); font-size: 18px; line-height: 1.6; }
+  .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 18px; }
+  .fact { display: flex; gap: 10px; align-items: flex-start; padding: 10px 12px; border-radius: 9px; background: var(--card); border: 1px solid var(--line); font-size: 14px; line-height: 1.4; }
+  .fact i { flex: none; width: 26px; height: 26px; border-radius: 50%; background: var(--mango-soft); color: var(--mango); display: grid; place-items: center; font-style: normal; font-size: 13px; font-weight: 700; }
+  .hero .photo { aspect-ratio: 4 / 3; }
+  .hero-links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 16px; align-items: center; }
+  .route { display: none; }
+  .phone .route { display: grid; }
+  .route button { display: grid; gap: 2px; padding: 12px 14px; border-radius: 10px; position: relative; }
+  .route button b { font-size: 15px; }
+  .route button span { font-size: 12.5px; color: var(--muted); }
+  .route .n { color: var(--mango); font-size: 12px; font-weight: 700; letter-spacing: .06em; }
+
+  .layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 36px; align-items: start; }
+  .toc { position: sticky; top: 90px; display: grid; gap: 2px; padding-top: 30px; }
+  .toc button { border: 0; background: transparent; padding: 7px 10px; border-radius: 7px; font-size: 14px; display: grid; gap: 1px; border-left: 3px solid transparent; }
+  .toc button small { color: var(--muted); font-size: 12px; }
+  .toc button.on { background: var(--soft); border-left-color: var(--mango); }
+  .toc .cost-link { margin-top: 10px; color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+
+  .stage { padding: 30px 0 6px; border-bottom: 1px solid var(--line); }
+  .stage-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 6px; }
+  .stage-head .n { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--brand); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 15px; transform: translateY(-4px); }
+  .stage-head h2 { margin: 0; }
+  .step { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; padding: 18px 0 22px 46px; position: relative; }
+  .step::before { content: ""; position: absolute; left: 16px; top: 0; bottom: 0; width: 2px; background: var(--line); }
+  .step::after { content: ""; position: absolute; left: 11px; top: 26px; width: 12px; height: 12px; border-radius: 50%; background: var(--paper); border: 2px solid var(--mango); }
+  .step h3 { font-size: 19px; margin-bottom: 8px; }
+  .step .txt p { color: var(--ink); font-size: 16px; line-height: 1.65; }
+  .step .txt p + p { margin-top: 10px; }
+  .vis { align-self: start; border: 1px solid var(--line); border-radius: 10px; background: var(--card); padding: 12px 14px; display: grid; gap: 8px; font-size: 13.5px; }
+  .vis h4 { margin: 0; font-size: 12px; color: var(--mango); text-transform: uppercase; letter-spacing: .06em; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chips span, .chips button { padding: 4px 9px; border-radius: 999px; background: var(--soft); font-size: 13px; border: 0; }
+  .chips button { color: var(--brand); text-decoration: underline; text-underline-offset: 2px; }
+  .checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+  .checks li::before { content: "✓"; color: var(--brand); font-weight: 700; margin-right: 8px; }
+  .flow { display: grid; gap: 6px; counter-reset: f; }
+  .flow span { counter-increment: f; display: flex; gap: 8px; align-items: center; }
+  .flow span::before { content: counter(f); width: 22px; height: 22px; border-radius: 50%; background: var(--mango-soft); color: var(--mango); display: grid; place-items: center; font-weight: 700; font-size: 12px; flex: none; }
+  .vis .photo { aspect-ratio: 4 / 3; border-radius: 8px; }
+  .draft { color: var(--prop); font-size: 12px; font-weight: 600; }
+
+  .cost { margin: 30px 0 4px; padding: 22px 24px; border-radius: 12px; background: var(--mango-soft); border: 1px solid #e5cdaa; display: grid; gap: 8px; }
+  .cost h2 { margin: 0; }
+  .cost p { color: var(--ink); font-size: 17px; line-height: 1.6; max-width: 720px; }
+
+  .phone .hero { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .phone .hero .photo { display: none; }
+  .phone .hero .lead { font-size: 16px; }
+  .phone .facts { grid-template-columns: minmax(0, 1fr); }
+  .phone .route { grid-template-columns: 1fr 1fr; gap: 8px; margin: 22px 0 6px; }
+  .phone .layout { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .phone .toc { display: none; }
+  .phone .step { grid-template-columns: minmax(0, 1fr); gap: 12px; padding-left: 30px; }
+  .phone .step::before { left: 8px; }
+  .phone .step::after { left: 3px; }
+  .phone .stage-head .n { width: 30px; height: 30px; font-size: 14px; }
+  .phone .dup { display: none !important; }
+  .phone .cost { padding: 18px; }
+  .phone .cost p { font-size: 16px; }
+</style>
+</head>
+<body>
+
+<div class="preview">
+  <div class="preview-bar">
+    <span class="small">Mango Travel · страница «Как мы работаем» · схема 13 ноября 2026 · фото условные</span>
+    <div class="row" aria-label="Вид схемы">
+      <button type="button" data-mode="desktop" aria-pressed="true">Компьютер</button>
+      <button type="button" data-mode="phone" aria-pressed="false">Телефон</button>
+    </div>
+  </div>
+  <details>
+    <summary>Пометки для разработчика</summary>
+    <div class="note-box">
+      <ul>
+        <li>Тексты разделов — утверждённые владельцем 26.10.2026, переносить дословно. Карточки справа от текста только собирают то, что сказано в тексте, новых обещаний в них нет.</li>
+        <li>Страница — путь одной поездки: четыре этапа, как на главной («Ваши планы», «Подбор и выбор», «Подготовка», «Сопровождение»), в них восемь шагов. Плитки «Как мы работаем» на главной ведут к своим этапам: plans, choice, hotel, support; ответ «Как проходит бронирование онлайн?» — к шагу contract.</li>
+        <li>Компьютер: слева закреплено оглавление этапов, текущий этап подсвечивается при прокрутке. Телефон: оглавления нет, этапы — плитками на первом экране.</li>
+        <li>Карточки справа на телефоне не показываем, кроме примеров и плашек услуг: там они повторяли бы текст над ними.</li>
+        <li>Плашки в шаге «Помогаем спланировать отдых» ведут на страницу «Услуги», к нужной услуге.</li>
+        <li>Форма в конце — единая форма сайта; в заявку передаётся тема «Как мы работаем», адрес страницы и рекламная метка. На телефоне внизу закреплена панель «Обсудить поездку» и мессенджеры, она прячется у формы.</li>
+        <li>Обведённое синим пунктиром — предложения, ждут решения владельца.</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+<div class="site" id="site">
+  <header class="head" id="head">
+    <nav aria-label="Страны и услуги"><span>Страны</span><span>Услуги</span></nav>
+    <span class="logo">MANGO TRAVEL</span>
+    <div class="right">
+      <nav aria-label="О работе и компании"><span aria-current="page">Как мы работаем</span><span>О нас</span></nav>
+      <span class="tel">+7 (000) 000-00-00</span>
+      <button type="button" class="msg" data-msg="MAX">MAX</button><button type="button" class="msg" data-msg="Telegram">Telegram</button>
+    </div>
+    <button type="button" class="mm">Меню</button>
+  </header>
+  <nav class="crumbs" aria-label="Где Вы находитесь"><span>← Главная</span><span aria-current="page">Как мы работаем</span></nav>
+
+  <main>
+    <div class="hero">
+      <div>
+        <span class="eyebrow">Mango Travel</span>
+        <h1>Как мы работаем</h1>
+        <p class="lead">Мы заботимся о тех, кто доверяет нам свой отдых. Вашей поездкой занимается персональный менеджер. Он помогает выбрать путешествие, отвечает на все вопросы и остаётся на связи до возвращения домой.</p>
+        <div class="facts">
+          <div class="fact"><i>✓</i>Работаем в туризме с 2010 года.</div>
+          <div class="fact"><i>✓</i>К нам можно обратиться из любого города России.</div>
+          <div class="fact"><i>✓</i>Общаемся в MAX или Telegram.</div>
+          <div class="fact"><i>✓</i>Договор оформляем онлайн, оплатить поездку можно дистанционно.</div>
+        </div>
+        <div class="hero-links"><button type="button" class="quiet" data-jump="cost">Сколько стоят наши услуги ↓</button></div>
+      </div>
+      <div class="photo">Фото: менеджер за работой<br>живое, не постановочное</div>
+    </div>
+
+    <nav class="route" aria-label="Этапы поездки">
+      <button type="button" data-jump="stage-1"><span class="n">ЭТАП 1</span><b>Ваши планы</b><span>Пожелания, даты, состав поездки</span></button>
+      <button type="button" data-jump="stage-2"><span class="n">ЭТАП 2</span><b>Подбор и выбор</b><span>Варианты и наша рекомендация</span></button>
+      <button type="button" data-jump="stage-3"><span class="n">ЭТАП 3</span><b>Подготовка</b><span>Бронирование, отель, документы</span></button>
+      <button type="button" data-jump="stage-4"><span class="n">ЭТАП 4</span><b>Сопровождение</b><span>На связи до возвращения домой</span></button>
+    </nav>
+
+    <div class="layout">
+      <nav class="toc" id="toc" aria-label="Оглавление">
+        <button type="button" data-jump="stage-1" data-toc="stage-1"><b>1. Ваши планы</b><small>Начинаем с Ваших планов</small></button>
+        <button type="button" data-jump="stage-2" data-toc="stage-2"><b>2. Подбор и выбор</b><small>Помогаем сравнить и выбрать</small></button>
+        <button type="button" data-jump="stage-3" data-toc="stage-3"><b>3. Подготовка</b><small>Договор, отель, документы, планы на отдых</small></button>
+        <button type="button" data-jump="stage-4" data-toc="stage-4"><b>4. Сопровождение</b><small>В поездке и после неё</small></button>
+        <button type="button" class="cost-link" data-jump="cost">Сколько стоят наши услуги</button>
+      </nav>
+
+      <div>
+        <section class="stage" id="stage-1">
+          <div class="stage-head"><span class="n">1</span><h2>Ваши планы</h2></div>
+          <article class="step" id="plans">
+            <div class="txt">
+              <h3>Начинаем с Ваших планов</h3>
+              <p>Обсуждаем, как Вы хотите провести отпуск, с кем едете, что понравилось в прошлых путешествиях и чего хочется сейчас. Уточняем бюджет и важные для Вас условия. Если едете с детьми, учитываем их возраст и интересы.</p>
+              <p>За словами «хороший пляж» могут стоять песчаный заход, красивый риф или возможность спокойно плавать. Такие подробности помогают выбрать подходящий курорт и отель.</p>
+            </div>
+            <aside class="vis dup"><h4>Что обсуждаем</h4><div class="chips"><span>Как хотите отдохнуть</span><span>С кем едете</span><span>Прошлые путешествия</span><span>Бюджет</span><span>Возраст детей</span></div></aside>
+          </article>
+        </section>
+
+        <section class="stage" id="stage-2">
+          <div class="stage-head"><span class="n">2</span><h2>Подбор и выбор</h2></div>
+          <article class="step" id="choice">
+            <div class="txt">
+              <h3>Помогаем сравнить и выбрать</h3>
+              <p>В подборке Вы получаете несколько вариантов и нашу рекомендацию. Объясняем, почему предлагаем каждый отель, что в нём особенно хорошо, какие есть недостатки и чем обусловлена разница в цене.</p>
+              <p>Многие курорты и отели знаем по собственным поездкам. Личный опыт дополняем свежими отзывами и фотографиями гостей, важные детали уточняем у отелей.</p>
+              <p>Вы можете посмотреть подборку в удобное время, обсудить её с близкими и написать, что понравилось или что хочется изменить. До бронирования согласуем условия и сроки оплаты. О важных датах напоминаем сами.</p>
+            </div>
+            <aside class="vis prop"><span class="draft">▸ Предложение</span><div class="photo">Пример настоящей подборки<br>без личных данных</div><span class="small">Так выглядит подборка, которую Вы получаете</span></aside>
+          </article>
+        </section>
+
+        <section class="stage" id="stage-3">
+          <div class="stage-head"><span class="n">3</span><h2>Подготовка</h2></div>
+          <article class="step" id="contract">
+            <div class="txt prop">
+              <span class="draft">▸ Новый шаг, черновик текста на утверждение</span>
+              <h3>Оформляем договор и бронируем тур</h3>
+              <p>Договор присылаем ссылкой в SMS, подписать его можно с телефона. Оплатить поездку можно по QR-коду в приложении Вашего банка. Сразу после этого бронируем тур у туроператора и сообщаем Вам, когда он его подтвердит.</p>
+            </div>
+            <aside class="vis dup"><h4>Три шага</h4><div class="flow"><span>Договор по ссылке</span><span>Оплата по QR-коду</span><span>Бронирование тура</span></div></aside>
+          </article>
+          <article class="step" id="hotel">
+            <div class="txt">
+              <h3>Связываемся с отелем до Вашего приезда</h3>
+              <p>После подтверждения тура туроператором проверяем, видит ли отель Ваше бронирование. Сверяем даты, категорию номера, питание и данные гостей. Если обнаруживаем расхождения, сразу обращаемся к туроператору для их исправления.</p>
+              <p>Передаём отелю пожелания о тихом номере, раздельных кроватях, детской кроватке или особенностях питания. При необходимости уточняем возможность раннего заселения и позднего выезда. Сообщаем Вам, что удалось согласовать.</p>
+            </div>
+            <aside class="vis dup"><h4>Сверяем с отелем</h4><ul class="checks"><li>Даты</li><li>Категорию номера</li><li>Питание</li><li>Данные гостей</li></ul><h4>Передаём пожелания</h4><div class="chips"><span>Тихий номер</span><span>Раздельные кровати</span><span>Детская кроватка</span><span>Питание</span></div></aside>
+          </article>
+          <article class="step" id="prepare">
+            <div class="txt">
+              <h3>Готовим всё к поездке</h3>
+              <p>Проверяем правила въезда, сроки действия загранпаспортов и данные в документах. Помогаем с анкетами и декларациями. Там, где это разрешено, заполняем их с Вашего согласия и передаём Вам на проверку.</p>
+              <p>Собираем билеты, ваучеры и страховки в одном месте. Перед вылетом повторно проверяем рейс, аэропорт, терминал, нормы багажа и условия трансфера. Регистрируем Вас на рейс, если онлайн-регистрация доступна.</p>
+              <p>Присылаем фирменную памятку Mango Travel по стране с ценными советами по оплате покупок, связи, транспорту, местным правилам и безопасности.</p>
+            </div>
+            <aside class="vis"><div class="dup" style="display:grid;gap:8px"><h4>Перед вылетом проверяем</h4><ul class="checks"><li>Рейс</li><li>Аэропорт и терминал</li><li>Нормы багажа</li><li>Условия трансфера</li></ul></div>
+              <div class="prop" style="outline-offset:4px"><span class="draft">▸ Предложение</span><div class="photo">Обложка памятки<br>Mango Travel по стране</div></div></aside>
+          </article>
+          <article class="step" id="trip-plans">
+            <div class="txt">
+              <h3>Помогаем спланировать отдых</h3>
+              <p>По Вашему запросу подбираем экскурсии, бронируем столики в ресторанах и билеты на мероприятия. Организуем индивидуальный трансфер, аренду автомобиля или посещение бизнес-зала.</p>
+              <p>Переписку с отелями и организаторами берём на себя. Если в поездке Вы отмечаете день рождения или годовщину, обсудим идеи и договоримся с отелем о поздравлении.</p>
+            </div>
+            <aside class="vis"><h4>По Вашему запросу</h4><div class="chips"><button type="button" data-goto="Экскурсии и мероприятия">Экскурсии и мероприятия</button><button type="button" data-goto="Индивидуальный трансфер">Индивидуальный трансфер</button><button type="button" data-goto="VIP-залы и Fast Track">Бизнес-залы</button><span>Столики в ресторанах</span><span>Аренда автомобиля</span><span>Поздравление в отеле</span></div><button type="button" class="quiet" data-goto="Услуги">Все услуги →</button></aside>
+          </article>
+        </section>
+
+        <section class="stage" id="stage-4">
+          <div class="stage-head"><span class="n">4</span><h2>Сопровождение</h2></div>
+          <article class="step" id="support">
+            <div class="txt">
+              <h3>Остаёмся на связи в путешествии</h3>
+              <p>Нужно заказать такси, найти аптеку, выбрать ресторан или объясниться с сотрудником отеля? Напишите своему менеджеру в привычном мессенджере.</p>
+              <p>Если возникают сложности с номером, трансфером, багажом или перелётом, связываемся с отелем, перевозчиком, туроператором или принимающей стороной. При необходимости помогаем обратиться в страховую компанию.</p>
+              <p>Обсуждаем с Вами возможные решения, ведём переговоры и держим Вас в курсе, пока вопрос решается.</p>
+            </div>
+            <aside class="vis dup"><h4>Можно написать о чём угодно</h4><div class="chips"><span>Такси</span><span>Аптека</span><span>Ресторан</span><span>Разговор с отелем</span></div><div class="row"><button type="button" class="msg" data-msg="MAX">MAX</button><button type="button" class="msg" data-msg="Telegram">Telegram</button></div></aside>
+          </article>
+          <article class="step" id="experience">
+            <div class="txt">
+              <h3>Учитываем опыт Ваших поездок</h3>
+              <p>Запоминаем, какой отель Вам понравился, где не устроил пляж и какой перелёт оказался удобнее. В следующий раз начнём подбор с учётом этого опыта и Ваших новых пожеланий.</p>
+            </div>
+            <aside class="vis dup"><h4>В следующий раз помним</h4><ul class="checks"><li>Какой отель понравился</li><li>Где не устроил пляж</li><li>Какой перелёт удобнее</li></ul></aside>
+          </article>
+        </section>
+
+        <section class="cost" id="cost">
+          <h2>Сколько стоят наши услуги</h2>
+          <p>Мы работаем по ценам туроператоров без наценок и скидок. Подбор путешествия, помощь в подготовке к поездке и сопровождение до возвращения домой уже входят в стоимость тура.</p>
+        </section>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="end">
+        <div class="direct">
+          <h2>Расскажите, каким Вы представляете свой отдых.</h2>
+          <div class="row"><span class="tel">+7 (000) 000-00-00</span><button type="button" class="msg" data-msg="MAX">MAX</button><button type="button" class="msg" data-msg="Telegram">Telegram</button></div>
+          <p class="small">Ежедневно, 9:00–18:00 по московскому времени</p>
+        </div>
+        <form class="form" id="end-form" data-topic="">
+          <h3>Расскажите о поездке</h3>
+          <div class="form-grid">
+            <label>Когда планируете<select><option>Пока не определились</option><option>Январь</option><option>Февраль</option><option>Март</option></select></label>
+            <label>Город вылета<input type="text" autocomplete="address-level2"></label>
+            <label>Кто едет<select><option>Выберите</option><option>Один взрослый</option><option>Двое взрослых</option><option>С детьми</option><option>Другой состав</option></select></label>
+            <label>Телефон<input type="tel" autocomplete="tel" required></label>
+          </div>
+          <div class="consent"><label><input type="checkbox" required>Согласие на обработку персональных данных</label><button type="button" class="quiet">Политика</button></div>
+          <button type="submit" class="primary">Получить варианты</button>
+          <div class="row"><span class="small">Или напишите в мессенджер</span><button type="button" class="msg" data-msg="MAX">MAX</button><button type="button" class="msg" data-msg="Telegram">Telegram</button></div>
+          <p class="status" role="status" hidden>Заявка отправлена.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">Утверждённый подвал сайта: страны, виды отдыха, страницы компании, контакты, документы</footer>
+</div>
+
+<div class="sticky" id="sticky" hidden><button type="button" class="primary" id="sticky-btn">Обсудить поездку</button><button type="button" class="msg" data-msg="MAX">MAX</button><button type="button" class="msg" data-msg="Telegram">Telegram</button></div>
+
+<dialog id="info" aria-labelledby="info-title">
+  <h2 id="info-title" style="font-size:22px"></h2>
+  <div id="info-body"></div>
+  <button type="button" id="close" style="margin-top:10px">Закрыть</button>
+</dialog>
+<dialog id="req" aria-labelledby="req-title">
+  <h2 id="req-title" style="font-size:22px">Расскажите о поездке</h2>
+  <p class="small" id="req-topic" style="background:var(--soft);border-radius:6px;padding:6px 9px;margin:8px 0"></p>
+  <form class="form" style="border:0;padding:0;background:transparent">
+    <div class="form-grid">
+      <label>Когда планируете<select><option>Пока не определились</option><option>Январь</option><option>Февраль</option></select></label>
+      <label>Город вылета<input type="text"></label>
+      <label>Кто едет<select><option>Выберите</option><option>Один взрослый</option><option>Двое взрослых</option><option>С детьми</option></select></label>
+      <label>Телефон<input type="tel" required></label>
+    </div>
+    <div class="consent"><label><input type="checkbox" required>Согласие на обработку персональных данных</label></div>
+    <button type="submit" class="primary">Получить варианты</button>
+    <div class="row"><span class="small">Или напишите в мессенджер</span><button type="button" class="msg" data-msg="MAX">MAX</button><button type="button" class="msg" data-msg="Telegram">Telegram</button></div>
+    <p class="status" role="status" hidden>Заявка отправлена.</p>
+  </form>
+  <button type="button" id="req-close" style="margin-top:10px">Закрыть</button>
+</dialog>
+
+<script>
+(() => {
+  "use strict";
+  const $ = s => document.querySelector(s);
+  const site = $("#site"), sticky = $("#sticky"), head = $("#head");
+  const info = $("#info"), req = $("#req");
+  const narrow = window.matchMedia("(max-width: 700px)");
+  let mode = narrow.matches ? "phone" : "desktop";
+  let reqTopic = "";
+  const isPhone = () => document.body.classList.contains("phone");
+  function applyMode() {
+    document.body.classList.toggle("phone", mode === "phone" || narrow.matches);
+    document.body.classList.toggle("phone-preview", mode === "phone" && !narrow.matches);
+    document.querySelectorAll("[data-mode]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.mode === mode)));
+    updateSticky();
+  }
+  function updateSticky() {
+    if (!isPhone() || info.open || req.open) { sticky.hidden = true; return; }
+    const past = window.scrollY > site.offsetTop + 420;
+    const f = $("#end-form").getBoundingClientRect();
+    const formVisible = f.top < innerHeight && f.bottom > 0;
+    const foot = $("#footer").getBoundingClientRect().top < innerHeight;
+    sticky.hidden = !past || formVisible || foot;
+    if (!sticky.hidden) { const r = site.getBoundingClientRect(); sticky.style.left = r.left + "px"; sticky.style.width = r.width + "px"; }
+  }
+  function jump(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (el.tagName === "DETAILS") el.open = true;
+    const off = isPhone() ? 10 : head.offsetHeight + 14;
+    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - off, behavior: "smooth" });
+  }
+  function showInfo(title, html) { $("#info-title").textContent = title; $("#info-body").innerHTML = html; info.showModal(); updateSticky(); }
+  document.addEventListener("click", e => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    const d = b.dataset;
+    if (d.mode) { mode = d.mode; applyMode(); return; }
+    if (d.jump) { jump(d.jump); return; }
+    if (d.msg) {
+      const holder = b.closest("[data-topic]");
+      const t = holder ? holder.dataset.topic : (req.open && reqTopic ? reqTopic : "");
+      const text = t ? "Здравствуйте! Интересует услуга: " + t : "Здравствуйте! Хочу подобрать путешествие";
+      if (req.open) req.close();
+      showInfo("Сообщение в " + d.msg, '<p class="small">Откроется чат с готовым сообщением:</p><p class="message-box">' + text + "</p>");
+      return;
+    }
+    if (d.goto) { showInfo("Переход", "<p>На сайте здесь откроется страница «" + d.goto + "».</p>"); return; }
+    if (d.request) { reqTopic = d.request; $("#req-topic").textContent = "Услуга: " + d.request; req.querySelector(".status").hidden = true; req.showModal(); updateSticky(); return; }
+    if (b.id === "close") { info.close(); updateSticky(); return; }
+    if (b.id === "req-close") { req.close(); updateSticky(); return; }
+    if (b.id === "sticky-btn") { jump("contact"); return; }
+  });
+  document.addEventListener("submit", e => {
+    e.preventDefault();
+    if (!e.target.checkValidity()) { e.target.reportValidity(); return; }
+    e.target.querySelector(".status").hidden = false;
+  });
+  [info, req].forEach(dl => dl.addEventListener("close", updateSticky));
+  window.addEventListener("scroll", updateSticky, { passive: true });
+  window.addEventListener("resize", updateSticky);
+  narrow.addEventListener("change", applyMode);
+  applyMode();
+  // оглавление: подсветка текущего этапа
+  const tocBtns = [...document.querySelectorAll("[data-toc]")];
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(en => { if (en.isIntersecting) tocBtns.forEach(b => b.classList.toggle("on", b.dataset.toc === en.target.id)); });
+  }, { rootMargin: "-40% 0px -55% 0px" });
+  document.querySelectorAll(".stage").forEach(s => io.observe(s));
+})();
+</script>
+</body>
+</html>
