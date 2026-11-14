@@ -4,7 +4,7 @@
  const main=document.querySelector('main');if(!main)return;
  const selectors='.rest-grid,.tickets-grid,.country-index-grid,.country-grid,.country-alternatives,.country-experiences,.country-hotel-tips,.rest-format-grid,.rest-destination-grid,.rest-selection-grid,.people-grid,.stage4-review-grid,.document-grid';
  const $$=(s,r=document)=>[...r.querySelectorAll(s)],shown=e=>e.getClientRects().length&&!e.closest('[hidden],dialog:not([open]),[inert]');
- const mediaSelector=':scope>.rest-photo,:scope>img,:scope>.rest-photo-placeholder,:scope>.country-photo-placeholder,:scope>.rest-card-photo,:scope>.ticket-link-cover>img,:scope>a>img,:scope>a>.country-photo-placeholder,:scope>details>summary>img,:scope>details>summary>.country-photo-placeholder,:scope>.country-hotel-open>img,:scope>.country-hotel-open>.country-photo-placeholder';
+ const mediaSelector=':scope>.place-cover,:scope>a>.place-cover,:scope>details>summary>.place-cover,:scope>.country-hotel-open>.place-cover,:scope>.rest-photo,:scope>img,:scope>.rest-photo-placeholder,:scope>.country-photo-placeholder,:scope>.rest-card-photo,:scope>.ticket-link-cover>img,:scope>a>img,:scope>a>.country-photo-placeholder,:scope>details>summary>img,:scope>details>summary>.country-photo-placeholder,:scope>.country-hotel-open>img,:scope>.country-hotel-open>.country-photo-placeholder';
  const titleSelector='h2,h3,.rest-label,.country-resort summary>span,.country-hotel-open>span';
  const accordionMedia=matchMedia('(min-width:1024px)');
  const accordions=$$('[data-independent-accordion]').map(root=>({root,items:[...root.children].filter(e=>e.tagName==='DETAILS'),columns:$$(':scope>[data-accordion-column]',root)}));

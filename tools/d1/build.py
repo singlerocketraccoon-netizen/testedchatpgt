@@ -198,6 +198,8 @@ def build():
  if archive.exists():
   from stage4 import brand
   archive.write_text(brand(archive.read_text()))
+ from photos131 import finish as finish_photos131
+ finish_photos131(globals())
  print('Built',len(PAGES),'HTML pages')
 
 if __name__=='__main__':build()

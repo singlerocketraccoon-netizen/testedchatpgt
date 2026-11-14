@@ -160,7 +160,7 @@ def home():
  body+=old.home_section('Команда',old.people(path,True),'team','06',L(path,'o-nas/index.html','Познакомиться с нами →','home_team_all','text-link'))
  body+=old.home_section('Отзывы клиентов',old.platforms()+old.reviews_grid(True),'voices','07',L(path,'o-nas/otzyvy/index.html','Все отзывы →','home_reviews_all','text-link'))
  body+=old.home_section('Частые вопросы',faq_html(),'home-faq','08')
- direct='<div class="direct-card"><h3>Связаться напрямую</h3><a href="tel:+78512299547" data-goal="home_phone">+7 (8512) 29-95-47</a>'+channels('home','home_direct')+hours()+'</div>'
+ direct='<div class="direct-card"><h3>Связаться напрямую</h3><a href="tel:+78512299547" data-goal="home_phone">+7 (8512) 29-95-47</a>'+hours()+'</div>'
  body+=old.home_section('Связь','<div class="unified-end-grid">'+direct+form(path,'home')+'</div>','contact','09')
  body+=re.search(r'<section class="section partners-section".*?</section>',C['HOME'],re.S)[0]
  questions=[(f['q'],re.sub('<[^>]+>','',f['a']))for f in D['schema6']['faq']]

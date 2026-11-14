@@ -1,0 +1,167 @@
+{
+  "stage": "13.1",
+  "captures": [
+    {
+      "page": "index.html",
+      "title": "Как мы работаем на главной",
+      "file": "glavnaya-process-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 417,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "index.html",
+      "title": "Как мы работаем на главной",
+      "file": "glavnaya-process-1024x900.jpg",
+      "width": 1024,
+      "height": 900,
+      "pixel_width": 1024,
+      "pixel_height": 630,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "index.html",
+      "title": "Как мы работаем на главной",
+      "file": "glavnaya-process-768x900.jpg",
+      "width": 768,
+      "height": 900,
+      "pixel_width": 768,
+      "pixel_height": 653,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "index.html",
+      "title": "Как мы работаем на главной",
+      "file": "glavnaya-process-390x844.jpg",
+      "width": 390,
+      "height": 844,
+      "pixel_width": 780,
+      "pixel_height": 1931,
+      "device_scale_factor": 2,
+      "full_page": false
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Где отдыхать",
+      "file": "egipet-resorts-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 822,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Чем заняться",
+      "file": "egipet-experiences-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 877,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "o-nas/index.html",
+      "title": "О нас",
+      "file": "o-nas-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "o-nas/index.html",
+      "title": "О нас",
+      "file": "o-nas-390x844.jpg",
+      "width": 390,
+      "height": 844,
+      "pixel_width": 780,
+      "pixel_height": 1688,
+      "device_scale_factor": 2,
+      "full_page": false
+    },
+    {
+      "page": "o-nas/kontakty/index.html",
+      "title": "Контакты",
+      "file": "kontakty-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "o-nas/kontakty/index.html",
+      "title": "Контакты",
+      "file": "kontakty-390x844.jpg",
+      "width": 390,
+      "height": 844,
+      "pixel_width": 780,
+      "pixel_height": 1688,
+      "device_scale_factor": 2,
+      "full_page": false
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Форма на ширине 960",
+      "file": "forma-960x900.jpg",
+      "width": 960,
+      "height": 900,
+      "pixel_width": 418,
+      "pixel_height": 485,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "index.html",
+      "title": "Слайдер на коротком телефоне",
+      "file": "slider-320x568.jpg",
+      "width": 320,
+      "height": 568,
+      "pixel_width": 640,
+      "pixel_height": 1136,
+      "device_scale_factor": 2,
+      "full_page": false
+    },
+    {
+      "page": "PHOTOS13_1.html",
+      "title": "Фото и лицензии",
+      "file": "photos-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "PHOTOS13_1.html",
+      "title": "Фото и лицензии целиком",
+      "file": "photos-1440x900-full.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 41094,
+      "device_scale_factor": 1,
+      "full_page": true
+    }
+  ],
+  "errors": [],
+  "quality": 75,
+  "format": "JPEG",
+  "fonts_ready": true,
+  "reduced_motion": "reduce",
+  "scroll_down_and_back": true,
+  "extra_wait_ms": 500,
+  "status": "passed"
+}

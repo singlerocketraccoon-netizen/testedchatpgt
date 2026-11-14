@@ -1549,6 +1549,202 @@
     "@summer-hotel.webp": [
       1920,
       1280
+    ],
+    "@place-gouna.webp": [
+      1200,
+      786
+    ],
+    "@place-marsa.webp": [
+      1200,
+      900
+    ],
+    "@place-makadi.webp": [
+      1200,
+      900
+    ],
+    "@place-pyramids.webp": [
+      1200,
+      742
+    ],
+    "@place-luxor.webp": [
+      1200,
+      723
+    ],
+    "@place-sahl.webp": [
+      1200,
+      791
+    ],
+    "@place-kazahstan.webp": [
+      1200,
+      769
+    ],
+    "@place-sea-cruise.webp": [
+      1200,
+      926
+    ],
+    "@place-azerbaydzhan.webp": [
+      1200,
+      1148
+    ],
+    "@place-deck-cruise.webp": [
+      1200,
+      675
+    ],
+    "@place-antalya.webp": [
+      1200,
+      750
+    ],
+    "@place-belek.webp": [
+      1200,
+      900
+    ],
+    "@place-bodrum.webp": [
+      1200,
+      802
+    ],
+    "@place-alanya.webp": [
+      1200,
+      800
+    ],
+    "@place-fethiye.webp": [
+      1200,
+      900
+    ],
+    "@place-marmaris.webp": [
+      1200,
+      900
+    ],
+    "@place-kusadasi.webp": [
+      1200,
+      767
+    ],
+    "@place-sharm.webp": [
+      1200,
+      797
+    ],
+    "@place-istanbul.webp": [
+      1200,
+      839
+    ],
+    "@place-cappadocia.webp": [
+      1200,
+      900
+    ],
+    "@place-dubai.webp": [
+      1200,
+      800
+    ],
+    "@place-abu-dhabi.webp": [
+      1200,
+      952
+    ],
+    "@place-khao-lak.webp": [
+      1200,
+      800
+    ],
+    "@place-samui.webp": [
+      1200,
+      800
+    ],
+    "@place-hurghada.webp": [
+      1200,
+      800
+    ],
+    "@place-baa.webp": [
+      1200,
+      800
+    ],
+    "@place-nha-trang.webp": [
+      1200,
+      666
+    ],
+    "@place-phu-quoc.webp": [
+      1200,
+      904
+    ],
+    "@place-da-nang.webp": [
+      1200,
+      800
+    ],
+    "@place-bentota.webp": [
+      1200,
+      789
+    ],
+    "@place-hikkaduwa.webp": [
+      1200,
+      900
+    ],
+    "@place-unawatuna.webp": [
+      1200,
+      900
+    ],
+    "@place-hainan.webp": [
+      1200,
+      900
+    ],
+    "@place-beijing.webp": [
+      1200,
+      899
+    ],
+    "@place-shanghai.webp": [
+      1200,
+      900
+    ],
+    "@place-xian.webp": [
+      1200,
+      795
+    ],
+    "@place-nusa-dua.webp": [
+      1200,
+      803
+    ],
+    "@place-jimbaran.webp": [
+      1200,
+      900
+    ],
+    "@place-seminyak.webp": [
+      1200,
+      798
+    ],
+    "@place-ubud.webp": [
+      1200,
+      900
+    ],
+    "@place-rossiya.webp": [
+      1200,
+      675
+    ],
+    "@place-belarus.webp": [
+      1200,
+      800
+    ],
+    "@place-armeniya.webp": [
+      1200,
+      859
+    ],
+    "@place-river-cruise.webp": [
+      1200,
+      803
+    ],
+    "@place-neutral-hotel.webp": [
+      1200,
+      802
+    ],
+    "@place-neutral-pool-1.webp": [
+      1200,
+      798
+    ],
+    "@place-neutral-pool-3.webp": [
+      1200,
+      900
+    ],
+    "@place-neutral-pool-5.webp": [
+      1200,
+      717
+    ],
+    "@place-neutral-pool-6.webp": [
+      1200,
+      800
     ]
   },
   "photo_replacements": [
@@ -6359,5 +6555,1682 @@
       "offers.e3.photo",
       "offers.e4.photo"
     ]
+  },
+  "photo131": {
+    "entries": {
+      "countries.turciya.heroPhoto": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "countries.turciya.resorts.resort-1.photo": {
+        "label": "Анталья",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "countries.turciya.resorts.resort-2.photo": {
+        "label": "Белек",
+        "asset": "@place-belek.webp",
+        "kind": "place",
+        "alt": "Белек"
+      },
+      "countries.turciya.resorts.resort-3.photo": {
+        "label": "Кемер",
+        "asset": null,
+        "kind": "place",
+        "alt": "Кемер"
+      },
+      "countries.turciya.resorts.resort-4.photo": {
+        "label": "Сиде",
+        "asset": null,
+        "kind": "place",
+        "alt": "Сиде"
+      },
+      "countries.turciya.resorts.resort-5.photo": {
+        "label": "Аланья",
+        "asset": "@place-alanya.webp",
+        "kind": "place",
+        "alt": "Аланья"
+      },
+      "countries.turciya.resorts.resort-6.photo": {
+        "label": "Бодрум",
+        "asset": "@place-bodrum.webp",
+        "kind": "place",
+        "alt": "Бодрум"
+      },
+      "countries.turciya.resorts.resort-7.photo": {
+        "label": "Мармарис",
+        "asset": "@place-marmaris.webp",
+        "kind": "place",
+        "alt": "Мармарис"
+      },
+      "countries.turciya.resorts.resort-8.photo": {
+        "label": "Фетхие",
+        "asset": "@place-fethiye.webp",
+        "kind": "place",
+        "alt": "Фетхие"
+      },
+      "countries.turciya.resorts.resort-9.photo": {
+        "label": "Кушадасы",
+        "asset": "@place-kusadasi.webp",
+        "kind": "place",
+        "alt": "Кушадасы"
+      },
+      "countries.turciya.routes.istanbul.photo": {
+        "label": "Стамбул",
+        "asset": "@place-istanbul.webp",
+        "kind": "place",
+        "alt": "Стамбул"
+      },
+      "countries.turciya.routes.cappadocia.photo": {
+        "label": "Каппадокия",
+        "asset": "@place-cappadocia.webp",
+        "kind": "place",
+        "alt": "Каппадокия"
+      },
+      "countries.turciya.routes.combined.photo": {
+        "label": "Комбинированные маршруты",
+        "asset": null,
+        "kind": "place",
+        "alt": "Комбинированные маршруты"
+      },
+      "countries.turciya.experiences.0.photo": {
+        "label": "Стамбул",
+        "asset": "@place-istanbul.webp",
+        "kind": "place",
+        "alt": "Стамбул"
+      },
+      "countries.turciya.experiences.1.photo": {
+        "label": "Каппадокия",
+        "asset": "@place-cappadocia.webp",
+        "kind": "place",
+        "alt": "Каппадокия"
+      },
+      "countries.turciya.experiences.2.photo": {
+        "label": "Комбинированные маршруты",
+        "asset": null,
+        "kind": "place",
+        "alt": "Комбинированные маршруты"
+      },
+      "countries.egipet.heroPhoto": {
+        "label": "Египет",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "countries.egipet.resorts.hurghada.photo": {
+        "label": "Хургада",
+        "asset": "@place-hurghada.webp",
+        "kind": "place",
+        "alt": "Хургада"
+      },
+      "countries.egipet.resorts.sharm.photo": {
+        "label": "Шарм-эль-Шейх",
+        "asset": "@place-sharm.webp",
+        "kind": "place",
+        "alt": "Шарм-эль-Шейх"
+      },
+      "countries.egipet.resorts.gouna.photo": {
+        "label": "Эль-Гуна",
+        "asset": "@place-gouna.webp",
+        "kind": "place",
+        "alt": "Эль-Гуна"
+      },
+      "countries.egipet.resorts.makadi.photo": {
+        "label": "Макади-Бей",
+        "asset": "@place-makadi.webp",
+        "kind": "place",
+        "alt": "Макади-Бей"
+      },
+      "countries.egipet.resorts.sahl.photo": {
+        "label": "Сахл-Хашиш",
+        "asset": "@place-sahl.webp",
+        "kind": "place",
+        "alt": "Сахл-Хашиш"
+      },
+      "countries.egipet.resorts.marsa.photo": {
+        "label": "Марса-Алам",
+        "asset": "@place-marsa.webp",
+        "kind": "place",
+        "alt": "Марса-Алам"
+      },
+      "countries.egipet.resorts.alamein.photo": {
+        "label": "Эль-Аламейн",
+        "asset": null,
+        "kind": "place",
+        "alt": "Эль-Аламейн"
+      },
+      "countries.egipet.routes.cairo.photo": {
+        "label": "Каир и пирамиды",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "countries.egipet.routes.luxor.photo": {
+        "label": "Луксор",
+        "asset": "@place-luxor.webp",
+        "kind": "place",
+        "alt": "Луксор"
+      },
+      "countries.egipet.routes.custom.photo": {
+        "label": "Свой маршрут",
+        "asset": null,
+        "kind": "place",
+        "alt": "Свой маршрут"
+      },
+      "countries.egipet.experiences.0.photo": {
+        "label": "Пирамиды и Большой египетский музей",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "countries.egipet.experiences.1.photo": {
+        "label": "Луксор",
+        "asset": "@place-luxor.webp",
+        "kind": "place",
+        "alt": "Луксор"
+      },
+      "countries.egipet.experiences.2.photo": {
+        "label": "Черепахи Абу-Даббаба",
+        "asset": null,
+        "kind": "place",
+        "alt": "Черепахи Абу-Даббаба"
+      },
+      "countries.egipet.experiences.3.photo": {
+        "label": "Гора Моисея",
+        "asset": null,
+        "kind": "place",
+        "alt": "Гора Моисея"
+      },
+      "countries.egipet.hotels.hotel-1.photos": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "countries.egipet.hotels.hotel-2.photos": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "countries.egipet.hotels.hotel-3.photos": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "countries.oae.heroPhoto": {
+        "label": "ОАЭ",
+        "asset": "@place-dubai.webp",
+        "kind": "place",
+        "alt": "Дубай"
+      },
+      "countries.oae.resorts.resort-1.photo": {
+        "label": "Дубай",
+        "asset": "@place-dubai.webp",
+        "kind": "place",
+        "alt": "Дубай"
+      },
+      "countries.oae.resorts.resort-2.photo": {
+        "label": "Абу-Даби",
+        "asset": "@place-abu-dhabi.webp",
+        "kind": "place",
+        "alt": "Абу-Даби"
+      },
+      "countries.oae.resorts.resort-3.photo": {
+        "label": "Рас-эль-Хайма",
+        "asset": null,
+        "kind": "place",
+        "alt": "Рас-эль-Хайма"
+      },
+      "countries.tailand.heroPhoto": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "countries.tailand.resorts.resort-1.photo": {
+        "label": "Пхукет",
+        "asset": null,
+        "kind": "place",
+        "alt": "Пхукет"
+      },
+      "countries.tailand.resorts.resort-2.photo": {
+        "label": "Као-Лак",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "countries.tailand.resorts.resort-3.photo": {
+        "label": "Самуи",
+        "asset": "@place-samui.webp",
+        "kind": "place",
+        "alt": "Самуи"
+      },
+      "countries.maldivy.heroPhoto": {
+        "label": "Мальдивы",
+        "asset": "@maldives.webp",
+        "kind": "place",
+        "alt": "Мальдивы"
+      },
+      "countries.maldivy.resorts.resort-1.photo": {
+        "label": "Северный Мале",
+        "asset": null,
+        "kind": "place",
+        "alt": "Северный Мале"
+      },
+      "countries.maldivy.resorts.resort-2.photo": {
+        "label": "Южный Мале",
+        "asset": null,
+        "kind": "place",
+        "alt": "Южный Мале"
+      },
+      "countries.maldivy.resorts.resort-3.photo": {
+        "label": "Атолл Баа",
+        "asset": "@place-baa.webp",
+        "kind": "place",
+        "alt": "Атолл Баа"
+      },
+      "countries.vetnam.heroPhoto": {
+        "label": "Вьетнам",
+        "asset": "@place-nha-trang.webp",
+        "kind": "place",
+        "alt": "Нячанг"
+      },
+      "countries.vetnam.resorts.resort-1.photo": {
+        "label": "Нячанг",
+        "asset": "@place-nha-trang.webp",
+        "kind": "place",
+        "alt": "Нячанг"
+      },
+      "countries.vetnam.resorts.resort-2.photo": {
+        "label": "Фукуок",
+        "asset": "@place-phu-quoc.webp",
+        "kind": "place",
+        "alt": "Фукуок"
+      },
+      "countries.vetnam.resorts.resort-3.photo": {
+        "label": "Дананг",
+        "asset": "@place-da-nang.webp",
+        "kind": "place",
+        "alt": "Дананг"
+      },
+      "countries.shri-lanka.heroPhoto": {
+        "label": "Шри-Ланка",
+        "asset": "@place-bentota.webp",
+        "kind": "place",
+        "alt": "Бентота"
+      },
+      "countries.shri-lanka.resorts.resort-1.photo": {
+        "label": "Бентота",
+        "asset": "@place-bentota.webp",
+        "kind": "place",
+        "alt": "Бентота"
+      },
+      "countries.shri-lanka.resorts.resort-2.photo": {
+        "label": "Хиккадува",
+        "asset": "@place-hikkaduwa.webp",
+        "kind": "place",
+        "alt": "Хиккадува"
+      },
+      "countries.shri-lanka.resorts.resort-3.photo": {
+        "label": "Унаватуна",
+        "asset": "@place-unawatuna.webp",
+        "kind": "place",
+        "alt": "Унаватуна"
+      },
+      "countries.kitay.heroPhoto": {
+        "label": "Китай",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "countries.kitay.resorts.resort-1.photo": {
+        "label": "Санья (остров Хайнань)",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "countries.kitay.routes.beijing.photo": {
+        "label": "Пекин",
+        "asset": "@place-beijing.webp",
+        "kind": "place",
+        "alt": "Пекин"
+      },
+      "countries.kitay.routes.shanghai.photo": {
+        "label": "Шанхай",
+        "asset": "@place-shanghai.webp",
+        "kind": "place",
+        "alt": "Шанхай"
+      },
+      "countries.kitay.routes.xian.photo": {
+        "label": "Сиань",
+        "asset": "@place-xian.webp",
+        "kind": "place",
+        "alt": "Сиань"
+      },
+      "countries.kitay.routes.hainan.photo": {
+        "label": "Остров Хайнань",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "countries.indoneziya.heroPhoto": {
+        "label": "Индонезия",
+        "asset": "@place-ubud.webp",
+        "kind": "place",
+        "alt": "Убуд"
+      },
+      "countries.indoneziya.resorts.resort-1.photo": {
+        "label": "Нуса-Дуа",
+        "asset": "@place-nusa-dua.webp",
+        "kind": "place",
+        "alt": "Нуса-Дуа"
+      },
+      "countries.indoneziya.resorts.resort-2.photo": {
+        "label": "Джимбаран",
+        "asset": "@place-jimbaran.webp",
+        "kind": "place",
+        "alt": "Джимбаран"
+      },
+      "countries.indoneziya.resorts.resort-3.photo": {
+        "label": "Семиньяк",
+        "asset": "@place-seminyak.webp",
+        "kind": "place",
+        "alt": "Семиньяк"
+      },
+      "countries.indoneziya.routes.ubud.photo": {
+        "label": "Убуд",
+        "asset": "@place-ubud.webp",
+        "kind": "place",
+        "alt": "Убуд"
+      },
+      "countries.indoneziya.experiences.0.photo": {
+        "label": "Убуд",
+        "asset": "@place-ubud.webp",
+        "kind": "place",
+        "alt": "Убуд"
+      },
+      "rest.otdyh-s-detmi.countries.0.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.otdyh-s-detmi.hotels.turciya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.turciya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.turciya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.countries.1.photo": {
+        "label": "Египет",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "rest.otdyh-s-detmi.hotels.egipet.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.egipet.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.egipet.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.countries.2.photo": {
+        "label": "ОАЭ",
+        "asset": "@place-dubai.webp",
+        "kind": "place",
+        "alt": "Дубай"
+      },
+      "rest.otdyh-s-detmi.hotels.oae.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.oae.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.oae.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.countries.3.photo": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "rest.otdyh-s-detmi.hotels.tailand.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.tailand.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.tailand.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.countries.4.photo": {
+        "label": "Вьетнам",
+        "asset": "@place-nha-trang.webp",
+        "kind": "place",
+        "alt": "Нячанг"
+      },
+      "rest.otdyh-s-detmi.hotels.vetnam.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.vetnam.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.vetnam.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.countries.5.photo": {
+        "label": "Китай, остров Хайнань",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.otdyh-s-detmi.hotels.kitay.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.kitay.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otdyh-s-detmi.hotels.kitay.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.countries.0.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.tishina-i-more.hotels.turciya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.turciya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.turciya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.countries.1.photo": {
+        "label": "Египет",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "rest.tishina-i-more.hotels.egipet.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.egipet.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.egipet.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.countries.2.photo": {
+        "label": "ОАЭ",
+        "asset": "@place-dubai.webp",
+        "kind": "place",
+        "alt": "Дубай"
+      },
+      "rest.tishina-i-more.hotels.oae.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.oae.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.oae.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.countries.3.photo": {
+        "label": "Мальдивы",
+        "asset": "@maldives.webp",
+        "kind": "place",
+        "alt": "Мальдивы"
+      },
+      "rest.tishina-i-more.hotels.maldivy.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.maldivy.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.maldivy.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.countries.4.photo": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "rest.tishina-i-more.hotels.tailand.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.tailand.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.tailand.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.countries.5.photo": {
+        "label": "Вьетнам",
+        "asset": "@place-nha-trang.webp",
+        "kind": "place",
+        "alt": "Нячанг"
+      },
+      "rest.tishina-i-more.hotels.vetnam.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.vetnam.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.vetnam.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.countries.6.photo": {
+        "label": "Китай, остров Хайнань",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.tishina-i-more.hotels.kitay.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.kitay.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.tishina-i-more.hotels.kitay.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.countries.0.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.plyazh-i-progulki.hotels.turciya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.turciya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.turciya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.countries.1.photo": {
+        "label": "Египет",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "rest.plyazh-i-progulki.hotels.egipet.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.egipet.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.egipet.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.countries.2.photo": {
+        "label": "ОАЭ",
+        "asset": "@place-dubai.webp",
+        "kind": "place",
+        "alt": "Дубай"
+      },
+      "rest.plyazh-i-progulki.hotels.oae.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.oae.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.oae.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.countries.3.photo": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "rest.plyazh-i-progulki.hotels.tailand.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.tailand.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.tailand.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.countries.4.photo": {
+        "label": "Вьетнам",
+        "asset": "@place-nha-trang.webp",
+        "kind": "place",
+        "alt": "Нячанг"
+      },
+      "rest.plyazh-i-progulki.hotels.vetnam.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.vetnam.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.vetnam.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.countries.5.photo": {
+        "label": "Китай, остров Хайнань",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.plyazh-i-progulki.hotels.kitay.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.kitay.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.plyazh-i-progulki.hotels.kitay.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.countries.0.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.servis-i-kuhnya.hotels.turciya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.turciya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.turciya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.countries.1.photo": {
+        "label": "Египет",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "rest.servis-i-kuhnya.hotels.egipet.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.egipet.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.egipet.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.countries.2.photo": {
+        "label": "ОАЭ",
+        "asset": "@place-dubai.webp",
+        "kind": "place",
+        "alt": "Дубай"
+      },
+      "rest.servis-i-kuhnya.hotels.oae.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.oae.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.oae.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.countries.3.photo": {
+        "label": "Мальдивы",
+        "asset": "@maldives.webp",
+        "kind": "place",
+        "alt": "Мальдивы"
+      },
+      "rest.servis-i-kuhnya.hotels.maldivy.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.maldivy.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.maldivy.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.countries.4.photo": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "rest.servis-i-kuhnya.hotels.tailand.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.tailand.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.tailand.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.countries.5.photo": {
+        "label": "Вьетнам",
+        "asset": "@place-nha-trang.webp",
+        "kind": "place",
+        "alt": "Нячанг"
+      },
+      "rest.servis-i-kuhnya.hotels.vetnam.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.vetnam.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.vetnam.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.countries.6.photo": {
+        "label": "Китай",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.servis-i-kuhnya.hotels.kitay.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.kitay.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.servis-i-kuhnya.hotels.kitay.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.ekskursionnye-tury.countries.0.photo": {
+        "label": "Россия",
+        "asset": "@place-rossiya.webp",
+        "kind": "place",
+        "alt": "Россия"
+      },
+      "rest.ekskursionnye-tury.hotels.rossiya.0.photo": {
+        "label": "Тур 1",
+        "asset": "@place-rossiya.webp",
+        "kind": "place",
+        "alt": "Россия"
+      },
+      "rest.ekskursionnye-tury.hotels.rossiya.1.photo": {
+        "label": "Тур 2",
+        "asset": "@place-rossiya.webp",
+        "kind": "place",
+        "alt": "Россия"
+      },
+      "rest.ekskursionnye-tury.hotels.rossiya.2.photo": {
+        "label": "Тур 3",
+        "asset": "@place-rossiya.webp",
+        "kind": "place",
+        "alt": "Россия"
+      },
+      "rest.ekskursionnye-tury.countries.1.photo": {
+        "label": "Беларусь",
+        "asset": "@place-belarus.webp",
+        "kind": "place",
+        "alt": "Беларусь"
+      },
+      "rest.ekskursionnye-tury.hotels.belarus.0.photo": {
+        "label": "Тур 1",
+        "asset": "@place-belarus.webp",
+        "kind": "place",
+        "alt": "Беларусь"
+      },
+      "rest.ekskursionnye-tury.hotels.belarus.1.photo": {
+        "label": "Тур 2",
+        "asset": "@place-belarus.webp",
+        "kind": "place",
+        "alt": "Беларусь"
+      },
+      "rest.ekskursionnye-tury.hotels.belarus.2.photo": {
+        "label": "Тур 3",
+        "asset": "@place-belarus.webp",
+        "kind": "place",
+        "alt": "Беларусь"
+      },
+      "rest.ekskursionnye-tury.countries.2.photo": {
+        "label": "Грузия",
+        "asset": null,
+        "kind": "place",
+        "alt": "Грузия"
+      },
+      "rest.ekskursionnye-tury.hotels.gruziya.0.photo": {
+        "label": "Тур 1",
+        "asset": null,
+        "kind": "place",
+        "alt": "Тур 1"
+      },
+      "rest.ekskursionnye-tury.hotels.gruziya.1.photo": {
+        "label": "Тур 2",
+        "asset": null,
+        "kind": "place",
+        "alt": "Тур 2"
+      },
+      "rest.ekskursionnye-tury.hotels.gruziya.2.photo": {
+        "label": "Тур 3",
+        "asset": null,
+        "kind": "place",
+        "alt": "Тур 3"
+      },
+      "rest.ekskursionnye-tury.countries.3.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.ekskursionnye-tury.hotels.turciya.0.photo": {
+        "label": "Тур 1",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.ekskursionnye-tury.hotels.turciya.1.photo": {
+        "label": "Тур 2",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.ekskursionnye-tury.hotels.turciya.2.photo": {
+        "label": "Тур 3",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.ekskursionnye-tury.countries.4.photo": {
+        "label": "Китай",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.ekskursionnye-tury.hotels.kitay.0.photo": {
+        "label": "Тур 1",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.ekskursionnye-tury.hotels.kitay.1.photo": {
+        "label": "Тур 2",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.ekskursionnye-tury.hotels.kitay.2.photo": {
+        "label": "Тур 3",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.ekskursionnye-tury.countries.5.photo": {
+        "label": "Танзания",
+        "asset": null,
+        "kind": "place",
+        "alt": "Танзания"
+      },
+      "rest.ekskursionnye-tury.hotels.tanzaniya.0.photo": {
+        "label": "Тур 1",
+        "asset": null,
+        "kind": "place",
+        "alt": "Тур 1"
+      },
+      "rest.ekskursionnye-tury.hotels.tanzaniya.1.photo": {
+        "label": "Тур 2",
+        "asset": null,
+        "kind": "place",
+        "alt": "Тур 2"
+      },
+      "rest.ekskursionnye-tury.hotels.tanzaniya.2.photo": {
+        "label": "Тур 3",
+        "asset": null,
+        "kind": "place",
+        "alt": "Тур 3"
+      },
+      "rest.otel-radi-kotorogo-edut.countries.0.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.turciya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.turciya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.turciya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.countries.1.photo": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.tailand.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.tailand.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.tailand.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.countries.2.photo": {
+        "label": "ОАЭ",
+        "asset": "@place-dubai.webp",
+        "kind": "place",
+        "alt": "Дубай"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.oae.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.oae.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.oae.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.countries.3.photo": {
+        "label": "Мальдивы",
+        "asset": "@maldives.webp",
+        "kind": "place",
+        "alt": "Мальдивы"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.maldivy.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.maldivy.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.maldivy.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.countries.4.photo": {
+        "label": "Египет",
+        "asset": "@place-pyramids.webp",
+        "kind": "place",
+        "alt": "Пирамиды Гизы"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.egipet.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.egipet.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.egipet.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.countries.5.photo": {
+        "label": "Вьетнам",
+        "asset": "@place-nha-trang.webp",
+        "kind": "place",
+        "alt": "Нячанг"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.vetnam.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.vetnam.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.vetnam.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.countries.6.photo": {
+        "label": "Китай, остров Хайнань",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.kitay.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.kitay.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.otel-radi-kotorogo-edut.hotels.kitay.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.countries.0.photo": {
+        "label": "Россия",
+        "asset": null,
+        "kind": "place",
+        "alt": "Россия"
+      },
+      "rest.gornyj-vozduh.hotels.rossiya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.rossiya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.rossiya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.countries.1.photo": {
+        "label": "Турция",
+        "asset": null,
+        "kind": "place",
+        "alt": "Турция"
+      },
+      "rest.gornyj-vozduh.hotels.turciya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.turciya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.turciya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.countries.2.photo": {
+        "label": "Грузия",
+        "asset": null,
+        "kind": "place",
+        "alt": "Грузия"
+      },
+      "rest.gornyj-vozduh.hotels.gruziya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.gruziya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.gruziya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.countries.3.photo": {
+        "label": "Армения",
+        "asset": "@place-armeniya.webp",
+        "kind": "place",
+        "alt": "Армения"
+      },
+      "rest.gornyj-vozduh.hotels.armeniya.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.armeniya.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.armeniya.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.countries.4.photo": {
+        "label": "Азербайджан",
+        "asset": "@place-azerbaydzhan.webp",
+        "kind": "place",
+        "alt": "Азербайджан"
+      },
+      "rest.gornyj-vozduh.hotels.azerbaydzhan.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.azerbaydzhan.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.azerbaydzhan.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.countries.5.photo": {
+        "label": "Казахстан",
+        "asset": "@place-kazahstan.webp",
+        "kind": "place",
+        "alt": "Казахстан"
+      },
+      "rest.gornyj-vozduh.hotels.kazahstan.0.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.kazahstan.1.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.gornyj-vozduh.hotels.kazahstan.2.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "rest.svoj-marshrut.countries.0.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.svoj-marshrut.hotels.turciya.0.photo": {
+        "label": "Турция",
+        "asset": "@place-antalya.webp",
+        "kind": "place",
+        "alt": "Анталья"
+      },
+      "rest.svoj-marshrut.countries.1.photo": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "rest.svoj-marshrut.hotels.tailand.0.photo": {
+        "label": "Таиланд",
+        "asset": "@place-khao-lak.webp",
+        "kind": "place",
+        "alt": "Као-Лак"
+      },
+      "rest.svoj-marshrut.countries.2.photo": {
+        "label": "Китай",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.svoj-marshrut.hotels.kitay.0.photo": {
+        "label": "Китай",
+        "asset": "@place-hainan.webp",
+        "kind": "place",
+        "alt": "Санья, остров Хайнань"
+      },
+      "rest.svoj-marshrut.countries.3.photo": {
+        "label": "Вьетнам и Камбоджа",
+        "asset": null,
+        "kind": "place",
+        "alt": "Вьетнам и Камбоджа"
+      },
+      "rest.svoj-marshrut.hotels.vetnam-kambodzha.0.photo": {
+        "label": "Вьетнам и Камбоджа",
+        "asset": null,
+        "kind": "place",
+        "alt": "Вьетнам и Камбоджа"
+      },
+      "rest.svoj-marshrut.countries.4.photo": {
+        "label": "Шри-Ланка и Мальдивы",
+        "asset": null,
+        "kind": "place",
+        "alt": "Шри-Ланка и Мальдивы"
+      },
+      "rest.svoj-marshrut.hotels.shri-lanka-maldivy.0.photo": {
+        "label": "Шри-Ланка и Мальдивы",
+        "asset": null,
+        "kind": "place",
+        "alt": "Шри-Ланка и Мальдивы"
+      },
+      "rest.svoj-marshrut.countries.5.photo": {
+        "label": "Грузия и Армения",
+        "asset": null,
+        "kind": "place",
+        "alt": "Грузия и Армения"
+      },
+      "rest.svoj-marshrut.hotels.gruziya-armeniya.0.photo": {
+        "label": "Грузия и Армения",
+        "asset": null,
+        "kind": "place",
+        "alt": "Грузия и Армения"
+      },
+      "rest.kruizy.types.0.photo": {
+        "label": "Морской круиз с несколькими портами",
+        "asset": "@place-sea-cruise.webp",
+        "kind": "place",
+        "alt": "Морской круиз"
+      },
+      "rest.kruizy.types.1.photo": {
+        "label": "Речной круиз",
+        "asset": "@place-river-cruise.webp",
+        "kind": "place",
+        "alt": "Речной круиз по Волге"
+      },
+      "rest.kruizy.types.2.photo": {
+        "label": "Круиз с днями отдыха на борту",
+        "asset": "@place-deck-cruise.webp",
+        "kind": "place",
+        "alt": "Отдых на борту круизного лайнера"
+      },
+      "offers.e1.photo": {
+        "label": "Отель 1",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.e1.room_photo": {
+        "label": "Номер отеля",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h2.photo": {
+        "label": "Отель 2",
+        "asset": "@summer-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h2.room_photo": {
+        "label": "Номер отеля",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h3.photo": {
+        "label": "Отель 3",
+        "asset": "@vietnam-free.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h3.room_photo": {
+        "label": "Номер отеля",
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.e2.photo": {
+        "label": "Отель 4",
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.e2.room_photo": {
+        "label": "Номер отеля",
+        "asset": "@place-neutral-pool-1.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h5.photo": {
+        "label": "Отель 5",
+        "asset": "@place-neutral-pool-1.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h5.room_photo": {
+        "label": "Номер отеля",
+        "asset": "@place-neutral-pool-3.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h6.photo": {
+        "label": "Отель 6",
+        "asset": "@place-neutral-pool-3.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.h6.room_photo": {
+        "label": "Номер отеля",
+        "asset": "@place-neutral-pool-5.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.e3.photo": {
+        "label": "Отель 7",
+        "asset": "@place-neutral-pool-5.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.e3.room_photo": {
+        "label": "Номер отеля",
+        "asset": "@place-neutral-pool-6.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.e4.photo": {
+        "label": "Отель 8",
+        "asset": "@place-neutral-pool-6.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      },
+      "offers.e4.room_photo": {
+        "label": "Номер отеля",
+        "asset": "hero-resort.webp",
+        "kind": "neutral",
+        "alt": "Бассейн и территория отеля — иллюстрация"
+      }
+    },
+    "neutralPhotos": [
+      "hero-resort.webp",
+      "@summer-hotel.webp",
+      "@vietnam-free.webp",
+      "@place-neutral-hotel.webp",
+      "@place-neutral-pool-1.webp",
+      "@place-neutral-pool-3.webp",
+      "@place-neutral-pool-5.webp",
+      "@place-neutral-pool-6.webp"
+    ],
+    "policy": "Exact place or intentional cover; never an unrelated recognisable place."
   }
 }
