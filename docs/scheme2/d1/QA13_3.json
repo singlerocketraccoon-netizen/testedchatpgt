@@ -1,0 +1,3562 @@
+{
+  "stage": "13.3",
+  "links": 8064,
+  "engines": {
+    "chromium": "156.0.8078.79",
+    "firefox": "153.0",
+    "webkit": "26.5"
+  },
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    },
+    {
+      "engine": "firefox",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    },
+    {
+      "engine": "webkit",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    }
+  ],
+  "content_unchanged": true,
+  "public_photos": 74,
+  "qa_resources": 477,
+  "reviewed_photos": 76,
+  "source_exact": true,
+  "clean_rebuild": {
+    "files": 364,
+    "changed": 0
+  },
+  "content_gaps": [
+    {
+      "engine": "chromium",
+      "page": "o-nas/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/kontakty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/kontakty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "predlozheniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "predlozheniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "zagranpasport/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "zagranpasport/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/index.html",
+      "width": 390,
+      "gap": 24.000015258789062
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 390,
+      "gap": 24.000015258789062
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/kontakty/index.html",
+      "width": 390,
+      "gap": 24.000015258789062
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/kontakty/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 390,
+      "gap": 24.000015258789062
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 390,
+      "gap": 23.999969482421875
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/index.html",
+      "width": 1440,
+      "gap": 31.999984741210938
+    },
+    {
+      "engine": "firefox",
+      "page": "predlozheniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "firefox",
+      "page": "predlozheniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "firefox",
+      "page": "zagranpasport/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "firefox",
+      "page": "zagranpasport/index.html",
+      "width": 1440,
+      "gap": 31.999984741210938
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/kontakty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/kontakty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "predlozheniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "predlozheniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "zagranpasport/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "zagranpasport/index.html",
+      "width": 1440,
+      "gap": 32
+    }
+  ],
+  "pill_sentinel": true,
+  "private_cases": 12,
+  "sentinels": {
+    "global_css_detected": true,
+    "overlapping_lines_detected": true,
+    "excess_gap_detected": true
+  },
+  "cover_geometry": [
+    {
+      "engine": "chromium",
+      "page": "index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/oae/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/oae/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/oae/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/oae/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/oae/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/egipet/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/kitay/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/oae/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/tailand/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/turciya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/kruizy/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/egipet/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/kitay/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/oae/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/tailand/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/turciya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "chromium",
+      "page": "otdyh/kruizy/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "firefox",
+      "page": "index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/oae/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/oae/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/oae/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/oae/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/oae/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/egipet/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/kitay/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/oae/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/tailand/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/turciya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/kruizy/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/egipet/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/kitay/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/oae/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/tailand/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/turciya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "firefox",
+      "page": "otdyh/kruizy/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 3.0517578125e-05
+    },
+    {
+      "engine": "webkit",
+      "page": "index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/oae/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1280,
+      "height": 668,
+      "actual": 668,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/oae/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1366,
+      "height": 768,
+      "actual": 768,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/oae/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1440,
+      "height": 900,
+      "actual": 900,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/oae/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1536,
+      "height": 864,
+      "actual": 864,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/egipet/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/kitay/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/oae/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/tailand/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/turciya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/kruizy/index.html",
+      "width": 1920,
+      "height": 1080,
+      "actual": 1080,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/egipet/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/kitay/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/oae/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/tailand/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/turciya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/kruizy/index.html",
+      "width": 2560,
+      "height": 1336,
+      "actual": 1336,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/vetnam/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/egipet/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/indoneziya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/kitay/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/maldivy/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/oae/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/tailand/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/turciya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/shri-lanka/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/tishina-i-more/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/plyazh-i-progulki/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/servis-i-kuhnya/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/svoj-marshrut/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    },
+    {
+      "engine": "webkit",
+      "page": "otdyh/kruizy/index.html",
+      "width": 2560,
+      "height": 1440,
+      "actual": 1440,
+      "centerError": 0.0078125
+    }
+  ],
+  "expanded_forms": [
+    {
+      "engine": "chromium",
+      "height": 1091.25,
+      "top": 116,
+      "bottom": 1063.25,
+      "coverBottom": 1091.25,
+      "headerBottom": 88
+    },
+    {
+      "engine": "firefox",
+      "height": 1091.36669921875,
+      "top": 116,
+      "bottom": 1063.36669921875,
+      "coverBottom": 1091.36669921875,
+      "headerBottom": 88
+    },
+    {
+      "engine": "webkit",
+      "height": 1091.25,
+      "top": 116,
+      "bottom": 1063.25,
+      "coverBottom": 1091.25,
+      "headerBottom": 88
+    }
+  ],
+  "status": "passed"
+}

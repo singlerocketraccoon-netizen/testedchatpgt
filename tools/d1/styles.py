@@ -1,5 +1,9 @@
 """Canonical styles and local font preload for every generated page."""
 import re
+def prepare(ctx):
+ """Publish the canonical responsive stylesheet before page generation."""
+ (ctx['SITE']/'css/revision13.css').write_text((ctx['TOOLS']/'templates/revision13.css').read_text())
+
 def finish(ctx,path):
  p=ctx['SITE']/path;h=p.read_text();U=ctx['url']
  h=re.sub(r'<link\b(?=[^>]*rel="stylesheet")[^>]*>','',h)
