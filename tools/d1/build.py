@@ -161,6 +161,8 @@ def ratings_strip(path,large=False):
  return '<div class="review-platforms'+(' review-platforms-large'if large else'')+'" aria-label="Отзывы на картах">'+''.join(f'<div class="review-platform"><a class="review-platform-link" href="{E(p["url"])}" data-review-platform="{p["slug"]}" data-goal="reviews_{p["slug"]}" {editable("reviews.platforms."+p["slug"]+".link")}>{icon("i-arrow-up")}<span {editable("reviews.platforms."+p["slug"]+".label")}>{E(p["label"])}</span></a><span class="review-platform-rating" {editable("reviews.platforms."+p["slug"]+".rating")}>{E(p["rating"])}</span></div>'for p in DATA['review_platforms'])+'</div>'
 
 def build():
+ from styles import prepare as prepare_styles
+ prepare_styles(globals())
  from stage4 import configure,finalize
  configure(globals())
  from country import configure as configure_countries,country as country_page,finish as finish_country

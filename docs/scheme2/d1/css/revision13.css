@@ -9,7 +9,7 @@ body.has-mobile-panel,body:has([data-mobile-contact]){padding-bottom:0;}
 /* Navigation: equal distance around the central logo; contacts remain at the edge. */
 .d1-header .brand{--logo-height:40px;}
 .nav-home{display:flex;align-items:center;min-height:44px;}
-.nav-home[aria-current=page]{text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:1px;}
+.nav-home[aria-current=page]{text-decoration:none;}
 @media(min-width:1024px){
  .d1-header .header-inner{width:calc(100% - 32px);max-width:none;gap:0;}
  .d1-header .brand{--logo-height:54px;}
@@ -25,7 +25,7 @@ body.has-mobile-panel,body:has([data-mobile-contact]){padding-bottom:0;}
 .dropdown-panel{opacity:0;transform:translateY(-6px);transition:opacity 150ms ease,transform 150ms ease;}
 .dropdown-panel.is-visible{opacity:1;transform:none;transition-duration:200ms;}
 /* Flow-based slideshow: every slide contributes to the same grid row. */
-.hero-shell{height:auto;min-height:clamp(560px,88svh,1000px);--trust-height:80px;}
+.hero-shell{height:auto;min-height:100svh;--trust-height:80px;}
 .hero-slides{position:relative;inset:auto;display:grid;min-height:inherit;}
 .hero-slide{position:relative;inset:auto;grid-area:1/1;display:flex;flex-direction:column;justify-content:flex-end;min-height:inherit;}
 .hero-slide>img{position:absolute;inset:0;width:100%;height:100%;}
@@ -46,7 +46,7 @@ body.has-mobile-panel,body:has([data-mobile-contact]){padding-bottom:0;}
  .stage4-home .hero-copy h1,.stage4-home .hero-copy h2{font-size:clamp(1.75rem,8svh,2.5rem);max-width:min(640px,62vw);}
  .hero-next-topic{max-width:130px;}.hero-controls{bottom:calc(var(--trust-height) + 12px);}
 }
-/* Covers keep text in flow and reserve compact space on laptops. */
+/* Covers keep text in flow; narrow screens retain their compact layout. */
 .country-hero,.rest-cover{min-height:0;padding:calc(var(--header-height) + 20px) 0 32px;}
 .country-hero .breadcrumbs{margin-bottom:24px;}.country-hero-grid,.rest-cover-grid{gap:28px;align-items:start;}
 .country-hero h1,.rest-cover h1{font-size:var(--text-h1);}.country-subtitle,.rest-lead{font-size:var(--text-body);line-height:1.6;}
@@ -178,3 +178,9 @@ body.has-mobile-panel,body:has([data-mobile-contact]){padding-bottom:0;}
 @container(min-width:340px) and (max-width:419px){.country-months{grid-template-columns:repeat(4,minmax(0,1fr));}}
 @container(min-width:720px) and (max-width:879px){.country-months{grid-template-columns:repeat(6,minmax(0,1fr));}}
 .country-format button{padding-inline:14px;min-height:44px;}
+
+/* Stage 13.3: shared section width and full-height desktop photo covers. */
+.mood-section > .container{width:min(calc(100% - var(--gutter) * 2),var(--content));}
+@media(min-width:1024px){
+ .country-hero,.rest-cover{display:flex;flex-direction:column;justify-content:center;min-height:100svh;}
+}

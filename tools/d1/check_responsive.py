@@ -7,7 +7,7 @@ from playwright.async_api import async_playwright
 from engines7 import launch
 R=Path(__file__).resolve().parents[2];S=R/'docs/scheme2/d1';PAGES=[p for p in json.loads((R/'tools/d1/pages.json').read_text())if p['type']!='redirect'];SEED=20261114
 FIXED=[320,360,375,390,412,430,480,540,600,667,720,768,800,834,900,960,1024,1080,1100,1180,1200,1280,1366,1440,1536,1600,1680,1800,1920,2048,2560,3440];RANDOM=random.Random(SEED).sample([w for w in range(320,2561)if w not in FIXED],12)
-SPECIAL=[(320,568),(360,640),(375,667),(667,375),(844,390),(932,430),(1024,600),(1280,600),(1280,720),(1366,768),(1440,700),(1536,864),(1920,800),(768,1024),(820,1180),(1024,1366),(1180,820),(3440,1440)];OTHER=[(390,844),(844,390),(768,1024),(1440,900)]
+SPECIAL=[(1280,668),(1920,1080),(2560,1336),(2560,1440),(390,844),(320,568),(360,640),(375,667),(667,375),(844,390),(932,430),(1024,600),(1280,600),(1280,720),(1366,768),(1440,700),(1536,864),(1920,800),(768,1024),(820,1180),(1024,1366),(1180,820),(3440,1440)];OTHER=[(390,844),(844,390),(768,1024),(1440,900)]
 JS=r'''()=>{
  const fail=[],r=e=>e.getBoundingClientRect(),shown=e=>{if(!e||!e.getClientRects().length||e.closest('[hidden],[inert],dialog:not([open]),[aria-hidden=true],.sr-only,svg,script,style'))return false;for(let n=e;n;n=n.parentElement){const s=getComputedStyle(n);if(s.visibility==='hidden'||s.display==='none'||Number(s.opacity)===0)return false;if(n.tagName==='DETAILS'&&!n.open&&!n.querySelector(':scope>summary')?.contains(e))return false;}return true;};
  const clipped=(e,box)=>{for(let n=e.parentElement;n&&n!==document.body;n=n.parentElement){const s=getComputedStyle(n),b=r(n);if(['auto','scroll'].includes(s.overflowX)&&n.scrollWidth>n.clientWidth+1)return false;if(['hidden','clip'].includes(s.overflowX)&&(box.left<b.left-2||box.right>b.right+2))return true;if(['hidden','clip'].includes(s.overflowY)&&(box.top<b.top-2||box.bottom>b.bottom+2))return true;}return false;};
@@ -23,7 +23,16 @@ JS=r'''()=>{
  const header=document.querySelector('.d1-header'),head=header?r(header):null;if(innerWidth>=1024&&header){const nodes=[...header.querySelectorAll('.nav-left>a,.nav-left>div,.nav-about>a,.nav-about>div,.header-contacts>.icon-control')].filter(shown),boxes=nodes.map(r),ys=boxes.map(b=>b.y+b.height/2);if(Math.max(...ys)-Math.min(...ys)>1)fail.push({kind:'header-row',centers:ys});const logo=r(header.querySelector('.brand'));for(let i=0;i<boxes.length;i++){const a=boxes[i];if(a.left<logo.right-1&&a.right>logo.left+1)fail.push({kind:'header-logo-overlap',label:nodes[i].textContent});if(a.left<-1||a.right>innerWidth+1)fail.push({kind:'header-outside'});for(let j=i+1;j<boxes.length;j++)if(a.left<boxes[j].right-1&&a.right>boxes[j].left+1)fail.push({kind:'header-items-overlap',a:nodes[i].textContent,b:nodes[j].textContent});}}
  const cover=document.querySelector('[data-inner-cover]'),hero=cover?.querySelector('.hero-slide.is-active'),h=hero?.querySelector('h1,h2')||cover?.querySelector('h1');const actions=[...(hero||cover||document).querySelectorAll('[data-hero-cta],[data-messenger],button[data-open-form],a[href="#cost"],a.btn')].filter(shown),action=actions[0];if(h){const b=r(h);if(b.top<(head?.bottom||0)-1||b.bottom>innerHeight+1)fail.push({kind:'h1-outside-first-screen',top:b.top,bottom:b.bottom,viewport:innerHeight});}if(action){const b=r(action);if(b.top<(head?.bottom||0)-1||b.bottom>innerHeight+1)fail.push({kind:'cta-outside-first-screen',text:action.textContent.trim(),top:b.top,bottom:b.bottom,viewport:innerHeight});}
  if(hero){const ctrl=r(cover.querySelector('.hero-controls')),copy=r(hero.querySelector('.hero-copy')),button=r(hero.querySelector('[data-hero-cta]'));if(button.bottom>ctrl.top+1)fail.push({kind:'hero-controls-overlap',button:button.bottom,controls:ctrl.top});}
- if(cover&&innerWidth===1366&&innerHeight===768||cover&&innerWidth===1536&&innerHeight===864){if(!hero&&r(cover).bottom>innerHeight*.82+1)fail.push({kind:'interior-cover-height',bottom:r(cover).bottom,max:innerHeight*.82});}
+ const fullScreens=[[1280,668],[1366,768],[1440,900],[1536,864],[1920,1080],[2560,1336],[2560,1440]];
+ if(cover&&(cover.matches('.country-hero,.rest-cover')||hero)&&(fullScreens.some(([w,h])=>w===innerWidth&&h===innerHeight)||hero&&innerWidth===390&&innerHeight===844)){
+  if(Math.abs(r(cover).height-innerHeight)>1)fail.push({kind:'full-cover-height',height:r(cover).height,viewport:innerHeight});
+ }
+ if(hero){
+  const home=document.querySelector('.nav-home');if(home?.getAttribute('aria-current')!=='page'||getComputedStyle(home).textDecorationLine!=='none')fail.push({kind:'home-current-decoration'});
+  if(innerWidth>=1024){const mood=r(document.querySelector('#moods>.container')),offers=r(document.querySelector('#offers>.container'));if(Math.abs(mood.width-offers.width)>1||Math.abs(mood.left-offers.left)>1)fail.push({kind:'mood-container-width',mood:mood.width,offers:offers.width});const cols=getComputedStyle(document.querySelector('#moods .rest-grid')).gridTemplateColumns.split(' ').length;if(cols!==3)fail.push({kind:'mood-column-count',cols});}
+ }
+ if(cover?.matches('.country-hero,.rest-cover')&&innerWidth>=1024){const style=getComputedStyle(cover),box=r(cover),content=r(cover.querySelector(':scope>.container')),middle=(box.top+parseFloat(style.paddingTop)+box.bottom-parseFloat(style.paddingBottom))/2;if(Math.abs((content.top+content.bottom)/2-middle)>1)fail.push({kind:'cover-vertical-center',middle,contentMiddle:(content.top+content.bottom)/2});}
+
  const footer=document.querySelector('footer');if(footer){const height=r(footer).height,limit=innerWidth>=1024?380:innerWidth>=768?520:760;if(height>limit+1)fail.push({kind:'footer-height',height,limit});}
  for(const card of document.querySelectorAll('.messenger-card'))if(shown(card)&&innerWidth>=1024&&!card.querySelector('details[open]')&&r(card).height>521)fail.push({kind:'form-height',height:r(card).height});
  for(const card of document.querySelectorAll('.document-row'))if(shown(card)&&r(card).height>89)fail.push({kind:'document-row-height',height:r(card).height});
@@ -72,7 +81,7 @@ class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**kw):super().__init__(*a,directory=str(R/'docs'),**kw)
  def log_message(self,*a):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),H);threading.Thread(target=server.serve_forever,daemon=True).start();BASE='http://127.0.0.1:'+str(server.server_port)+'/scheme2/d1/'
-report={'stage':'13.2','seed':SEED,'random_widths':RANDOM,'fixed_widths':FIXED,'special':SPECIAL,'engines':{},'cases':0,'text_rects':0,'targets':0,'failures':[],'errors':[],'resources':[]}
+report={'stage':'13.3','seed':SEED,'random_widths':RANDOM,'fixed_widths':FIXED,'special':SPECIAL,'engines':{},'cases':0,'text_rects':0,'targets':0,'failures':[],'errors':[],'resources':[]}
 def check_css_scope():
  import re
  for path in (S/'css').glob('*.css'):
@@ -100,9 +109,9 @@ async def main():
       for i in range(3):
        await page.locator('[data-hero-next]').click();x=await page.evaluate(JS)
        if x['fail']:report['failures'].append(dict(engine=engine,width=w,height=h,page=p['path'],slide=i+2,failures=x['fail']))
-    await ctx.close();print(engine,w,h,'cases',report['cases'],'violations',sum(len(f['failures'])for f in report['failures']),flush=True);(S/('RESPONSIVE13_2_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_2_QUICK.json'if quick else'RESPONSIVE13_2.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    await ctx.close();print(engine,w,h,'cases',report['cases'],'violations',sum(len(f['failures'])for f in report['failures']),flush=True);(S/('RESPONSIVE13_3_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_3_QUICK.json'if quick else'RESPONSIVE13_3.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
    await browser.close()
  report['status']='passed'if not report['failures']and not report['errors']and not report['resources']else'failed';report['violations']=sum(len(f['failures'])for f in report['failures'])+len(report['errors'])+len(report['resources']);assert report['status']=='passed',(report['violations'],len(report['errors']));print('0 нарушений',flush=True)
 if __name__=='__main__':
  try:asyncio.run(main())
- finally:server.shutdown();(S/('RESPONSIVE13_2_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_2_QUICK.json'if'--quick'in sys.argv else'RESPONSIVE13_2.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ finally:server.shutdown();(S/('RESPONSIVE13_3_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_3_QUICK.json'if'--quick'in sys.argv else'RESPONSIVE13_3.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
