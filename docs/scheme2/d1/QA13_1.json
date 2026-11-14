@@ -1,0 +1,338 @@
+{
+  "stage": "13.1",
+  "links": 7844,
+  "engines": {
+    "chromium": "156.0.8078.79",
+    "firefox": "153.0",
+    "webkit": "26.5"
+  },
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    },
+    {
+      "engine": "firefox",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    },
+    {
+      "engine": "webkit",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    }
+  ],
+  "content_unchanged": true,
+  "reviewed_photos": 49,
+  "source_exact": true,
+  "clean_rebuild": {
+    "files": 316,
+    "changed": 0
+  },
+  "content_gaps": [
+    {
+      "engine": "chromium",
+      "page": "o-nas/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/kontakty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/kontakty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "napravleniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "predlozheniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "predlozheniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "chromium",
+      "page": "zagranpasport/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "chromium",
+      "page": "zagranpasport/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/index.html",
+      "width": 390,
+      "gap": 23.999984741210938
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 390,
+      "gap": 23.999984741210938
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/kontakty/index.html",
+      "width": 390,
+      "gap": 23.999984741210938
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/kontakty/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 390,
+      "gap": 23.999984741210938
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 390,
+      "gap": 24.000015258789062
+    },
+    {
+      "engine": "firefox",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 1440,
+      "gap": 32.000030517578125
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "firefox",
+      "page": "napravleniya/index.html",
+      "width": 1440,
+      "gap": 31.999984741210938
+    },
+    {
+      "engine": "firefox",
+      "page": "predlozheniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "firefox",
+      "page": "predlozheniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "firefox",
+      "page": "zagranpasport/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "firefox",
+      "page": "zagranpasport/index.html",
+      "width": 1440,
+      "gap": 31.999984741210938
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/otzyvy/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/kontakty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/kontakty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "o-nas/dokumenty/rekvizity/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "napravleniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "predlozheniya/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "predlozheniya/index.html",
+      "width": 1440,
+      "gap": 32
+    },
+    {
+      "engine": "webkit",
+      "page": "zagranpasport/index.html",
+      "width": 390,
+      "gap": 24
+    },
+    {
+      "engine": "webkit",
+      "page": "zagranpasport/index.html",
+      "width": 1440,
+      "gap": 32
+    }
+  ],
+  "sentinels": {
+    "global_css_detected": true,
+    "overlapping_lines_detected": true,
+    "excess_gap_detected": true
+  },
+  "status": "passed"
+}
