@@ -10,10 +10,10 @@ def finish(ctx,path):
  elif path.startswith('predlozheniya/'):files+=['offers']
  elif path=='styleguide.html':files+=['brand-guide']
  else:files+=['home'] # Shared people, reviews and process components.
- files+=['grids','refinements']
+ files+=['grids','refinements','revision13']
  styles=''.join('<link rel="stylesheet" href="'+U(path,'css/'+name+'.css')+'">'for name in files)
  fonts=['../../assets/fonts/manrope-2.woff2','../../assets/fonts/manrope-6.woff2','../../assets/fonts/cormorant-garamond-2.woff2','../../assets/fonts/cormorant-garamond-5.woff2']
  preload=''.join('<link rel="preload" href="'+U(path,f)+'" as="font" type="font/woff2" crossorigin>'for f in fonts)
- h=h.replace('</head>',preload+styles+'<script defer src="'+U(path,'js/legacy.js')+'"></script><script defer src="'+U(path,'js/layout.js')+'"></script></head>')
+ h=h.replace('</head>','<script defer src="'+U(path,'js/revision13.js')+'"></script>'+preload+styles+'<script defer src="'+U(path,'js/legacy.js')+'"></script><script defer src="'+U(path,'js/layout.js')+'"></script></head>')
  if path.startswith('otdyh/')and'js/rest.js'not in h:h=h.replace('</head>','<script defer src="'+U(path,'js/rest.js')+'"></script></head>')
  p.write_text(h)

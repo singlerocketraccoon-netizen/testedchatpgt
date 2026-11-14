@@ -1,0 +1,41 @@
+{
+  "stage": 13,
+  "links": 7834,
+  "engines": {
+    "chromium": "156.0.8078.79",
+    "firefox": "153.0",
+    "webkit": "26.5"
+  },
+  "scenarios": [
+    {
+      "engine": "chromium",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    },
+    {
+      "engine": "firefox",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    },
+    {
+      "engine": "webkit",
+      "service_topics": 12,
+      "messenger_context_phone_excluded": true,
+      "callback_validation_and_clear": true,
+      "stepper": true,
+      "dock": true
+    }
+  ],
+  "source_exact": true,
+  "clean_rebuild": {
+    "files": 252,
+    "changed": 0
+  },
+  "status": "passed"
+}

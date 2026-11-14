@@ -6,7 +6,7 @@ def build_rest_pages(ctx):
  for p in D['rest_pages']+[D['cruise_page']]:
   slug=p['slug'];path='otdyh/'+slug+'/index.html';base='rest.'+slug;topic=p.get('topic','holiday:'+slug);dialogs=[];mode=p['mode']
   def button(label,key=topic,goal='rest_select',cls='btn btn-primary'):return shared.action(label,key,goal,cls)
-  def photo(name,alt,key,lazy=True):return image(path,name,alt,lazy,key=key)if name else'<div class="rest-photo-placeholder" role="img" aria-label="'+E(alt)+'" '+ED(key,True)+'>'+I('i-mood-compass')+'</div>'
+  def photo(name,alt,key,lazy=True):return ctx['illustrative_photo'](path,name,alt,key,lazy)
   def form(place):return shared.form(path,topic,place,classes='rest-inquiry',attrs='id="rest-inquiry-'+place+'"')
   def section(part,title,content,tonal=False):return '<section '+(ED(base+'.'+part,True)+' 'if mode=='cruises'else'')+'class="section rest-content-section'+(' rest-tonal'if tonal else'')+'" id="'+part+'" data-rest-section="'+part+'"><div class="container"><div class="section-head"><h2 '+ED(base+'.'+part+'.title')+'>'+E(title)+'</h2></div>'+content+'</div></section>'
   def types():
