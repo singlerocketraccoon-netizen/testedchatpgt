@@ -4,6 +4,8 @@ from pathlib import Path
 from string import Template
 from html import escape
 import json,re,os
+MAX_CHANNEL_URL=''
+TELEGRAM_CHANNEL_URL=''
 ROOT=Path(__file__).resolve().parents[2];TOOLS=Path(__file__).resolve().parent;SITE=ROOT/'docs/scheme2/d1';DATA=json.loads((TOOLS/'data.json').read_text());HOME=(TOOLS/'templates/home-source.html').read_text();COUNTRIES=DATA['countries'];SERVICES=DATA['services'];PAGES=[]
 E=lambda s:escape(str(s),quote=True)
 def formal(s):
@@ -167,6 +169,8 @@ def build():
  stage6.configure(globals())
  import stage11
  stage11.configure(globals())
+ import stage13
+ stage13.configure(globals())
  stage6.home()
  stage6.countries_index()
  for c in COUNTRIES:country_page(c)

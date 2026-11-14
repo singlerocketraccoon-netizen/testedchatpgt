@@ -5,9 +5,10 @@
   const menu = header.querySelector('#mobile-nav'), burger = header.querySelector('[data-menu]');
   const groups = [...header.querySelectorAll('.nav-dropdown')];
   const desktop = matchMedia('(min-width: 1024px)');
-  let active = null, pinned = null, closing;
+  let active = null, pinned = null, closing, opening;
+  const fading=new WeakMap(),motion=matchMedia('(prefers-reduced-motion:reduce)');
   const sync = () => {
-    header.classList.toggle('is-menu-open', !!active || !menu.hidden);
+    header.classList.toggle('is-menu-open', !!active || !!header.querySelector('.dropdown-panel:not([hidden])') || !menu.hidden);
     document.documentElement.classList.toggle('is-nav-open', !menu.hidden);
     document.dispatchEvent(new Event('d1:navstate'));
   };
@@ -20,15 +21,14 @@
     group.style.setProperty('--dropdown-shift',(left-g.left)+'px');
     group.style.setProperty('--dropdown-width',width+'px');
   }
-  function closeDropdown(restore = false) {
-    clearTimeout(closing);
-    if (active) { const b = active.querySelector('[data-nav-toggle]'); b.setAttribute('aria-expanded', 'false'); active.querySelector('.dropdown-panel').hidden = true; if (restore) b.focus(); }
-    active = null; pinned = null; sync();
+  function closeDropdown(restore = false,immediate=false) {
+    clearTimeout(closing);clearTimeout(opening);
+    if(active){const group=active,b=group.querySelector('[data-nav-toggle]'),panel=group.querySelector('.dropdown-panel');b.setAttribute('aria-expanded','false');panel.classList.remove('is-visible');panel.inert=true;panel.setAttribute('aria-hidden','true');clearTimeout(fading.get(panel));const hide=()=>{panel.hidden=true;sync();};if(immediate||motion.matches)hide();else fading.set(panel,setTimeout(hide,150));if(restore)b.focus();}
+    active=null;pinned=null;sync();
   }
-  function openDropdown(group) {
-    if (!desktop.matches) return;
-    clearTimeout(closing); if (active !== group) closeDropdown(); active = group;
-    group.querySelector('[data-nav-toggle]').setAttribute('aria-expanded', 'true'); group.querySelector('.dropdown-panel').hidden = false; sync(); positionDropdown(group);
+  function openDropdown(group){
+    if(!desktop.matches)return;clearTimeout(opening);clearTimeout(closing);if(active!==group)closeDropdown(false,true);active=group;
+    const panel=group.querySelector('.dropdown-panel');clearTimeout(fading.get(panel));panel.hidden=false;panel.inert=false;panel.setAttribute('aria-hidden','false');group.querySelector('[data-nav-toggle]').setAttribute('aria-expanded','true');sync();positionDropdown(group);panel.getBoundingClientRect();panel.classList.add('is-visible');
   }
   function closeMobile(restore = false) {
     menu.hidden = true; burger.setAttribute('aria-expanded', 'false'); burger.setAttribute('aria-label', 'Открыть меню'); burger.querySelector('use').setAttribute('href', '#i-menu');
@@ -40,11 +40,11 @@
     const button = group.querySelector('[data-nav-toggle]'); button.disabled = false;
     button.addEventListener('click', () => { if (active === group && pinned === group) closeDropdown(); else { openDropdown(group); pinned = group; } });
     button.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); openDropdown(group); group.querySelector('.dropdown-panel a').focus(); } });
-    group.addEventListener('pointerenter', e => { if (e.pointerType !== 'touch') openDropdown(group); });
+    group.addEventListener('pointerenter',e=>{if(e.pointerType==='touch')return;clearTimeout(closing);clearTimeout(opening);if(active!==group)opening=setTimeout(()=>openDropdown(group),100);});
     group.addEventListener('pointerleave', e => {
       if(e.pointerType==='touch')return;
-      clearTimeout(closing);
-      closing = setTimeout(() => { if (active === group && !group.contains(document.activeElement) && pinned !== group) closeDropdown(); }, 180);
+      clearTimeout(opening);clearTimeout(closing);
+      closing = setTimeout(() => { if (active === group && !group.contains(document.activeElement) && pinned !== group) closeDropdown(); }, 200);
     });
     group.addEventListener('focusout', e => { if (!group.contains(e.relatedTarget)) closeDropdown(); });
   });

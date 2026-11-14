@@ -322,7 +322,7 @@
 .stage4-home .hero-slide::after{background:linear-gradient(90deg,rgb(var(--overlay-rgb) / 87%) 0,rgb(var(--overlay-rgb) / 75%) 38%,transparent 78%),linear-gradient(0deg,rgb(var(--overlay-rgb) / 84%) 0,rgb(var(--overlay-rgb) / 70%) 35%,transparent 75%),linear-gradient(180deg,rgb(var(--overlay-rgb) / 70%) 0,rgb(var(--overlay-rgb) / 68%) 90px,transparent 190px);}
 
 /* At short viewports/200% zoom the cover grows rather than hiding the text behind navigation. */
-@media   (max-height:740px) { .hero-shell{min-height:840px;} }
+
 
 .step-number,.partner-logo>span{font-family:var(--body);}
 /* Readable mobile copy at the shared 20px introductory scale. */
