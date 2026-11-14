@@ -5,7 +5,7 @@ from html.parser import HTMLParser
 import asyncio,json,random,threading,sys,time,hashlib
 from playwright.async_api import async_playwright
 from engines7 import launch
-R=Path(__file__).resolve().parents[2];S=R/'docs/scheme2/d1';PAGES=[p for p in json.loads((R/'tools/d1/pages.json').read_text())if p['type']!='redirect']+[{'path':'PHOTOS13_1.html','title':'Фото и лицензии','type':'report'}];SEED=20261114
+R=Path(__file__).resolve().parents[2];S=R/'docs/scheme2/d1';PAGES=[p for p in json.loads((R/'tools/d1/pages.json').read_text())if p['type']!='redirect'];SEED=20261114
 FIXED=[320,360,375,390,412,430,480,540,600,667,720,768,800,834,900,960,1024,1080,1100,1180,1200,1280,1366,1440,1536,1600,1680,1800,1920,2048,2560,3440];RANDOM=random.Random(SEED).sample([w for w in range(320,2561)if w not in FIXED],12)
 SPECIAL=[(320,568),(360,640),(375,667),(667,375),(844,390),(932,430),(1024,600),(1280,600),(1280,720),(1366,768),(1440,700),(1536,864),(1920,800),(768,1024),(820,1180),(1024,1366),(1180,820),(3440,1440)];OTHER=[(390,844),(844,390),(768,1024),(1440,900)]
 JS=r'''()=>{
@@ -28,7 +28,19 @@ JS=r'''()=>{
  for(const card of document.querySelectorAll('.messenger-card'))if(shown(card)&&innerWidth>=1024&&!card.querySelector('details[open]')&&r(card).height>521)fail.push({kind:'form-height',height:r(card).height});
  for(const card of document.querySelectorAll('.document-row'))if(shown(card)&&r(card).height>89)fail.push({kind:'document-row-height',height:r(card).height});
 
- const cardSelector='.messenger-card,.rest-age-item,.rest-check-item,.work-card-grid>a.step,.country-card-panel,.rest-selection-card,.rest-destination-card,.rest-format-card,.info-card,.service-extra-card,.service-travel-card,.ticket-link-cover,.mood-choice,.person-card,.document-row,.work-summary,.review-card,.country-index-card,.team-card';
+
+ for(const e of document.querySelectorAll('a,button,span,[role=tab]')){
+  if(!shown(e)||!e.textContent.trim()||e.closest('svg,.sr-only'))continue;
+  const s=getComputedStyle(e),box=r(e),radius=s.borderTopLeftRadius.endsWith('%')?parseFloat(s.borderTopLeftRadius)*Math.min(box.width,box.height)/100:parseFloat(s.borderTopLeftRadius);
+  const tagged=/(?:^|[\s_-])(chip|chips|tab|tabs|pill)(?:[\s_-]|$)/i.test(e.className)||e.matches('[role=tab],.section-tabs>a,.filter-chips>button,.country-months>button');
+  const pill=radius>=box.height/2-.5&&radius>0&&box.width>box.height*1.1;
+  if((tagged||pill)&&box.height>0){
+   if(parseFloat(s.paddingLeft)<11.99||parseFloat(s.paddingRight)<11.99)fail.push({kind:'pill-padding',class:e.className,text:e.textContent.trim().slice(0,60),left:s.paddingLeft,right:s.paddingRight,height:box.height});
+   if(box.height<43.99)fail.push({kind:'pill-height',class:e.className,text:e.textContent.trim().slice(0,60),height:box.height});
+  }
+ }
+
+ const cardSelector='.photo-credit-row,.messenger-card,.rest-age-item,.rest-check-item,.work-card-grid>a.step,.country-card-panel,.rest-selection-card,.rest-destination-card,.rest-format-card,.info-card,.service-extra-card,.service-travel-card,.ticket-link-cover,.mood-choice,.person-card,.document-row,.work-summary,.review-card,.country-index-card,.team-card';
  for(const card of document.querySelectorAll(cardSelector)){
   if(!shown(card))continue;const bounds=r(card),lines=[],walk=document.createTreeWalker(card,NodeFilter.SHOW_TEXT);let n;
   while(n=walk.nextNode()){
@@ -60,7 +72,7 @@ class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**kw):super().__init__(*a,directory=str(R/'docs'),**kw)
  def log_message(self,*a):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),H);threading.Thread(target=server.serve_forever,daemon=True).start();BASE='http://127.0.0.1:'+str(server.server_port)+'/scheme2/d1/'
-report={'stage':'13.1','seed':SEED,'random_widths':RANDOM,'fixed_widths':FIXED,'special':SPECIAL,'engines':{},'cases':0,'text_rects':0,'targets':0,'failures':[],'errors':[],'resources':[]}
+report={'stage':'13.2','seed':SEED,'random_widths':RANDOM,'fixed_widths':FIXED,'special':SPECIAL,'engines':{},'cases':0,'text_rects':0,'targets':0,'failures':[],'errors':[],'resources':[]}
 def check_css_scope():
  import re
  for path in (S/'css').glob('*.css'):
@@ -88,9 +100,9 @@ async def main():
       for i in range(3):
        await page.locator('[data-hero-next]').click();x=await page.evaluate(JS)
        if x['fail']:report['failures'].append(dict(engine=engine,width=w,height=h,page=p['path'],slide=i+2,failures=x['fail']))
-    await ctx.close();print(engine,w,h,'cases',report['cases'],'violations',sum(len(f['failures'])for f in report['failures']),flush=True);(S/('RESPONSIVE13_1_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_1_QUICK.json'if quick else'RESPONSIVE13_1.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    await ctx.close();print(engine,w,h,'cases',report['cases'],'violations',sum(len(f['failures'])for f in report['failures']),flush=True);(S/('RESPONSIVE13_2_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_2_QUICK.json'if quick else'RESPONSIVE13_2.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
    await browser.close()
  report['status']='passed'if not report['failures']and not report['errors']and not report['resources']else'failed';report['violations']=sum(len(f['failures'])for f in report['failures'])+len(report['errors'])+len(report['resources']);assert report['status']=='passed',(report['violations'],len(report['errors']));print('0 нарушений',flush=True)
 if __name__=='__main__':
  try:asyncio.run(main())
- finally:server.shutdown();(S/('RESPONSIVE13_1_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_1_QUICK.json'if'--quick'in sys.argv else'RESPONSIVE13_1.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ finally:server.shutdown();(S/('RESPONSIVE13_2_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_2_QUICK.json'if'--quick'in sys.argv else'RESPONSIVE13_2.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

@@ -213,5 +213,10 @@
     "path": "pages.html",
     "title": "Страницы сайта",
     "type": "page"
+  },
+  {
+    "path": "PHOTOS13_1.html",
+    "title": "Фото и лицензии",
+    "type": "page"
   }
 ]

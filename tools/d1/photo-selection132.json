@@ -1,0 +1,185 @@
+{
+  "commons": {
+    "belek": [
+      "belek",
+      1
+    ],
+    "rossiya": [
+      "rossiya",
+      0
+    ],
+    "nusa-dua": [
+      "nusa-dua",
+      2
+    ],
+    "samui": [
+      "samui",
+      0
+    ],
+    "neutral-hotel": [
+      "neutral-hotel",
+      0
+    ],
+    "beach-hotel-2": [
+      "neutral-hotel",
+      1
+    ],
+    "beach-hotel-3": [
+      "neutral-hotel",
+      3
+    ],
+    "kemer": [
+      "kemer",
+      1
+    ],
+    "side": [
+      "side",
+      0
+    ],
+    "ras-al-khaimah": [
+      "ras-al-khaimah",
+      0
+    ],
+    "tanzaniya": [
+      "tanzaniya",
+      0
+    ],
+    "fethiye": [
+      "fethiye",
+      2
+    ],
+    "kusadasi": [
+      "kusadasi",
+      0
+    ],
+    "paris-day": [
+      "paris-day",
+      3
+    ]
+  },
+  "pexels": {
+    "belarus": [
+      "belarus",
+      0
+    ],
+    "cappadocia": [
+      "cappadocia",
+      0
+    ],
+    "hikkaduwa": [
+      "hikkaduwa",
+      2
+    ],
+    "abu-dhabi": [
+      "abu-dhabi",
+      0
+    ],
+    "baa": [
+      "baa",
+      0
+    ],
+    "south-male": [
+      "south-male",
+      0
+    ],
+    "gruziya": [
+      "gruziya",
+      1
+    ],
+    "mountain-russia": [
+      "mountain-russia",
+      2
+    ],
+    "mountain-turkey": [
+      "mountain-turkey",
+      3
+    ],
+    "abu-dabbab": [
+      "abu-dabbab",
+      0
+    ],
+    "sinai": [
+      "sinai",
+      2
+    ],
+    "mountain-hotel-1": [
+      "mountain-hotel-1",
+      2
+    ],
+    "mountain-hotel-2": [
+      "mountain-hotel-2",
+      2
+    ],
+    "mountain-hotel-3": [
+      "mountain-hotel-3",
+      1
+    ],
+    "family-beach": [
+      "family-beach",
+      3
+    ],
+    "breakfast": [
+      "breakfast",
+      3
+    ],
+    "great-wall": [
+      "great-wall",
+      2
+    ],
+    "dubai": [
+      "dubai",
+      1
+    ],
+    "sea-cruise": [
+      "sea-cruise-day",
+      0
+    ],
+    "scenic-road": [
+      "scenic-road",
+      3
+    ],
+    "maldives-day": [
+      "maldives-day",
+      2
+    ],
+    "phuket": [
+      "phuket",
+      1
+    ],
+    "beach-hotel-4": [
+      "sea-hotel-2",
+      0
+    ],
+    "beach-hotel-5": [
+      "sea-hotel-2",
+      2
+    ],
+    "beach-hotel-6": [
+      "sea-hotel-2",
+      3
+    ],
+    "phu-quoc": [
+      "phu-quoc",
+      2
+    ],
+    "nha-trang": [
+      "nha-trang",
+      1
+    ],
+    "antalya": [
+      "antalya",
+      0
+    ],
+    "lake": [
+      "lake",
+      1
+    ]
+  },
+  "exact": [
+    "alamein",
+    "north-male"
+  ],
+  "cover": [
+    "jimbaran"
+  ]
+}

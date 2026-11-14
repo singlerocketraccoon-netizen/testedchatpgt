@@ -166,3 +166,15 @@ body.has-mobile-panel,body:has([data-mobile-contact]){padding-bottom:0;}
 @media(max-width:430px){.compact-footer-grid{row-gap:8px;}.compact-footer .footer-bottom{margin-top:8px;}}
 .breadcrumbs a:not(.breadcrumb-home){display:inline-flex;align-items:center;min-width:44px;min-height:44px;padding-inline:4px;}
 .compact-content-page .section-tabs{padding-bottom:0;}
+/* Stage 13.2: breathing room belongs to the pill, not to a global anchor rule. */
+.section-tabs a{padding:9px 16px;min-height:44px;}
+.rest-pill,.filter-chips button,.selection-chip span,.review-platform-link,.rest-country-tabs button{padding-inline:14px;min-height:44px;}
+.rest-pill{display:inline-flex;align-items:center;padding-block:10px;}
+.work-chips>span,.work-chips>a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;}
+.breadcrumb-home>span{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;}
+.country-months button{padding-inline:14px;}
+@container(min-width:340px) and (max-width:379px){.country-months{grid-template-columns:repeat(4,minmax(0,1fr));}}
+@container(min-width:720px) and (max-width:799px){.country-months{grid-template-columns:repeat(6,minmax(0,1fr));}}
+@container(min-width:340px) and (max-width:419px){.country-months{grid-template-columns:repeat(4,minmax(0,1fr));}}
+@container(min-width:720px) and (max-width:879px){.country-months{grid-template-columns:repeat(6,minmax(0,1fr));}}
+.country-format button{padding-inline:14px;min-height:44px;}
