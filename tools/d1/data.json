@@ -1543,8 +1543,8 @@
       931
     ],
     "@china-wall.webp": [
-      1920,
-      1280
+      1200,
+      675
     ],
     "@summer-hotel.webp": [
       1920,
@@ -1580,7 +1580,7 @@
     ],
     "@place-sea-cruise.webp": [
       1200,
-      926
+      801
     ],
     "@place-azerbaydzhan.webp": [
       1200,
@@ -1592,11 +1592,11 @@
     ],
     "@place-antalya.webp": [
       1200,
-      750
+      904
     ],
     "@place-belek.webp": [
       1200,
-      900
+      800
     ],
     "@place-bodrum.webp": [
       1200,
@@ -1616,7 +1616,7 @@
     ],
     "@place-kusadasi.webp": [
       1200,
-      767
+      900
     ],
     "@place-sharm.webp": [
       1200,
@@ -1628,7 +1628,7 @@
     ],
     "@place-cappadocia.webp": [
       1200,
-      900
+      800
     ],
     "@place-dubai.webp": [
       1200,
@@ -1636,7 +1636,7 @@
     ],
     "@place-abu-dhabi.webp": [
       1200,
-      952
+      826
     ],
     "@place-khao-lak.webp": [
       1200,
@@ -1652,15 +1652,15 @@
     ],
     "@place-baa.webp": [
       1200,
-      800
+      674
     ],
     "@place-nha-trang.webp": [
       1200,
-      666
+      800
     ],
     "@place-phu-quoc.webp": [
       1200,
-      904
+      801
     ],
     "@place-da-nang.webp": [
       1200,
@@ -1672,7 +1672,7 @@
     ],
     "@place-hikkaduwa.webp": [
       1200,
-      900
+      800
     ],
     "@place-unawatuna.webp": [
       1200,
@@ -1696,11 +1696,7 @@
     ],
     "@place-nusa-dua.webp": [
       1200,
-      803
-    ],
-    "@place-jimbaran.webp": [
-      1200,
-      900
+      800
     ],
     "@place-seminyak.webp": [
       1200,
@@ -1712,11 +1708,11 @@
     ],
     "@place-rossiya.webp": [
       1200,
-      675
+      900
     ],
     "@place-belarus.webp": [
       1200,
-      800
+      900
     ],
     "@place-armeniya.webp": [
       1200,
@@ -1728,7 +1724,7 @@
     ],
     "@place-neutral-hotel.webp": [
       1200,
-      802
+      900
     ],
     "@place-neutral-pool-1.webp": [
       1200,
@@ -1743,6 +1739,114 @@
       717
     ],
     "@place-neutral-pool-6.webp": [
+      1200,
+      800
+    ],
+    "@place-sinai.webp": [
+      1200,
+      801
+    ],
+    "@place-alamein.webp": [
+      1200,
+      804
+    ],
+    "@place-abu-dabbab.webp": [
+      1200,
+      675
+    ],
+    "@place-kemer.webp": [
+      1200,
+      896
+    ],
+    "@place-side.webp": [
+      1200,
+      900
+    ],
+    "@place-ras-al-khaimah.webp": [
+      1200,
+      800
+    ],
+    "@place-phuket.webp": [
+      1200,
+      800
+    ],
+    "@place-north-male.webp": [
+      1200,
+      797
+    ],
+    "@place-south-male.webp": [
+      1200,
+      900
+    ],
+    "@place-gruziya.webp": [
+      1200,
+      801
+    ],
+    "@place-tanzaniya.webp": [
+      1200,
+      800
+    ],
+    "@place-beach-hotel-2.webp": [
+      1200,
+      800
+    ],
+    "@place-beach-hotel-3.webp": [
+      1200,
+      900
+    ],
+    "@place-paris-day.webp": [
+      1200,
+      800
+    ],
+    "@place-mountain-russia.webp": [
+      1200,
+      801
+    ],
+    "@place-mountain-turkey.webp": [
+      1200,
+      800
+    ],
+    "@place-mountain-hotel-1.webp": [
+      1200,
+      575
+    ],
+    "@place-mountain-hotel-2.webp": [
+      1200,
+      800
+    ],
+    "@place-mountain-hotel-3.webp": [
+      1200,
+      800
+    ],
+    "@place-family-beach.webp": [
+      1200,
+      800
+    ],
+    "@place-breakfast.webp": [
+      1200,
+      675
+    ],
+    "@place-scenic-road.webp": [
+      1200,
+      675
+    ],
+    "@place-maldives-day.webp": [
+      1200,
+      798
+    ],
+    "@place-beach-hotel-4.webp": [
+      1200,
+      800
+    ],
+    "@place-beach-hotel-5.webp": [
+      1200,
+      800
+    ],
+    "@place-beach-hotel-6.webp": [
+      1200,
+      800
+    ],
+    "@place-lake.webp": [
       1200,
       800
     ]
@@ -6556,7 +6660,7 @@
       "offers.e4.photo"
     ]
   },
-  "photo131": {
+  "photo132": {
     "entries": {
       "countries.turciya.heroPhoto": {
         "label": "Турция",
@@ -6578,13 +6682,13 @@
       },
       "countries.turciya.resorts.resort-3.photo": {
         "label": "Кемер",
-        "asset": null,
+        "asset": "@place-kemer.webp",
         "kind": "place",
         "alt": "Кемер"
       },
       "countries.turciya.resorts.resort-4.photo": {
         "label": "Сиде",
-        "asset": null,
+        "asset": "@place-side.webp",
         "kind": "place",
         "alt": "Сиде"
       },
@@ -6628,13 +6732,13 @@
         "label": "Каппадокия",
         "asset": "@place-cappadocia.webp",
         "kind": "place",
-        "alt": "Каппадокия"
+        "alt": "Каппадокия на рассвете"
       },
       "countries.turciya.routes.combined.photo": {
         "label": "Комбинированные маршруты",
-        "asset": null,
+        "asset": "@place-antalya.webp",
         "kind": "place",
-        "alt": "Комбинированные маршруты"
+        "alt": "Анталья"
       },
       "countries.turciya.experiences.0.photo": {
         "label": "Стамбул",
@@ -6646,13 +6750,13 @@
         "label": "Каппадокия",
         "asset": "@place-cappadocia.webp",
         "kind": "place",
-        "alt": "Каппадокия"
+        "alt": "Каппадокия на рассвете"
       },
       "countries.turciya.experiences.2.photo": {
         "label": "Комбинированные маршруты",
-        "asset": null,
+        "asset": "@place-antalya.webp",
         "kind": "place",
-        "alt": "Комбинированные маршруты"
+        "alt": "Анталья"
       },
       "countries.egipet.heroPhoto": {
         "label": "Египет",
@@ -6698,7 +6802,7 @@
       },
       "countries.egipet.resorts.alamein.photo": {
         "label": "Эль-Аламейн",
-        "asset": null,
+        "asset": "@place-alamein.webp",
         "kind": "place",
         "alt": "Эль-Аламейн"
       },
@@ -6716,9 +6820,9 @@
       },
       "countries.egipet.routes.custom.photo": {
         "label": "Свой маршрут",
-        "asset": null,
+        "asset": "@place-pyramids.webp",
         "kind": "place",
-        "alt": "Свой маршрут"
+        "alt": "Пирамиды Гизы"
       },
       "countries.egipet.experiences.0.photo": {
         "label": "Пирамиды и Большой египетский музей",
@@ -6734,33 +6838,33 @@
       },
       "countries.egipet.experiences.2.photo": {
         "label": "Черепахи Абу-Даббаба",
-        "asset": null,
+        "asset": "@place-abu-dabbab.webp",
         "kind": "place",
-        "alt": "Черепахи Абу-Даббаба"
+        "alt": "Морская черепаха под водой"
       },
       "countries.egipet.experiences.3.photo": {
         "label": "Гора Моисея",
-        "asset": null,
+        "asset": "@place-sinai.webp",
         "kind": "place",
-        "alt": "Гора Моисея"
+        "alt": "Гора Моисея, Синай"
       },
       "countries.egipet.hotels.hotel-1.photos": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "countries.egipet.hotels.hotel-2.photos": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "countries.egipet.hotels.hotel-3.photos": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "countries.oae.heroPhoto": {
         "label": "ОАЭ",
@@ -6782,19 +6886,19 @@
       },
       "countries.oae.resorts.resort-3.photo": {
         "label": "Рас-эль-Хайма",
-        "asset": null,
+        "asset": "@place-ras-al-khaimah.webp",
         "kind": "place",
         "alt": "Рас-эль-Хайма"
       },
       "countries.tailand.heroPhoto": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "countries.tailand.resorts.resort-1.photo": {
         "label": "Пхукет",
-        "asset": null,
+        "asset": "@place-phuket.webp",
         "kind": "place",
         "alt": "Пхукет"
       },
@@ -6812,27 +6916,27 @@
       },
       "countries.maldivy.heroPhoto": {
         "label": "Мальдивы",
-        "asset": "@maldives.webp",
+        "asset": "@place-north-male.webp",
         "kind": "place",
-        "alt": "Мальдивы"
+        "alt": "Пляж Бандоса, Северный Мале"
       },
       "countries.maldivy.resorts.resort-1.photo": {
         "label": "Северный Мале",
-        "asset": null,
+        "asset": "@place-north-male.webp",
         "kind": "place",
-        "alt": "Северный Мале"
+        "alt": "Пляж Бандоса, Северный Мале"
       },
       "countries.maldivy.resorts.resort-2.photo": {
         "label": "Южный Мале",
-        "asset": null,
+        "asset": "@place-south-male.webp",
         "kind": "place",
-        "alt": "Южный Мале"
+        "alt": "Пляж Маафуши, Южный Мале"
       },
       "countries.maldivy.resorts.resort-3.photo": {
         "label": "Атолл Баа",
         "asset": "@place-baa.webp",
         "kind": "place",
-        "alt": "Атолл Баа"
+        "alt": "Песчаный островок у Дхонфану, атолл Баа"
       },
       "countries.vetnam.heroPhoto": {
         "label": "Вьетнам",
@@ -6928,11 +7032,11 @@
         "label": "Нуса-Дуа",
         "asset": "@place-nusa-dua.webp",
         "kind": "place",
-        "alt": "Нуса-Дуа"
+        "alt": "Пляж у Нуса-Дуа, Бали"
       },
       "countries.indoneziya.resorts.resort-2.photo": {
         "label": "Джимбаран",
-        "asset": "@place-jimbaran.webp",
+        "asset": null,
         "kind": "place",
         "alt": "Джимбаран"
       },
@@ -6962,21 +7066,21 @@
       },
       "rest.otdyh-s-detmi.hotels.turciya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.turciya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.turciya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otdyh-s-detmi.countries.1.photo": {
         "label": "Египет",
@@ -6986,21 +7090,21 @@
       },
       "rest.otdyh-s-detmi.hotels.egipet.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.egipet.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.egipet.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otdyh-s-detmi.countries.2.photo": {
         "label": "ОАЭ",
@@ -7010,45 +7114,45 @@
       },
       "rest.otdyh-s-detmi.hotels.oae.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.oae.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.oae.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otdyh-s-detmi.countries.3.photo": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "rest.otdyh-s-detmi.hotels.tailand.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.tailand.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.tailand.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otdyh-s-detmi.countries.4.photo": {
         "label": "Вьетнам",
@@ -7058,21 +7162,21 @@
       },
       "rest.otdyh-s-detmi.hotels.vetnam.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.vetnam.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.vetnam.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otdyh-s-detmi.countries.5.photo": {
         "label": "Китай, остров Хайнань",
@@ -7082,21 +7186,21 @@
       },
       "rest.otdyh-s-detmi.hotels.kitay.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.kitay.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otdyh-s-detmi.hotels.kitay.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.tishina-i-more.countries.0.photo": {
         "label": "Турция",
@@ -7106,21 +7210,21 @@
       },
       "rest.tishina-i-more.hotels.turciya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.tishina-i-more.hotels.turciya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.tishina-i-more.hotels.turciya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.tishina-i-more.countries.1.photo": {
         "label": "Египет",
@@ -7130,21 +7234,21 @@
       },
       "rest.tishina-i-more.hotels.egipet.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.tishina-i-more.hotels.egipet.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.tishina-i-more.hotels.egipet.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.tishina-i-more.countries.2.photo": {
         "label": "ОАЭ",
@@ -7154,69 +7258,69 @@
       },
       "rest.tishina-i-more.hotels.oae.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.tishina-i-more.hotels.oae.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.tishina-i-more.hotels.oae.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.tishina-i-more.countries.3.photo": {
         "label": "Мальдивы",
-        "asset": "@maldives.webp",
+        "asset": "@place-north-male.webp",
         "kind": "place",
-        "alt": "Мальдивы"
+        "alt": "Пляж Бандоса, Северный Мале"
       },
       "rest.tishina-i-more.hotels.maldivy.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.tishina-i-more.hotels.maldivy.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.tishina-i-more.hotels.maldivy.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.tishina-i-more.countries.4.photo": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "rest.tishina-i-more.hotels.tailand.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.tishina-i-more.hotels.tailand.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.tishina-i-more.hotels.tailand.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.tishina-i-more.countries.5.photo": {
         "label": "Вьетнам",
@@ -7226,21 +7330,21 @@
       },
       "rest.tishina-i-more.hotels.vetnam.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.tishina-i-more.hotels.vetnam.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.tishina-i-more.hotels.vetnam.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.tishina-i-more.countries.6.photo": {
         "label": "Китай, остров Хайнань",
@@ -7250,21 +7354,21 @@
       },
       "rest.tishina-i-more.hotels.kitay.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.tishina-i-more.hotels.kitay.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.tishina-i-more.hotels.kitay.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.plyazh-i-progulki.countries.0.photo": {
         "label": "Турция",
@@ -7274,21 +7378,21 @@
       },
       "rest.plyazh-i-progulki.hotels.turciya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.turciya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.turciya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.plyazh-i-progulki.countries.1.photo": {
         "label": "Египет",
@@ -7298,21 +7402,21 @@
       },
       "rest.plyazh-i-progulki.hotels.egipet.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.egipet.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.egipet.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.plyazh-i-progulki.countries.2.photo": {
         "label": "ОАЭ",
@@ -7322,45 +7426,45 @@
       },
       "rest.plyazh-i-progulki.hotels.oae.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.oae.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.oae.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.plyazh-i-progulki.countries.3.photo": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "rest.plyazh-i-progulki.hotels.tailand.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.tailand.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.tailand.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.plyazh-i-progulki.countries.4.photo": {
         "label": "Вьетнам",
@@ -7370,21 +7474,21 @@
       },
       "rest.plyazh-i-progulki.hotels.vetnam.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.vetnam.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.vetnam.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.plyazh-i-progulki.countries.5.photo": {
         "label": "Китай, остров Хайнань",
@@ -7394,21 +7498,21 @@
       },
       "rest.plyazh-i-progulki.hotels.kitay.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.kitay.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.plyazh-i-progulki.hotels.kitay.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.servis-i-kuhnya.countries.0.photo": {
         "label": "Турция",
@@ -7418,21 +7522,21 @@
       },
       "rest.servis-i-kuhnya.hotels.turciya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.turciya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.turciya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.servis-i-kuhnya.countries.1.photo": {
         "label": "Египет",
@@ -7442,21 +7546,21 @@
       },
       "rest.servis-i-kuhnya.hotels.egipet.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.egipet.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.egipet.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.servis-i-kuhnya.countries.2.photo": {
         "label": "ОАЭ",
@@ -7466,69 +7570,69 @@
       },
       "rest.servis-i-kuhnya.hotels.oae.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.oae.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.oae.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.servis-i-kuhnya.countries.3.photo": {
         "label": "Мальдивы",
-        "asset": "@maldives.webp",
+        "asset": "@place-north-male.webp",
         "kind": "place",
-        "alt": "Мальдивы"
+        "alt": "Пляж Бандоса, Северный Мале"
       },
       "rest.servis-i-kuhnya.hotels.maldivy.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.maldivy.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.maldivy.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.servis-i-kuhnya.countries.4.photo": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "rest.servis-i-kuhnya.hotels.tailand.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.tailand.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.tailand.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.servis-i-kuhnya.countries.5.photo": {
         "label": "Вьетнам",
@@ -7538,21 +7642,21 @@
       },
       "rest.servis-i-kuhnya.hotels.vetnam.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.vetnam.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.vetnam.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.servis-i-kuhnya.countries.6.photo": {
         "label": "Китай",
@@ -7562,93 +7666,93 @@
       },
       "rest.servis-i-kuhnya.hotels.kitay.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.kitay.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.servis-i-kuhnya.hotels.kitay.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.ekskursionnye-tury.countries.0.photo": {
         "label": "Россия",
         "asset": "@place-rossiya.webp",
         "kind": "place",
-        "alt": "Россия"
+        "alt": "Казань, Россия"
       },
       "rest.ekskursionnye-tury.hotels.rossiya.0.photo": {
         "label": "Тур 1",
         "asset": "@place-rossiya.webp",
         "kind": "place",
-        "alt": "Россия"
+        "alt": "Казань, Россия"
       },
       "rest.ekskursionnye-tury.hotels.rossiya.1.photo": {
         "label": "Тур 2",
         "asset": "@place-rossiya.webp",
         "kind": "place",
-        "alt": "Россия"
+        "alt": "Казань, Россия"
       },
       "rest.ekskursionnye-tury.hotels.rossiya.2.photo": {
         "label": "Тур 3",
         "asset": "@place-rossiya.webp",
         "kind": "place",
-        "alt": "Россия"
+        "alt": "Казань, Россия"
       },
       "rest.ekskursionnye-tury.countries.1.photo": {
         "label": "Беларусь",
         "asset": "@place-belarus.webp",
         "kind": "place",
-        "alt": "Беларусь"
+        "alt": "Мирский замок, Беларусь"
       },
       "rest.ekskursionnye-tury.hotels.belarus.0.photo": {
         "label": "Тур 1",
         "asset": "@place-belarus.webp",
         "kind": "place",
-        "alt": "Беларусь"
+        "alt": "Мирский замок, Беларусь"
       },
       "rest.ekskursionnye-tury.hotels.belarus.1.photo": {
         "label": "Тур 2",
         "asset": "@place-belarus.webp",
         "kind": "place",
-        "alt": "Беларусь"
+        "alt": "Мирский замок, Беларусь"
       },
       "rest.ekskursionnye-tury.hotels.belarus.2.photo": {
         "label": "Тур 3",
         "asset": "@place-belarus.webp",
         "kind": "place",
-        "alt": "Беларусь"
+        "alt": "Мирский замок, Беларусь"
       },
       "rest.ekskursionnye-tury.countries.2.photo": {
         "label": "Грузия",
-        "asset": null,
+        "asset": "@place-gruziya.webp",
         "kind": "place",
-        "alt": "Грузия"
+        "alt": "Казбеги, Грузия"
       },
       "rest.ekskursionnye-tury.hotels.gruziya.0.photo": {
         "label": "Тур 1",
-        "asset": null,
+        "asset": "@place-gruziya.webp",
         "kind": "place",
-        "alt": "Тур 1"
+        "alt": "Казбеги, Грузия"
       },
       "rest.ekskursionnye-tury.hotels.gruziya.1.photo": {
         "label": "Тур 2",
-        "asset": null,
+        "asset": "@place-gruziya.webp",
         "kind": "place",
-        "alt": "Тур 2"
+        "alt": "Казбеги, Грузия"
       },
       "rest.ekskursionnye-tury.hotels.gruziya.2.photo": {
         "label": "Тур 3",
-        "asset": null,
+        "asset": "@place-gruziya.webp",
         "kind": "place",
-        "alt": "Тур 3"
+        "alt": "Казбеги, Грузия"
       },
       "rest.ekskursionnye-tury.countries.3.photo": {
         "label": "Турция",
@@ -7676,51 +7780,51 @@
       },
       "rest.ekskursionnye-tury.countries.4.photo": {
         "label": "Китай",
-        "asset": "@place-hainan.webp",
+        "asset": "@china-wall.webp",
         "kind": "place",
-        "alt": "Санья, остров Хайнань"
+        "alt": "Великая Китайская стена"
       },
       "rest.ekskursionnye-tury.hotels.kitay.0.photo": {
         "label": "Тур 1",
-        "asset": "@place-hainan.webp",
+        "asset": "@china-wall.webp",
         "kind": "place",
-        "alt": "Санья, остров Хайнань"
+        "alt": "Великая Китайская стена"
       },
       "rest.ekskursionnye-tury.hotels.kitay.1.photo": {
         "label": "Тур 2",
-        "asset": "@place-hainan.webp",
+        "asset": "@china-wall.webp",
         "kind": "place",
-        "alt": "Санья, остров Хайнань"
+        "alt": "Великая Китайская стена"
       },
       "rest.ekskursionnye-tury.hotels.kitay.2.photo": {
         "label": "Тур 3",
-        "asset": "@place-hainan.webp",
+        "asset": "@china-wall.webp",
         "kind": "place",
-        "alt": "Санья, остров Хайнань"
+        "alt": "Великая Китайская стена"
       },
       "rest.ekskursionnye-tury.countries.5.photo": {
         "label": "Танзания",
-        "asset": null,
+        "asset": "@place-tanzaniya.webp",
         "kind": "place",
-        "alt": "Танзания"
+        "alt": "Серенгети, Танзания"
       },
       "rest.ekskursionnye-tury.hotels.tanzaniya.0.photo": {
         "label": "Тур 1",
-        "asset": null,
+        "asset": "@place-tanzaniya.webp",
         "kind": "place",
-        "alt": "Тур 1"
+        "alt": "Серенгети, Танзания"
       },
       "rest.ekskursionnye-tury.hotels.tanzaniya.1.photo": {
         "label": "Тур 2",
-        "asset": null,
+        "asset": "@place-tanzaniya.webp",
         "kind": "place",
-        "alt": "Тур 2"
+        "alt": "Серенгети, Танзания"
       },
       "rest.ekskursionnye-tury.hotels.tanzaniya.2.photo": {
         "label": "Тур 3",
-        "asset": null,
+        "asset": "@place-tanzaniya.webp",
         "kind": "place",
-        "alt": "Тур 3"
+        "alt": "Серенгети, Танзания"
       },
       "rest.otel-radi-kotorogo-edut.countries.0.photo": {
         "label": "Турция",
@@ -7730,45 +7834,45 @@
       },
       "rest.otel-radi-kotorogo-edut.hotels.turciya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.turciya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.turciya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.countries.1.photo": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "rest.otel-radi-kotorogo-edut.hotels.tailand.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.tailand.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.tailand.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.countries.2.photo": {
         "label": "ОАЭ",
@@ -7778,45 +7882,45 @@
       },
       "rest.otel-radi-kotorogo-edut.hotels.oae.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.oae.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.oae.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.countries.3.photo": {
         "label": "Мальдивы",
-        "asset": "@maldives.webp",
+        "asset": "@place-north-male.webp",
         "kind": "place",
-        "alt": "Мальдивы"
+        "alt": "Пляж Бандоса, Северный Мале"
       },
       "rest.otel-radi-kotorogo-edut.hotels.maldivy.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.maldivy.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.maldivy.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.countries.4.photo": {
         "label": "Египет",
@@ -7826,21 +7930,21 @@
       },
       "rest.otel-radi-kotorogo-edut.hotels.egipet.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.egipet.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.egipet.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.countries.5.photo": {
         "label": "Вьетнам",
@@ -7850,21 +7954,21 @@
       },
       "rest.otel-radi-kotorogo-edut.hotels.vetnam.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.vetnam.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.vetnam.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.countries.6.photo": {
         "label": "Китай, остров Хайнань",
@@ -7874,93 +7978,93 @@
       },
       "rest.otel-radi-kotorogo-edut.hotels.kitay.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.kitay.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "rest.otel-radi-kotorogo-edut.hotels.kitay.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "rest.gornyj-vozduh.countries.0.photo": {
         "label": "Россия",
-        "asset": null,
+        "asset": "@place-mountain-russia.webp",
         "kind": "place",
-        "alt": "Россия"
+        "alt": "Горы Красной Поляны, Россия"
       },
       "rest.gornyj-vozduh.hotels.rossiya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-1.webp",
+        "kind": "neutral-mountain",
+        "alt": "Горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.rossiya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-2.webp",
+        "kind": "neutral-mountain",
+        "alt": "Зимний горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.rossiya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-3.webp",
+        "kind": "neutral-mountain",
+        "alt": "Отель среди гор — иллюстрация"
       },
       "rest.gornyj-vozduh.countries.1.photo": {
         "label": "Турция",
-        "asset": null,
+        "asset": "@place-mountain-turkey.webp",
         "kind": "place",
-        "alt": "Турция"
+        "alt": "Канатная дорога на Эрджиесе, Турция"
       },
       "rest.gornyj-vozduh.hotels.turciya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-1.webp",
+        "kind": "neutral-mountain",
+        "alt": "Горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.turciya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-2.webp",
+        "kind": "neutral-mountain",
+        "alt": "Зимний горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.turciya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-3.webp",
+        "kind": "neutral-mountain",
+        "alt": "Отель среди гор — иллюстрация"
       },
       "rest.gornyj-vozduh.countries.2.photo": {
         "label": "Грузия",
-        "asset": null,
+        "asset": "@place-gruziya.webp",
         "kind": "place",
-        "alt": "Грузия"
+        "alt": "Казбеги, Грузия"
       },
       "rest.gornyj-vozduh.hotels.gruziya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-1.webp",
+        "kind": "neutral-mountain",
+        "alt": "Горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.gruziya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-2.webp",
+        "kind": "neutral-mountain",
+        "alt": "Зимний горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.gruziya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-3.webp",
+        "kind": "neutral-mountain",
+        "alt": "Отель среди гор — иллюстрация"
       },
       "rest.gornyj-vozduh.countries.3.photo": {
         "label": "Армения",
@@ -7970,21 +8074,21 @@
       },
       "rest.gornyj-vozduh.hotels.armeniya.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-1.webp",
+        "kind": "neutral-mountain",
+        "alt": "Горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.armeniya.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-2.webp",
+        "kind": "neutral-mountain",
+        "alt": "Зимний горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.armeniya.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-3.webp",
+        "kind": "neutral-mountain",
+        "alt": "Отель среди гор — иллюстрация"
       },
       "rest.gornyj-vozduh.countries.4.photo": {
         "label": "Азербайджан",
@@ -7994,21 +8098,21 @@
       },
       "rest.gornyj-vozduh.hotels.azerbaydzhan.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-1.webp",
+        "kind": "neutral-mountain",
+        "alt": "Горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.azerbaydzhan.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-2.webp",
+        "kind": "neutral-mountain",
+        "alt": "Зимний горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.azerbaydzhan.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-3.webp",
+        "kind": "neutral-mountain",
+        "alt": "Отель среди гор — иллюстрация"
       },
       "rest.gornyj-vozduh.countries.5.photo": {
         "label": "Казахстан",
@@ -8018,21 +8122,21 @@
       },
       "rest.gornyj-vozduh.hotels.kazahstan.0.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-1.webp",
+        "kind": "neutral-mountain",
+        "alt": "Горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.kazahstan.1.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-2.webp",
+        "kind": "neutral-mountain",
+        "alt": "Зимний горный отель — иллюстрация"
       },
       "rest.gornyj-vozduh.hotels.kazahstan.2.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-mountain-hotel-3.webp",
+        "kind": "neutral-mountain",
+        "alt": "Отель среди гор — иллюстрация"
       },
       "rest.svoj-marshrut.countries.0.photo": {
         "label": "Турция",
@@ -8048,15 +8152,15 @@
       },
       "rest.svoj-marshrut.countries.1.photo": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "rest.svoj-marshrut.hotels.tailand.0.photo": {
         "label": "Таиланд",
-        "asset": "@place-khao-lak.webp",
+        "asset": "@place-phuket.webp",
         "kind": "place",
-        "alt": "Као-Лак"
+        "alt": "Пхукет"
       },
       "rest.svoj-marshrut.countries.2.photo": {
         "label": "Китай",
@@ -8072,45 +8176,45 @@
       },
       "rest.svoj-marshrut.countries.3.photo": {
         "label": "Вьетнам и Камбоджа",
-        "asset": null,
+        "asset": "@place-nha-trang.webp",
         "kind": "place",
-        "alt": "Вьетнам и Камбоджа"
+        "alt": "Нячанг"
       },
       "rest.svoj-marshrut.hotels.vetnam-kambodzha.0.photo": {
         "label": "Вьетнам и Камбоджа",
-        "asset": null,
+        "asset": "@place-nha-trang.webp",
         "kind": "place",
-        "alt": "Вьетнам и Камбоджа"
+        "alt": "Нячанг"
       },
       "rest.svoj-marshrut.countries.4.photo": {
         "label": "Шри-Ланка и Мальдивы",
-        "asset": null,
+        "asset": "@place-maldives-day.webp",
         "kind": "place",
-        "alt": "Шри-Ланка и Мальдивы"
+        "alt": "Светлый песчаный пляж на Мальдивах"
       },
       "rest.svoj-marshrut.hotels.shri-lanka-maldivy.0.photo": {
         "label": "Шри-Ланка и Мальдивы",
-        "asset": null,
+        "asset": "@place-maldives-day.webp",
         "kind": "place",
-        "alt": "Шри-Ланка и Мальдивы"
+        "alt": "Светлый песчаный пляж на Мальдивах"
       },
       "rest.svoj-marshrut.countries.5.photo": {
         "label": "Грузия и Армения",
-        "asset": null,
+        "asset": "@place-gruziya.webp",
         "kind": "place",
-        "alt": "Грузия и Армения"
+        "alt": "Казбеги, Грузия"
       },
       "rest.svoj-marshrut.hotels.gruziya-armeniya.0.photo": {
         "label": "Грузия и Армения",
-        "asset": null,
+        "asset": "@place-gruziya.webp",
         "kind": "place",
-        "alt": "Грузия и Армения"
+        "alt": "Казбеги, Грузия"
       },
       "rest.kruizy.types.0.photo": {
         "label": "Морской круиз с несколькими портами",
         "asset": "@place-sea-cruise.webp",
         "kind": "place",
-        "alt": "Морской круиз"
+        "alt": "Морские круизные лайнеры — иллюстрация"
       },
       "rest.kruizy.types.1.photo": {
         "label": "Речной круиз",
@@ -8126,111 +8230,133 @@
       },
       "offers.e1.photo": {
         "label": "Отель 1",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       },
       "offers.e1.room_photo": {
         "label": "Номер отеля",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "offers.h2.photo": {
         "label": "Отель 2",
-        "asset": "@summer-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-2.webp",
+        "kind": "neutral-beach",
+        "alt": "Пляжный отель и бассейн — иллюстрация"
       },
       "offers.h2.room_photo": {
         "label": "Номер отеля",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "offers.h3.photo": {
         "label": "Отель 3",
-        "asset": "@vietnam-free.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-3.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн прибрежного отеля — иллюстрация"
       },
       "offers.h3.room_photo": {
         "label": "Номер отеля",
-        "asset": "@place-neutral-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-4.webp",
+        "kind": "neutral-beach",
+        "alt": "Отель на побережье — иллюстрация"
       },
       "offers.e2.photo": {
         "label": "Отель 4",
-        "asset": "@place-neutral-hotel.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-4.webp",
+        "kind": "neutral-beach",
+        "alt": "Отель на побережье — иллюстрация"
       },
       "offers.e2.room_photo": {
         "label": "Номер отеля",
-        "asset": "@place-neutral-pool-1.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-5.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн с видом на море — иллюстрация"
       },
       "offers.h5.photo": {
         "label": "Отель 5",
-        "asset": "@place-neutral-pool-1.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-5.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн с видом на море — иллюстрация"
       },
       "offers.h5.room_photo": {
         "label": "Номер отеля",
-        "asset": "@place-neutral-pool-3.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-6.webp",
+        "kind": "neutral-beach",
+        "alt": "Пальмы и бассейн у моря — иллюстрация"
       },
       "offers.h6.photo": {
         "label": "Отель 6",
-        "asset": "@place-neutral-pool-3.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-beach-hotel-6.webp",
+        "kind": "neutral-beach",
+        "alt": "Пальмы и бассейн у моря — иллюстрация"
       },
       "offers.h6.room_photo": {
         "label": "Номер отеля",
         "asset": "@place-neutral-pool-5.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля"
       },
       "offers.e3.photo": {
         "label": "Отель 7",
         "asset": "@place-neutral-pool-5.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля"
       },
       "offers.e3.room_photo": {
         "label": "Номер отеля",
         "asset": "@place-neutral-pool-6.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля"
       },
       "offers.e4.photo": {
         "label": "Отель 8",
         "asset": "@place-neutral-pool-6.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля"
       },
       "offers.e4.room_photo": {
         "label": "Номер отеля",
-        "asset": "hero-resort.webp",
-        "kind": "neutral",
-        "alt": "Бассейн и территория отеля — иллюстрация"
+        "asset": "@place-neutral-hotel.webp",
+        "kind": "neutral-beach",
+        "alt": "Бассейн отеля у моря — иллюстрация"
       }
     },
     "neutralPhotos": [
-      "hero-resort.webp",
-      "@summer-hotel.webp",
-      "@vietnam-free.webp",
       "@place-neutral-hotel.webp",
-      "@place-neutral-pool-1.webp",
-      "@place-neutral-pool-3.webp",
+      "@place-beach-hotel-2.webp",
+      "@place-beach-hotel-3.webp",
+      "@place-beach-hotel-4.webp",
+      "@place-beach-hotel-5.webp",
+      "@place-beach-hotel-6.webp",
       "@place-neutral-pool-5.webp",
       "@place-neutral-pool-6.webp"
     ],
-    "policy": "Exact place or intentional cover; never an unrelated recognisable place."
+    "mountainPhotos": [
+      "@place-mountain-hotel-1.webp",
+      "@place-mountain-hotel-2.webp",
+      "@place-mountain-hotel-3.webp"
+    ],
+    "policy": "Exact place or intentional cover; never an unrelated recognisable place.",
+    "defaultAssets": {
+      "@rest-family.webp": "@place-family-beach.webp",
+      "mood-family.webp": "@place-family-beach.webp",
+      "hero-sand.webp": "@place-maldives-day.webp",
+      "mood-walk.webp": "@place-antalya.webp",
+      "mood-dining.webp": "@place-breakfast.webp",
+      "@rest-excursion-city.webp": "@place-paris-day.webp",
+      "hero-resort.webp": "@place-beach-hotel-2.webp",
+      "hero-lake.webp": "@place-lake.webp",
+      "@rest-cruise.webp": "@place-sea-cruise.webp",
+      "@rest-road.webp": "@place-scenic-road.webp",
+      "@summer-hotel.webp": "@place-beach-hotel-6.webp",
+      "@vietnam-free.webp": "@place-neutral-hotel.webp",
+      "@maldives.webp": "@place-maldives-day.webp",
+      "@antalya-free.webp": "@place-antalya.webp",
+      "uae.webp": "@place-dubai.webp"
+    }
   }
 }

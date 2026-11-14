@@ -180,6 +180,8 @@ def build():
  from brand import build_brand_guide
  build_brand_guide(globals())
  stage6.extra_pages()
+ from photos131 import finish as finish_photos131
+ finish_photos131(globals())
  for page in PAGES:
   finalize(page['path'])
   if page['path'].startswith('napravleniya/')and page['path']!='napravleniya/index.html':finish_country(page['path'])
@@ -198,8 +200,6 @@ def build():
  if archive.exists():
   from stage4 import brand
   archive.write_text(brand(archive.read_text()))
- from photos131 import finish as finish_photos131
- finish_photos131(globals())
  print('Built',len(PAGES),'HTML pages')
 
 if __name__=='__main__':build()

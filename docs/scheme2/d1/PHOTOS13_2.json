@@ -1,0 +1,2721 @@
+{
+  "unique": 74,
+  "uses": [
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.0.photo",
+      "title": "Родители и дети играют на морском пляже",
+      "asset": "@place-family-beach.webp",
+      "alt": "Семейный отдых на морском пляже"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.1.photo",
+      "title": "Тихий морской берег в мягком свете",
+      "asset": "@place-maldives-day.webp",
+      "alt": "Светлый песчаный пляж на Мальдивах"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.2.photo",
+      "title": "Приморский город для прогулок",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.3.photo",
+      "title": "Блюдо и сервировка в ресторане",
+      "asset": "@place-breakfast.webp",
+      "alt": "Завтрак с фруктами и соком — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.4.photo",
+      "title": "Эйфелева башня и набережная Сены в Париже",
+      "asset": "@place-paris-day.webp",
+      "alt": "Париж"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.5.photo",
+      "title": "Курортный отель у бассейна вечером",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.6.photo",
+      "title": "Озеро среди гор и леса",
+      "asset": "@place-lake.webp",
+      "alt": "Лодки на озере Брайес, Италия"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.7.photo",
+      "title": "Круизные лайнеры у причала",
+      "asset": "@place-sea-cruise.webp",
+      "alt": "Морские круизные лайнеры — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "home.rest.cards.8.photo",
+      "title": "Дорога среди скал и автомобиль для путешествий",
+      "asset": "@place-scenic-road.webp",
+      "alt": "Дорога в горах Кавказа — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "offers.e1.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "offers.h2.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "offers.h3.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "offers.e2.photo",
+      "title": "Отель 4",
+      "asset": "@place-beach-hotel-4.webp",
+      "alt": "Отель на побережье — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "index.html",
+      "key": "countries.vetnam.heroPhoto",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "index.html",
+      "key": "countries.maldivy.heroPhoto",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "index.html",
+      "key": "slides.slide-1.photo",
+      "title": "Семья с детьми отдыхает на берегу моря",
+      "asset": "@place-family-beach.webp",
+      "alt": "Семейный отдых на морском пляже"
+    },
+    {
+      "path": "index.html",
+      "key": "slides.slide-2.photo",
+      "title": "Отель с бассейном у моря",
+      "asset": "@place-beach-hotel-6.webp",
+      "alt": "Пальмы и бассейн у моря — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "slides.slide-3.photo",
+      "title": "Дорога среди гор",
+      "asset": "@place-scenic-road.webp",
+      "alt": "Дорога в горах Кавказа — иллюстрация"
+    },
+    {
+      "path": "index.html",
+      "key": "slides.slide-4.photo",
+      "title": "Великая Китайская стена среди гор",
+      "asset": "@china-wall.webp",
+      "alt": "Великая Китайская стена среди гор"
+    },
+    {
+      "path": "index.html",
+      "key": "index.html.hero",
+      "title": "Отдых",
+      "asset": "@place-family-beach.webp",
+      "alt": "Семейный отдых на морском пляже"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.vetnam.heroPhoto",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.indoneziya.heroPhoto",
+      "title": "Индонезия",
+      "asset": "@place-ubud.webp",
+      "alt": "Убуд"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.kitay.heroPhoto",
+      "title": "Китай",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.maldivy.heroPhoto",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/index.html",
+      "key": "countries.shri-lanka.heroPhoto",
+      "title": "Шри-Ланка",
+      "asset": "@place-bentota.webp",
+      "alt": "Бентота"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.vetnam.heroPhoto",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.vetnam.resorts.resort-1.photo",
+      "title": "Нячанг",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.vetnam.resorts.resort-2.photo",
+      "title": "Фукуок",
+      "asset": "@place-phu-quoc.webp",
+      "alt": "Фукуок"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.vetnam.resorts.resort-3.photo",
+      "title": "Дананг",
+      "asset": "@place-da-nang.webp",
+      "alt": "Дананг"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "offers.h5.photo",
+      "title": "Отель 5",
+      "asset": "@place-beach-hotel-5.webp",
+      "alt": "Бассейн с видом на море — иллюстрация"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/vetnam/index.html",
+      "key": "napravleniya/vetnam/index.html.hero",
+      "title": "Вьетнам",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.resorts.hurghada.photo",
+      "title": "Хургада",
+      "asset": "@place-hurghada.webp",
+      "alt": "Хургада"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.resorts.sharm.photo",
+      "title": "Шарм-эль-Шейх",
+      "asset": "@place-sharm.webp",
+      "alt": "Шарм-эль-Шейх"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.resorts.gouna.photo",
+      "title": "Эль-Гуна",
+      "asset": "@place-gouna.webp",
+      "alt": "Эль-Гуна"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.resorts.makadi.photo",
+      "title": "Макади-Бей",
+      "asset": "@place-makadi.webp",
+      "alt": "Макади-Бей"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.resorts.sahl.photo",
+      "title": "Сахл-Хашиш",
+      "asset": "@place-sahl.webp",
+      "alt": "Сахл-Хашиш"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.resorts.marsa.photo",
+      "title": "Марса-Алам",
+      "asset": "@place-marsa.webp",
+      "alt": "Марса-Алам"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.resorts.alamein.photo",
+      "title": "Эль-Аламейн",
+      "asset": "@place-alamein.webp",
+      "alt": "Эль-Аламейн"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "offers.e1.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "offers.e2.photo",
+      "title": "Отель 4",
+      "asset": "@place-beach-hotel-4.webp",
+      "alt": "Отель на побережье — иллюстрация"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "offers.e3.photo",
+      "title": "Отель 7",
+      "asset": "@place-neutral-pool-5.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "offers.e4.photo",
+      "title": "Отель 8",
+      "asset": "@place-neutral-pool-6.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.hotels.hotel-1.photos",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.hotels.hotel-2.photos",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.hotels.hotel-3.photos",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.experiences.0.photo",
+      "title": "Пирамиды и Большой египетский музей",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.experiences.1.photo",
+      "title": "Луксор",
+      "asset": "@place-luxor.webp",
+      "alt": "Луксор"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.experiences.2.photo",
+      "title": "Черепахи Абу-Даббаба",
+      "asset": "@place-abu-dabbab.webp",
+      "alt": "Морская черепаха под водой"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.egipet.experiences.3.photo",
+      "title": "Гора Моисея",
+      "asset": "@place-sinai.webp",
+      "alt": "Гора Моисея, Синай"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "countries.vetnam.heroPhoto",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "napravleniya/egipet/index.html",
+      "key": "napravleniya/egipet/index.html.hero",
+      "title": "Египет",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.indoneziya.heroPhoto",
+      "title": "Индонезия",
+      "asset": "@place-ubud.webp",
+      "alt": "Убуд"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.indoneziya.resorts.resort-1.photo",
+      "title": "Нуса-Дуа",
+      "asset": "@place-nusa-dua.webp",
+      "alt": "Пляж у Нуса-Дуа, Бали"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.indoneziya.resorts.resort-2.photo",
+      "title": "Джимбаран",
+      "asset": null,
+      "alt": "Джимбаран"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.indoneziya.resorts.resort-3.photo",
+      "title": "Семиньяк",
+      "asset": "@place-seminyak.webp",
+      "alt": "Семиньяк"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.indoneziya.experiences.0.photo",
+      "title": "Убуд",
+      "asset": "@place-ubud.webp",
+      "alt": "Убуд"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/indoneziya/index.html",
+      "key": "napravleniya/indoneziya/index.html.hero",
+      "title": "Индонезия",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.kitay.heroPhoto",
+      "title": "Китай",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.kitay.routes.beijing.photo",
+      "title": "Пекин",
+      "asset": "@place-beijing.webp",
+      "alt": "Пекин"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.kitay.routes.shanghai.photo",
+      "title": "Шанхай",
+      "asset": "@place-shanghai.webp",
+      "alt": "Шанхай"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.kitay.routes.xian.photo",
+      "title": "Сиань",
+      "asset": "@place-xian.webp",
+      "alt": "Сиань"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.kitay.routes.hainan.photo",
+      "title": "Остров Хайнань",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/kitay/index.html",
+      "key": "napravleniya/kitay/index.html.hero",
+      "title": "Китай",
+      "asset": "@china-wall.webp",
+      "alt": "Китай"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.maldivy.heroPhoto",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.maldivy.resorts.resort-1.photo",
+      "title": "Северный Мале",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.maldivy.resorts.resort-2.photo",
+      "title": "Южный Мале",
+      "asset": "@place-south-male.webp",
+      "alt": "Пляж Маафуши, Южный Мале"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.maldivy.resorts.resort-3.photo",
+      "title": "Атолл Баа",
+      "asset": "@place-baa.webp",
+      "alt": "Песчаный островок у Дхонфану, атолл Баа"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "offers.h6.photo",
+      "title": "Отель 6",
+      "asset": "@place-beach-hotel-6.webp",
+      "alt": "Пальмы и бассейн у моря — иллюстрация"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/maldivy/index.html",
+      "key": "napravleniya/maldivy/index.html.hero",
+      "title": "Мальдивы",
+      "asset": "@place-maldives-day.webp",
+      "alt": "Светлый песчаный пляж на Мальдивах"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.oae.resorts.resort-1.photo",
+      "title": "Дубай",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.oae.resorts.resort-2.photo",
+      "title": "Абу-Даби",
+      "asset": "@place-abu-dhabi.webp",
+      "alt": "Абу-Даби"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.oae.resorts.resort-3.photo",
+      "title": "Рас-эль-Хайма",
+      "asset": "@place-ras-al-khaimah.webp",
+      "alt": "Рас-эль-Хайма"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "offers.h2.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "countries.maldivy.heroPhoto",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "napravleniya/oae/index.html",
+      "key": "napravleniya/oae/index.html.hero",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.tailand.resorts.resort-1.photo",
+      "title": "Пхукет",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.tailand.resorts.resort-2.photo",
+      "title": "Као-Лак",
+      "asset": "@place-khao-lak.webp",
+      "alt": "Као-Лак"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.tailand.resorts.resort-3.photo",
+      "title": "Самуи",
+      "asset": "@place-samui.webp",
+      "alt": "Самуи"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "offers.h3.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "countries.maldivy.heroPhoto",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "napravleniya/tailand/index.html",
+      "key": "napravleniya/tailand/index.html.hero",
+      "title": "Таиланд",
+      "asset": "@place-maldives-day.webp",
+      "alt": "Светлый песчаный пляж на Мальдивах"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-1.photo",
+      "title": "Анталья",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-2.photo",
+      "title": "Белек",
+      "asset": "@place-belek.webp",
+      "alt": "Белек"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-3.photo",
+      "title": "Кемер",
+      "asset": "@place-kemer.webp",
+      "alt": "Кемер"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-4.photo",
+      "title": "Сиде",
+      "asset": "@place-side.webp",
+      "alt": "Сиде"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-5.photo",
+      "title": "Аланья",
+      "asset": "@place-alanya.webp",
+      "alt": "Аланья"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-6.photo",
+      "title": "Бодрум",
+      "asset": "@place-bodrum.webp",
+      "alt": "Бодрум"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-7.photo",
+      "title": "Мармарис",
+      "asset": "@place-marmaris.webp",
+      "alt": "Мармарис"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-8.photo",
+      "title": "Фетхие",
+      "asset": "@place-fethiye.webp",
+      "alt": "Фетхие"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.resorts.resort-9.photo",
+      "title": "Кушадасы",
+      "asset": "@place-kusadasi.webp",
+      "alt": "Кушадасы"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.experiences.0.photo",
+      "title": "Стамбул",
+      "asset": "@place-istanbul.webp",
+      "alt": "Стамбул"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.experiences.1.photo",
+      "title": "Каппадокия",
+      "asset": "@place-cappadocia.webp",
+      "alt": "Каппадокия на рассвете"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.turciya.experiences.2.photo",
+      "title": "Комбинированные маршруты",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "countries.maldivy.heroPhoto",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "napravleniya/turciya/index.html",
+      "key": "napravleniya/turciya/index.html.hero",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.shri-lanka.heroPhoto",
+      "title": "Шри-Ланка",
+      "asset": "@place-bentota.webp",
+      "alt": "Бентота"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.shri-lanka.resorts.resort-1.photo",
+      "title": "Бентота",
+      "asset": "@place-bentota.webp",
+      "alt": "Бентота"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.shri-lanka.resorts.resort-2.photo",
+      "title": "Хиккадува",
+      "asset": "@place-hikkaduwa.webp",
+      "alt": "Хиккадува"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.shri-lanka.resorts.resort-3.photo",
+      "title": "Унаватуна",
+      "asset": "@place-unawatuna.webp",
+      "alt": "Унаватуна"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.turciya.heroPhoto",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.egipet.heroPhoto",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.oae.heroPhoto",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "countries.tailand.heroPhoto",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "napravleniya/shri-lanka/index.html",
+      "key": "napravleniya/shri-lanka/index.html.hero",
+      "title": "Шри-Ланка",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "uslugi/index.html",
+      "key": "services.packages.photo",
+      "title": "Пакетные туры",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "uslugi/index.html",
+      "key": "services.custom.photo",
+      "title": "Индивидуальные путешествия",
+      "asset": "@place-scenic-road.webp",
+      "alt": "Дорога в горах Кавказа — иллюстрация"
+    },
+    {
+      "path": "uslugi/index.html",
+      "key": "services.tours.photo",
+      "title": "Экскурсионные туры",
+      "asset": "@place-paris-day.webp",
+      "alt": "Париж"
+    },
+    {
+      "path": "uslugi/index.html",
+      "key": "services.cruises.photo",
+      "title": "Круизы",
+      "asset": "@place-sea-cruise.webp",
+      "alt": "Морские круизные лайнеры — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hero",
+      "title": "Отдых с детьми",
+      "asset": "@place-family-beach.webp",
+      "alt": "Семейный отдых на морском пляже"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.countries.0.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.countries.1.photo",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.countries.2.photo",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.countries.3.photo",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.countries.4.photo",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.countries.5.photo",
+      "title": "Китай, остров Хайнань",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.turciya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.turciya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.turciya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.egipet.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.egipet.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.egipet.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.oae.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.oae.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.oae.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.tailand.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.tailand.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.tailand.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.vetnam.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.vetnam.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.vetnam.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.kitay.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.kitay.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "rest.otdyh-s-detmi.hotels.kitay.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otdyh-s-detmi/index.html",
+      "key": "otdyh/otdyh-s-detmi/index.html.hero",
+      "title": "Отдых с детьми",
+      "asset": "@place-family-beach.webp",
+      "alt": "Семейный отдых на морском пляже"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hero",
+      "title": "Тишина и море",
+      "asset": "@place-maldives-day.webp",
+      "alt": "Светлый песчаный пляж на Мальдивах"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.countries.0.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.countries.1.photo",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.countries.2.photo",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.countries.3.photo",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.countries.4.photo",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.countries.5.photo",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.countries.6.photo",
+      "title": "Китай, остров Хайнань",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.turciya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.turciya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.turciya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.egipet.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.egipet.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.egipet.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.oae.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.oae.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.oae.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.maldivy.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.maldivy.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.maldivy.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.tailand.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.tailand.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.tailand.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.vetnam.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.vetnam.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.vetnam.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.kitay.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.kitay.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "rest.tishina-i-more.hotels.kitay.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/tishina-i-more/index.html",
+      "key": "otdyh/tishina-i-more/index.html.hero",
+      "title": "Тишина и море",
+      "asset": "@place-maldives-day.webp",
+      "alt": "Светлый песчаный пляж на Мальдивах"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hero",
+      "title": "Пляж и прогулки",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.countries.0.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.countries.1.photo",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.countries.2.photo",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.countries.3.photo",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.countries.4.photo",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.countries.5.photo",
+      "title": "Китай, остров Хайнань",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.turciya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.turciya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.turciya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.egipet.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.egipet.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.egipet.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.oae.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.oae.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.oae.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.tailand.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.tailand.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.tailand.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.vetnam.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.vetnam.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.vetnam.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.kitay.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.kitay.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "rest.plyazh-i-progulki.hotels.kitay.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/plyazh-i-progulki/index.html",
+      "key": "otdyh/plyazh-i-progulki/index.html.hero",
+      "title": "Пляж и прогулки",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hero",
+      "title": "Сервис и кухня",
+      "asset": "@place-breakfast.webp",
+      "alt": "Завтрак с фруктами и соком — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.countries.0.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.countries.1.photo",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.countries.2.photo",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.countries.3.photo",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.countries.4.photo",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.countries.5.photo",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.countries.6.photo",
+      "title": "Китай",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.turciya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.turciya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.turciya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.egipet.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.egipet.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.egipet.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.oae.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.oae.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.oae.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.maldivy.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.maldivy.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.maldivy.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.tailand.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.tailand.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.tailand.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.vetnam.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.vetnam.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.vetnam.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.kitay.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.kitay.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "rest.servis-i-kuhnya.hotels.kitay.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/servis-i-kuhnya/index.html",
+      "key": "otdyh/servis-i-kuhnya/index.html.hero",
+      "title": "Сервис и кухня",
+      "asset": "@place-breakfast.webp",
+      "alt": "Завтрак с фруктами и соком — иллюстрация"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hero",
+      "title": "Экскурсионные туры",
+      "asset": "@place-paris-day.webp",
+      "alt": "Париж"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.countries.0.photo",
+      "title": "Россия",
+      "asset": "@place-rossiya.webp",
+      "alt": "Казань, Россия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.countries.1.photo",
+      "title": "Беларусь",
+      "asset": "@place-belarus.webp",
+      "alt": "Мирский замок, Беларусь"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.countries.2.photo",
+      "title": "Грузия",
+      "asset": "@place-gruziya.webp",
+      "alt": "Казбеги, Грузия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.countries.3.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.countries.4.photo",
+      "title": "Китай",
+      "asset": "@china-wall.webp",
+      "alt": "Великая Китайская стена"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.countries.5.photo",
+      "title": "Танзания",
+      "asset": "@place-tanzaniya.webp",
+      "alt": "Серенгети, Танзания"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.rossiya.0.photo",
+      "title": "Тур 1",
+      "asset": "@place-rossiya.webp",
+      "alt": "Казань, Россия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.rossiya.1.photo",
+      "title": "Тур 2",
+      "asset": "@place-rossiya.webp",
+      "alt": "Казань, Россия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.rossiya.2.photo",
+      "title": "Тур 3",
+      "asset": "@place-rossiya.webp",
+      "alt": "Казань, Россия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.belarus.0.photo",
+      "title": "Тур 1",
+      "asset": "@place-belarus.webp",
+      "alt": "Мирский замок, Беларусь"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.belarus.1.photo",
+      "title": "Тур 2",
+      "asset": "@place-belarus.webp",
+      "alt": "Мирский замок, Беларусь"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.belarus.2.photo",
+      "title": "Тур 3",
+      "asset": "@place-belarus.webp",
+      "alt": "Мирский замок, Беларусь"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.gruziya.0.photo",
+      "title": "Тур 1",
+      "asset": "@place-gruziya.webp",
+      "alt": "Казбеги, Грузия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.gruziya.1.photo",
+      "title": "Тур 2",
+      "asset": "@place-gruziya.webp",
+      "alt": "Казбеги, Грузия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.gruziya.2.photo",
+      "title": "Тур 3",
+      "asset": "@place-gruziya.webp",
+      "alt": "Казбеги, Грузия"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.turciya.0.photo",
+      "title": "Тур 1",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.turciya.1.photo",
+      "title": "Тур 2",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.turciya.2.photo",
+      "title": "Тур 3",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.kitay.0.photo",
+      "title": "Тур 1",
+      "asset": "@china-wall.webp",
+      "alt": "Великая Китайская стена"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.kitay.1.photo",
+      "title": "Тур 2",
+      "asset": "@china-wall.webp",
+      "alt": "Великая Китайская стена"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.kitay.2.photo",
+      "title": "Тур 3",
+      "asset": "@china-wall.webp",
+      "alt": "Великая Китайская стена"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.tanzaniya.0.photo",
+      "title": "Тур 1",
+      "asset": "@place-tanzaniya.webp",
+      "alt": "Серенгети, Танзания"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.tanzaniya.1.photo",
+      "title": "Тур 2",
+      "asset": "@place-tanzaniya.webp",
+      "alt": "Серенгети, Танзания"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "rest.ekskursionnye-tury.hotels.tanzaniya.2.photo",
+      "title": "Тур 3",
+      "asset": "@place-tanzaniya.webp",
+      "alt": "Серенгети, Танзания"
+    },
+    {
+      "path": "otdyh/ekskursionnye-tury/index.html",
+      "key": "otdyh/ekskursionnye-tury/index.html.hero",
+      "title": "Экскурсионные туры",
+      "asset": "@place-paris-day.webp",
+      "alt": "Париж"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hero",
+      "title": "Отель, ради которого едут",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.countries.0.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.countries.1.photo",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.countries.2.photo",
+      "title": "ОАЭ",
+      "asset": "@place-dubai.webp",
+      "alt": "Дубай"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.countries.3.photo",
+      "title": "Мальдивы",
+      "asset": "@place-north-male.webp",
+      "alt": "Пляж Бандоса, Северный Мале"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.countries.4.photo",
+      "title": "Египет",
+      "asset": "@place-pyramids.webp",
+      "alt": "Пирамиды Гизы"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.countries.5.photo",
+      "title": "Вьетнам",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.countries.6.photo",
+      "title": "Китай, остров Хайнань",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.turciya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.turciya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.turciya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.tailand.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.tailand.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.tailand.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.oae.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.oae.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.oae.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.maldivy.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.maldivy.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.maldivy.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.egipet.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.egipet.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.egipet.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.vetnam.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.vetnam.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.vetnam.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.kitay.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.kitay.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "rest.otel-radi-kotorogo-edut.hotels.kitay.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "otdyh/otel-radi-kotorogo-edut/index.html",
+      "key": "otdyh/otel-radi-kotorogo-edut/index.html.hero",
+      "title": "Отель, ради которого едут",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hero",
+      "title": "Горный воздух",
+      "asset": "@place-lake.webp",
+      "alt": "Лодки на озере Брайес, Италия"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.countries.0.photo",
+      "title": "Россия",
+      "asset": "@place-mountain-russia.webp",
+      "alt": "Горы Красной Поляны, Россия"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.countries.1.photo",
+      "title": "Турция",
+      "asset": "@place-mountain-turkey.webp",
+      "alt": "Канатная дорога на Эрджиесе, Турция"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.countries.2.photo",
+      "title": "Грузия",
+      "asset": "@place-gruziya.webp",
+      "alt": "Казбеги, Грузия"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.countries.3.photo",
+      "title": "Армения",
+      "asset": "@place-armeniya.webp",
+      "alt": "Армения"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.countries.4.photo",
+      "title": "Азербайджан",
+      "asset": "@place-azerbaydzhan.webp",
+      "alt": "Азербайджан"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.countries.5.photo",
+      "title": "Казахстан",
+      "asset": "@place-kazahstan.webp",
+      "alt": "Казахстан"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.rossiya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-mountain-hotel-1.webp",
+      "alt": "Горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.rossiya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-mountain-hotel-2.webp",
+      "alt": "Зимний горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.rossiya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-mountain-hotel-3.webp",
+      "alt": "Отель среди гор — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.turciya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-mountain-hotel-1.webp",
+      "alt": "Горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.turciya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-mountain-hotel-2.webp",
+      "alt": "Зимний горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.turciya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-mountain-hotel-3.webp",
+      "alt": "Отель среди гор — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.gruziya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-mountain-hotel-1.webp",
+      "alt": "Горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.gruziya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-mountain-hotel-2.webp",
+      "alt": "Зимний горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.gruziya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-mountain-hotel-3.webp",
+      "alt": "Отель среди гор — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.armeniya.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-mountain-hotel-1.webp",
+      "alt": "Горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.armeniya.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-mountain-hotel-2.webp",
+      "alt": "Зимний горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.armeniya.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-mountain-hotel-3.webp",
+      "alt": "Отель среди гор — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.azerbaydzhan.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-mountain-hotel-1.webp",
+      "alt": "Горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.azerbaydzhan.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-mountain-hotel-2.webp",
+      "alt": "Зимний горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.azerbaydzhan.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-mountain-hotel-3.webp",
+      "alt": "Отель среди гор — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.kazahstan.0.photo",
+      "title": "Отель 1",
+      "asset": "@place-mountain-hotel-1.webp",
+      "alt": "Горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.kazahstan.1.photo",
+      "title": "Отель 2",
+      "asset": "@place-mountain-hotel-2.webp",
+      "alt": "Зимний горный отель — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "rest.gornyj-vozduh.hotels.kazahstan.2.photo",
+      "title": "Отель 3",
+      "asset": "@place-mountain-hotel-3.webp",
+      "alt": "Отель среди гор — иллюстрация"
+    },
+    {
+      "path": "otdyh/gornyj-vozduh/index.html",
+      "key": "otdyh/gornyj-vozduh/index.html.hero",
+      "title": "Горный воздух",
+      "asset": "@place-lake.webp",
+      "alt": "Лодки на озере Брайес, Италия"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.hero",
+      "title": "Свой маршрут",
+      "asset": "@place-scenic-road.webp",
+      "alt": "Дорога в горах Кавказа — иллюстрация"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.countries.0.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.countries.1.photo",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.countries.2.photo",
+      "title": "Китай",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.countries.3.photo",
+      "title": "Вьетнам и Камбоджа",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.countries.4.photo",
+      "title": "Шри-Ланка и Мальдивы",
+      "asset": "@place-maldives-day.webp",
+      "alt": "Светлый песчаный пляж на Мальдивах"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.countries.5.photo",
+      "title": "Грузия и Армения",
+      "asset": "@place-gruziya.webp",
+      "alt": "Казбеги, Грузия"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.hotels.turciya.0.photo",
+      "title": "Турция",
+      "asset": "@place-antalya.webp",
+      "alt": "Анталья"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.hotels.tailand.0.photo",
+      "title": "Таиланд",
+      "asset": "@place-phuket.webp",
+      "alt": "Пхукет"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.hotels.kitay.0.photo",
+      "title": "Китай",
+      "asset": "@place-hainan.webp",
+      "alt": "Санья, остров Хайнань"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.hotels.vetnam-kambodzha.0.photo",
+      "title": "Вьетнам и Камбоджа",
+      "asset": "@place-nha-trang.webp",
+      "alt": "Нячанг"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.hotels.shri-lanka-maldivy.0.photo",
+      "title": "Шри-Ланка и Мальдивы",
+      "asset": "@place-maldives-day.webp",
+      "alt": "Светлый песчаный пляж на Мальдивах"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "rest.svoj-marshrut.hotels.gruziya-armeniya.0.photo",
+      "title": "Грузия и Армения",
+      "asset": "@place-gruziya.webp",
+      "alt": "Казбеги, Грузия"
+    },
+    {
+      "path": "otdyh/svoj-marshrut/index.html",
+      "key": "otdyh/svoj-marshrut/index.html.hero",
+      "title": "Свой маршрут",
+      "asset": "@place-scenic-road.webp",
+      "alt": "Дорога в горах Кавказа — иллюстрация"
+    },
+    {
+      "path": "otdyh/kruizy/index.html",
+      "key": "rest.kruizy.hero",
+      "title": "Круизы по морям и рекам",
+      "asset": "@place-sea-cruise.webp",
+      "alt": "Морские круизные лайнеры — иллюстрация"
+    },
+    {
+      "path": "otdyh/kruizy/index.html",
+      "key": "rest.kruizy.types.0.photo",
+      "title": "Морской круиз с несколькими портами",
+      "asset": "@place-sea-cruise.webp",
+      "alt": "Морские круизные лайнеры — иллюстрация"
+    },
+    {
+      "path": "otdyh/kruizy/index.html",
+      "key": "rest.kruizy.types.1.photo",
+      "title": "Речной круиз",
+      "asset": "@place-river-cruise.webp",
+      "alt": "Речной круиз по Волге"
+    },
+    {
+      "path": "otdyh/kruizy/index.html",
+      "key": "rest.kruizy.types.2.photo",
+      "title": "Круиз с днями отдыха на борту",
+      "asset": "@place-deck-cruise.webp",
+      "alt": "Отдых на борту круизного лайнера"
+    },
+    {
+      "path": "otdyh/kruizy/index.html",
+      "key": "otdyh/kruizy/index.html.hero",
+      "title": "Круизы по морям и рекам",
+      "asset": "@place-sea-cruise.webp",
+      "alt": "Морские круизные лайнеры — иллюстрация"
+    },
+    {
+      "path": "kak-my-rabotaem/index.html",
+      "key": "work13.heroPhoto",
+      "title": "Отель у воды",
+      "asset": "@place-beach-hotel-6.webp",
+      "alt": "Пальмы и бассейн у моря — иллюстрация"
+    },
+    {
+      "path": "kak-my-rabotaem/index.html",
+      "key": "work13.selectionPhoto",
+      "title": "Отель — иллюстрация к подборке",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "o-nas/index.html",
+      "key": "about.photo",
+      "title": "Озеро и горы",
+      "asset": "@place-lake.webp",
+      "alt": "Лодки на озере Брайес, Италия"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.e1.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.h2.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.h3.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.e2.photo",
+      "title": "Отель 4",
+      "asset": "@place-beach-hotel-4.webp",
+      "alt": "Отель на побережье — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.h5.photo",
+      "title": "Отель 5",
+      "asset": "@place-beach-hotel-5.webp",
+      "alt": "Бассейн с видом на море — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.h6.photo",
+      "title": "Отель 6",
+      "asset": "@place-beach-hotel-6.webp",
+      "alt": "Пальмы и бассейн у моря — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.e3.photo",
+      "title": "Отель 7",
+      "asset": "@place-neutral-pool-5.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "predlozheniya/index.html",
+      "key": "offers.e4.photo",
+      "title": "Отель 8",
+      "asset": "@place-neutral-pool-6.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "predlozheniya/e1/index.html",
+      "key": "offers.e1.photo",
+      "title": "Отель 1",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/e1/index.html",
+      "key": "offers.e1.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h2/index.html",
+      "key": "offers.h2.photo",
+      "title": "Отель 2",
+      "asset": "@place-beach-hotel-2.webp",
+      "alt": "Пляжный отель и бассейн — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h2/index.html",
+      "key": "offers.h2.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h3/index.html",
+      "key": "offers.h3.photo",
+      "title": "Отель 3",
+      "asset": "@place-beach-hotel-3.webp",
+      "alt": "Бассейн прибрежного отеля — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h3/index.html",
+      "key": "offers.h3.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-beach-hotel-4.webp",
+      "alt": "Отель на побережье — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/e2/index.html",
+      "key": "offers.e2.photo",
+      "title": "Отель 4",
+      "asset": "@place-beach-hotel-4.webp",
+      "alt": "Отель на побережье — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/e2/index.html",
+      "key": "offers.e2.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-beach-hotel-5.webp",
+      "alt": "Бассейн с видом на море — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h5/index.html",
+      "key": "offers.h5.photo",
+      "title": "Отель 5",
+      "asset": "@place-beach-hotel-5.webp",
+      "alt": "Бассейн с видом на море — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h5/index.html",
+      "key": "offers.h5.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-beach-hotel-6.webp",
+      "alt": "Пальмы и бассейн у моря — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h6/index.html",
+      "key": "offers.h6.photo",
+      "title": "Отель 6",
+      "asset": "@place-beach-hotel-6.webp",
+      "alt": "Пальмы и бассейн у моря — иллюстрация"
+    },
+    {
+      "path": "predlozheniya/h6/index.html",
+      "key": "offers.h6.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-neutral-pool-5.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "predlozheniya/e3/index.html",
+      "key": "offers.e3.photo",
+      "title": "Отель 7",
+      "asset": "@place-neutral-pool-5.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "predlozheniya/e3/index.html",
+      "key": "offers.e3.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-neutral-pool-6.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "predlozheniya/e4/index.html",
+      "key": "offers.e4.photo",
+      "title": "Отель 8",
+      "asset": "@place-neutral-pool-6.webp",
+      "alt": "Бассейн отеля"
+    },
+    {
+      "path": "predlozheniya/e4/index.html",
+      "key": "offers.e4.room_photo",
+      "title": "Номер отеля",
+      "asset": "@place-neutral-hotel.webp",
+      "alt": "Бассейн отеля у моря — иллюстрация"
+    }
+  ]
+}

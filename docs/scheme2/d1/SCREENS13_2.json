@@ -1,0 +1,134 @@
+{
+  "stage": "13.2",
+  "captures": [
+    {
+      "page": "o-nas/index.html",
+      "title": "Вкладки раздела «О нас»",
+      "file": "o-nas-tabs-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 900,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "o-nas/index.html",
+      "title": "Вкладки раздела «О нас»",
+      "file": "o-nas-tabs-390x844.jpg",
+      "width": 390,
+      "height": 844,
+      "pixel_width": 780,
+      "pixel_height": 1688,
+      "device_scale_factor": 2,
+      "full_page": false
+    },
+    {
+      "page": "napravleniya/turciya/index.html",
+      "title": "Турция · все курорты",
+      "file": "turciya-resorts-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 1455,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "napravleniya/turciya/index.html",
+      "title": "Турция · чем заняться",
+      "file": "turciya-experiences-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 537,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "otdyh/ekskursionnye-tury/index.html",
+      "title": "Экскурсионные туры · куда поехать",
+      "file": "ekskursii-countries-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 1496,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "title": "Горный воздух · куда поехать",
+      "file": "gory-countries-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 1487,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "otdyh/gornyj-vozduh/index.html",
+      "title": "Горный воздух · отели в горах",
+      "file": "gory-hotels-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 939,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · чем заняться",
+      "file": "egipet-experiences-1440x900.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 857,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "PHOTOS13_1.html",
+      "title": "Фото и лицензии · вся страница",
+      "file": "photo-credits-1440x900-full.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 12540,
+      "device_scale_factor": 1,
+      "full_page": true
+    },
+    {
+      "page": "PHOTOS13_1.html",
+      "title": "Фото и лицензии · вся страница",
+      "file": "photo-credits-390x844-full.jpg",
+      "width": 390,
+      "height": 844,
+      "pixel_width": 780,
+      "pixel_height": 44012,
+      "device_scale_factor": 2,
+      "full_page": true
+    },
+    {
+      "page": "PHOTOS13_2.html",
+      "title": "Все фото · внутренняя проверка",
+      "file": "photo-review-1440x900-full.jpg",
+      "width": 1440,
+      "height": 900,
+      "pixel_width": 1440,
+      "pixel_height": 9030,
+      "device_scale_factor": 1,
+      "full_page": true
+    }
+  ],
+  "errors": [],
+  "quality": 75,
+  "format": "JPEG",
+  "fonts_ready": true,
+  "reduced_motion": "reduce",
+  "scroll_down_and_back": true,
+  "extra_wait_ms": 500,
+  "status": "passed"
+}

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Current stage-13.1 acceptance and complete responsive matrix."""
+"""Current stage-13.2 acceptance and complete responsive matrix."""
 from pathlib import Path
 import subprocess
 import sys
 root = Path(__file__).resolve().parent
-for script in ['check131.py', 'check_responsive.py']:
+for script in ['check132.py', 'check_responsive.py']:
     subprocess.run([sys.executable, str(root / script)], check=True)

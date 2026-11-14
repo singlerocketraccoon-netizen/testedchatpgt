@@ -9,6 +9,7 @@ def finish(ctx,path):
  elif path.startswith('otdyh/'):files+=['rest']
  elif path.startswith('predlozheniya/'):files+=['offers']
  elif path=='styleguide.html':files+=['brand-guide']
+ elif path=='PHOTOS13_1.html':files+=['photo-credits']
  else:files+=['home'] # Shared people, reviews and process components.
  files+=['grids','refinements','revision13']
  styles=''.join('<link rel="stylesheet" href="'+U(path,'css/'+name+'.css')+'">'for name in files)
