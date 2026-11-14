@@ -1,0 +1,57 @@
+{
+  "stage": "13.4",
+  "captures": [
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · высота по содержимому",
+      "file": "egipet-1366x768.jpg",
+      "width": 1366,
+      "height": 768,
+      "pixel_width": 1366,
+      "pixel_height": 768,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "napravleniya/egipet/index.html",
+      "title": "Египет · высота по содержимому",
+      "file": "egipet-2560x1336.jpg",
+      "width": 2560,
+      "height": 1336,
+      "pixel_width": 2560,
+      "pixel_height": 1336,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "title": "Отдых с детьми · высота по содержимому",
+      "file": "deti-1366x768.jpg",
+      "width": 1366,
+      "height": 768,
+      "pixel_width": 1366,
+      "pixel_height": 768,
+      "device_scale_factor": 1,
+      "full_page": false
+    },
+    {
+      "page": "otdyh/otdyh-s-detmi/index.html",
+      "title": "Отдых с детьми · высота по содержимому",
+      "file": "deti-2560x1336.jpg",
+      "width": 2560,
+      "height": 1336,
+      "pixel_width": 2560,
+      "pixel_height": 1336,
+      "device_scale_factor": 1,
+      "full_page": false
+    }
+  ],
+  "errors": [],
+  "quality": 75,
+  "format": "JPEG",
+  "fonts_ready": true,
+  "reduced_motion": "reduce",
+  "scroll_down_and_back": true,
+  "extra_wait_ms": 500,
+  "status": "passed"
+}

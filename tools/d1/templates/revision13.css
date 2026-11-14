@@ -181,6 +181,3 @@ body.has-mobile-panel,body:has([data-mobile-contact]){padding-bottom:0;}
 
 /* Stage 13.3: shared section width and full-height desktop photo covers. */
 .mood-section > .container{width:min(calc(100% - var(--gutter) * 2),var(--content));}
-@media(min-width:1024px){
- .country-hero,.rest-cover{display:flex;flex-direction:column;justify-content:center;min-height:100svh;}
-}

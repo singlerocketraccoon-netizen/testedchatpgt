@@ -24,14 +24,14 @@ JS=r'''()=>{
  const cover=document.querySelector('[data-inner-cover]'),hero=cover?.querySelector('.hero-slide.is-active'),h=hero?.querySelector('h1,h2')||cover?.querySelector('h1');const actions=[...(hero||cover||document).querySelectorAll('[data-hero-cta],[data-messenger],button[data-open-form],a[href="#cost"],a.btn')].filter(shown),action=actions[0];if(h){const b=r(h);if(b.top<(head?.bottom||0)-1||b.bottom>innerHeight+1)fail.push({kind:'h1-outside-first-screen',top:b.top,bottom:b.bottom,viewport:innerHeight});}if(action){const b=r(action);if(b.top<(head?.bottom||0)-1||b.bottom>innerHeight+1)fail.push({kind:'cta-outside-first-screen',text:action.textContent.trim(),top:b.top,bottom:b.bottom,viewport:innerHeight});}
  if(hero){const ctrl=r(cover.querySelector('.hero-controls')),copy=r(hero.querySelector('.hero-copy')),button=r(hero.querySelector('[data-hero-cta]'));if(button.bottom>ctrl.top+1)fail.push({kind:'hero-controls-overlap',button:button.bottom,controls:ctrl.top});}
  const fullScreens=[[1280,668],[1366,768],[1440,900],[1536,864],[1920,1080],[2560,1336],[2560,1440]];
- if(cover&&(cover.matches('.country-hero,.rest-cover')||hero)&&(fullScreens.some(([w,h])=>w===innerWidth&&h===innerHeight)||hero&&innerWidth===390&&innerHeight===844)){
+ if(cover&&hero&&(fullScreens.some(([w,h])=>w===innerWidth&&h===innerHeight)||hero&&innerWidth===390&&innerHeight===844)){
   if(Math.abs(r(cover).height-innerHeight)>1)fail.push({kind:'full-cover-height',height:r(cover).height,viewport:innerHeight});
  }
  if(hero){
   const home=document.querySelector('.nav-home');if(home?.getAttribute('aria-current')!=='page'||getComputedStyle(home).textDecorationLine!=='none')fail.push({kind:'home-current-decoration'});
   if(innerWidth>=1024){const mood=r(document.querySelector('#moods>.container')),offers=r(document.querySelector('#offers>.container'));if(Math.abs(mood.width-offers.width)>1||Math.abs(mood.left-offers.left)>1)fail.push({kind:'mood-container-width',mood:mood.width,offers:offers.width});const cols=getComputedStyle(document.querySelector('#moods .rest-grid')).gridTemplateColumns.split(' ').length;if(cols!==3)fail.push({kind:'mood-column-count',cols});}
  }
- if(cover?.matches('.country-hero,.rest-cover')&&innerWidth>=1024){const style=getComputedStyle(cover),box=r(cover),content=r(cover.querySelector(':scope>.container')),middle=(box.top+parseFloat(style.paddingTop)+box.bottom-parseFloat(style.paddingBottom))/2;if(Math.abs((content.top+content.bottom)/2-middle)>1)fail.push({kind:'cover-vertical-center',middle,contentMiddle:(content.top+content.bottom)/2});}
+ if(cover?.matches('.country-hero,.rest-cover')&&innerWidth>=1024){const style=getComputedStyle(cover);if(style.minHeight!=='0px'||style.display!=='block')fail.push({kind:'interior-cover-content-height',minHeight:style.minHeight,display:style.display});}
 
  const footer=document.querySelector('footer');if(footer){const height=r(footer).height,limit=innerWidth>=1024?380:innerWidth>=768?520:760;if(height>limit+1)fail.push({kind:'footer-height',height,limit});}
  for(const card of document.querySelectorAll('.messenger-card'))if(shown(card)&&innerWidth>=1024&&!card.querySelector('details[open]')&&r(card).height>521)fail.push({kind:'form-height',height:r(card).height});
@@ -81,7 +81,7 @@ class H(SimpleHTTPRequestHandler):
  def __init__(self,*a,**kw):super().__init__(*a,directory=str(R/'docs'),**kw)
  def log_message(self,*a):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),H);threading.Thread(target=server.serve_forever,daemon=True).start();BASE='http://127.0.0.1:'+str(server.server_port)+'/scheme2/d1/'
-report={'stage':'13.3','seed':SEED,'random_widths':RANDOM,'fixed_widths':FIXED,'special':SPECIAL,'engines':{},'cases':0,'text_rects':0,'targets':0,'failures':[],'errors':[],'resources':[]}
+report={'stage':'13.4','seed':SEED,'random_widths':RANDOM,'fixed_widths':FIXED,'special':SPECIAL,'engines':{},'cases':0,'text_rects':0,'targets':0,'failures':[],'errors':[],'resources':[]}
 def check_css_scope():
  import re
  for path in (S/'css').glob('*.css'):
@@ -109,9 +109,9 @@ async def main():
       for i in range(3):
        await page.locator('[data-hero-next]').click();x=await page.evaluate(JS)
        if x['fail']:report['failures'].append(dict(engine=engine,width=w,height=h,page=p['path'],slide=i+2,failures=x['fail']))
-    await ctx.close();print(engine,w,h,'cases',report['cases'],'violations',sum(len(f['failures'])for f in report['failures']),flush=True);(S/('RESPONSIVE13_3_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_3_QUICK.json'if quick else'RESPONSIVE13_3.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    await ctx.close();print(engine,w,h,'cases',report['cases'],'violations',sum(len(f['failures'])for f in report['failures']),flush=True);(S/('RESPONSIVE13_4_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_4_QUICK.json'if quick else'RESPONSIVE13_4.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
    await browser.close()
  report['status']='passed'if not report['failures']and not report['errors']and not report['resources']else'failed';report['violations']=sum(len(f['failures'])for f in report['failures'])+len(report['errors'])+len(report['resources']);assert report['status']=='passed',(report['violations'],len(report['errors']));print('0 нарушений',flush=True)
 if __name__=='__main__':
  try:asyncio.run(main())
- finally:server.shutdown();(S/('RESPONSIVE13_3_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_3_QUICK.json'if'--quick'in sys.argv else'RESPONSIVE13_3.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+ finally:server.shutdown();(S/('RESPONSIVE13_4_PATCH.json'if '--page'in sys.argv else'RESPONSIVE13_4_QUICK.json'if'--quick'in sys.argv else'RESPONSIVE13_4.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
